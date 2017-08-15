@@ -89,3 +89,9 @@ ENV/
 
 # Rope project settings
 .ropeproject
+
+# PyCharm
+.idea/
+
+*_wrap.cpp
+*_wrap.h
