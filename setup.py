@@ -1,7 +1,8 @@
 """
 setup.py file for SWIG example
 """
-from distutils.core import setup, Extension
+from setuptools import setup
+from setuptools.extension import Extension
 import platform
 
 if 'windows' in platform.system().lower(): 
