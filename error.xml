@@ -99,6 +99,9 @@
 	<!--灾备系统错误代码 -->		
 	<error id="NO_TRADING_RIGHT_IN_SEPC_DR" value="101" prompt="CTP:用户在本系统没有报单权限"/>
 	<error id="NO_DR_NO" value="102" prompt="CTP:系统缺少灾备标示号"/>
+	<error id="BATCHACTION_NOSUPPORT" value="103" prompt="CTP:该交易所不支持批量撤单"/>
+	<error id="OUT_OF_TIMEINTERVAL" value="113" prompt="CTP:当前时间禁止询价"/>
+	<error id="OUT_OF_PRICEINTERVAL" value="114" prompt="CTP:当前价差禁止询价"/>
 	<!--转帐系统错误代码 -->
 	<error id="SEND_INSTITUTION_CODE_ERROR" value="1000" prompt="CTP:银期转账：发送机构代码错误"/>
 	<error id="NO_GET_PLATFORM_SN" value="1001" prompt="CTP:银期转账：取平台流水号错误"/>

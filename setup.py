@@ -11,7 +11,7 @@ if 'windows' in platform.system().lower():
                                sources=["PyCTP.i"],
                                language='c++',
                                swig_opts=['-c++', '-threads'],
-                               extra_compile_args=['/EHsc'])
+                               extra_compile_args=[])
 else:
     trader = Extension('_PyCTP',
                                libraries=['thostmduserapi', 'thosttraderapi'],
