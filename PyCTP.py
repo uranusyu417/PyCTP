@@ -126,6 +126,8 @@ THOST_FTDC_ICT_LocalID = _PyCTP.THOST_FTDC_ICT_LocalID
 THOST_FTDC_ICT_BusinessRegistration = _PyCTP.THOST_FTDC_ICT_BusinessRegistration
 THOST_FTDC_ICT_HKMCIDCard = _PyCTP.THOST_FTDC_ICT_HKMCIDCard
 THOST_FTDC_ICT_AccountsPermits = _PyCTP.THOST_FTDC_ICT_AccountsPermits
+THOST_FTDC_ICT_FrgPrmtRdCard = _PyCTP.THOST_FTDC_ICT_FrgPrmtRdCard
+THOST_FTDC_ICT_CptMngPrdLetter = _PyCTP.THOST_FTDC_ICT_CptMngPrdLetter
 THOST_FTDC_ICT_OtherCard = _PyCTP.THOST_FTDC_ICT_OtherCard
 THOST_FTDC_IR_All = _PyCTP.THOST_FTDC_IR_All
 THOST_FTDC_IR_Group = _PyCTP.THOST_FTDC_IR_Group
@@ -204,6 +206,17 @@ THOST_FTDC_BFC_TbCommand = _PyCTP.THOST_FTDC_BFC_TbCommand
 THOST_FTDC_BFC_DeleteOrder = _PyCTP.THOST_FTDC_BFC_DeleteOrder
 THOST_FTDC_BFC_ParkedOrderInsert = _PyCTP.THOST_FTDC_BFC_ParkedOrderInsert
 THOST_FTDC_BFC_ParkedOrderAction = _PyCTP.THOST_FTDC_BFC_ParkedOrderAction
+THOST_FTDC_BFC_ExecOrderNoCheck = _PyCTP.THOST_FTDC_BFC_ExecOrderNoCheck
+THOST_FTDC_BFC_Designate = _PyCTP.THOST_FTDC_BFC_Designate
+THOST_FTDC_BFC_StockDisposal = _PyCTP.THOST_FTDC_BFC_StockDisposal
+THOST_FTDC_BFC_BrokerDepositWarn = _PyCTP.THOST_FTDC_BFC_BrokerDepositWarn
+THOST_FTDC_BFC_CoverWarn = _PyCTP.THOST_FTDC_BFC_CoverWarn
+THOST_FTDC_BFC_PreExecOrder = _PyCTP.THOST_FTDC_BFC_PreExecOrder
+THOST_FTDC_BFC_ExecOrderRisk = _PyCTP.THOST_FTDC_BFC_ExecOrderRisk
+THOST_FTDC_BFC_PosiLimitWarn = _PyCTP.THOST_FTDC_BFC_PosiLimitWarn
+THOST_FTDC_BFC_QryPosiLimit = _PyCTP.THOST_FTDC_BFC_QryPosiLimit
+THOST_FTDC_BFC_FBSign = _PyCTP.THOST_FTDC_BFC_FBSign
+THOST_FTDC_BFC_FBAccount = _PyCTP.THOST_FTDC_BFC_FBAccount
 THOST_FTDC_OAS_Submitted = _PyCTP.THOST_FTDC_OAS_Submitted
 THOST_FTDC_OAS_Accepted = _PyCTP.THOST_FTDC_OAS_Accepted
 THOST_FTDC_OAS_Rejected = _PyCTP.THOST_FTDC_OAS_Rejected
@@ -257,12 +270,16 @@ THOST_FTDC_RA_Settlement = _PyCTP.THOST_FTDC_RA_Settlement
 THOST_FTDC_HF_Speculation = _PyCTP.THOST_FTDC_HF_Speculation
 THOST_FTDC_HF_Arbitrage = _PyCTP.THOST_FTDC_HF_Arbitrage
 THOST_FTDC_HF_Hedge = _PyCTP.THOST_FTDC_HF_Hedge
+THOST_FTDC_HF_MarketMaker = _PyCTP.THOST_FTDC_HF_MarketMaker
+THOST_FTDC_HF_SpecHedge = _PyCTP.THOST_FTDC_HF_SpecHedge
+THOST_FTDC_HF_HedgeSpec = _PyCTP.THOST_FTDC_HF_HedgeSpec
 THOST_FTDC_BHF_Speculation = _PyCTP.THOST_FTDC_BHF_Speculation
 THOST_FTDC_BHF_Arbitrage = _PyCTP.THOST_FTDC_BHF_Arbitrage
 THOST_FTDC_BHF_Hedge = _PyCTP.THOST_FTDC_BHF_Hedge
 THOST_FTDC_CIDT_Speculation = _PyCTP.THOST_FTDC_CIDT_Speculation
 THOST_FTDC_CIDT_Arbitrage = _PyCTP.THOST_FTDC_CIDT_Arbitrage
 THOST_FTDC_CIDT_Hedge = _PyCTP.THOST_FTDC_CIDT_Hedge
+THOST_FTDC_CIDT_MarketMaker = _PyCTP.THOST_FTDC_CIDT_MarketMaker
 THOST_FTDC_OPT_AnyPrice = _PyCTP.THOST_FTDC_OPT_AnyPrice
 THOST_FTDC_OPT_LimitPrice = _PyCTP.THOST_FTDC_OPT_LimitPrice
 THOST_FTDC_OPT_BestPrice = _PyCTP.THOST_FTDC_OPT_BestPrice
@@ -300,6 +317,8 @@ THOST_FTDC_ORDT_DeriveFromCombination = _PyCTP.THOST_FTDC_ORDT_DeriveFromCombina
 THOST_FTDC_ORDT_Combination = _PyCTP.THOST_FTDC_ORDT_Combination
 THOST_FTDC_ORDT_ConditionalOrder = _PyCTP.THOST_FTDC_ORDT_ConditionalOrder
 THOST_FTDC_ORDT_Swap = _PyCTP.THOST_FTDC_ORDT_Swap
+THOST_FTDC_ORDT_DeriveFromBlockTrade = _PyCTP.THOST_FTDC_ORDT_DeriveFromBlockTrade
+THOST_FTDC_ORDT_DeriveFromEFPTrade = _PyCTP.THOST_FTDC_ORDT_DeriveFromEFPTrade
 THOST_FTDC_TC_IOC = _PyCTP.THOST_FTDC_TC_IOC
 THOST_FTDC_TC_GFS = _PyCTP.THOST_FTDC_TC_GFS
 THOST_FTDC_TC_GFD = _PyCTP.THOST_FTDC_TC_GFD
@@ -338,9 +357,11 @@ THOST_FTDC_TRDT_OptionsExecution = _PyCTP.THOST_FTDC_TRDT_OptionsExecution
 THOST_FTDC_TRDT_OTC = _PyCTP.THOST_FTDC_TRDT_OTC
 THOST_FTDC_TRDT_EFPDerived = _PyCTP.THOST_FTDC_TRDT_EFPDerived
 THOST_FTDC_TRDT_CombinationDerived = _PyCTP.THOST_FTDC_TRDT_CombinationDerived
+THOST_FTDC_TRDT_BlockTrade = _PyCTP.THOST_FTDC_TRDT_BlockTrade
 THOST_FTDC_PSRC_LastPrice = _PyCTP.THOST_FTDC_PSRC_LastPrice
 THOST_FTDC_PSRC_Buy = _PyCTP.THOST_FTDC_PSRC_Buy
 THOST_FTDC_PSRC_Sell = _PyCTP.THOST_FTDC_PSRC_Sell
+THOST_FTDC_PSRC_OTC = _PyCTP.THOST_FTDC_PSRC_OTC
 THOST_FTDC_IS_BeforeTrading = _PyCTP.THOST_FTDC_IS_BeforeTrading
 THOST_FTDC_IS_NoTrading = _PyCTP.THOST_FTDC_IS_NoTrading
 THOST_FTDC_IS_Continous = _PyCTP.THOST_FTDC_IS_Continous
@@ -419,6 +440,16 @@ THOST_FTDC_TPID_IsAuthForce = _PyCTP.THOST_FTDC_TPID_IsAuthForce
 THOST_FTDC_TPID_IsPosiFreeze = _PyCTP.THOST_FTDC_TPID_IsPosiFreeze
 THOST_FTDC_TPID_IsPosiLimit = _PyCTP.THOST_FTDC_TPID_IsPosiLimit
 THOST_FTDC_TPID_ForQuoteTimeInterval = _PyCTP.THOST_FTDC_TPID_ForQuoteTimeInterval
+THOST_FTDC_TPID_IsFuturePosiLimit = _PyCTP.THOST_FTDC_TPID_IsFuturePosiLimit
+THOST_FTDC_TPID_IsFutureOrderFreq = _PyCTP.THOST_FTDC_TPID_IsFutureOrderFreq
+THOST_FTDC_TPID_IsExecOrderProfit = _PyCTP.THOST_FTDC_TPID_IsExecOrderProfit
+THOST_FTDC_TPID_IsCheckBankAcc = _PyCTP.THOST_FTDC_TPID_IsCheckBankAcc
+THOST_FTDC_TPID_PasswordDeadLine = _PyCTP.THOST_FTDC_TPID_PasswordDeadLine
+THOST_FTDC_TPID_IsStrongPassword = _PyCTP.THOST_FTDC_TPID_IsStrongPassword
+THOST_FTDC_TPID_BalanceMorgage = _PyCTP.THOST_FTDC_TPID_BalanceMorgage
+THOST_FTDC_TPID_MinPwdLen = _PyCTP.THOST_FTDC_TPID_MinPwdLen
+THOST_FTDC_TPID_LoginFailMaxNumForIP = _PyCTP.THOST_FTDC_TPID_LoginFailMaxNumForIP
+THOST_FTDC_TPID_PasswordPeriod = _PyCTP.THOST_FTDC_TPID_PasswordPeriod
 THOST_FTDC_FI_SettlementFund = _PyCTP.THOST_FTDC_FI_SettlementFund
 THOST_FTDC_FI_Trade = _PyCTP.THOST_FTDC_FI_Trade
 THOST_FTDC_FI_InvestorPosition = _PyCTP.THOST_FTDC_FI_InvestorPosition
@@ -776,6 +807,9 @@ THOST_FTDC_FBTUET_QueryBankAccount = _PyCTP.THOST_FTDC_FBTUET_QueryBankAccount
 THOST_FTDC_FBTUET_QueryFutureAccount = _PyCTP.THOST_FTDC_FBTUET_QueryFutureAccount
 THOST_FTDC_FBTUET_SignOut = _PyCTP.THOST_FTDC_FBTUET_SignOut
 THOST_FTDC_FBTUET_SyncKey = _PyCTP.THOST_FTDC_FBTUET_SyncKey
+THOST_FTDC_FBTUET_ReserveOpenAccount = _PyCTP.THOST_FTDC_FBTUET_ReserveOpenAccount
+THOST_FTDC_FBTUET_CancelReserveOpenAccount = _PyCTP.THOST_FTDC_FBTUET_CancelReserveOpenAccount
+THOST_FTDC_FBTUET_ReserveOpenAccountConfirm = _PyCTP.THOST_FTDC_FBTUET_ReserveOpenAccountConfirm
 THOST_FTDC_FBTUET_Other = _PyCTP.THOST_FTDC_FBTUET_Other
 THOST_FTDC_DBOP_Insert = _PyCTP.THOST_FTDC_DBOP_Insert
 THOST_FTDC_DBOP_Update = _PyCTP.THOST_FTDC_DBOP_Update
@@ -1080,6 +1114,7 @@ THOST_FTDC_CDT_SpecFirst = _PyCTP.THOST_FTDC_CDT_SpecFirst
 THOST_FTDC_MFUR_None = _PyCTP.THOST_FTDC_MFUR_None
 THOST_FTDC_MFUR_Margin = _PyCTP.THOST_FTDC_MFUR_Margin
 THOST_FTDC_MFUR_All = _PyCTP.THOST_FTDC_MFUR_All
+THOST_FTDC_MFUR_CNY3 = _PyCTP.THOST_FTDC_MFUR_CNY3
 THOST_FTDC_SPT_CzceHedge = _PyCTP.THOST_FTDC_SPT_CzceHedge
 THOST_FTDC_SPT_IneForeignCurrency = _PyCTP.THOST_FTDC_SPT_IneForeignCurrency
 THOST_FTDC_SPT_DceOpenClose = _PyCTP.THOST_FTDC_SPT_DceOpenClose
@@ -1212,8 +1247,20 @@ THOST_FTDC_COMBT_STD = _PyCTP.THOST_FTDC_COMBT_STD
 THOST_FTDC_COMBT_STG = _PyCTP.THOST_FTDC_COMBT_STG
 THOST_FTDC_COMBT_PRT = _PyCTP.THOST_FTDC_COMBT_PRT
 THOST_FTDC_COMBT_CLD = _PyCTP.THOST_FTDC_COMBT_CLD
+THOST_FTDC_DCECOMBT_SPL = _PyCTP.THOST_FTDC_DCECOMBT_SPL
+THOST_FTDC_DCECOMBT_OPL = _PyCTP.THOST_FTDC_DCECOMBT_OPL
+THOST_FTDC_DCECOMBT_SP = _PyCTP.THOST_FTDC_DCECOMBT_SP
+THOST_FTDC_DCECOMBT_SPC = _PyCTP.THOST_FTDC_DCECOMBT_SPC
+THOST_FTDC_DCECOMBT_BLS = _PyCTP.THOST_FTDC_DCECOMBT_BLS
+THOST_FTDC_DCECOMBT_BES = _PyCTP.THOST_FTDC_DCECOMBT_BES
+THOST_FTDC_DCECOMBT_CAS = _PyCTP.THOST_FTDC_DCECOMBT_CAS
+THOST_FTDC_DCECOMBT_STD = _PyCTP.THOST_FTDC_DCECOMBT_STD
+THOST_FTDC_DCECOMBT_STG = _PyCTP.THOST_FTDC_DCECOMBT_STG
+THOST_FTDC_DCECOMBT_BFO = _PyCTP.THOST_FTDC_DCECOMBT_BFO
+THOST_FTDC_DCECOMBT_SFO = _PyCTP.THOST_FTDC_DCECOMBT_SFO
 THOST_FTDC_ORPT_PreSettlementPrice = _PyCTP.THOST_FTDC_ORPT_PreSettlementPrice
 THOST_FTDC_ORPT_OpenPrice = _PyCTP.THOST_FTDC_ORPT_OpenPrice
+THOST_FTDC_ORPT_MaxPreSettlementPrice = _PyCTP.THOST_FTDC_ORPT_MaxPreSettlementPrice
 THOST_FTDC_BLAG_Default = _PyCTP.THOST_FTDC_BLAG_Default
 THOST_FTDC_BLAG_IncludeOptValLost = _PyCTP.THOST_FTDC_BLAG_IncludeOptValLost
 THOST_FTDC_ACTP_Exec = _PyCTP.THOST_FTDC_ACTP_Exec
@@ -1255,6 +1302,32 @@ THOST_FTDC_CFUFN_SUFN_F = _PyCTP.THOST_FTDC_CFUFN_SUFN_F
 THOST_FTDC_CFUFN_SUFN_S = _PyCTP.THOST_FTDC_CFUFN_SUFN_S
 THOST_FTDC_CMDR_Comb = _PyCTP.THOST_FTDC_CMDR_Comb
 THOST_FTDC_CMDR_UnComb = _PyCTP.THOST_FTDC_CMDR_UnComb
+THOST_FTDC_STOV_RealValue = _PyCTP.THOST_FTDC_STOV_RealValue
+THOST_FTDC_STOV_ProfitValue = _PyCTP.THOST_FTDC_STOV_ProfitValue
+THOST_FTDC_STOV_RealRatio = _PyCTP.THOST_FTDC_STOV_RealRatio
+THOST_FTDC_STOV_ProfitRatio = _PyCTP.THOST_FTDC_STOV_ProfitRatio
+THOST_FTDC_ROAST_Processing = _PyCTP.THOST_FTDC_ROAST_Processing
+THOST_FTDC_ROAST_Cancelled = _PyCTP.THOST_FTDC_ROAST_Cancelled
+THOST_FTDC_ROAST_Opened = _PyCTP.THOST_FTDC_ROAST_Opened
+THOST_FTDC_ROAST_Invalid = _PyCTP.THOST_FTDC_ROAST_Invalid
+THOST_FTDC_WPSR_Lib = _PyCTP.THOST_FTDC_WPSR_Lib
+THOST_FTDC_WPSR_Manual = _PyCTP.THOST_FTDC_WPSR_Manual
+THOST_FTDC_OSCF_CloseSelfOptionPosition = _PyCTP.THOST_FTDC_OSCF_CloseSelfOptionPosition
+THOST_FTDC_OSCF_ReserveOptionPosition = _PyCTP.THOST_FTDC_OSCF_ReserveOptionPosition
+THOST_FTDC_OSCF_SellCloseSelfFuturePosition = _PyCTP.THOST_FTDC_OSCF_SellCloseSelfFuturePosition
+THOST_FTDC_OSCF_ReserveFuturePosition = _PyCTP.THOST_FTDC_OSCF_ReserveFuturePosition
+THOST_FTDC_BZTP_Future = _PyCTP.THOST_FTDC_BZTP_Future
+THOST_FTDC_BZTP_Stock = _PyCTP.THOST_FTDC_BZTP_Stock
+THOST_FTDC_APP_TYPE_Investor = _PyCTP.THOST_FTDC_APP_TYPE_Investor
+THOST_FTDC_APP_TYPE_InvestorRelay = _PyCTP.THOST_FTDC_APP_TYPE_InvestorRelay
+THOST_FTDC_APP_TYPE_OperatorRelay = _PyCTP.THOST_FTDC_APP_TYPE_OperatorRelay
+THOST_FTDC_APP_TYPE_UnKnown = _PyCTP.THOST_FTDC_APP_TYPE_UnKnown
+THOST_FTDC_RV_Right = _PyCTP.THOST_FTDC_RV_Right
+THOST_FTDC_RV_Refuse = _PyCTP.THOST_FTDC_RV_Refuse
+THOST_FTDC_OTC_TRDT_Block = _PyCTP.THOST_FTDC_OTC_TRDT_Block
+THOST_FTDC_OTC_TRDT_EFP = _PyCTP.THOST_FTDC_OTC_TRDT_EFP
+THOST_FTDC_OTC_MT_DV01 = _PyCTP.THOST_FTDC_OTC_MT_DV01
+THOST_FTDC_OTC_MT_ParValue = _PyCTP.THOST_FTDC_OTC_MT_ParValue
 class CThostFtdcDisseminationField(_object):
     __swig_setmethods__ = {}
     __setattr__ = lambda self, name, value: _swig_setattr(self, CThostFtdcDisseminationField, name, value)
@@ -1327,6 +1400,14 @@ class CThostFtdcReqUserLoginField(_object):
     __swig_getmethods__["ClientIPAddress"] = _PyCTP.CThostFtdcReqUserLoginField_ClientIPAddress_get
     if _newclass:
         ClientIPAddress = _swig_property(_PyCTP.CThostFtdcReqUserLoginField_ClientIPAddress_get, _PyCTP.CThostFtdcReqUserLoginField_ClientIPAddress_set)
+    __swig_setmethods__["LoginRemark"] = _PyCTP.CThostFtdcReqUserLoginField_LoginRemark_set
+    __swig_getmethods__["LoginRemark"] = _PyCTP.CThostFtdcReqUserLoginField_LoginRemark_get
+    if _newclass:
+        LoginRemark = _swig_property(_PyCTP.CThostFtdcReqUserLoginField_LoginRemark_get, _PyCTP.CThostFtdcReqUserLoginField_LoginRemark_set)
+    __swig_setmethods__["ClientIPPort"] = _PyCTP.CThostFtdcReqUserLoginField_ClientIPPort_set
+    __swig_getmethods__["ClientIPPort"] = _PyCTP.CThostFtdcReqUserLoginField_ClientIPPort_get
+    if _newclass:
+        ClientIPPort = _swig_property(_PyCTP.CThostFtdcReqUserLoginField_ClientIPPort_get, _PyCTP.CThostFtdcReqUserLoginField_ClientIPPort_set)
 
     def __init__(self):
         this = _PyCTP.new_CThostFtdcReqUserLoginField()
@@ -1483,6 +1564,10 @@ class CThostFtdcReqAuthenticateField(_object):
     __swig_getmethods__["AuthCode"] = _PyCTP.CThostFtdcReqAuthenticateField_AuthCode_get
     if _newclass:
         AuthCode = _swig_property(_PyCTP.CThostFtdcReqAuthenticateField_AuthCode_get, _PyCTP.CThostFtdcReqAuthenticateField_AuthCode_set)
+    __swig_setmethods__["AppID"] = _PyCTP.CThostFtdcReqAuthenticateField_AppID_set
+    __swig_getmethods__["AppID"] = _PyCTP.CThostFtdcReqAuthenticateField_AppID_get
+    if _newclass:
+        AppID = _swig_property(_PyCTP.CThostFtdcReqAuthenticateField_AppID_get, _PyCTP.CThostFtdcReqAuthenticateField_AppID_set)
 
     def __init__(self):
         this = _PyCTP.new_CThostFtdcReqAuthenticateField()
@@ -1513,6 +1598,14 @@ class CThostFtdcRspAuthenticateField(_object):
     __swig_getmethods__["UserProductInfo"] = _PyCTP.CThostFtdcRspAuthenticateField_UserProductInfo_get
     if _newclass:
         UserProductInfo = _swig_property(_PyCTP.CThostFtdcRspAuthenticateField_UserProductInfo_get, _PyCTP.CThostFtdcRspAuthenticateField_UserProductInfo_set)
+    __swig_setmethods__["AppID"] = _PyCTP.CThostFtdcRspAuthenticateField_AppID_set
+    __swig_getmethods__["AppID"] = _PyCTP.CThostFtdcRspAuthenticateField_AppID_get
+    if _newclass:
+        AppID = _swig_property(_PyCTP.CThostFtdcRspAuthenticateField_AppID_get, _PyCTP.CThostFtdcRspAuthenticateField_AppID_set)
+    __swig_setmethods__["AppType"] = _PyCTP.CThostFtdcRspAuthenticateField_AppType_set
+    __swig_getmethods__["AppType"] = _PyCTP.CThostFtdcRspAuthenticateField_AppType_get
+    if _newclass:
+        AppType = _swig_property(_PyCTP.CThostFtdcRspAuthenticateField_AppType_get, _PyCTP.CThostFtdcRspAuthenticateField_AppType_set)
 
     def __init__(self):
         this = _PyCTP.new_CThostFtdcRspAuthenticateField()
@@ -1551,6 +1644,14 @@ class CThostFtdcAuthenticationInfoField(_object):
     __swig_getmethods__["IsResult"] = _PyCTP.CThostFtdcAuthenticationInfoField_IsResult_get
     if _newclass:
         IsResult = _swig_property(_PyCTP.CThostFtdcAuthenticationInfoField_IsResult_get, _PyCTP.CThostFtdcAuthenticationInfoField_IsResult_set)
+    __swig_setmethods__["AppID"] = _PyCTP.CThostFtdcAuthenticationInfoField_AppID_set
+    __swig_getmethods__["AppID"] = _PyCTP.CThostFtdcAuthenticationInfoField_AppID_get
+    if _newclass:
+        AppID = _swig_property(_PyCTP.CThostFtdcAuthenticationInfoField_AppID_get, _PyCTP.CThostFtdcAuthenticationInfoField_AppID_set)
+    __swig_setmethods__["AppType"] = _PyCTP.CThostFtdcAuthenticationInfoField_AppType_set
+    __swig_getmethods__["AppType"] = _PyCTP.CThostFtdcAuthenticationInfoField_AppType_get
+    if _newclass:
+        AppType = _swig_property(_PyCTP.CThostFtdcAuthenticationInfoField_AppType_get, _PyCTP.CThostFtdcAuthenticationInfoField_AppType_set)
 
     def __init__(self):
         this = _PyCTP.new_CThostFtdcAuthenticationInfoField()
@@ -1562,6 +1663,80 @@ class CThostFtdcAuthenticationInfoField(_object):
     __del__ = lambda self: None
 CThostFtdcAuthenticationInfoField_swigregister = _PyCTP.CThostFtdcAuthenticationInfoField_swigregister
 CThostFtdcAuthenticationInfoField_swigregister(CThostFtdcAuthenticationInfoField)
+
+class CThostFtdcRspUserLogin2Field(_object):
+    __swig_setmethods__ = {}
+    __setattr__ = lambda self, name, value: _swig_setattr(self, CThostFtdcRspUserLogin2Field, name, value)
+    __swig_getmethods__ = {}
+    __getattr__ = lambda self, name: _swig_getattr(self, CThostFtdcRspUserLogin2Field, name)
+    __repr__ = _swig_repr
+    __swig_setmethods__["TradingDay"] = _PyCTP.CThostFtdcRspUserLogin2Field_TradingDay_set
+    __swig_getmethods__["TradingDay"] = _PyCTP.CThostFtdcRspUserLogin2Field_TradingDay_get
+    if _newclass:
+        TradingDay = _swig_property(_PyCTP.CThostFtdcRspUserLogin2Field_TradingDay_get, _PyCTP.CThostFtdcRspUserLogin2Field_TradingDay_set)
+    __swig_setmethods__["LoginTime"] = _PyCTP.CThostFtdcRspUserLogin2Field_LoginTime_set
+    __swig_getmethods__["LoginTime"] = _PyCTP.CThostFtdcRspUserLogin2Field_LoginTime_get
+    if _newclass:
+        LoginTime = _swig_property(_PyCTP.CThostFtdcRspUserLogin2Field_LoginTime_get, _PyCTP.CThostFtdcRspUserLogin2Field_LoginTime_set)
+    __swig_setmethods__["BrokerID"] = _PyCTP.CThostFtdcRspUserLogin2Field_BrokerID_set
+    __swig_getmethods__["BrokerID"] = _PyCTP.CThostFtdcRspUserLogin2Field_BrokerID_get
+    if _newclass:
+        BrokerID = _swig_property(_PyCTP.CThostFtdcRspUserLogin2Field_BrokerID_get, _PyCTP.CThostFtdcRspUserLogin2Field_BrokerID_set)
+    __swig_setmethods__["UserID"] = _PyCTP.CThostFtdcRspUserLogin2Field_UserID_set
+    __swig_getmethods__["UserID"] = _PyCTP.CThostFtdcRspUserLogin2Field_UserID_get
+    if _newclass:
+        UserID = _swig_property(_PyCTP.CThostFtdcRspUserLogin2Field_UserID_get, _PyCTP.CThostFtdcRspUserLogin2Field_UserID_set)
+    __swig_setmethods__["SystemName"] = _PyCTP.CThostFtdcRspUserLogin2Field_SystemName_set
+    __swig_getmethods__["SystemName"] = _PyCTP.CThostFtdcRspUserLogin2Field_SystemName_get
+    if _newclass:
+        SystemName = _swig_property(_PyCTP.CThostFtdcRspUserLogin2Field_SystemName_get, _PyCTP.CThostFtdcRspUserLogin2Field_SystemName_set)
+    __swig_setmethods__["FrontID"] = _PyCTP.CThostFtdcRspUserLogin2Field_FrontID_set
+    __swig_getmethods__["FrontID"] = _PyCTP.CThostFtdcRspUserLogin2Field_FrontID_get
+    if _newclass:
+        FrontID = _swig_property(_PyCTP.CThostFtdcRspUserLogin2Field_FrontID_get, _PyCTP.CThostFtdcRspUserLogin2Field_FrontID_set)
+    __swig_setmethods__["SessionID"] = _PyCTP.CThostFtdcRspUserLogin2Field_SessionID_set
+    __swig_getmethods__["SessionID"] = _PyCTP.CThostFtdcRspUserLogin2Field_SessionID_get
+    if _newclass:
+        SessionID = _swig_property(_PyCTP.CThostFtdcRspUserLogin2Field_SessionID_get, _PyCTP.CThostFtdcRspUserLogin2Field_SessionID_set)
+    __swig_setmethods__["MaxOrderRef"] = _PyCTP.CThostFtdcRspUserLogin2Field_MaxOrderRef_set
+    __swig_getmethods__["MaxOrderRef"] = _PyCTP.CThostFtdcRspUserLogin2Field_MaxOrderRef_get
+    if _newclass:
+        MaxOrderRef = _swig_property(_PyCTP.CThostFtdcRspUserLogin2Field_MaxOrderRef_get, _PyCTP.CThostFtdcRspUserLogin2Field_MaxOrderRef_set)
+    __swig_setmethods__["SHFETime"] = _PyCTP.CThostFtdcRspUserLogin2Field_SHFETime_set
+    __swig_getmethods__["SHFETime"] = _PyCTP.CThostFtdcRspUserLogin2Field_SHFETime_get
+    if _newclass:
+        SHFETime = _swig_property(_PyCTP.CThostFtdcRspUserLogin2Field_SHFETime_get, _PyCTP.CThostFtdcRspUserLogin2Field_SHFETime_set)
+    __swig_setmethods__["DCETime"] = _PyCTP.CThostFtdcRspUserLogin2Field_DCETime_set
+    __swig_getmethods__["DCETime"] = _PyCTP.CThostFtdcRspUserLogin2Field_DCETime_get
+    if _newclass:
+        DCETime = _swig_property(_PyCTP.CThostFtdcRspUserLogin2Field_DCETime_get, _PyCTP.CThostFtdcRspUserLogin2Field_DCETime_set)
+    __swig_setmethods__["CZCETime"] = _PyCTP.CThostFtdcRspUserLogin2Field_CZCETime_set
+    __swig_getmethods__["CZCETime"] = _PyCTP.CThostFtdcRspUserLogin2Field_CZCETime_get
+    if _newclass:
+        CZCETime = _swig_property(_PyCTP.CThostFtdcRspUserLogin2Field_CZCETime_get, _PyCTP.CThostFtdcRspUserLogin2Field_CZCETime_set)
+    __swig_setmethods__["FFEXTime"] = _PyCTP.CThostFtdcRspUserLogin2Field_FFEXTime_set
+    __swig_getmethods__["FFEXTime"] = _PyCTP.CThostFtdcRspUserLogin2Field_FFEXTime_get
+    if _newclass:
+        FFEXTime = _swig_property(_PyCTP.CThostFtdcRspUserLogin2Field_FFEXTime_get, _PyCTP.CThostFtdcRspUserLogin2Field_FFEXTime_set)
+    __swig_setmethods__["INETime"] = _PyCTP.CThostFtdcRspUserLogin2Field_INETime_set
+    __swig_getmethods__["INETime"] = _PyCTP.CThostFtdcRspUserLogin2Field_INETime_get
+    if _newclass:
+        INETime = _swig_property(_PyCTP.CThostFtdcRspUserLogin2Field_INETime_get, _PyCTP.CThostFtdcRspUserLogin2Field_INETime_set)
+    __swig_setmethods__["RandomString"] = _PyCTP.CThostFtdcRspUserLogin2Field_RandomString_set
+    __swig_getmethods__["RandomString"] = _PyCTP.CThostFtdcRspUserLogin2Field_RandomString_get
+    if _newclass:
+        RandomString = _swig_property(_PyCTP.CThostFtdcRspUserLogin2Field_RandomString_get, _PyCTP.CThostFtdcRspUserLogin2Field_RandomString_set)
+
+    def __init__(self):
+        this = _PyCTP.new_CThostFtdcRspUserLogin2Field()
+        try:
+            self.this.append(this)
+        except __builtin__.Exception:
+            self.this = this
+    __swig_destroy__ = _PyCTP.delete_CThostFtdcRspUserLogin2Field
+    __del__ = lambda self: None
+CThostFtdcRspUserLogin2Field_swigregister = _PyCTP.CThostFtdcRspUserLogin2Field_swigregister
+CThostFtdcRspUserLogin2Field_swigregister(CThostFtdcRspUserLogin2Field)
 
 class CThostFtdcTransferHeaderField(_object):
     __swig_setmethods__ = {}
@@ -2437,6 +2612,18 @@ class CThostFtdcTradingCodeField(_object):
     __swig_getmethods__["ClientIDType"] = _PyCTP.CThostFtdcTradingCodeField_ClientIDType_get
     if _newclass:
         ClientIDType = _swig_property(_PyCTP.CThostFtdcTradingCodeField_ClientIDType_get, _PyCTP.CThostFtdcTradingCodeField_ClientIDType_set)
+    __swig_setmethods__["BranchID"] = _PyCTP.CThostFtdcTradingCodeField_BranchID_set
+    __swig_getmethods__["BranchID"] = _PyCTP.CThostFtdcTradingCodeField_BranchID_get
+    if _newclass:
+        BranchID = _swig_property(_PyCTP.CThostFtdcTradingCodeField_BranchID_get, _PyCTP.CThostFtdcTradingCodeField_BranchID_set)
+    __swig_setmethods__["BizType"] = _PyCTP.CThostFtdcTradingCodeField_BizType_set
+    __swig_getmethods__["BizType"] = _PyCTP.CThostFtdcTradingCodeField_BizType_get
+    if _newclass:
+        BizType = _swig_property(_PyCTP.CThostFtdcTradingCodeField_BizType_get, _PyCTP.CThostFtdcTradingCodeField_BizType_set)
+    __swig_setmethods__["InvestUnitID"] = _PyCTP.CThostFtdcTradingCodeField_InvestUnitID_set
+    __swig_getmethods__["InvestUnitID"] = _PyCTP.CThostFtdcTradingCodeField_InvestUnitID_get
+    if _newclass:
+        InvestUnitID = _swig_property(_PyCTP.CThostFtdcTradingCodeField_InvestUnitID_get, _PyCTP.CThostFtdcTradingCodeField_InvestUnitID_set)
 
     def __init__(self):
         this = _PyCTP.new_CThostFtdcTradingCodeField()
@@ -2763,6 +2950,18 @@ class CThostFtdcTradingAccountField(_object):
     __swig_getmethods__["SpecProductExchangeMargin"] = _PyCTP.CThostFtdcTradingAccountField_SpecProductExchangeMargin_get
     if _newclass:
         SpecProductExchangeMargin = _swig_property(_PyCTP.CThostFtdcTradingAccountField_SpecProductExchangeMargin_get, _PyCTP.CThostFtdcTradingAccountField_SpecProductExchangeMargin_set)
+    __swig_setmethods__["BizType"] = _PyCTP.CThostFtdcTradingAccountField_BizType_set
+    __swig_getmethods__["BizType"] = _PyCTP.CThostFtdcTradingAccountField_BizType_get
+    if _newclass:
+        BizType = _swig_property(_PyCTP.CThostFtdcTradingAccountField_BizType_get, _PyCTP.CThostFtdcTradingAccountField_BizType_set)
+    __swig_setmethods__["FrozenSwap"] = _PyCTP.CThostFtdcTradingAccountField_FrozenSwap_set
+    __swig_getmethods__["FrozenSwap"] = _PyCTP.CThostFtdcTradingAccountField_FrozenSwap_get
+    if _newclass:
+        FrozenSwap = _swig_property(_PyCTP.CThostFtdcTradingAccountField_FrozenSwap_get, _PyCTP.CThostFtdcTradingAccountField_FrozenSwap_set)
+    __swig_setmethods__["RemainSwap"] = _PyCTP.CThostFtdcTradingAccountField_RemainSwap_set
+    __swig_getmethods__["RemainSwap"] = _PyCTP.CThostFtdcTradingAccountField_RemainSwap_get
+    if _newclass:
+        RemainSwap = _swig_property(_PyCTP.CThostFtdcTradingAccountField_RemainSwap_get, _PyCTP.CThostFtdcTradingAccountField_RemainSwap_set)
 
     def __init__(self):
         this = _PyCTP.new_CThostFtdcTradingAccountField()
@@ -2953,6 +3152,22 @@ class CThostFtdcInvestorPositionField(_object):
     __swig_getmethods__["AbandonFrozen"] = _PyCTP.CThostFtdcInvestorPositionField_AbandonFrozen_get
     if _newclass:
         AbandonFrozen = _swig_property(_PyCTP.CThostFtdcInvestorPositionField_AbandonFrozen_get, _PyCTP.CThostFtdcInvestorPositionField_AbandonFrozen_set)
+    __swig_setmethods__["ExchangeID"] = _PyCTP.CThostFtdcInvestorPositionField_ExchangeID_set
+    __swig_getmethods__["ExchangeID"] = _PyCTP.CThostFtdcInvestorPositionField_ExchangeID_get
+    if _newclass:
+        ExchangeID = _swig_property(_PyCTP.CThostFtdcInvestorPositionField_ExchangeID_get, _PyCTP.CThostFtdcInvestorPositionField_ExchangeID_set)
+    __swig_setmethods__["YdStrikeFrozen"] = _PyCTP.CThostFtdcInvestorPositionField_YdStrikeFrozen_set
+    __swig_getmethods__["YdStrikeFrozen"] = _PyCTP.CThostFtdcInvestorPositionField_YdStrikeFrozen_get
+    if _newclass:
+        YdStrikeFrozen = _swig_property(_PyCTP.CThostFtdcInvestorPositionField_YdStrikeFrozen_get, _PyCTP.CThostFtdcInvestorPositionField_YdStrikeFrozen_set)
+    __swig_setmethods__["InvestUnitID"] = _PyCTP.CThostFtdcInvestorPositionField_InvestUnitID_set
+    __swig_getmethods__["InvestUnitID"] = _PyCTP.CThostFtdcInvestorPositionField_InvestUnitID_get
+    if _newclass:
+        InvestUnitID = _swig_property(_PyCTP.CThostFtdcInvestorPositionField_InvestUnitID_get, _PyCTP.CThostFtdcInvestorPositionField_InvestUnitID_set)
+    __swig_setmethods__["PositionCostOffset"] = _PyCTP.CThostFtdcInvestorPositionField_PositionCostOffset_set
+    __swig_getmethods__["PositionCostOffset"] = _PyCTP.CThostFtdcInvestorPositionField_PositionCostOffset_get
+    if _newclass:
+        PositionCostOffset = _swig_property(_PyCTP.CThostFtdcInvestorPositionField_PositionCostOffset_get, _PyCTP.CThostFtdcInvestorPositionField_PositionCostOffset_set)
 
     def __init__(self):
         this = _PyCTP.new_CThostFtdcInvestorPositionField()
@@ -3011,6 +3226,14 @@ class CThostFtdcInstrumentMarginRateField(_object):
     __swig_getmethods__["IsRelative"] = _PyCTP.CThostFtdcInstrumentMarginRateField_IsRelative_get
     if _newclass:
         IsRelative = _swig_property(_PyCTP.CThostFtdcInstrumentMarginRateField_IsRelative_get, _PyCTP.CThostFtdcInstrumentMarginRateField_IsRelative_set)
+    __swig_setmethods__["ExchangeID"] = _PyCTP.CThostFtdcInstrumentMarginRateField_ExchangeID_set
+    __swig_getmethods__["ExchangeID"] = _PyCTP.CThostFtdcInstrumentMarginRateField_ExchangeID_get
+    if _newclass:
+        ExchangeID = _swig_property(_PyCTP.CThostFtdcInstrumentMarginRateField_ExchangeID_get, _PyCTP.CThostFtdcInstrumentMarginRateField_ExchangeID_set)
+    __swig_setmethods__["InvestUnitID"] = _PyCTP.CThostFtdcInstrumentMarginRateField_InvestUnitID_set
+    __swig_getmethods__["InvestUnitID"] = _PyCTP.CThostFtdcInstrumentMarginRateField_InvestUnitID_get
+    if _newclass:
+        InvestUnitID = _swig_property(_PyCTP.CThostFtdcInstrumentMarginRateField_InvestUnitID_get, _PyCTP.CThostFtdcInstrumentMarginRateField_InvestUnitID_set)
 
     def __init__(self):
         this = _PyCTP.new_CThostFtdcInstrumentMarginRateField()
@@ -3069,6 +3292,18 @@ class CThostFtdcInstrumentCommissionRateField(_object):
     __swig_getmethods__["CloseTodayRatioByVolume"] = _PyCTP.CThostFtdcInstrumentCommissionRateField_CloseTodayRatioByVolume_get
     if _newclass:
         CloseTodayRatioByVolume = _swig_property(_PyCTP.CThostFtdcInstrumentCommissionRateField_CloseTodayRatioByVolume_get, _PyCTP.CThostFtdcInstrumentCommissionRateField_CloseTodayRatioByVolume_set)
+    __swig_setmethods__["ExchangeID"] = _PyCTP.CThostFtdcInstrumentCommissionRateField_ExchangeID_set
+    __swig_getmethods__["ExchangeID"] = _PyCTP.CThostFtdcInstrumentCommissionRateField_ExchangeID_get
+    if _newclass:
+        ExchangeID = _swig_property(_PyCTP.CThostFtdcInstrumentCommissionRateField_ExchangeID_get, _PyCTP.CThostFtdcInstrumentCommissionRateField_ExchangeID_set)
+    __swig_setmethods__["BizType"] = _PyCTP.CThostFtdcInstrumentCommissionRateField_BizType_set
+    __swig_getmethods__["BizType"] = _PyCTP.CThostFtdcInstrumentCommissionRateField_BizType_get
+    if _newclass:
+        BizType = _swig_property(_PyCTP.CThostFtdcInstrumentCommissionRateField_BizType_get, _PyCTP.CThostFtdcInstrumentCommissionRateField_BizType_set)
+    __swig_setmethods__["InvestUnitID"] = _PyCTP.CThostFtdcInstrumentCommissionRateField_InvestUnitID_set
+    __swig_getmethods__["InvestUnitID"] = _PyCTP.CThostFtdcInstrumentCommissionRateField_InvestUnitID_get
+    if _newclass:
+        InvestUnitID = _swig_property(_PyCTP.CThostFtdcInstrumentCommissionRateField_InvestUnitID_get, _PyCTP.CThostFtdcInstrumentCommissionRateField_InvestUnitID_set)
 
     def __init__(self):
         this = _PyCTP.new_CThostFtdcInstrumentCommissionRateField()
@@ -3343,6 +3578,10 @@ class CThostFtdcBrokerUserField(_object):
     __swig_getmethods__["IsUsingOTP"] = _PyCTP.CThostFtdcBrokerUserField_IsUsingOTP_get
     if _newclass:
         IsUsingOTP = _swig_property(_PyCTP.CThostFtdcBrokerUserField_IsUsingOTP_get, _PyCTP.CThostFtdcBrokerUserField_IsUsingOTP_set)
+    __swig_setmethods__["IsAuthForce"] = _PyCTP.CThostFtdcBrokerUserField_IsAuthForce_set
+    __swig_getmethods__["IsAuthForce"] = _PyCTP.CThostFtdcBrokerUserField_IsAuthForce_get
+    if _newclass:
+        IsAuthForce = _swig_property(_PyCTP.CThostFtdcBrokerUserField_IsAuthForce_get, _PyCTP.CThostFtdcBrokerUserField_IsAuthForce_set)
 
     def __init__(self):
         this = _PyCTP.new_CThostFtdcBrokerUserField()
@@ -3373,6 +3612,22 @@ class CThostFtdcBrokerUserPasswordField(_object):
     __swig_getmethods__["Password"] = _PyCTP.CThostFtdcBrokerUserPasswordField_Password_get
     if _newclass:
         Password = _swig_property(_PyCTP.CThostFtdcBrokerUserPasswordField_Password_get, _PyCTP.CThostFtdcBrokerUserPasswordField_Password_set)
+    __swig_setmethods__["LastUpdateTime"] = _PyCTP.CThostFtdcBrokerUserPasswordField_LastUpdateTime_set
+    __swig_getmethods__["LastUpdateTime"] = _PyCTP.CThostFtdcBrokerUserPasswordField_LastUpdateTime_get
+    if _newclass:
+        LastUpdateTime = _swig_property(_PyCTP.CThostFtdcBrokerUserPasswordField_LastUpdateTime_get, _PyCTP.CThostFtdcBrokerUserPasswordField_LastUpdateTime_set)
+    __swig_setmethods__["LastLoginTime"] = _PyCTP.CThostFtdcBrokerUserPasswordField_LastLoginTime_set
+    __swig_getmethods__["LastLoginTime"] = _PyCTP.CThostFtdcBrokerUserPasswordField_LastLoginTime_get
+    if _newclass:
+        LastLoginTime = _swig_property(_PyCTP.CThostFtdcBrokerUserPasswordField_LastLoginTime_get, _PyCTP.CThostFtdcBrokerUserPasswordField_LastLoginTime_set)
+    __swig_setmethods__["ExpireDate"] = _PyCTP.CThostFtdcBrokerUserPasswordField_ExpireDate_set
+    __swig_getmethods__["ExpireDate"] = _PyCTP.CThostFtdcBrokerUserPasswordField_ExpireDate_get
+    if _newclass:
+        ExpireDate = _swig_property(_PyCTP.CThostFtdcBrokerUserPasswordField_ExpireDate_get, _PyCTP.CThostFtdcBrokerUserPasswordField_ExpireDate_set)
+    __swig_setmethods__["WeakExpireDate"] = _PyCTP.CThostFtdcBrokerUserPasswordField_WeakExpireDate_set
+    __swig_getmethods__["WeakExpireDate"] = _PyCTP.CThostFtdcBrokerUserPasswordField_WeakExpireDate_get
+    if _newclass:
+        WeakExpireDate = _swig_property(_PyCTP.CThostFtdcBrokerUserPasswordField_WeakExpireDate_get, _PyCTP.CThostFtdcBrokerUserPasswordField_WeakExpireDate_set)
 
     def __init__(self):
         this = _PyCTP.new_CThostFtdcBrokerUserPasswordField()
@@ -3539,6 +3794,14 @@ class CThostFtdcSettlementInfoField(_object):
     __swig_getmethods__["Content"] = _PyCTP.CThostFtdcSettlementInfoField_Content_get
     if _newclass:
         Content = _swig_property(_PyCTP.CThostFtdcSettlementInfoField_Content_get, _PyCTP.CThostFtdcSettlementInfoField_Content_set)
+    __swig_setmethods__["AccountID"] = _PyCTP.CThostFtdcSettlementInfoField_AccountID_set
+    __swig_getmethods__["AccountID"] = _PyCTP.CThostFtdcSettlementInfoField_AccountID_get
+    if _newclass:
+        AccountID = _swig_property(_PyCTP.CThostFtdcSettlementInfoField_AccountID_get, _PyCTP.CThostFtdcSettlementInfoField_AccountID_set)
+    __swig_setmethods__["CurrencyID"] = _PyCTP.CThostFtdcSettlementInfoField_CurrencyID_set
+    __swig_getmethods__["CurrencyID"] = _PyCTP.CThostFtdcSettlementInfoField_CurrencyID_get
+    if _newclass:
+        CurrencyID = _swig_property(_PyCTP.CThostFtdcSettlementInfoField_CurrencyID_get, _PyCTP.CThostFtdcSettlementInfoField_CurrencyID_set)
 
     def __init__(self):
         this = _PyCTP.new_CThostFtdcSettlementInfoField()
@@ -3643,6 +3906,10 @@ class CThostFtdcExchangeMarginRateField(_object):
     __swig_getmethods__["ShortMarginRatioByVolume"] = _PyCTP.CThostFtdcExchangeMarginRateField_ShortMarginRatioByVolume_get
     if _newclass:
         ShortMarginRatioByVolume = _swig_property(_PyCTP.CThostFtdcExchangeMarginRateField_ShortMarginRatioByVolume_get, _PyCTP.CThostFtdcExchangeMarginRateField_ShortMarginRatioByVolume_set)
+    __swig_setmethods__["ExchangeID"] = _PyCTP.CThostFtdcExchangeMarginRateField_ExchangeID_set
+    __swig_getmethods__["ExchangeID"] = _PyCTP.CThostFtdcExchangeMarginRateField_ExchangeID_get
+    if _newclass:
+        ExchangeID = _swig_property(_PyCTP.CThostFtdcExchangeMarginRateField_ExchangeID_get, _PyCTP.CThostFtdcExchangeMarginRateField_ExchangeID_set)
 
     def __init__(self):
         this = _PyCTP.new_CThostFtdcExchangeMarginRateField()
@@ -3911,10 +4178,10 @@ class CThostFtdcLoginInfoField(_object):
     __swig_getmethods__["SystemName"] = _PyCTP.CThostFtdcLoginInfoField_SystemName_get
     if _newclass:
         SystemName = _swig_property(_PyCTP.CThostFtdcLoginInfoField_SystemName_get, _PyCTP.CThostFtdcLoginInfoField_SystemName_set)
-    __swig_setmethods__["Password"] = _PyCTP.CThostFtdcLoginInfoField_Password_set
-    __swig_getmethods__["Password"] = _PyCTP.CThostFtdcLoginInfoField_Password_get
+    __swig_setmethods__["PasswordDeprecated"] = _PyCTP.CThostFtdcLoginInfoField_PasswordDeprecated_set
+    __swig_getmethods__["PasswordDeprecated"] = _PyCTP.CThostFtdcLoginInfoField_PasswordDeprecated_get
     if _newclass:
-        Password = _swig_property(_PyCTP.CThostFtdcLoginInfoField_Password_get, _PyCTP.CThostFtdcLoginInfoField_Password_set)
+        PasswordDeprecated = _swig_property(_PyCTP.CThostFtdcLoginInfoField_PasswordDeprecated_get, _PyCTP.CThostFtdcLoginInfoField_PasswordDeprecated_set)
     __swig_setmethods__["MaxOrderRef"] = _PyCTP.CThostFtdcLoginInfoField_MaxOrderRef_set
     __swig_getmethods__["MaxOrderRef"] = _PyCTP.CThostFtdcLoginInfoField_MaxOrderRef_get
     if _newclass:
@@ -3947,6 +4214,18 @@ class CThostFtdcLoginInfoField(_object):
     __swig_getmethods__["INETime"] = _PyCTP.CThostFtdcLoginInfoField_INETime_get
     if _newclass:
         INETime = _swig_property(_PyCTP.CThostFtdcLoginInfoField_INETime_get, _PyCTP.CThostFtdcLoginInfoField_INETime_set)
+    __swig_setmethods__["IsQryControl"] = _PyCTP.CThostFtdcLoginInfoField_IsQryControl_set
+    __swig_getmethods__["IsQryControl"] = _PyCTP.CThostFtdcLoginInfoField_IsQryControl_get
+    if _newclass:
+        IsQryControl = _swig_property(_PyCTP.CThostFtdcLoginInfoField_IsQryControl_get, _PyCTP.CThostFtdcLoginInfoField_IsQryControl_set)
+    __swig_setmethods__["LoginRemark"] = _PyCTP.CThostFtdcLoginInfoField_LoginRemark_set
+    __swig_getmethods__["LoginRemark"] = _PyCTP.CThostFtdcLoginInfoField_LoginRemark_get
+    if _newclass:
+        LoginRemark = _swig_property(_PyCTP.CThostFtdcLoginInfoField_LoginRemark_get, _PyCTP.CThostFtdcLoginInfoField_LoginRemark_set)
+    __swig_setmethods__["Password"] = _PyCTP.CThostFtdcLoginInfoField_Password_set
+    __swig_getmethods__["Password"] = _PyCTP.CThostFtdcLoginInfoField_Password_get
+    if _newclass:
+        Password = _swig_property(_PyCTP.CThostFtdcLoginInfoField_Password_get, _PyCTP.CThostFtdcLoginInfoField_Password_set)
 
     def __init__(self):
         this = _PyCTP.new_CThostFtdcLoginInfoField()
@@ -4155,6 +4434,34 @@ class CThostFtdcInputOrderField(_object):
     __swig_getmethods__["IsSwapOrder"] = _PyCTP.CThostFtdcInputOrderField_IsSwapOrder_get
     if _newclass:
         IsSwapOrder = _swig_property(_PyCTP.CThostFtdcInputOrderField_IsSwapOrder_get, _PyCTP.CThostFtdcInputOrderField_IsSwapOrder_set)
+    __swig_setmethods__["ExchangeID"] = _PyCTP.CThostFtdcInputOrderField_ExchangeID_set
+    __swig_getmethods__["ExchangeID"] = _PyCTP.CThostFtdcInputOrderField_ExchangeID_get
+    if _newclass:
+        ExchangeID = _swig_property(_PyCTP.CThostFtdcInputOrderField_ExchangeID_get, _PyCTP.CThostFtdcInputOrderField_ExchangeID_set)
+    __swig_setmethods__["InvestUnitID"] = _PyCTP.CThostFtdcInputOrderField_InvestUnitID_set
+    __swig_getmethods__["InvestUnitID"] = _PyCTP.CThostFtdcInputOrderField_InvestUnitID_get
+    if _newclass:
+        InvestUnitID = _swig_property(_PyCTP.CThostFtdcInputOrderField_InvestUnitID_get, _PyCTP.CThostFtdcInputOrderField_InvestUnitID_set)
+    __swig_setmethods__["AccountID"] = _PyCTP.CThostFtdcInputOrderField_AccountID_set
+    __swig_getmethods__["AccountID"] = _PyCTP.CThostFtdcInputOrderField_AccountID_get
+    if _newclass:
+        AccountID = _swig_property(_PyCTP.CThostFtdcInputOrderField_AccountID_get, _PyCTP.CThostFtdcInputOrderField_AccountID_set)
+    __swig_setmethods__["CurrencyID"] = _PyCTP.CThostFtdcInputOrderField_CurrencyID_set
+    __swig_getmethods__["CurrencyID"] = _PyCTP.CThostFtdcInputOrderField_CurrencyID_get
+    if _newclass:
+        CurrencyID = _swig_property(_PyCTP.CThostFtdcInputOrderField_CurrencyID_get, _PyCTP.CThostFtdcInputOrderField_CurrencyID_set)
+    __swig_setmethods__["ClientID"] = _PyCTP.CThostFtdcInputOrderField_ClientID_set
+    __swig_getmethods__["ClientID"] = _PyCTP.CThostFtdcInputOrderField_ClientID_get
+    if _newclass:
+        ClientID = _swig_property(_PyCTP.CThostFtdcInputOrderField_ClientID_get, _PyCTP.CThostFtdcInputOrderField_ClientID_set)
+    __swig_setmethods__["IPAddress"] = _PyCTP.CThostFtdcInputOrderField_IPAddress_set
+    __swig_getmethods__["IPAddress"] = _PyCTP.CThostFtdcInputOrderField_IPAddress_get
+    if _newclass:
+        IPAddress = _swig_property(_PyCTP.CThostFtdcInputOrderField_IPAddress_get, _PyCTP.CThostFtdcInputOrderField_IPAddress_set)
+    __swig_setmethods__["MacAddress"] = _PyCTP.CThostFtdcInputOrderField_MacAddress_set
+    __swig_getmethods__["MacAddress"] = _PyCTP.CThostFtdcInputOrderField_MacAddress_get
+    if _newclass:
+        MacAddress = _swig_property(_PyCTP.CThostFtdcInputOrderField_MacAddress_get, _PyCTP.CThostFtdcInputOrderField_MacAddress_set)
 
     def __init__(self):
         this = _PyCTP.new_CThostFtdcInputOrderField()
@@ -4401,6 +4708,30 @@ class CThostFtdcOrderField(_object):
     __swig_getmethods__["IsSwapOrder"] = _PyCTP.CThostFtdcOrderField_IsSwapOrder_get
     if _newclass:
         IsSwapOrder = _swig_property(_PyCTP.CThostFtdcOrderField_IsSwapOrder_get, _PyCTP.CThostFtdcOrderField_IsSwapOrder_set)
+    __swig_setmethods__["BranchID"] = _PyCTP.CThostFtdcOrderField_BranchID_set
+    __swig_getmethods__["BranchID"] = _PyCTP.CThostFtdcOrderField_BranchID_get
+    if _newclass:
+        BranchID = _swig_property(_PyCTP.CThostFtdcOrderField_BranchID_get, _PyCTP.CThostFtdcOrderField_BranchID_set)
+    __swig_setmethods__["InvestUnitID"] = _PyCTP.CThostFtdcOrderField_InvestUnitID_set
+    __swig_getmethods__["InvestUnitID"] = _PyCTP.CThostFtdcOrderField_InvestUnitID_get
+    if _newclass:
+        InvestUnitID = _swig_property(_PyCTP.CThostFtdcOrderField_InvestUnitID_get, _PyCTP.CThostFtdcOrderField_InvestUnitID_set)
+    __swig_setmethods__["AccountID"] = _PyCTP.CThostFtdcOrderField_AccountID_set
+    __swig_getmethods__["AccountID"] = _PyCTP.CThostFtdcOrderField_AccountID_get
+    if _newclass:
+        AccountID = _swig_property(_PyCTP.CThostFtdcOrderField_AccountID_get, _PyCTP.CThostFtdcOrderField_AccountID_set)
+    __swig_setmethods__["CurrencyID"] = _PyCTP.CThostFtdcOrderField_CurrencyID_set
+    __swig_getmethods__["CurrencyID"] = _PyCTP.CThostFtdcOrderField_CurrencyID_get
+    if _newclass:
+        CurrencyID = _swig_property(_PyCTP.CThostFtdcOrderField_CurrencyID_get, _PyCTP.CThostFtdcOrderField_CurrencyID_set)
+    __swig_setmethods__["IPAddress"] = _PyCTP.CThostFtdcOrderField_IPAddress_set
+    __swig_getmethods__["IPAddress"] = _PyCTP.CThostFtdcOrderField_IPAddress_get
+    if _newclass:
+        IPAddress = _swig_property(_PyCTP.CThostFtdcOrderField_IPAddress_get, _PyCTP.CThostFtdcOrderField_IPAddress_set)
+    __swig_setmethods__["MacAddress"] = _PyCTP.CThostFtdcOrderField_MacAddress_set
+    __swig_getmethods__["MacAddress"] = _PyCTP.CThostFtdcOrderField_MacAddress_get
+    if _newclass:
+        MacAddress = _swig_property(_PyCTP.CThostFtdcOrderField_MacAddress_get, _PyCTP.CThostFtdcOrderField_MacAddress_set)
 
     def __init__(self):
         this = _PyCTP.new_CThostFtdcOrderField()
@@ -4587,6 +4918,18 @@ class CThostFtdcExchangeOrderField(_object):
     __swig_getmethods__["SequenceNo"] = _PyCTP.CThostFtdcExchangeOrderField_SequenceNo_get
     if _newclass:
         SequenceNo = _swig_property(_PyCTP.CThostFtdcExchangeOrderField_SequenceNo_get, _PyCTP.CThostFtdcExchangeOrderField_SequenceNo_set)
+    __swig_setmethods__["BranchID"] = _PyCTP.CThostFtdcExchangeOrderField_BranchID_set
+    __swig_getmethods__["BranchID"] = _PyCTP.CThostFtdcExchangeOrderField_BranchID_get
+    if _newclass:
+        BranchID = _swig_property(_PyCTP.CThostFtdcExchangeOrderField_BranchID_get, _PyCTP.CThostFtdcExchangeOrderField_BranchID_set)
+    __swig_setmethods__["IPAddress"] = _PyCTP.CThostFtdcExchangeOrderField_IPAddress_set
+    __swig_getmethods__["IPAddress"] = _PyCTP.CThostFtdcExchangeOrderField_IPAddress_get
+    if _newclass:
+        IPAddress = _swig_property(_PyCTP.CThostFtdcExchangeOrderField_IPAddress_get, _PyCTP.CThostFtdcExchangeOrderField_IPAddress_set)
+    __swig_setmethods__["MacAddress"] = _PyCTP.CThostFtdcExchangeOrderField_MacAddress_set
+    __swig_getmethods__["MacAddress"] = _PyCTP.CThostFtdcExchangeOrderField_MacAddress_get
+    if _newclass:
+        MacAddress = _swig_property(_PyCTP.CThostFtdcExchangeOrderField_MacAddress_get, _PyCTP.CThostFtdcExchangeOrderField_MacAddress_set)
 
     def __init__(self):
         this = _PyCTP.new_CThostFtdcExchangeOrderField()
@@ -4707,6 +5050,18 @@ class CThostFtdcInputOrderActionField(_object):
     __swig_getmethods__["InstrumentID"] = _PyCTP.CThostFtdcInputOrderActionField_InstrumentID_get
     if _newclass:
         InstrumentID = _swig_property(_PyCTP.CThostFtdcInputOrderActionField_InstrumentID_get, _PyCTP.CThostFtdcInputOrderActionField_InstrumentID_set)
+    __swig_setmethods__["InvestUnitID"] = _PyCTP.CThostFtdcInputOrderActionField_InvestUnitID_set
+    __swig_getmethods__["InvestUnitID"] = _PyCTP.CThostFtdcInputOrderActionField_InvestUnitID_get
+    if _newclass:
+        InvestUnitID = _swig_property(_PyCTP.CThostFtdcInputOrderActionField_InvestUnitID_get, _PyCTP.CThostFtdcInputOrderActionField_InvestUnitID_set)
+    __swig_setmethods__["IPAddress"] = _PyCTP.CThostFtdcInputOrderActionField_IPAddress_set
+    __swig_getmethods__["IPAddress"] = _PyCTP.CThostFtdcInputOrderActionField_IPAddress_get
+    if _newclass:
+        IPAddress = _swig_property(_PyCTP.CThostFtdcInputOrderActionField_IPAddress_get, _PyCTP.CThostFtdcInputOrderActionField_IPAddress_set)
+    __swig_setmethods__["MacAddress"] = _PyCTP.CThostFtdcInputOrderActionField_MacAddress_set
+    __swig_getmethods__["MacAddress"] = _PyCTP.CThostFtdcInputOrderActionField_MacAddress_get
+    if _newclass:
+        MacAddress = _swig_property(_PyCTP.CThostFtdcInputOrderActionField_MacAddress_get, _PyCTP.CThostFtdcInputOrderActionField_MacAddress_set)
 
     def __init__(self):
         this = _PyCTP.new_CThostFtdcInputOrderActionField()
@@ -4825,6 +5180,22 @@ class CThostFtdcOrderActionField(_object):
     __swig_getmethods__["InstrumentID"] = _PyCTP.CThostFtdcOrderActionField_InstrumentID_get
     if _newclass:
         InstrumentID = _swig_property(_PyCTP.CThostFtdcOrderActionField_InstrumentID_get, _PyCTP.CThostFtdcOrderActionField_InstrumentID_set)
+    __swig_setmethods__["BranchID"] = _PyCTP.CThostFtdcOrderActionField_BranchID_set
+    __swig_getmethods__["BranchID"] = _PyCTP.CThostFtdcOrderActionField_BranchID_get
+    if _newclass:
+        BranchID = _swig_property(_PyCTP.CThostFtdcOrderActionField_BranchID_get, _PyCTP.CThostFtdcOrderActionField_BranchID_set)
+    __swig_setmethods__["InvestUnitID"] = _PyCTP.CThostFtdcOrderActionField_InvestUnitID_set
+    __swig_getmethods__["InvestUnitID"] = _PyCTP.CThostFtdcOrderActionField_InvestUnitID_get
+    if _newclass:
+        InvestUnitID = _swig_property(_PyCTP.CThostFtdcOrderActionField_InvestUnitID_get, _PyCTP.CThostFtdcOrderActionField_InvestUnitID_set)
+    __swig_setmethods__["IPAddress"] = _PyCTP.CThostFtdcOrderActionField_IPAddress_set
+    __swig_getmethods__["IPAddress"] = _PyCTP.CThostFtdcOrderActionField_IPAddress_get
+    if _newclass:
+        IPAddress = _swig_property(_PyCTP.CThostFtdcOrderActionField_IPAddress_get, _PyCTP.CThostFtdcOrderActionField_IPAddress_set)
+    __swig_setmethods__["MacAddress"] = _PyCTP.CThostFtdcOrderActionField_MacAddress_set
+    __swig_getmethods__["MacAddress"] = _PyCTP.CThostFtdcOrderActionField_MacAddress_get
+    if _newclass:
+        MacAddress = _swig_property(_PyCTP.CThostFtdcOrderActionField_MacAddress_get, _PyCTP.CThostFtdcOrderActionField_MacAddress_set)
 
     def __init__(self):
         this = _PyCTP.new_CThostFtdcOrderActionField()
@@ -4907,6 +5278,18 @@ class CThostFtdcExchangeOrderActionField(_object):
     __swig_getmethods__["UserID"] = _PyCTP.CThostFtdcExchangeOrderActionField_UserID_get
     if _newclass:
         UserID = _swig_property(_PyCTP.CThostFtdcExchangeOrderActionField_UserID_get, _PyCTP.CThostFtdcExchangeOrderActionField_UserID_set)
+    __swig_setmethods__["BranchID"] = _PyCTP.CThostFtdcExchangeOrderActionField_BranchID_set
+    __swig_getmethods__["BranchID"] = _PyCTP.CThostFtdcExchangeOrderActionField_BranchID_get
+    if _newclass:
+        BranchID = _swig_property(_PyCTP.CThostFtdcExchangeOrderActionField_BranchID_get, _PyCTP.CThostFtdcExchangeOrderActionField_BranchID_set)
+    __swig_setmethods__["IPAddress"] = _PyCTP.CThostFtdcExchangeOrderActionField_IPAddress_set
+    __swig_getmethods__["IPAddress"] = _PyCTP.CThostFtdcExchangeOrderActionField_IPAddress_get
+    if _newclass:
+        IPAddress = _swig_property(_PyCTP.CThostFtdcExchangeOrderActionField_IPAddress_get, _PyCTP.CThostFtdcExchangeOrderActionField_IPAddress_set)
+    __swig_setmethods__["MacAddress"] = _PyCTP.CThostFtdcExchangeOrderActionField_MacAddress_set
+    __swig_getmethods__["MacAddress"] = _PyCTP.CThostFtdcExchangeOrderActionField_MacAddress_get
+    if _newclass:
+        MacAddress = _swig_property(_PyCTP.CThostFtdcExchangeOrderActionField_MacAddress_get, _PyCTP.CThostFtdcExchangeOrderActionField_MacAddress_set)
 
     def __init__(self):
         this = _PyCTP.new_CThostFtdcExchangeOrderActionField()
@@ -5201,6 +5584,10 @@ class CThostFtdcTradeField(_object):
     __swig_getmethods__["TradeSource"] = _PyCTP.CThostFtdcTradeField_TradeSource_get
     if _newclass:
         TradeSource = _swig_property(_PyCTP.CThostFtdcTradeField_TradeSource_get, _PyCTP.CThostFtdcTradeField_TradeSource_set)
+    __swig_setmethods__["InvestUnitID"] = _PyCTP.CThostFtdcTradeField_InvestUnitID_set
+    __swig_getmethods__["InvestUnitID"] = _PyCTP.CThostFtdcTradeField_InvestUnitID_get
+    if _newclass:
+        InvestUnitID = _swig_property(_PyCTP.CThostFtdcTradeField_InvestUnitID_get, _PyCTP.CThostFtdcTradeField_InvestUnitID_set)
 
     def __init__(self):
         this = _PyCTP.new_CThostFtdcTradeField()
@@ -5263,6 +5650,10 @@ class CThostFtdcUserSessionField(_object):
     __swig_getmethods__["MacAddress"] = _PyCTP.CThostFtdcUserSessionField_MacAddress_get
     if _newclass:
         MacAddress = _swig_property(_PyCTP.CThostFtdcUserSessionField_MacAddress_get, _PyCTP.CThostFtdcUserSessionField_MacAddress_set)
+    __swig_setmethods__["LoginRemark"] = _PyCTP.CThostFtdcUserSessionField_LoginRemark_set
+    __swig_getmethods__["LoginRemark"] = _PyCTP.CThostFtdcUserSessionField_LoginRemark_get
+    if _newclass:
+        LoginRemark = _swig_property(_PyCTP.CThostFtdcUserSessionField_LoginRemark_get, _PyCTP.CThostFtdcUserSessionField_LoginRemark_set)
 
     def __init__(self):
         this = _PyCTP.new_CThostFtdcUserSessionField()
@@ -5309,6 +5700,14 @@ class CThostFtdcQueryMaxOrderVolumeField(_object):
     __swig_getmethods__["MaxVolume"] = _PyCTP.CThostFtdcQueryMaxOrderVolumeField_MaxVolume_get
     if _newclass:
         MaxVolume = _swig_property(_PyCTP.CThostFtdcQueryMaxOrderVolumeField_MaxVolume_get, _PyCTP.CThostFtdcQueryMaxOrderVolumeField_MaxVolume_set)
+    __swig_setmethods__["ExchangeID"] = _PyCTP.CThostFtdcQueryMaxOrderVolumeField_ExchangeID_set
+    __swig_getmethods__["ExchangeID"] = _PyCTP.CThostFtdcQueryMaxOrderVolumeField_ExchangeID_get
+    if _newclass:
+        ExchangeID = _swig_property(_PyCTP.CThostFtdcQueryMaxOrderVolumeField_ExchangeID_get, _PyCTP.CThostFtdcQueryMaxOrderVolumeField_ExchangeID_set)
+    __swig_setmethods__["InvestUnitID"] = _PyCTP.CThostFtdcQueryMaxOrderVolumeField_InvestUnitID_set
+    __swig_getmethods__["InvestUnitID"] = _PyCTP.CThostFtdcQueryMaxOrderVolumeField_InvestUnitID_get
+    if _newclass:
+        InvestUnitID = _swig_property(_PyCTP.CThostFtdcQueryMaxOrderVolumeField_InvestUnitID_get, _PyCTP.CThostFtdcQueryMaxOrderVolumeField_InvestUnitID_set)
 
     def __init__(self):
         this = _PyCTP.new_CThostFtdcQueryMaxOrderVolumeField()
@@ -5343,6 +5742,18 @@ class CThostFtdcSettlementInfoConfirmField(_object):
     __swig_getmethods__["ConfirmTime"] = _PyCTP.CThostFtdcSettlementInfoConfirmField_ConfirmTime_get
     if _newclass:
         ConfirmTime = _swig_property(_PyCTP.CThostFtdcSettlementInfoConfirmField_ConfirmTime_get, _PyCTP.CThostFtdcSettlementInfoConfirmField_ConfirmTime_set)
+    __swig_setmethods__["SettlementID"] = _PyCTP.CThostFtdcSettlementInfoConfirmField_SettlementID_set
+    __swig_getmethods__["SettlementID"] = _PyCTP.CThostFtdcSettlementInfoConfirmField_SettlementID_get
+    if _newclass:
+        SettlementID = _swig_property(_PyCTP.CThostFtdcSettlementInfoConfirmField_SettlementID_get, _PyCTP.CThostFtdcSettlementInfoConfirmField_SettlementID_set)
+    __swig_setmethods__["AccountID"] = _PyCTP.CThostFtdcSettlementInfoConfirmField_AccountID_set
+    __swig_getmethods__["AccountID"] = _PyCTP.CThostFtdcSettlementInfoConfirmField_AccountID_get
+    if _newclass:
+        AccountID = _swig_property(_PyCTP.CThostFtdcSettlementInfoConfirmField_AccountID_get, _PyCTP.CThostFtdcSettlementInfoConfirmField_AccountID_set)
+    __swig_setmethods__["CurrencyID"] = _PyCTP.CThostFtdcSettlementInfoConfirmField_CurrencyID_set
+    __swig_getmethods__["CurrencyID"] = _PyCTP.CThostFtdcSettlementInfoConfirmField_CurrencyID_get
+    if _newclass:
+        CurrencyID = _swig_property(_PyCTP.CThostFtdcSettlementInfoConfirmField_CurrencyID_get, _PyCTP.CThostFtdcSettlementInfoConfirmField_CurrencyID_set)
 
     def __init__(self):
         this = _PyCTP.new_CThostFtdcSettlementInfoConfirmField()
@@ -5793,6 +6204,14 @@ class CThostFtdcSyncingTradingAccountField(_object):
     __swig_getmethods__["SpecProductExchangeMargin"] = _PyCTP.CThostFtdcSyncingTradingAccountField_SpecProductExchangeMargin_get
     if _newclass:
         SpecProductExchangeMargin = _swig_property(_PyCTP.CThostFtdcSyncingTradingAccountField_SpecProductExchangeMargin_get, _PyCTP.CThostFtdcSyncingTradingAccountField_SpecProductExchangeMargin_set)
+    __swig_setmethods__["FrozenSwap"] = _PyCTP.CThostFtdcSyncingTradingAccountField_FrozenSwap_set
+    __swig_getmethods__["FrozenSwap"] = _PyCTP.CThostFtdcSyncingTradingAccountField_FrozenSwap_get
+    if _newclass:
+        FrozenSwap = _swig_property(_PyCTP.CThostFtdcSyncingTradingAccountField_FrozenSwap_get, _PyCTP.CThostFtdcSyncingTradingAccountField_FrozenSwap_set)
+    __swig_setmethods__["RemainSwap"] = _PyCTP.CThostFtdcSyncingTradingAccountField_RemainSwap_set
+    __swig_getmethods__["RemainSwap"] = _PyCTP.CThostFtdcSyncingTradingAccountField_RemainSwap_get
+    if _newclass:
+        RemainSwap = _swig_property(_PyCTP.CThostFtdcSyncingTradingAccountField_RemainSwap_get, _PyCTP.CThostFtdcSyncingTradingAccountField_RemainSwap_set)
 
     def __init__(self):
         this = _PyCTP.new_CThostFtdcSyncingTradingAccountField()
@@ -5983,6 +6402,22 @@ class CThostFtdcSyncingInvestorPositionField(_object):
     __swig_getmethods__["AbandonFrozen"] = _PyCTP.CThostFtdcSyncingInvestorPositionField_AbandonFrozen_get
     if _newclass:
         AbandonFrozen = _swig_property(_PyCTP.CThostFtdcSyncingInvestorPositionField_AbandonFrozen_get, _PyCTP.CThostFtdcSyncingInvestorPositionField_AbandonFrozen_set)
+    __swig_setmethods__["ExchangeID"] = _PyCTP.CThostFtdcSyncingInvestorPositionField_ExchangeID_set
+    __swig_getmethods__["ExchangeID"] = _PyCTP.CThostFtdcSyncingInvestorPositionField_ExchangeID_get
+    if _newclass:
+        ExchangeID = _swig_property(_PyCTP.CThostFtdcSyncingInvestorPositionField_ExchangeID_get, _PyCTP.CThostFtdcSyncingInvestorPositionField_ExchangeID_set)
+    __swig_setmethods__["YdStrikeFrozen"] = _PyCTP.CThostFtdcSyncingInvestorPositionField_YdStrikeFrozen_set
+    __swig_getmethods__["YdStrikeFrozen"] = _PyCTP.CThostFtdcSyncingInvestorPositionField_YdStrikeFrozen_get
+    if _newclass:
+        YdStrikeFrozen = _swig_property(_PyCTP.CThostFtdcSyncingInvestorPositionField_YdStrikeFrozen_get, _PyCTP.CThostFtdcSyncingInvestorPositionField_YdStrikeFrozen_set)
+    __swig_setmethods__["InvestUnitID"] = _PyCTP.CThostFtdcSyncingInvestorPositionField_InvestUnitID_set
+    __swig_getmethods__["InvestUnitID"] = _PyCTP.CThostFtdcSyncingInvestorPositionField_InvestUnitID_get
+    if _newclass:
+        InvestUnitID = _swig_property(_PyCTP.CThostFtdcSyncingInvestorPositionField_InvestUnitID_get, _PyCTP.CThostFtdcSyncingInvestorPositionField_InvestUnitID_set)
+    __swig_setmethods__["PositionCostOffset"] = _PyCTP.CThostFtdcSyncingInvestorPositionField_PositionCostOffset_set
+    __swig_getmethods__["PositionCostOffset"] = _PyCTP.CThostFtdcSyncingInvestorPositionField_PositionCostOffset_get
+    if _newclass:
+        PositionCostOffset = _swig_property(_PyCTP.CThostFtdcSyncingInvestorPositionField_PositionCostOffset_get, _PyCTP.CThostFtdcSyncingInvestorPositionField_PositionCostOffset_set)
 
     def __init__(self):
         this = _PyCTP.new_CThostFtdcSyncingInvestorPositionField()
@@ -6183,6 +6618,10 @@ class CThostFtdcQryOrderField(_object):
     __swig_getmethods__["InsertTimeEnd"] = _PyCTP.CThostFtdcQryOrderField_InsertTimeEnd_get
     if _newclass:
         InsertTimeEnd = _swig_property(_PyCTP.CThostFtdcQryOrderField_InsertTimeEnd_get, _PyCTP.CThostFtdcQryOrderField_InsertTimeEnd_set)
+    __swig_setmethods__["InvestUnitID"] = _PyCTP.CThostFtdcQryOrderField_InvestUnitID_set
+    __swig_getmethods__["InvestUnitID"] = _PyCTP.CThostFtdcQryOrderField_InvestUnitID_get
+    if _newclass:
+        InvestUnitID = _swig_property(_PyCTP.CThostFtdcQryOrderField_InvestUnitID_get, _PyCTP.CThostFtdcQryOrderField_InvestUnitID_set)
 
     def __init__(self):
         this = _PyCTP.new_CThostFtdcQryOrderField()
@@ -6229,6 +6668,10 @@ class CThostFtdcQryTradeField(_object):
     __swig_getmethods__["TradeTimeEnd"] = _PyCTP.CThostFtdcQryTradeField_TradeTimeEnd_get
     if _newclass:
         TradeTimeEnd = _swig_property(_PyCTP.CThostFtdcQryTradeField_TradeTimeEnd_get, _PyCTP.CThostFtdcQryTradeField_TradeTimeEnd_set)
+    __swig_setmethods__["InvestUnitID"] = _PyCTP.CThostFtdcQryTradeField_InvestUnitID_set
+    __swig_getmethods__["InvestUnitID"] = _PyCTP.CThostFtdcQryTradeField_InvestUnitID_get
+    if _newclass:
+        InvestUnitID = _swig_property(_PyCTP.CThostFtdcQryTradeField_InvestUnitID_get, _PyCTP.CThostFtdcQryTradeField_InvestUnitID_set)
 
     def __init__(self):
         this = _PyCTP.new_CThostFtdcQryTradeField()
@@ -6259,6 +6702,14 @@ class CThostFtdcQryInvestorPositionField(_object):
     __swig_getmethods__["InstrumentID"] = _PyCTP.CThostFtdcQryInvestorPositionField_InstrumentID_get
     if _newclass:
         InstrumentID = _swig_property(_PyCTP.CThostFtdcQryInvestorPositionField_InstrumentID_get, _PyCTP.CThostFtdcQryInvestorPositionField_InstrumentID_set)
+    __swig_setmethods__["ExchangeID"] = _PyCTP.CThostFtdcQryInvestorPositionField_ExchangeID_set
+    __swig_getmethods__["ExchangeID"] = _PyCTP.CThostFtdcQryInvestorPositionField_ExchangeID_get
+    if _newclass:
+        ExchangeID = _swig_property(_PyCTP.CThostFtdcQryInvestorPositionField_ExchangeID_get, _PyCTP.CThostFtdcQryInvestorPositionField_ExchangeID_set)
+    __swig_setmethods__["InvestUnitID"] = _PyCTP.CThostFtdcQryInvestorPositionField_InvestUnitID_set
+    __swig_getmethods__["InvestUnitID"] = _PyCTP.CThostFtdcQryInvestorPositionField_InvestUnitID_get
+    if _newclass:
+        InvestUnitID = _swig_property(_PyCTP.CThostFtdcQryInvestorPositionField_InvestUnitID_get, _PyCTP.CThostFtdcQryInvestorPositionField_InvestUnitID_set)
 
     def __init__(self):
         this = _PyCTP.new_CThostFtdcQryInvestorPositionField()
@@ -6289,6 +6740,14 @@ class CThostFtdcQryTradingAccountField(_object):
     __swig_getmethods__["CurrencyID"] = _PyCTP.CThostFtdcQryTradingAccountField_CurrencyID_get
     if _newclass:
         CurrencyID = _swig_property(_PyCTP.CThostFtdcQryTradingAccountField_CurrencyID_get, _PyCTP.CThostFtdcQryTradingAccountField_CurrencyID_set)
+    __swig_setmethods__["BizType"] = _PyCTP.CThostFtdcQryTradingAccountField_BizType_set
+    __swig_getmethods__["BizType"] = _PyCTP.CThostFtdcQryTradingAccountField_BizType_get
+    if _newclass:
+        BizType = _swig_property(_PyCTP.CThostFtdcQryTradingAccountField_BizType_get, _PyCTP.CThostFtdcQryTradingAccountField_BizType_set)
+    __swig_setmethods__["AccountID"] = _PyCTP.CThostFtdcQryTradingAccountField_AccountID_set
+    __swig_getmethods__["AccountID"] = _PyCTP.CThostFtdcQryTradingAccountField_AccountID_get
+    if _newclass:
+        AccountID = _swig_property(_PyCTP.CThostFtdcQryTradingAccountField_AccountID_get, _PyCTP.CThostFtdcQryTradingAccountField_AccountID_set)
 
     def __init__(self):
         this = _PyCTP.new_CThostFtdcQryTradingAccountField()
@@ -6353,6 +6812,10 @@ class CThostFtdcQryTradingCodeField(_object):
     __swig_getmethods__["ClientIDType"] = _PyCTP.CThostFtdcQryTradingCodeField_ClientIDType_get
     if _newclass:
         ClientIDType = _swig_property(_PyCTP.CThostFtdcQryTradingCodeField_ClientIDType_get, _PyCTP.CThostFtdcQryTradingCodeField_ClientIDType_set)
+    __swig_setmethods__["InvestUnitID"] = _PyCTP.CThostFtdcQryTradingCodeField_InvestUnitID_set
+    __swig_getmethods__["InvestUnitID"] = _PyCTP.CThostFtdcQryTradingCodeField_InvestUnitID_get
+    if _newclass:
+        InvestUnitID = _swig_property(_PyCTP.CThostFtdcQryTradingCodeField_InvestUnitID_get, _PyCTP.CThostFtdcQryTradingCodeField_InvestUnitID_set)
 
     def __init__(self):
         this = _PyCTP.new_CThostFtdcQryTradingCodeField()
@@ -6409,6 +6872,14 @@ class CThostFtdcQryInstrumentMarginRateField(_object):
     __swig_getmethods__["HedgeFlag"] = _PyCTP.CThostFtdcQryInstrumentMarginRateField_HedgeFlag_get
     if _newclass:
         HedgeFlag = _swig_property(_PyCTP.CThostFtdcQryInstrumentMarginRateField_HedgeFlag_get, _PyCTP.CThostFtdcQryInstrumentMarginRateField_HedgeFlag_set)
+    __swig_setmethods__["ExchangeID"] = _PyCTP.CThostFtdcQryInstrumentMarginRateField_ExchangeID_set
+    __swig_getmethods__["ExchangeID"] = _PyCTP.CThostFtdcQryInstrumentMarginRateField_ExchangeID_get
+    if _newclass:
+        ExchangeID = _swig_property(_PyCTP.CThostFtdcQryInstrumentMarginRateField_ExchangeID_get, _PyCTP.CThostFtdcQryInstrumentMarginRateField_ExchangeID_set)
+    __swig_setmethods__["InvestUnitID"] = _PyCTP.CThostFtdcQryInstrumentMarginRateField_InvestUnitID_set
+    __swig_getmethods__["InvestUnitID"] = _PyCTP.CThostFtdcQryInstrumentMarginRateField_InvestUnitID_get
+    if _newclass:
+        InvestUnitID = _swig_property(_PyCTP.CThostFtdcQryInstrumentMarginRateField_InvestUnitID_get, _PyCTP.CThostFtdcQryInstrumentMarginRateField_InvestUnitID_set)
 
     def __init__(self):
         this = _PyCTP.new_CThostFtdcQryInstrumentMarginRateField()
@@ -6439,6 +6910,14 @@ class CThostFtdcQryInstrumentCommissionRateField(_object):
     __swig_getmethods__["InstrumentID"] = _PyCTP.CThostFtdcQryInstrumentCommissionRateField_InstrumentID_get
     if _newclass:
         InstrumentID = _swig_property(_PyCTP.CThostFtdcQryInstrumentCommissionRateField_InstrumentID_get, _PyCTP.CThostFtdcQryInstrumentCommissionRateField_InstrumentID_set)
+    __swig_setmethods__["ExchangeID"] = _PyCTP.CThostFtdcQryInstrumentCommissionRateField_ExchangeID_set
+    __swig_getmethods__["ExchangeID"] = _PyCTP.CThostFtdcQryInstrumentCommissionRateField_ExchangeID_get
+    if _newclass:
+        ExchangeID = _swig_property(_PyCTP.CThostFtdcQryInstrumentCommissionRateField_ExchangeID_get, _PyCTP.CThostFtdcQryInstrumentCommissionRateField_ExchangeID_set)
+    __swig_setmethods__["InvestUnitID"] = _PyCTP.CThostFtdcQryInstrumentCommissionRateField_InvestUnitID_set
+    __swig_getmethods__["InvestUnitID"] = _PyCTP.CThostFtdcQryInstrumentCommissionRateField_InvestUnitID_get
+    if _newclass:
+        InvestUnitID = _swig_property(_PyCTP.CThostFtdcQryInstrumentCommissionRateField_InvestUnitID_get, _PyCTP.CThostFtdcQryInstrumentCommissionRateField_InvestUnitID_set)
 
     def __init__(self):
         this = _PyCTP.new_CThostFtdcQryInstrumentCommissionRateField()
@@ -6801,6 +7280,10 @@ class CThostFtdcQryProductField(_object):
     __swig_getmethods__["ProductClass"] = _PyCTP.CThostFtdcQryProductField_ProductClass_get
     if _newclass:
         ProductClass = _swig_property(_PyCTP.CThostFtdcQryProductField_ProductClass_get, _PyCTP.CThostFtdcQryProductField_ProductClass_set)
+    __swig_setmethods__["ExchangeID"] = _PyCTP.CThostFtdcQryProductField_ExchangeID_set
+    __swig_getmethods__["ExchangeID"] = _PyCTP.CThostFtdcQryProductField_ExchangeID_get
+    if _newclass:
+        ExchangeID = _swig_property(_PyCTP.CThostFtdcQryProductField_ExchangeID_get, _PyCTP.CThostFtdcQryProductField_ExchangeID_set)
 
     def __init__(self):
         this = _PyCTP.new_CThostFtdcQryProductField()
@@ -6857,6 +7340,10 @@ class CThostFtdcQryDepthMarketDataField(_object):
     __swig_getmethods__["InstrumentID"] = _PyCTP.CThostFtdcQryDepthMarketDataField_InstrumentID_get
     if _newclass:
         InstrumentID = _swig_property(_PyCTP.CThostFtdcQryDepthMarketDataField_InstrumentID_get, _PyCTP.CThostFtdcQryDepthMarketDataField_InstrumentID_set)
+    __swig_setmethods__["ExchangeID"] = _PyCTP.CThostFtdcQryDepthMarketDataField_ExchangeID_set
+    __swig_getmethods__["ExchangeID"] = _PyCTP.CThostFtdcQryDepthMarketDataField_ExchangeID_get
+    if _newclass:
+        ExchangeID = _swig_property(_PyCTP.CThostFtdcQryDepthMarketDataField_ExchangeID_get, _PyCTP.CThostFtdcQryDepthMarketDataField_ExchangeID_set)
 
     def __init__(self):
         this = _PyCTP.new_CThostFtdcQryDepthMarketDataField()
@@ -6995,6 +7482,14 @@ class CThostFtdcQrySettlementInfoField(_object):
     __swig_getmethods__["TradingDay"] = _PyCTP.CThostFtdcQrySettlementInfoField_TradingDay_get
     if _newclass:
         TradingDay = _swig_property(_PyCTP.CThostFtdcQrySettlementInfoField_TradingDay_get, _PyCTP.CThostFtdcQrySettlementInfoField_TradingDay_set)
+    __swig_setmethods__["AccountID"] = _PyCTP.CThostFtdcQrySettlementInfoField_AccountID_set
+    __swig_getmethods__["AccountID"] = _PyCTP.CThostFtdcQrySettlementInfoField_AccountID_get
+    if _newclass:
+        AccountID = _swig_property(_PyCTP.CThostFtdcQrySettlementInfoField_AccountID_get, _PyCTP.CThostFtdcQrySettlementInfoField_AccountID_set)
+    __swig_setmethods__["CurrencyID"] = _PyCTP.CThostFtdcQrySettlementInfoField_CurrencyID_set
+    __swig_getmethods__["CurrencyID"] = _PyCTP.CThostFtdcQrySettlementInfoField_CurrencyID_get
+    if _newclass:
+        CurrencyID = _swig_property(_PyCTP.CThostFtdcQrySettlementInfoField_CurrencyID_get, _PyCTP.CThostFtdcQrySettlementInfoField_CurrencyID_set)
 
     def __init__(self):
         this = _PyCTP.new_CThostFtdcQrySettlementInfoField()
@@ -7025,6 +7520,10 @@ class CThostFtdcQryExchangeMarginRateField(_object):
     __swig_getmethods__["HedgeFlag"] = _PyCTP.CThostFtdcQryExchangeMarginRateField_HedgeFlag_get
     if _newclass:
         HedgeFlag = _swig_property(_PyCTP.CThostFtdcQryExchangeMarginRateField_HedgeFlag_get, _PyCTP.CThostFtdcQryExchangeMarginRateField_HedgeFlag_set)
+    __swig_setmethods__["ExchangeID"] = _PyCTP.CThostFtdcQryExchangeMarginRateField_ExchangeID_set
+    __swig_getmethods__["ExchangeID"] = _PyCTP.CThostFtdcQryExchangeMarginRateField_ExchangeID_get
+    if _newclass:
+        ExchangeID = _swig_property(_PyCTP.CThostFtdcQryExchangeMarginRateField_ExchangeID_get, _PyCTP.CThostFtdcQryExchangeMarginRateField_ExchangeID_set)
 
     def __init__(self):
         this = _PyCTP.new_CThostFtdcQryExchangeMarginRateField()
@@ -7273,6 +7772,14 @@ class CThostFtdcOptionInstrMarginAdjustField(_object):
     __swig_getmethods__["IsRelative"] = _PyCTP.CThostFtdcOptionInstrMarginAdjustField_IsRelative_get
     if _newclass:
         IsRelative = _swig_property(_PyCTP.CThostFtdcOptionInstrMarginAdjustField_IsRelative_get, _PyCTP.CThostFtdcOptionInstrMarginAdjustField_IsRelative_set)
+    __swig_setmethods__["MShortMarginRatioByMoney"] = _PyCTP.CThostFtdcOptionInstrMarginAdjustField_MShortMarginRatioByMoney_set
+    __swig_getmethods__["MShortMarginRatioByMoney"] = _PyCTP.CThostFtdcOptionInstrMarginAdjustField_MShortMarginRatioByMoney_get
+    if _newclass:
+        MShortMarginRatioByMoney = _swig_property(_PyCTP.CThostFtdcOptionInstrMarginAdjustField_MShortMarginRatioByMoney_get, _PyCTP.CThostFtdcOptionInstrMarginAdjustField_MShortMarginRatioByMoney_set)
+    __swig_setmethods__["MShortMarginRatioByVolume"] = _PyCTP.CThostFtdcOptionInstrMarginAdjustField_MShortMarginRatioByVolume_set
+    __swig_getmethods__["MShortMarginRatioByVolume"] = _PyCTP.CThostFtdcOptionInstrMarginAdjustField_MShortMarginRatioByVolume_get
+    if _newclass:
+        MShortMarginRatioByVolume = _swig_property(_PyCTP.CThostFtdcOptionInstrMarginAdjustField_MShortMarginRatioByVolume_get, _PyCTP.CThostFtdcOptionInstrMarginAdjustField_MShortMarginRatioByVolume_set)
 
     def __init__(self):
         this = _PyCTP.new_CThostFtdcOptionInstrMarginAdjustField()
@@ -7339,6 +7846,14 @@ class CThostFtdcOptionInstrCommRateField(_object):
     __swig_getmethods__["StrikeRatioByVolume"] = _PyCTP.CThostFtdcOptionInstrCommRateField_StrikeRatioByVolume_get
     if _newclass:
         StrikeRatioByVolume = _swig_property(_PyCTP.CThostFtdcOptionInstrCommRateField_StrikeRatioByVolume_get, _PyCTP.CThostFtdcOptionInstrCommRateField_StrikeRatioByVolume_set)
+    __swig_setmethods__["ExchangeID"] = _PyCTP.CThostFtdcOptionInstrCommRateField_ExchangeID_set
+    __swig_getmethods__["ExchangeID"] = _PyCTP.CThostFtdcOptionInstrCommRateField_ExchangeID_get
+    if _newclass:
+        ExchangeID = _swig_property(_PyCTP.CThostFtdcOptionInstrCommRateField_ExchangeID_get, _PyCTP.CThostFtdcOptionInstrCommRateField_ExchangeID_set)
+    __swig_setmethods__["InvestUnitID"] = _PyCTP.CThostFtdcOptionInstrCommRateField_InvestUnitID_set
+    __swig_getmethods__["InvestUnitID"] = _PyCTP.CThostFtdcOptionInstrCommRateField_InvestUnitID_get
+    if _newclass:
+        InvestUnitID = _swig_property(_PyCTP.CThostFtdcOptionInstrCommRateField_InvestUnitID_get, _PyCTP.CThostFtdcOptionInstrCommRateField_InvestUnitID_set)
 
     def __init__(self):
         this = _PyCTP.new_CThostFtdcOptionInstrCommRateField()
@@ -7393,6 +7908,14 @@ class CThostFtdcOptionInstrTradeCostField(_object):
     __swig_getmethods__["ExchMiniMargin"] = _PyCTP.CThostFtdcOptionInstrTradeCostField_ExchMiniMargin_get
     if _newclass:
         ExchMiniMargin = _swig_property(_PyCTP.CThostFtdcOptionInstrTradeCostField_ExchMiniMargin_get, _PyCTP.CThostFtdcOptionInstrTradeCostField_ExchMiniMargin_set)
+    __swig_setmethods__["ExchangeID"] = _PyCTP.CThostFtdcOptionInstrTradeCostField_ExchangeID_set
+    __swig_getmethods__["ExchangeID"] = _PyCTP.CThostFtdcOptionInstrTradeCostField_ExchangeID_get
+    if _newclass:
+        ExchangeID = _swig_property(_PyCTP.CThostFtdcOptionInstrTradeCostField_ExchangeID_get, _PyCTP.CThostFtdcOptionInstrTradeCostField_ExchangeID_set)
+    __swig_setmethods__["InvestUnitID"] = _PyCTP.CThostFtdcOptionInstrTradeCostField_InvestUnitID_set
+    __swig_getmethods__["InvestUnitID"] = _PyCTP.CThostFtdcOptionInstrTradeCostField_InvestUnitID_get
+    if _newclass:
+        InvestUnitID = _swig_property(_PyCTP.CThostFtdcOptionInstrTradeCostField_InvestUnitID_get, _PyCTP.CThostFtdcOptionInstrTradeCostField_InvestUnitID_set)
 
     def __init__(self):
         this = _PyCTP.new_CThostFtdcOptionInstrTradeCostField()
@@ -7435,6 +7958,14 @@ class CThostFtdcQryOptionInstrTradeCostField(_object):
     __swig_getmethods__["UnderlyingPrice"] = _PyCTP.CThostFtdcQryOptionInstrTradeCostField_UnderlyingPrice_get
     if _newclass:
         UnderlyingPrice = _swig_property(_PyCTP.CThostFtdcQryOptionInstrTradeCostField_UnderlyingPrice_get, _PyCTP.CThostFtdcQryOptionInstrTradeCostField_UnderlyingPrice_set)
+    __swig_setmethods__["ExchangeID"] = _PyCTP.CThostFtdcQryOptionInstrTradeCostField_ExchangeID_set
+    __swig_getmethods__["ExchangeID"] = _PyCTP.CThostFtdcQryOptionInstrTradeCostField_ExchangeID_get
+    if _newclass:
+        ExchangeID = _swig_property(_PyCTP.CThostFtdcQryOptionInstrTradeCostField_ExchangeID_get, _PyCTP.CThostFtdcQryOptionInstrTradeCostField_ExchangeID_set)
+    __swig_setmethods__["InvestUnitID"] = _PyCTP.CThostFtdcQryOptionInstrTradeCostField_InvestUnitID_set
+    __swig_getmethods__["InvestUnitID"] = _PyCTP.CThostFtdcQryOptionInstrTradeCostField_InvestUnitID_get
+    if _newclass:
+        InvestUnitID = _swig_property(_PyCTP.CThostFtdcQryOptionInstrTradeCostField_InvestUnitID_get, _PyCTP.CThostFtdcQryOptionInstrTradeCostField_InvestUnitID_set)
 
     def __init__(self):
         this = _PyCTP.new_CThostFtdcQryOptionInstrTradeCostField()
@@ -7465,6 +7996,14 @@ class CThostFtdcQryOptionInstrCommRateField(_object):
     __swig_getmethods__["InstrumentID"] = _PyCTP.CThostFtdcQryOptionInstrCommRateField_InstrumentID_get
     if _newclass:
         InstrumentID = _swig_property(_PyCTP.CThostFtdcQryOptionInstrCommRateField_InstrumentID_get, _PyCTP.CThostFtdcQryOptionInstrCommRateField_InstrumentID_set)
+    __swig_setmethods__["ExchangeID"] = _PyCTP.CThostFtdcQryOptionInstrCommRateField_ExchangeID_set
+    __swig_getmethods__["ExchangeID"] = _PyCTP.CThostFtdcQryOptionInstrCommRateField_ExchangeID_get
+    if _newclass:
+        ExchangeID = _swig_property(_PyCTP.CThostFtdcQryOptionInstrCommRateField_ExchangeID_get, _PyCTP.CThostFtdcQryOptionInstrCommRateField_ExchangeID_set)
+    __swig_setmethods__["InvestUnitID"] = _PyCTP.CThostFtdcQryOptionInstrCommRateField_InvestUnitID_set
+    __swig_getmethods__["InvestUnitID"] = _PyCTP.CThostFtdcQryOptionInstrCommRateField_InvestUnitID_get
+    if _newclass:
+        InvestUnitID = _swig_property(_PyCTP.CThostFtdcQryOptionInstrCommRateField_InvestUnitID_get, _PyCTP.CThostFtdcQryOptionInstrCommRateField_InvestUnitID_set)
 
     def __init__(self):
         this = _PyCTP.new_CThostFtdcQryOptionInstrCommRateField()
@@ -7569,6 +8108,34 @@ class CThostFtdcInputExecOrderField(_object):
     __swig_getmethods__["CloseFlag"] = _PyCTP.CThostFtdcInputExecOrderField_CloseFlag_get
     if _newclass:
         CloseFlag = _swig_property(_PyCTP.CThostFtdcInputExecOrderField_CloseFlag_get, _PyCTP.CThostFtdcInputExecOrderField_CloseFlag_set)
+    __swig_setmethods__["ExchangeID"] = _PyCTP.CThostFtdcInputExecOrderField_ExchangeID_set
+    __swig_getmethods__["ExchangeID"] = _PyCTP.CThostFtdcInputExecOrderField_ExchangeID_get
+    if _newclass:
+        ExchangeID = _swig_property(_PyCTP.CThostFtdcInputExecOrderField_ExchangeID_get, _PyCTP.CThostFtdcInputExecOrderField_ExchangeID_set)
+    __swig_setmethods__["InvestUnitID"] = _PyCTP.CThostFtdcInputExecOrderField_InvestUnitID_set
+    __swig_getmethods__["InvestUnitID"] = _PyCTP.CThostFtdcInputExecOrderField_InvestUnitID_get
+    if _newclass:
+        InvestUnitID = _swig_property(_PyCTP.CThostFtdcInputExecOrderField_InvestUnitID_get, _PyCTP.CThostFtdcInputExecOrderField_InvestUnitID_set)
+    __swig_setmethods__["AccountID"] = _PyCTP.CThostFtdcInputExecOrderField_AccountID_set
+    __swig_getmethods__["AccountID"] = _PyCTP.CThostFtdcInputExecOrderField_AccountID_get
+    if _newclass:
+        AccountID = _swig_property(_PyCTP.CThostFtdcInputExecOrderField_AccountID_get, _PyCTP.CThostFtdcInputExecOrderField_AccountID_set)
+    __swig_setmethods__["CurrencyID"] = _PyCTP.CThostFtdcInputExecOrderField_CurrencyID_set
+    __swig_getmethods__["CurrencyID"] = _PyCTP.CThostFtdcInputExecOrderField_CurrencyID_get
+    if _newclass:
+        CurrencyID = _swig_property(_PyCTP.CThostFtdcInputExecOrderField_CurrencyID_get, _PyCTP.CThostFtdcInputExecOrderField_CurrencyID_set)
+    __swig_setmethods__["ClientID"] = _PyCTP.CThostFtdcInputExecOrderField_ClientID_set
+    __swig_getmethods__["ClientID"] = _PyCTP.CThostFtdcInputExecOrderField_ClientID_get
+    if _newclass:
+        ClientID = _swig_property(_PyCTP.CThostFtdcInputExecOrderField_ClientID_get, _PyCTP.CThostFtdcInputExecOrderField_ClientID_set)
+    __swig_setmethods__["IPAddress"] = _PyCTP.CThostFtdcInputExecOrderField_IPAddress_set
+    __swig_getmethods__["IPAddress"] = _PyCTP.CThostFtdcInputExecOrderField_IPAddress_get
+    if _newclass:
+        IPAddress = _swig_property(_PyCTP.CThostFtdcInputExecOrderField_IPAddress_get, _PyCTP.CThostFtdcInputExecOrderField_IPAddress_set)
+    __swig_setmethods__["MacAddress"] = _PyCTP.CThostFtdcInputExecOrderField_MacAddress_set
+    __swig_getmethods__["MacAddress"] = _PyCTP.CThostFtdcInputExecOrderField_MacAddress_get
+    if _newclass:
+        MacAddress = _swig_property(_PyCTP.CThostFtdcInputExecOrderField_MacAddress_get, _PyCTP.CThostFtdcInputExecOrderField_MacAddress_set)
 
     def __init__(self):
         this = _PyCTP.new_CThostFtdcInputExecOrderField()
@@ -7635,6 +8202,18 @@ class CThostFtdcInputExecOrderActionField(_object):
     __swig_getmethods__["InstrumentID"] = _PyCTP.CThostFtdcInputExecOrderActionField_InstrumentID_get
     if _newclass:
         InstrumentID = _swig_property(_PyCTP.CThostFtdcInputExecOrderActionField_InstrumentID_get, _PyCTP.CThostFtdcInputExecOrderActionField_InstrumentID_set)
+    __swig_setmethods__["InvestUnitID"] = _PyCTP.CThostFtdcInputExecOrderActionField_InvestUnitID_set
+    __swig_getmethods__["InvestUnitID"] = _PyCTP.CThostFtdcInputExecOrderActionField_InvestUnitID_get
+    if _newclass:
+        InvestUnitID = _swig_property(_PyCTP.CThostFtdcInputExecOrderActionField_InvestUnitID_get, _PyCTP.CThostFtdcInputExecOrderActionField_InvestUnitID_set)
+    __swig_setmethods__["IPAddress"] = _PyCTP.CThostFtdcInputExecOrderActionField_IPAddress_set
+    __swig_getmethods__["IPAddress"] = _PyCTP.CThostFtdcInputExecOrderActionField_IPAddress_get
+    if _newclass:
+        IPAddress = _swig_property(_PyCTP.CThostFtdcInputExecOrderActionField_IPAddress_get, _PyCTP.CThostFtdcInputExecOrderActionField_IPAddress_set)
+    __swig_setmethods__["MacAddress"] = _PyCTP.CThostFtdcInputExecOrderActionField_MacAddress_set
+    __swig_getmethods__["MacAddress"] = _PyCTP.CThostFtdcInputExecOrderActionField_MacAddress_get
+    if _newclass:
+        MacAddress = _swig_property(_PyCTP.CThostFtdcInputExecOrderActionField_MacAddress_get, _PyCTP.CThostFtdcInputExecOrderActionField_MacAddress_set)
 
     def __init__(self):
         this = _PyCTP.new_CThostFtdcInputExecOrderActionField()
@@ -7805,6 +8384,30 @@ class CThostFtdcExecOrderField(_object):
     __swig_getmethods__["BrokerExecOrderSeq"] = _PyCTP.CThostFtdcExecOrderField_BrokerExecOrderSeq_get
     if _newclass:
         BrokerExecOrderSeq = _swig_property(_PyCTP.CThostFtdcExecOrderField_BrokerExecOrderSeq_get, _PyCTP.CThostFtdcExecOrderField_BrokerExecOrderSeq_set)
+    __swig_setmethods__["BranchID"] = _PyCTP.CThostFtdcExecOrderField_BranchID_set
+    __swig_getmethods__["BranchID"] = _PyCTP.CThostFtdcExecOrderField_BranchID_get
+    if _newclass:
+        BranchID = _swig_property(_PyCTP.CThostFtdcExecOrderField_BranchID_get, _PyCTP.CThostFtdcExecOrderField_BranchID_set)
+    __swig_setmethods__["InvestUnitID"] = _PyCTP.CThostFtdcExecOrderField_InvestUnitID_set
+    __swig_getmethods__["InvestUnitID"] = _PyCTP.CThostFtdcExecOrderField_InvestUnitID_get
+    if _newclass:
+        InvestUnitID = _swig_property(_PyCTP.CThostFtdcExecOrderField_InvestUnitID_get, _PyCTP.CThostFtdcExecOrderField_InvestUnitID_set)
+    __swig_setmethods__["AccountID"] = _PyCTP.CThostFtdcExecOrderField_AccountID_set
+    __swig_getmethods__["AccountID"] = _PyCTP.CThostFtdcExecOrderField_AccountID_get
+    if _newclass:
+        AccountID = _swig_property(_PyCTP.CThostFtdcExecOrderField_AccountID_get, _PyCTP.CThostFtdcExecOrderField_AccountID_set)
+    __swig_setmethods__["CurrencyID"] = _PyCTP.CThostFtdcExecOrderField_CurrencyID_set
+    __swig_getmethods__["CurrencyID"] = _PyCTP.CThostFtdcExecOrderField_CurrencyID_get
+    if _newclass:
+        CurrencyID = _swig_property(_PyCTP.CThostFtdcExecOrderField_CurrencyID_get, _PyCTP.CThostFtdcExecOrderField_CurrencyID_set)
+    __swig_setmethods__["IPAddress"] = _PyCTP.CThostFtdcExecOrderField_IPAddress_set
+    __swig_getmethods__["IPAddress"] = _PyCTP.CThostFtdcExecOrderField_IPAddress_get
+    if _newclass:
+        IPAddress = _swig_property(_PyCTP.CThostFtdcExecOrderField_IPAddress_get, _PyCTP.CThostFtdcExecOrderField_IPAddress_set)
+    __swig_setmethods__["MacAddress"] = _PyCTP.CThostFtdcExecOrderField_MacAddress_set
+    __swig_getmethods__["MacAddress"] = _PyCTP.CThostFtdcExecOrderField_MacAddress_get
+    if _newclass:
+        MacAddress = _swig_property(_PyCTP.CThostFtdcExecOrderField_MacAddress_get, _PyCTP.CThostFtdcExecOrderField_MacAddress_set)
 
     def __init__(self):
         this = _PyCTP.new_CThostFtdcExecOrderField()
@@ -7919,6 +8522,22 @@ class CThostFtdcExecOrderActionField(_object):
     __swig_getmethods__["InstrumentID"] = _PyCTP.CThostFtdcExecOrderActionField_InstrumentID_get
     if _newclass:
         InstrumentID = _swig_property(_PyCTP.CThostFtdcExecOrderActionField_InstrumentID_get, _PyCTP.CThostFtdcExecOrderActionField_InstrumentID_set)
+    __swig_setmethods__["BranchID"] = _PyCTP.CThostFtdcExecOrderActionField_BranchID_set
+    __swig_getmethods__["BranchID"] = _PyCTP.CThostFtdcExecOrderActionField_BranchID_get
+    if _newclass:
+        BranchID = _swig_property(_PyCTP.CThostFtdcExecOrderActionField_BranchID_get, _PyCTP.CThostFtdcExecOrderActionField_BranchID_set)
+    __swig_setmethods__["InvestUnitID"] = _PyCTP.CThostFtdcExecOrderActionField_InvestUnitID_set
+    __swig_getmethods__["InvestUnitID"] = _PyCTP.CThostFtdcExecOrderActionField_InvestUnitID_get
+    if _newclass:
+        InvestUnitID = _swig_property(_PyCTP.CThostFtdcExecOrderActionField_InvestUnitID_get, _PyCTP.CThostFtdcExecOrderActionField_InvestUnitID_set)
+    __swig_setmethods__["IPAddress"] = _PyCTP.CThostFtdcExecOrderActionField_IPAddress_set
+    __swig_getmethods__["IPAddress"] = _PyCTP.CThostFtdcExecOrderActionField_IPAddress_get
+    if _newclass:
+        IPAddress = _swig_property(_PyCTP.CThostFtdcExecOrderActionField_IPAddress_get, _PyCTP.CThostFtdcExecOrderActionField_IPAddress_set)
+    __swig_setmethods__["MacAddress"] = _PyCTP.CThostFtdcExecOrderActionField_MacAddress_set
+    __swig_getmethods__["MacAddress"] = _PyCTP.CThostFtdcExecOrderActionField_MacAddress_get
+    if _newclass:
+        MacAddress = _swig_property(_PyCTP.CThostFtdcExecOrderActionField_MacAddress_get, _PyCTP.CThostFtdcExecOrderActionField_MacAddress_set)
 
     def __init__(self):
         this = _PyCTP.new_CThostFtdcExecOrderActionField()
@@ -8091,6 +8710,18 @@ class CThostFtdcExchangeExecOrderField(_object):
     __swig_getmethods__["SequenceNo"] = _PyCTP.CThostFtdcExchangeExecOrderField_SequenceNo_get
     if _newclass:
         SequenceNo = _swig_property(_PyCTP.CThostFtdcExchangeExecOrderField_SequenceNo_get, _PyCTP.CThostFtdcExchangeExecOrderField_SequenceNo_set)
+    __swig_setmethods__["BranchID"] = _PyCTP.CThostFtdcExchangeExecOrderField_BranchID_set
+    __swig_getmethods__["BranchID"] = _PyCTP.CThostFtdcExchangeExecOrderField_BranchID_get
+    if _newclass:
+        BranchID = _swig_property(_PyCTP.CThostFtdcExchangeExecOrderField_BranchID_get, _PyCTP.CThostFtdcExchangeExecOrderField_BranchID_set)
+    __swig_setmethods__["IPAddress"] = _PyCTP.CThostFtdcExchangeExecOrderField_IPAddress_set
+    __swig_getmethods__["IPAddress"] = _PyCTP.CThostFtdcExchangeExecOrderField_IPAddress_get
+    if _newclass:
+        IPAddress = _swig_property(_PyCTP.CThostFtdcExchangeExecOrderField_IPAddress_get, _PyCTP.CThostFtdcExchangeExecOrderField_IPAddress_set)
+    __swig_setmethods__["MacAddress"] = _PyCTP.CThostFtdcExchangeExecOrderField_MacAddress_set
+    __swig_getmethods__["MacAddress"] = _PyCTP.CThostFtdcExchangeExecOrderField_MacAddress_get
+    if _newclass:
+        MacAddress = _swig_property(_PyCTP.CThostFtdcExchangeExecOrderField_MacAddress_get, _PyCTP.CThostFtdcExchangeExecOrderField_MacAddress_set)
 
     def __init__(self):
         this = _PyCTP.new_CThostFtdcExchangeExecOrderField()
@@ -8237,6 +8868,26 @@ class CThostFtdcExchangeExecOrderActionField(_object):
     __swig_getmethods__["ActionType"] = _PyCTP.CThostFtdcExchangeExecOrderActionField_ActionType_get
     if _newclass:
         ActionType = _swig_property(_PyCTP.CThostFtdcExchangeExecOrderActionField_ActionType_get, _PyCTP.CThostFtdcExchangeExecOrderActionField_ActionType_set)
+    __swig_setmethods__["BranchID"] = _PyCTP.CThostFtdcExchangeExecOrderActionField_BranchID_set
+    __swig_getmethods__["BranchID"] = _PyCTP.CThostFtdcExchangeExecOrderActionField_BranchID_get
+    if _newclass:
+        BranchID = _swig_property(_PyCTP.CThostFtdcExchangeExecOrderActionField_BranchID_get, _PyCTP.CThostFtdcExchangeExecOrderActionField_BranchID_set)
+    __swig_setmethods__["IPAddress"] = _PyCTP.CThostFtdcExchangeExecOrderActionField_IPAddress_set
+    __swig_getmethods__["IPAddress"] = _PyCTP.CThostFtdcExchangeExecOrderActionField_IPAddress_get
+    if _newclass:
+        IPAddress = _swig_property(_PyCTP.CThostFtdcExchangeExecOrderActionField_IPAddress_get, _PyCTP.CThostFtdcExchangeExecOrderActionField_IPAddress_set)
+    __swig_setmethods__["MacAddress"] = _PyCTP.CThostFtdcExchangeExecOrderActionField_MacAddress_set
+    __swig_getmethods__["MacAddress"] = _PyCTP.CThostFtdcExchangeExecOrderActionField_MacAddress_get
+    if _newclass:
+        MacAddress = _swig_property(_PyCTP.CThostFtdcExchangeExecOrderActionField_MacAddress_get, _PyCTP.CThostFtdcExchangeExecOrderActionField_MacAddress_set)
+    __swig_setmethods__["ExchangeInstID"] = _PyCTP.CThostFtdcExchangeExecOrderActionField_ExchangeInstID_set
+    __swig_getmethods__["ExchangeInstID"] = _PyCTP.CThostFtdcExchangeExecOrderActionField_ExchangeInstID_get
+    if _newclass:
+        ExchangeInstID = _swig_property(_PyCTP.CThostFtdcExchangeExecOrderActionField_ExchangeInstID_get, _PyCTP.CThostFtdcExchangeExecOrderActionField_ExchangeInstID_set)
+    __swig_setmethods__["Volume"] = _PyCTP.CThostFtdcExchangeExecOrderActionField_Volume_set
+    __swig_getmethods__["Volume"] = _PyCTP.CThostFtdcExchangeExecOrderActionField_Volume_get
+    if _newclass:
+        Volume = _swig_property(_PyCTP.CThostFtdcExchangeExecOrderActionField_Volume_get, _PyCTP.CThostFtdcExchangeExecOrderActionField_Volume_set)
 
     def __init__(self):
         this = _PyCTP.new_CThostFtdcExchangeExecOrderActionField()
@@ -8345,6 +8996,34 @@ class CThostFtdcErrExecOrderField(_object):
     __swig_getmethods__["CloseFlag"] = _PyCTP.CThostFtdcErrExecOrderField_CloseFlag_get
     if _newclass:
         CloseFlag = _swig_property(_PyCTP.CThostFtdcErrExecOrderField_CloseFlag_get, _PyCTP.CThostFtdcErrExecOrderField_CloseFlag_set)
+    __swig_setmethods__["ExchangeID"] = _PyCTP.CThostFtdcErrExecOrderField_ExchangeID_set
+    __swig_getmethods__["ExchangeID"] = _PyCTP.CThostFtdcErrExecOrderField_ExchangeID_get
+    if _newclass:
+        ExchangeID = _swig_property(_PyCTP.CThostFtdcErrExecOrderField_ExchangeID_get, _PyCTP.CThostFtdcErrExecOrderField_ExchangeID_set)
+    __swig_setmethods__["InvestUnitID"] = _PyCTP.CThostFtdcErrExecOrderField_InvestUnitID_set
+    __swig_getmethods__["InvestUnitID"] = _PyCTP.CThostFtdcErrExecOrderField_InvestUnitID_get
+    if _newclass:
+        InvestUnitID = _swig_property(_PyCTP.CThostFtdcErrExecOrderField_InvestUnitID_get, _PyCTP.CThostFtdcErrExecOrderField_InvestUnitID_set)
+    __swig_setmethods__["AccountID"] = _PyCTP.CThostFtdcErrExecOrderField_AccountID_set
+    __swig_getmethods__["AccountID"] = _PyCTP.CThostFtdcErrExecOrderField_AccountID_get
+    if _newclass:
+        AccountID = _swig_property(_PyCTP.CThostFtdcErrExecOrderField_AccountID_get, _PyCTP.CThostFtdcErrExecOrderField_AccountID_set)
+    __swig_setmethods__["CurrencyID"] = _PyCTP.CThostFtdcErrExecOrderField_CurrencyID_set
+    __swig_getmethods__["CurrencyID"] = _PyCTP.CThostFtdcErrExecOrderField_CurrencyID_get
+    if _newclass:
+        CurrencyID = _swig_property(_PyCTP.CThostFtdcErrExecOrderField_CurrencyID_get, _PyCTP.CThostFtdcErrExecOrderField_CurrencyID_set)
+    __swig_setmethods__["ClientID"] = _PyCTP.CThostFtdcErrExecOrderField_ClientID_set
+    __swig_getmethods__["ClientID"] = _PyCTP.CThostFtdcErrExecOrderField_ClientID_get
+    if _newclass:
+        ClientID = _swig_property(_PyCTP.CThostFtdcErrExecOrderField_ClientID_get, _PyCTP.CThostFtdcErrExecOrderField_ClientID_set)
+    __swig_setmethods__["IPAddress"] = _PyCTP.CThostFtdcErrExecOrderField_IPAddress_set
+    __swig_getmethods__["IPAddress"] = _PyCTP.CThostFtdcErrExecOrderField_IPAddress_get
+    if _newclass:
+        IPAddress = _swig_property(_PyCTP.CThostFtdcErrExecOrderField_IPAddress_get, _PyCTP.CThostFtdcErrExecOrderField_IPAddress_set)
+    __swig_setmethods__["MacAddress"] = _PyCTP.CThostFtdcErrExecOrderField_MacAddress_set
+    __swig_getmethods__["MacAddress"] = _PyCTP.CThostFtdcErrExecOrderField_MacAddress_get
+    if _newclass:
+        MacAddress = _swig_property(_PyCTP.CThostFtdcErrExecOrderField_MacAddress_get, _PyCTP.CThostFtdcErrExecOrderField_MacAddress_set)
     __swig_setmethods__["ErrorID"] = _PyCTP.CThostFtdcErrExecOrderField_ErrorID_set
     __swig_getmethods__["ErrorID"] = _PyCTP.CThostFtdcErrExecOrderField_ErrorID_get
     if _newclass:
@@ -8445,6 +9124,18 @@ class CThostFtdcErrExecOrderActionField(_object):
     __swig_getmethods__["InstrumentID"] = _PyCTP.CThostFtdcErrExecOrderActionField_InstrumentID_get
     if _newclass:
         InstrumentID = _swig_property(_PyCTP.CThostFtdcErrExecOrderActionField_InstrumentID_get, _PyCTP.CThostFtdcErrExecOrderActionField_InstrumentID_set)
+    __swig_setmethods__["InvestUnitID"] = _PyCTP.CThostFtdcErrExecOrderActionField_InvestUnitID_set
+    __swig_getmethods__["InvestUnitID"] = _PyCTP.CThostFtdcErrExecOrderActionField_InvestUnitID_get
+    if _newclass:
+        InvestUnitID = _swig_property(_PyCTP.CThostFtdcErrExecOrderActionField_InvestUnitID_get, _PyCTP.CThostFtdcErrExecOrderActionField_InvestUnitID_set)
+    __swig_setmethods__["IPAddress"] = _PyCTP.CThostFtdcErrExecOrderActionField_IPAddress_set
+    __swig_getmethods__["IPAddress"] = _PyCTP.CThostFtdcErrExecOrderActionField_IPAddress_get
+    if _newclass:
+        IPAddress = _swig_property(_PyCTP.CThostFtdcErrExecOrderActionField_IPAddress_get, _PyCTP.CThostFtdcErrExecOrderActionField_IPAddress_set)
+    __swig_setmethods__["MacAddress"] = _PyCTP.CThostFtdcErrExecOrderActionField_MacAddress_set
+    __swig_getmethods__["MacAddress"] = _PyCTP.CThostFtdcErrExecOrderActionField_MacAddress_get
+    if _newclass:
+        MacAddress = _swig_property(_PyCTP.CThostFtdcErrExecOrderActionField_MacAddress_get, _PyCTP.CThostFtdcErrExecOrderActionField_MacAddress_set)
     __swig_setmethods__["ErrorID"] = _PyCTP.CThostFtdcErrExecOrderActionField_ErrorID_set
     __swig_getmethods__["ErrorID"] = _PyCTP.CThostFtdcErrExecOrderActionField_ErrorID_get
     if _newclass:
@@ -8593,6 +9284,22 @@ class CThostFtdcInputForQuoteField(_object):
     __swig_getmethods__["UserID"] = _PyCTP.CThostFtdcInputForQuoteField_UserID_get
     if _newclass:
         UserID = _swig_property(_PyCTP.CThostFtdcInputForQuoteField_UserID_get, _PyCTP.CThostFtdcInputForQuoteField_UserID_set)
+    __swig_setmethods__["ExchangeID"] = _PyCTP.CThostFtdcInputForQuoteField_ExchangeID_set
+    __swig_getmethods__["ExchangeID"] = _PyCTP.CThostFtdcInputForQuoteField_ExchangeID_get
+    if _newclass:
+        ExchangeID = _swig_property(_PyCTP.CThostFtdcInputForQuoteField_ExchangeID_get, _PyCTP.CThostFtdcInputForQuoteField_ExchangeID_set)
+    __swig_setmethods__["InvestUnitID"] = _PyCTP.CThostFtdcInputForQuoteField_InvestUnitID_set
+    __swig_getmethods__["InvestUnitID"] = _PyCTP.CThostFtdcInputForQuoteField_InvestUnitID_get
+    if _newclass:
+        InvestUnitID = _swig_property(_PyCTP.CThostFtdcInputForQuoteField_InvestUnitID_get, _PyCTP.CThostFtdcInputForQuoteField_InvestUnitID_set)
+    __swig_setmethods__["IPAddress"] = _PyCTP.CThostFtdcInputForQuoteField_IPAddress_set
+    __swig_getmethods__["IPAddress"] = _PyCTP.CThostFtdcInputForQuoteField_IPAddress_get
+    if _newclass:
+        IPAddress = _swig_property(_PyCTP.CThostFtdcInputForQuoteField_IPAddress_get, _PyCTP.CThostFtdcInputForQuoteField_IPAddress_set)
+    __swig_setmethods__["MacAddress"] = _PyCTP.CThostFtdcInputForQuoteField_MacAddress_set
+    __swig_getmethods__["MacAddress"] = _PyCTP.CThostFtdcInputForQuoteField_MacAddress_get
+    if _newclass:
+        MacAddress = _swig_property(_PyCTP.CThostFtdcInputForQuoteField_MacAddress_get, _PyCTP.CThostFtdcInputForQuoteField_MacAddress_set)
 
     def __init__(self):
         this = _PyCTP.new_CThostFtdcInputForQuoteField()
@@ -8691,6 +9398,18 @@ class CThostFtdcForQuoteField(_object):
     __swig_getmethods__["BrokerForQutoSeq"] = _PyCTP.CThostFtdcForQuoteField_BrokerForQutoSeq_get
     if _newclass:
         BrokerForQutoSeq = _swig_property(_PyCTP.CThostFtdcForQuoteField_BrokerForQutoSeq_get, _PyCTP.CThostFtdcForQuoteField_BrokerForQutoSeq_set)
+    __swig_setmethods__["InvestUnitID"] = _PyCTP.CThostFtdcForQuoteField_InvestUnitID_set
+    __swig_getmethods__["InvestUnitID"] = _PyCTP.CThostFtdcForQuoteField_InvestUnitID_get
+    if _newclass:
+        InvestUnitID = _swig_property(_PyCTP.CThostFtdcForQuoteField_InvestUnitID_get, _PyCTP.CThostFtdcForQuoteField_InvestUnitID_set)
+    __swig_setmethods__["IPAddress"] = _PyCTP.CThostFtdcForQuoteField_IPAddress_set
+    __swig_getmethods__["IPAddress"] = _PyCTP.CThostFtdcForQuoteField_IPAddress_get
+    if _newclass:
+        IPAddress = _swig_property(_PyCTP.CThostFtdcForQuoteField_IPAddress_get, _PyCTP.CThostFtdcForQuoteField_IPAddress_set)
+    __swig_setmethods__["MacAddress"] = _PyCTP.CThostFtdcForQuoteField_MacAddress_set
+    __swig_getmethods__["MacAddress"] = _PyCTP.CThostFtdcForQuoteField_MacAddress_get
+    if _newclass:
+        MacAddress = _swig_property(_PyCTP.CThostFtdcForQuoteField_MacAddress_get, _PyCTP.CThostFtdcForQuoteField_MacAddress_set)
 
     def __init__(self):
         this = _PyCTP.new_CThostFtdcForQuoteField()
@@ -8733,6 +9452,10 @@ class CThostFtdcQryForQuoteField(_object):
     __swig_getmethods__["InsertTimeEnd"] = _PyCTP.CThostFtdcQryForQuoteField_InsertTimeEnd_get
     if _newclass:
         InsertTimeEnd = _swig_property(_PyCTP.CThostFtdcQryForQuoteField_InsertTimeEnd_get, _PyCTP.CThostFtdcQryForQuoteField_InsertTimeEnd_set)
+    __swig_setmethods__["InvestUnitID"] = _PyCTP.CThostFtdcQryForQuoteField_InvestUnitID_set
+    __swig_getmethods__["InvestUnitID"] = _PyCTP.CThostFtdcQryForQuoteField_InvestUnitID_get
+    if _newclass:
+        InvestUnitID = _swig_property(_PyCTP.CThostFtdcQryForQuoteField_InvestUnitID_get, _PyCTP.CThostFtdcQryForQuoteField_InvestUnitID_set)
 
     def __init__(self):
         this = _PyCTP.new_CThostFtdcQryForQuoteField()
@@ -8791,6 +9514,14 @@ class CThostFtdcExchangeForQuoteField(_object):
     __swig_getmethods__["ForQuoteStatus"] = _PyCTP.CThostFtdcExchangeForQuoteField_ForQuoteStatus_get
     if _newclass:
         ForQuoteStatus = _swig_property(_PyCTP.CThostFtdcExchangeForQuoteField_ForQuoteStatus_get, _PyCTP.CThostFtdcExchangeForQuoteField_ForQuoteStatus_set)
+    __swig_setmethods__["IPAddress"] = _PyCTP.CThostFtdcExchangeForQuoteField_IPAddress_set
+    __swig_getmethods__["IPAddress"] = _PyCTP.CThostFtdcExchangeForQuoteField_IPAddress_get
+    if _newclass:
+        IPAddress = _swig_property(_PyCTP.CThostFtdcExchangeForQuoteField_IPAddress_get, _PyCTP.CThostFtdcExchangeForQuoteField_IPAddress_set)
+    __swig_setmethods__["MacAddress"] = _PyCTP.CThostFtdcExchangeForQuoteField_MacAddress_set
+    __swig_getmethods__["MacAddress"] = _PyCTP.CThostFtdcExchangeForQuoteField_MacAddress_get
+    if _newclass:
+        MacAddress = _swig_property(_PyCTP.CThostFtdcExchangeForQuoteField_MacAddress_get, _PyCTP.CThostFtdcExchangeForQuoteField_MacAddress_set)
 
     def __init__(self):
         this = _PyCTP.new_CThostFtdcExchangeForQuoteField()
@@ -8919,6 +9650,26 @@ class CThostFtdcInputQuoteField(_object):
     __swig_getmethods__["ForQuoteSysID"] = _PyCTP.CThostFtdcInputQuoteField_ForQuoteSysID_get
     if _newclass:
         ForQuoteSysID = _swig_property(_PyCTP.CThostFtdcInputQuoteField_ForQuoteSysID_get, _PyCTP.CThostFtdcInputQuoteField_ForQuoteSysID_set)
+    __swig_setmethods__["ExchangeID"] = _PyCTP.CThostFtdcInputQuoteField_ExchangeID_set
+    __swig_getmethods__["ExchangeID"] = _PyCTP.CThostFtdcInputQuoteField_ExchangeID_get
+    if _newclass:
+        ExchangeID = _swig_property(_PyCTP.CThostFtdcInputQuoteField_ExchangeID_get, _PyCTP.CThostFtdcInputQuoteField_ExchangeID_set)
+    __swig_setmethods__["InvestUnitID"] = _PyCTP.CThostFtdcInputQuoteField_InvestUnitID_set
+    __swig_getmethods__["InvestUnitID"] = _PyCTP.CThostFtdcInputQuoteField_InvestUnitID_get
+    if _newclass:
+        InvestUnitID = _swig_property(_PyCTP.CThostFtdcInputQuoteField_InvestUnitID_get, _PyCTP.CThostFtdcInputQuoteField_InvestUnitID_set)
+    __swig_setmethods__["ClientID"] = _PyCTP.CThostFtdcInputQuoteField_ClientID_set
+    __swig_getmethods__["ClientID"] = _PyCTP.CThostFtdcInputQuoteField_ClientID_get
+    if _newclass:
+        ClientID = _swig_property(_PyCTP.CThostFtdcInputQuoteField_ClientID_get, _PyCTP.CThostFtdcInputQuoteField_ClientID_set)
+    __swig_setmethods__["IPAddress"] = _PyCTP.CThostFtdcInputQuoteField_IPAddress_set
+    __swig_getmethods__["IPAddress"] = _PyCTP.CThostFtdcInputQuoteField_IPAddress_get
+    if _newclass:
+        IPAddress = _swig_property(_PyCTP.CThostFtdcInputQuoteField_IPAddress_get, _PyCTP.CThostFtdcInputQuoteField_IPAddress_set)
+    __swig_setmethods__["MacAddress"] = _PyCTP.CThostFtdcInputQuoteField_MacAddress_set
+    __swig_getmethods__["MacAddress"] = _PyCTP.CThostFtdcInputQuoteField_MacAddress_get
+    if _newclass:
+        MacAddress = _swig_property(_PyCTP.CThostFtdcInputQuoteField_MacAddress_get, _PyCTP.CThostFtdcInputQuoteField_MacAddress_set)
 
     def __init__(self):
         this = _PyCTP.new_CThostFtdcInputQuoteField()
@@ -8985,6 +9736,22 @@ class CThostFtdcInputQuoteActionField(_object):
     __swig_getmethods__["InstrumentID"] = _PyCTP.CThostFtdcInputQuoteActionField_InstrumentID_get
     if _newclass:
         InstrumentID = _swig_property(_PyCTP.CThostFtdcInputQuoteActionField_InstrumentID_get, _PyCTP.CThostFtdcInputQuoteActionField_InstrumentID_set)
+    __swig_setmethods__["InvestUnitID"] = _PyCTP.CThostFtdcInputQuoteActionField_InvestUnitID_set
+    __swig_getmethods__["InvestUnitID"] = _PyCTP.CThostFtdcInputQuoteActionField_InvestUnitID_get
+    if _newclass:
+        InvestUnitID = _swig_property(_PyCTP.CThostFtdcInputQuoteActionField_InvestUnitID_get, _PyCTP.CThostFtdcInputQuoteActionField_InvestUnitID_set)
+    __swig_setmethods__["ClientID"] = _PyCTP.CThostFtdcInputQuoteActionField_ClientID_set
+    __swig_getmethods__["ClientID"] = _PyCTP.CThostFtdcInputQuoteActionField_ClientID_get
+    if _newclass:
+        ClientID = _swig_property(_PyCTP.CThostFtdcInputQuoteActionField_ClientID_get, _PyCTP.CThostFtdcInputQuoteActionField_ClientID_set)
+    __swig_setmethods__["IPAddress"] = _PyCTP.CThostFtdcInputQuoteActionField_IPAddress_set
+    __swig_getmethods__["IPAddress"] = _PyCTP.CThostFtdcInputQuoteActionField_IPAddress_get
+    if _newclass:
+        IPAddress = _swig_property(_PyCTP.CThostFtdcInputQuoteActionField_IPAddress_get, _PyCTP.CThostFtdcInputQuoteActionField_IPAddress_set)
+    __swig_setmethods__["MacAddress"] = _PyCTP.CThostFtdcInputQuoteActionField_MacAddress_set
+    __swig_getmethods__["MacAddress"] = _PyCTP.CThostFtdcInputQuoteActionField_MacAddress_get
+    if _newclass:
+        MacAddress = _swig_property(_PyCTP.CThostFtdcInputQuoteActionField_MacAddress_get, _PyCTP.CThostFtdcInputQuoteActionField_MacAddress_set)
 
     def __init__(self):
         this = _PyCTP.new_CThostFtdcInputQuoteActionField()
@@ -9179,6 +9946,30 @@ class CThostFtdcQuoteField(_object):
     __swig_getmethods__["ForQuoteSysID"] = _PyCTP.CThostFtdcQuoteField_ForQuoteSysID_get
     if _newclass:
         ForQuoteSysID = _swig_property(_PyCTP.CThostFtdcQuoteField_ForQuoteSysID_get, _PyCTP.CThostFtdcQuoteField_ForQuoteSysID_set)
+    __swig_setmethods__["BranchID"] = _PyCTP.CThostFtdcQuoteField_BranchID_set
+    __swig_getmethods__["BranchID"] = _PyCTP.CThostFtdcQuoteField_BranchID_get
+    if _newclass:
+        BranchID = _swig_property(_PyCTP.CThostFtdcQuoteField_BranchID_get, _PyCTP.CThostFtdcQuoteField_BranchID_set)
+    __swig_setmethods__["InvestUnitID"] = _PyCTP.CThostFtdcQuoteField_InvestUnitID_set
+    __swig_getmethods__["InvestUnitID"] = _PyCTP.CThostFtdcQuoteField_InvestUnitID_get
+    if _newclass:
+        InvestUnitID = _swig_property(_PyCTP.CThostFtdcQuoteField_InvestUnitID_get, _PyCTP.CThostFtdcQuoteField_InvestUnitID_set)
+    __swig_setmethods__["AccountID"] = _PyCTP.CThostFtdcQuoteField_AccountID_set
+    __swig_getmethods__["AccountID"] = _PyCTP.CThostFtdcQuoteField_AccountID_get
+    if _newclass:
+        AccountID = _swig_property(_PyCTP.CThostFtdcQuoteField_AccountID_get, _PyCTP.CThostFtdcQuoteField_AccountID_set)
+    __swig_setmethods__["CurrencyID"] = _PyCTP.CThostFtdcQuoteField_CurrencyID_set
+    __swig_getmethods__["CurrencyID"] = _PyCTP.CThostFtdcQuoteField_CurrencyID_get
+    if _newclass:
+        CurrencyID = _swig_property(_PyCTP.CThostFtdcQuoteField_CurrencyID_get, _PyCTP.CThostFtdcQuoteField_CurrencyID_set)
+    __swig_setmethods__["IPAddress"] = _PyCTP.CThostFtdcQuoteField_IPAddress_set
+    __swig_getmethods__["IPAddress"] = _PyCTP.CThostFtdcQuoteField_IPAddress_get
+    if _newclass:
+        IPAddress = _swig_property(_PyCTP.CThostFtdcQuoteField_IPAddress_get, _PyCTP.CThostFtdcQuoteField_IPAddress_set)
+    __swig_setmethods__["MacAddress"] = _PyCTP.CThostFtdcQuoteField_MacAddress_set
+    __swig_getmethods__["MacAddress"] = _PyCTP.CThostFtdcQuoteField_MacAddress_get
+    if _newclass:
+        MacAddress = _swig_property(_PyCTP.CThostFtdcQuoteField_MacAddress_get, _PyCTP.CThostFtdcQuoteField_MacAddress_set)
 
     def __init__(self):
         this = _PyCTP.new_CThostFtdcQuoteField()
@@ -9289,6 +10080,22 @@ class CThostFtdcQuoteActionField(_object):
     __swig_getmethods__["InstrumentID"] = _PyCTP.CThostFtdcQuoteActionField_InstrumentID_get
     if _newclass:
         InstrumentID = _swig_property(_PyCTP.CThostFtdcQuoteActionField_InstrumentID_get, _PyCTP.CThostFtdcQuoteActionField_InstrumentID_set)
+    __swig_setmethods__["BranchID"] = _PyCTP.CThostFtdcQuoteActionField_BranchID_set
+    __swig_getmethods__["BranchID"] = _PyCTP.CThostFtdcQuoteActionField_BranchID_get
+    if _newclass:
+        BranchID = _swig_property(_PyCTP.CThostFtdcQuoteActionField_BranchID_get, _PyCTP.CThostFtdcQuoteActionField_BranchID_set)
+    __swig_setmethods__["InvestUnitID"] = _PyCTP.CThostFtdcQuoteActionField_InvestUnitID_set
+    __swig_getmethods__["InvestUnitID"] = _PyCTP.CThostFtdcQuoteActionField_InvestUnitID_get
+    if _newclass:
+        InvestUnitID = _swig_property(_PyCTP.CThostFtdcQuoteActionField_InvestUnitID_get, _PyCTP.CThostFtdcQuoteActionField_InvestUnitID_set)
+    __swig_setmethods__["IPAddress"] = _PyCTP.CThostFtdcQuoteActionField_IPAddress_set
+    __swig_getmethods__["IPAddress"] = _PyCTP.CThostFtdcQuoteActionField_IPAddress_get
+    if _newclass:
+        IPAddress = _swig_property(_PyCTP.CThostFtdcQuoteActionField_IPAddress_get, _PyCTP.CThostFtdcQuoteActionField_IPAddress_set)
+    __swig_setmethods__["MacAddress"] = _PyCTP.CThostFtdcQuoteActionField_MacAddress_set
+    __swig_getmethods__["MacAddress"] = _PyCTP.CThostFtdcQuoteActionField_MacAddress_get
+    if _newclass:
+        MacAddress = _swig_property(_PyCTP.CThostFtdcQuoteActionField_MacAddress_get, _PyCTP.CThostFtdcQuoteActionField_MacAddress_set)
 
     def __init__(self):
         this = _PyCTP.new_CThostFtdcQuoteActionField()
@@ -9335,6 +10142,10 @@ class CThostFtdcQryQuoteField(_object):
     __swig_getmethods__["InsertTimeEnd"] = _PyCTP.CThostFtdcQryQuoteField_InsertTimeEnd_get
     if _newclass:
         InsertTimeEnd = _swig_property(_PyCTP.CThostFtdcQryQuoteField_InsertTimeEnd_get, _PyCTP.CThostFtdcQryQuoteField_InsertTimeEnd_set)
+    __swig_setmethods__["InvestUnitID"] = _PyCTP.CThostFtdcQryQuoteField_InvestUnitID_set
+    __swig_getmethods__["InvestUnitID"] = _PyCTP.CThostFtdcQryQuoteField_InvestUnitID_get
+    if _newclass:
+        InvestUnitID = _swig_property(_PyCTP.CThostFtdcQryQuoteField_InvestUnitID_get, _PyCTP.CThostFtdcQryQuoteField_InvestUnitID_set)
 
     def __init__(self):
         this = _PyCTP.new_CThostFtdcQryQuoteField()
@@ -9477,6 +10288,18 @@ class CThostFtdcExchangeQuoteField(_object):
     __swig_getmethods__["ForQuoteSysID"] = _PyCTP.CThostFtdcExchangeQuoteField_ForQuoteSysID_get
     if _newclass:
         ForQuoteSysID = _swig_property(_PyCTP.CThostFtdcExchangeQuoteField_ForQuoteSysID_get, _PyCTP.CThostFtdcExchangeQuoteField_ForQuoteSysID_set)
+    __swig_setmethods__["BranchID"] = _PyCTP.CThostFtdcExchangeQuoteField_BranchID_set
+    __swig_getmethods__["BranchID"] = _PyCTP.CThostFtdcExchangeQuoteField_BranchID_get
+    if _newclass:
+        BranchID = _swig_property(_PyCTP.CThostFtdcExchangeQuoteField_BranchID_get, _PyCTP.CThostFtdcExchangeQuoteField_BranchID_set)
+    __swig_setmethods__["IPAddress"] = _PyCTP.CThostFtdcExchangeQuoteField_IPAddress_set
+    __swig_getmethods__["IPAddress"] = _PyCTP.CThostFtdcExchangeQuoteField_IPAddress_get
+    if _newclass:
+        IPAddress = _swig_property(_PyCTP.CThostFtdcExchangeQuoteField_IPAddress_get, _PyCTP.CThostFtdcExchangeQuoteField_IPAddress_set)
+    __swig_setmethods__["MacAddress"] = _PyCTP.CThostFtdcExchangeQuoteField_MacAddress_set
+    __swig_getmethods__["MacAddress"] = _PyCTP.CThostFtdcExchangeQuoteField_MacAddress_get
+    if _newclass:
+        MacAddress = _swig_property(_PyCTP.CThostFtdcExchangeQuoteField_MacAddress_get, _PyCTP.CThostFtdcExchangeQuoteField_MacAddress_set)
 
     def __init__(self):
         this = _PyCTP.new_CThostFtdcExchangeQuoteField()
@@ -9619,6 +10442,14 @@ class CThostFtdcExchangeQuoteActionField(_object):
     __swig_getmethods__["UserID"] = _PyCTP.CThostFtdcExchangeQuoteActionField_UserID_get
     if _newclass:
         UserID = _swig_property(_PyCTP.CThostFtdcExchangeQuoteActionField_UserID_get, _PyCTP.CThostFtdcExchangeQuoteActionField_UserID_set)
+    __swig_setmethods__["IPAddress"] = _PyCTP.CThostFtdcExchangeQuoteActionField_IPAddress_set
+    __swig_getmethods__["IPAddress"] = _PyCTP.CThostFtdcExchangeQuoteActionField_IPAddress_get
+    if _newclass:
+        IPAddress = _swig_property(_PyCTP.CThostFtdcExchangeQuoteActionField_IPAddress_get, _PyCTP.CThostFtdcExchangeQuoteActionField_IPAddress_set)
+    __swig_setmethods__["MacAddress"] = _PyCTP.CThostFtdcExchangeQuoteActionField_MacAddress_set
+    __swig_getmethods__["MacAddress"] = _PyCTP.CThostFtdcExchangeQuoteActionField_MacAddress_get
+    if _newclass:
+        MacAddress = _swig_property(_PyCTP.CThostFtdcExchangeQuoteActionField_MacAddress_get, _PyCTP.CThostFtdcExchangeQuoteActionField_MacAddress_set)
 
     def __init__(self):
         this = _PyCTP.new_CThostFtdcExchangeQuoteActionField()
@@ -9771,6 +10602,10 @@ class CThostFtdcStrikeOffsetField(_object):
     __swig_getmethods__["Offset"] = _PyCTP.CThostFtdcStrikeOffsetField_Offset_get
     if _newclass:
         Offset = _swig_property(_PyCTP.CThostFtdcStrikeOffsetField_Offset_get, _PyCTP.CThostFtdcStrikeOffsetField_Offset_set)
+    __swig_setmethods__["OffsetType"] = _PyCTP.CThostFtdcStrikeOffsetField_OffsetType_set
+    __swig_getmethods__["OffsetType"] = _PyCTP.CThostFtdcStrikeOffsetField_OffsetType_get
+    if _newclass:
+        OffsetType = _swig_property(_PyCTP.CThostFtdcStrikeOffsetField_OffsetType_get, _PyCTP.CThostFtdcStrikeOffsetField_OffsetType_set)
 
     def __init__(self):
         this = _PyCTP.new_CThostFtdcStrikeOffsetField()
@@ -9851,6 +10686,18 @@ class CThostFtdcInputBatchOrderActionField(_object):
     __swig_getmethods__["UserID"] = _PyCTP.CThostFtdcInputBatchOrderActionField_UserID_get
     if _newclass:
         UserID = _swig_property(_PyCTP.CThostFtdcInputBatchOrderActionField_UserID_get, _PyCTP.CThostFtdcInputBatchOrderActionField_UserID_set)
+    __swig_setmethods__["InvestUnitID"] = _PyCTP.CThostFtdcInputBatchOrderActionField_InvestUnitID_set
+    __swig_getmethods__["InvestUnitID"] = _PyCTP.CThostFtdcInputBatchOrderActionField_InvestUnitID_get
+    if _newclass:
+        InvestUnitID = _swig_property(_PyCTP.CThostFtdcInputBatchOrderActionField_InvestUnitID_get, _PyCTP.CThostFtdcInputBatchOrderActionField_InvestUnitID_set)
+    __swig_setmethods__["IPAddress"] = _PyCTP.CThostFtdcInputBatchOrderActionField_IPAddress_set
+    __swig_getmethods__["IPAddress"] = _PyCTP.CThostFtdcInputBatchOrderActionField_IPAddress_get
+    if _newclass:
+        IPAddress = _swig_property(_PyCTP.CThostFtdcInputBatchOrderActionField_IPAddress_get, _PyCTP.CThostFtdcInputBatchOrderActionField_IPAddress_set)
+    __swig_setmethods__["MacAddress"] = _PyCTP.CThostFtdcInputBatchOrderActionField_MacAddress_set
+    __swig_getmethods__["MacAddress"] = _PyCTP.CThostFtdcInputBatchOrderActionField_MacAddress_get
+    if _newclass:
+        MacAddress = _swig_property(_PyCTP.CThostFtdcInputBatchOrderActionField_MacAddress_get, _PyCTP.CThostFtdcInputBatchOrderActionField_MacAddress_set)
 
     def __init__(self):
         this = _PyCTP.new_CThostFtdcInputBatchOrderActionField()
@@ -9941,6 +10788,18 @@ class CThostFtdcBatchOrderActionField(_object):
     __swig_getmethods__["StatusMsg"] = _PyCTP.CThostFtdcBatchOrderActionField_StatusMsg_get
     if _newclass:
         StatusMsg = _swig_property(_PyCTP.CThostFtdcBatchOrderActionField_StatusMsg_get, _PyCTP.CThostFtdcBatchOrderActionField_StatusMsg_set)
+    __swig_setmethods__["InvestUnitID"] = _PyCTP.CThostFtdcBatchOrderActionField_InvestUnitID_set
+    __swig_getmethods__["InvestUnitID"] = _PyCTP.CThostFtdcBatchOrderActionField_InvestUnitID_get
+    if _newclass:
+        InvestUnitID = _swig_property(_PyCTP.CThostFtdcBatchOrderActionField_InvestUnitID_get, _PyCTP.CThostFtdcBatchOrderActionField_InvestUnitID_set)
+    __swig_setmethods__["IPAddress"] = _PyCTP.CThostFtdcBatchOrderActionField_IPAddress_set
+    __swig_getmethods__["IPAddress"] = _PyCTP.CThostFtdcBatchOrderActionField_IPAddress_get
+    if _newclass:
+        IPAddress = _swig_property(_PyCTP.CThostFtdcBatchOrderActionField_IPAddress_get, _PyCTP.CThostFtdcBatchOrderActionField_IPAddress_set)
+    __swig_setmethods__["MacAddress"] = _PyCTP.CThostFtdcBatchOrderActionField_MacAddress_set
+    __swig_getmethods__["MacAddress"] = _PyCTP.CThostFtdcBatchOrderActionField_MacAddress_get
+    if _newclass:
+        MacAddress = _swig_property(_PyCTP.CThostFtdcBatchOrderActionField_MacAddress_get, _PyCTP.CThostFtdcBatchOrderActionField_MacAddress_set)
 
     def __init__(self):
         this = _PyCTP.new_CThostFtdcBatchOrderActionField()
@@ -10003,6 +10862,14 @@ class CThostFtdcExchangeBatchOrderActionField(_object):
     __swig_getmethods__["UserID"] = _PyCTP.CThostFtdcExchangeBatchOrderActionField_UserID_get
     if _newclass:
         UserID = _swig_property(_PyCTP.CThostFtdcExchangeBatchOrderActionField_UserID_get, _PyCTP.CThostFtdcExchangeBatchOrderActionField_UserID_set)
+    __swig_setmethods__["IPAddress"] = _PyCTP.CThostFtdcExchangeBatchOrderActionField_IPAddress_set
+    __swig_getmethods__["IPAddress"] = _PyCTP.CThostFtdcExchangeBatchOrderActionField_IPAddress_get
+    if _newclass:
+        IPAddress = _swig_property(_PyCTP.CThostFtdcExchangeBatchOrderActionField_IPAddress_get, _PyCTP.CThostFtdcExchangeBatchOrderActionField_IPAddress_set)
+    __swig_setmethods__["MacAddress"] = _PyCTP.CThostFtdcExchangeBatchOrderActionField_MacAddress_set
+    __swig_getmethods__["MacAddress"] = _PyCTP.CThostFtdcExchangeBatchOrderActionField_MacAddress_get
+    if _newclass:
+        MacAddress = _swig_property(_PyCTP.CThostFtdcExchangeBatchOrderActionField_MacAddress_get, _PyCTP.CThostFtdcExchangeBatchOrderActionField_MacAddress_set)
 
     def __init__(self):
         this = _PyCTP.new_CThostFtdcExchangeBatchOrderActionField()
@@ -10063,6 +10930,10 @@ class CThostFtdcCombInstrumentGuardField(_object):
     __swig_getmethods__["GuarantRatio"] = _PyCTP.CThostFtdcCombInstrumentGuardField_GuarantRatio_get
     if _newclass:
         GuarantRatio = _swig_property(_PyCTP.CThostFtdcCombInstrumentGuardField_GuarantRatio_get, _PyCTP.CThostFtdcCombInstrumentGuardField_GuarantRatio_set)
+    __swig_setmethods__["ExchangeID"] = _PyCTP.CThostFtdcCombInstrumentGuardField_ExchangeID_set
+    __swig_getmethods__["ExchangeID"] = _PyCTP.CThostFtdcCombInstrumentGuardField_ExchangeID_get
+    if _newclass:
+        ExchangeID = _swig_property(_PyCTP.CThostFtdcCombInstrumentGuardField_ExchangeID_get, _PyCTP.CThostFtdcCombInstrumentGuardField_ExchangeID_set)
 
     def __init__(self):
         this = _PyCTP.new_CThostFtdcCombInstrumentGuardField()
@@ -10089,6 +10960,10 @@ class CThostFtdcQryCombInstrumentGuardField(_object):
     __swig_getmethods__["InstrumentID"] = _PyCTP.CThostFtdcQryCombInstrumentGuardField_InstrumentID_get
     if _newclass:
         InstrumentID = _swig_property(_PyCTP.CThostFtdcQryCombInstrumentGuardField_InstrumentID_get, _PyCTP.CThostFtdcQryCombInstrumentGuardField_InstrumentID_set)
+    __swig_setmethods__["ExchangeID"] = _PyCTP.CThostFtdcQryCombInstrumentGuardField_ExchangeID_set
+    __swig_getmethods__["ExchangeID"] = _PyCTP.CThostFtdcQryCombInstrumentGuardField_ExchangeID_get
+    if _newclass:
+        ExchangeID = _swig_property(_PyCTP.CThostFtdcQryCombInstrumentGuardField_ExchangeID_get, _PyCTP.CThostFtdcQryCombInstrumentGuardField_ExchangeID_set)
 
     def __init__(self):
         this = _PyCTP.new_CThostFtdcQryCombInstrumentGuardField()
@@ -10143,6 +11018,22 @@ class CThostFtdcInputCombActionField(_object):
     __swig_getmethods__["HedgeFlag"] = _PyCTP.CThostFtdcInputCombActionField_HedgeFlag_get
     if _newclass:
         HedgeFlag = _swig_property(_PyCTP.CThostFtdcInputCombActionField_HedgeFlag_get, _PyCTP.CThostFtdcInputCombActionField_HedgeFlag_set)
+    __swig_setmethods__["ExchangeID"] = _PyCTP.CThostFtdcInputCombActionField_ExchangeID_set
+    __swig_getmethods__["ExchangeID"] = _PyCTP.CThostFtdcInputCombActionField_ExchangeID_get
+    if _newclass:
+        ExchangeID = _swig_property(_PyCTP.CThostFtdcInputCombActionField_ExchangeID_get, _PyCTP.CThostFtdcInputCombActionField_ExchangeID_set)
+    __swig_setmethods__["IPAddress"] = _PyCTP.CThostFtdcInputCombActionField_IPAddress_set
+    __swig_getmethods__["IPAddress"] = _PyCTP.CThostFtdcInputCombActionField_IPAddress_get
+    if _newclass:
+        IPAddress = _swig_property(_PyCTP.CThostFtdcInputCombActionField_IPAddress_get, _PyCTP.CThostFtdcInputCombActionField_IPAddress_set)
+    __swig_setmethods__["MacAddress"] = _PyCTP.CThostFtdcInputCombActionField_MacAddress_set
+    __swig_getmethods__["MacAddress"] = _PyCTP.CThostFtdcInputCombActionField_MacAddress_get
+    if _newclass:
+        MacAddress = _swig_property(_PyCTP.CThostFtdcInputCombActionField_MacAddress_get, _PyCTP.CThostFtdcInputCombActionField_MacAddress_set)
+    __swig_setmethods__["InvestUnitID"] = _PyCTP.CThostFtdcInputCombActionField_InvestUnitID_set
+    __swig_getmethods__["InvestUnitID"] = _PyCTP.CThostFtdcInputCombActionField_InvestUnitID_get
+    if _newclass:
+        InvestUnitID = _swig_property(_PyCTP.CThostFtdcInputCombActionField_InvestUnitID_get, _PyCTP.CThostFtdcInputCombActionField_InvestUnitID_set)
 
     def __init__(self):
         this = _PyCTP.new_CThostFtdcInputCombActionField()
@@ -10261,6 +11152,26 @@ class CThostFtdcCombActionField(_object):
     __swig_getmethods__["StatusMsg"] = _PyCTP.CThostFtdcCombActionField_StatusMsg_get
     if _newclass:
         StatusMsg = _swig_property(_PyCTP.CThostFtdcCombActionField_StatusMsg_get, _PyCTP.CThostFtdcCombActionField_StatusMsg_set)
+    __swig_setmethods__["IPAddress"] = _PyCTP.CThostFtdcCombActionField_IPAddress_set
+    __swig_getmethods__["IPAddress"] = _PyCTP.CThostFtdcCombActionField_IPAddress_get
+    if _newclass:
+        IPAddress = _swig_property(_PyCTP.CThostFtdcCombActionField_IPAddress_get, _PyCTP.CThostFtdcCombActionField_IPAddress_set)
+    __swig_setmethods__["MacAddress"] = _PyCTP.CThostFtdcCombActionField_MacAddress_set
+    __swig_getmethods__["MacAddress"] = _PyCTP.CThostFtdcCombActionField_MacAddress_get
+    if _newclass:
+        MacAddress = _swig_property(_PyCTP.CThostFtdcCombActionField_MacAddress_get, _PyCTP.CThostFtdcCombActionField_MacAddress_set)
+    __swig_setmethods__["ComTradeID"] = _PyCTP.CThostFtdcCombActionField_ComTradeID_set
+    __swig_getmethods__["ComTradeID"] = _PyCTP.CThostFtdcCombActionField_ComTradeID_get
+    if _newclass:
+        ComTradeID = _swig_property(_PyCTP.CThostFtdcCombActionField_ComTradeID_get, _PyCTP.CThostFtdcCombActionField_ComTradeID_set)
+    __swig_setmethods__["BranchID"] = _PyCTP.CThostFtdcCombActionField_BranchID_set
+    __swig_getmethods__["BranchID"] = _PyCTP.CThostFtdcCombActionField_BranchID_get
+    if _newclass:
+        BranchID = _swig_property(_PyCTP.CThostFtdcCombActionField_BranchID_get, _PyCTP.CThostFtdcCombActionField_BranchID_set)
+    __swig_setmethods__["InvestUnitID"] = _PyCTP.CThostFtdcCombActionField_InvestUnitID_set
+    __swig_getmethods__["InvestUnitID"] = _PyCTP.CThostFtdcCombActionField_InvestUnitID_get
+    if _newclass:
+        InvestUnitID = _swig_property(_PyCTP.CThostFtdcCombActionField_InvestUnitID_get, _PyCTP.CThostFtdcCombActionField_InvestUnitID_set)
 
     def __init__(self):
         this = _PyCTP.new_CThostFtdcCombActionField()
@@ -10295,6 +11206,10 @@ class CThostFtdcQryCombActionField(_object):
     __swig_getmethods__["ExchangeID"] = _PyCTP.CThostFtdcQryCombActionField_ExchangeID_get
     if _newclass:
         ExchangeID = _swig_property(_PyCTP.CThostFtdcQryCombActionField_ExchangeID_get, _PyCTP.CThostFtdcQryCombActionField_ExchangeID_set)
+    __swig_setmethods__["InvestUnitID"] = _PyCTP.CThostFtdcQryCombActionField_InvestUnitID_set
+    __swig_getmethods__["InvestUnitID"] = _PyCTP.CThostFtdcQryCombActionField_InvestUnitID_get
+    if _newclass:
+        InvestUnitID = _swig_property(_PyCTP.CThostFtdcQryCombActionField_InvestUnitID_get, _PyCTP.CThostFtdcQryCombActionField_InvestUnitID_set)
 
     def __init__(self):
         this = _PyCTP.new_CThostFtdcQryCombActionField()
@@ -10377,6 +11292,22 @@ class CThostFtdcExchangeCombActionField(_object):
     __swig_getmethods__["SequenceNo"] = _PyCTP.CThostFtdcExchangeCombActionField_SequenceNo_get
     if _newclass:
         SequenceNo = _swig_property(_PyCTP.CThostFtdcExchangeCombActionField_SequenceNo_get, _PyCTP.CThostFtdcExchangeCombActionField_SequenceNo_set)
+    __swig_setmethods__["IPAddress"] = _PyCTP.CThostFtdcExchangeCombActionField_IPAddress_set
+    __swig_getmethods__["IPAddress"] = _PyCTP.CThostFtdcExchangeCombActionField_IPAddress_get
+    if _newclass:
+        IPAddress = _swig_property(_PyCTP.CThostFtdcExchangeCombActionField_IPAddress_get, _PyCTP.CThostFtdcExchangeCombActionField_IPAddress_set)
+    __swig_setmethods__["MacAddress"] = _PyCTP.CThostFtdcExchangeCombActionField_MacAddress_set
+    __swig_getmethods__["MacAddress"] = _PyCTP.CThostFtdcExchangeCombActionField_MacAddress_get
+    if _newclass:
+        MacAddress = _swig_property(_PyCTP.CThostFtdcExchangeCombActionField_MacAddress_get, _PyCTP.CThostFtdcExchangeCombActionField_MacAddress_set)
+    __swig_setmethods__["ComTradeID"] = _PyCTP.CThostFtdcExchangeCombActionField_ComTradeID_set
+    __swig_getmethods__["ComTradeID"] = _PyCTP.CThostFtdcExchangeCombActionField_ComTradeID_get
+    if _newclass:
+        ComTradeID = _swig_property(_PyCTP.CThostFtdcExchangeCombActionField_ComTradeID_get, _PyCTP.CThostFtdcExchangeCombActionField_ComTradeID_set)
+    __swig_setmethods__["BranchID"] = _PyCTP.CThostFtdcExchangeCombActionField_BranchID_set
+    __swig_getmethods__["BranchID"] = _PyCTP.CThostFtdcExchangeCombActionField_BranchID_get
+    if _newclass:
+        BranchID = _swig_property(_PyCTP.CThostFtdcExchangeCombActionField_BranchID_get, _PyCTP.CThostFtdcExchangeCombActionField_BranchID_set)
 
     def __init__(self):
         this = _PyCTP.new_CThostFtdcExchangeCombActionField()
@@ -10445,6 +11376,10 @@ class CThostFtdcProductExchRateField(_object):
     __swig_getmethods__["ExchangeRate"] = _PyCTP.CThostFtdcProductExchRateField_ExchangeRate_get
     if _newclass:
         ExchangeRate = _swig_property(_PyCTP.CThostFtdcProductExchRateField_ExchangeRate_get, _PyCTP.CThostFtdcProductExchRateField_ExchangeRate_set)
+    __swig_setmethods__["ExchangeID"] = _PyCTP.CThostFtdcProductExchRateField_ExchangeID_set
+    __swig_getmethods__["ExchangeID"] = _PyCTP.CThostFtdcProductExchRateField_ExchangeID_get
+    if _newclass:
+        ExchangeID = _swig_property(_PyCTP.CThostFtdcProductExchRateField_ExchangeID_get, _PyCTP.CThostFtdcProductExchRateField_ExchangeID_set)
 
     def __init__(self):
         this = _PyCTP.new_CThostFtdcProductExchRateField()
@@ -10467,6 +11402,10 @@ class CThostFtdcQryProductExchRateField(_object):
     __swig_getmethods__["ProductID"] = _PyCTP.CThostFtdcQryProductExchRateField_ProductID_get
     if _newclass:
         ProductID = _swig_property(_PyCTP.CThostFtdcQryProductExchRateField_ProductID_get, _PyCTP.CThostFtdcQryProductExchRateField_ProductID_set)
+    __swig_setmethods__["ExchangeID"] = _PyCTP.CThostFtdcQryProductExchRateField_ExchangeID_set
+    __swig_getmethods__["ExchangeID"] = _PyCTP.CThostFtdcQryProductExchRateField_ExchangeID_get
+    if _newclass:
+        ExchangeID = _swig_property(_PyCTP.CThostFtdcQryProductExchRateField_ExchangeID_get, _PyCTP.CThostFtdcQryProductExchRateField_ExchangeID_set)
 
     def __init__(self):
         this = _PyCTP.new_CThostFtdcQryProductExchRateField()
@@ -10546,6 +11485,1452 @@ class CThostFtdcForQuoteParamField(_object):
     __del__ = lambda self: None
 CThostFtdcForQuoteParamField_swigregister = _PyCTP.CThostFtdcForQuoteParamField_swigregister
 CThostFtdcForQuoteParamField_swigregister(CThostFtdcForQuoteParamField)
+
+class CThostFtdcMMOptionInstrCommRateField(_object):
+    __swig_setmethods__ = {}
+    __setattr__ = lambda self, name, value: _swig_setattr(self, CThostFtdcMMOptionInstrCommRateField, name, value)
+    __swig_getmethods__ = {}
+    __getattr__ = lambda self, name: _swig_getattr(self, CThostFtdcMMOptionInstrCommRateField, name)
+    __repr__ = _swig_repr
+    __swig_setmethods__["InstrumentID"] = _PyCTP.CThostFtdcMMOptionInstrCommRateField_InstrumentID_set
+    __swig_getmethods__["InstrumentID"] = _PyCTP.CThostFtdcMMOptionInstrCommRateField_InstrumentID_get
+    if _newclass:
+        InstrumentID = _swig_property(_PyCTP.CThostFtdcMMOptionInstrCommRateField_InstrumentID_get, _PyCTP.CThostFtdcMMOptionInstrCommRateField_InstrumentID_set)
+    __swig_setmethods__["InvestorRange"] = _PyCTP.CThostFtdcMMOptionInstrCommRateField_InvestorRange_set
+    __swig_getmethods__["InvestorRange"] = _PyCTP.CThostFtdcMMOptionInstrCommRateField_InvestorRange_get
+    if _newclass:
+        InvestorRange = _swig_property(_PyCTP.CThostFtdcMMOptionInstrCommRateField_InvestorRange_get, _PyCTP.CThostFtdcMMOptionInstrCommRateField_InvestorRange_set)
+    __swig_setmethods__["BrokerID"] = _PyCTP.CThostFtdcMMOptionInstrCommRateField_BrokerID_set
+    __swig_getmethods__["BrokerID"] = _PyCTP.CThostFtdcMMOptionInstrCommRateField_BrokerID_get
+    if _newclass:
+        BrokerID = _swig_property(_PyCTP.CThostFtdcMMOptionInstrCommRateField_BrokerID_get, _PyCTP.CThostFtdcMMOptionInstrCommRateField_BrokerID_set)
+    __swig_setmethods__["InvestorID"] = _PyCTP.CThostFtdcMMOptionInstrCommRateField_InvestorID_set
+    __swig_getmethods__["InvestorID"] = _PyCTP.CThostFtdcMMOptionInstrCommRateField_InvestorID_get
+    if _newclass:
+        InvestorID = _swig_property(_PyCTP.CThostFtdcMMOptionInstrCommRateField_InvestorID_get, _PyCTP.CThostFtdcMMOptionInstrCommRateField_InvestorID_set)
+    __swig_setmethods__["OpenRatioByMoney"] = _PyCTP.CThostFtdcMMOptionInstrCommRateField_OpenRatioByMoney_set
+    __swig_getmethods__["OpenRatioByMoney"] = _PyCTP.CThostFtdcMMOptionInstrCommRateField_OpenRatioByMoney_get
+    if _newclass:
+        OpenRatioByMoney = _swig_property(_PyCTP.CThostFtdcMMOptionInstrCommRateField_OpenRatioByMoney_get, _PyCTP.CThostFtdcMMOptionInstrCommRateField_OpenRatioByMoney_set)
+    __swig_setmethods__["OpenRatioByVolume"] = _PyCTP.CThostFtdcMMOptionInstrCommRateField_OpenRatioByVolume_set
+    __swig_getmethods__["OpenRatioByVolume"] = _PyCTP.CThostFtdcMMOptionInstrCommRateField_OpenRatioByVolume_get
+    if _newclass:
+        OpenRatioByVolume = _swig_property(_PyCTP.CThostFtdcMMOptionInstrCommRateField_OpenRatioByVolume_get, _PyCTP.CThostFtdcMMOptionInstrCommRateField_OpenRatioByVolume_set)
+    __swig_setmethods__["CloseRatioByMoney"] = _PyCTP.CThostFtdcMMOptionInstrCommRateField_CloseRatioByMoney_set
+    __swig_getmethods__["CloseRatioByMoney"] = _PyCTP.CThostFtdcMMOptionInstrCommRateField_CloseRatioByMoney_get
+    if _newclass:
+        CloseRatioByMoney = _swig_property(_PyCTP.CThostFtdcMMOptionInstrCommRateField_CloseRatioByMoney_get, _PyCTP.CThostFtdcMMOptionInstrCommRateField_CloseRatioByMoney_set)
+    __swig_setmethods__["CloseRatioByVolume"] = _PyCTP.CThostFtdcMMOptionInstrCommRateField_CloseRatioByVolume_set
+    __swig_getmethods__["CloseRatioByVolume"] = _PyCTP.CThostFtdcMMOptionInstrCommRateField_CloseRatioByVolume_get
+    if _newclass:
+        CloseRatioByVolume = _swig_property(_PyCTP.CThostFtdcMMOptionInstrCommRateField_CloseRatioByVolume_get, _PyCTP.CThostFtdcMMOptionInstrCommRateField_CloseRatioByVolume_set)
+    __swig_setmethods__["CloseTodayRatioByMoney"] = _PyCTP.CThostFtdcMMOptionInstrCommRateField_CloseTodayRatioByMoney_set
+    __swig_getmethods__["CloseTodayRatioByMoney"] = _PyCTP.CThostFtdcMMOptionInstrCommRateField_CloseTodayRatioByMoney_get
+    if _newclass:
+        CloseTodayRatioByMoney = _swig_property(_PyCTP.CThostFtdcMMOptionInstrCommRateField_CloseTodayRatioByMoney_get, _PyCTP.CThostFtdcMMOptionInstrCommRateField_CloseTodayRatioByMoney_set)
+    __swig_setmethods__["CloseTodayRatioByVolume"] = _PyCTP.CThostFtdcMMOptionInstrCommRateField_CloseTodayRatioByVolume_set
+    __swig_getmethods__["CloseTodayRatioByVolume"] = _PyCTP.CThostFtdcMMOptionInstrCommRateField_CloseTodayRatioByVolume_get
+    if _newclass:
+        CloseTodayRatioByVolume = _swig_property(_PyCTP.CThostFtdcMMOptionInstrCommRateField_CloseTodayRatioByVolume_get, _PyCTP.CThostFtdcMMOptionInstrCommRateField_CloseTodayRatioByVolume_set)
+    __swig_setmethods__["StrikeRatioByMoney"] = _PyCTP.CThostFtdcMMOptionInstrCommRateField_StrikeRatioByMoney_set
+    __swig_getmethods__["StrikeRatioByMoney"] = _PyCTP.CThostFtdcMMOptionInstrCommRateField_StrikeRatioByMoney_get
+    if _newclass:
+        StrikeRatioByMoney = _swig_property(_PyCTP.CThostFtdcMMOptionInstrCommRateField_StrikeRatioByMoney_get, _PyCTP.CThostFtdcMMOptionInstrCommRateField_StrikeRatioByMoney_set)
+    __swig_setmethods__["StrikeRatioByVolume"] = _PyCTP.CThostFtdcMMOptionInstrCommRateField_StrikeRatioByVolume_set
+    __swig_getmethods__["StrikeRatioByVolume"] = _PyCTP.CThostFtdcMMOptionInstrCommRateField_StrikeRatioByVolume_get
+    if _newclass:
+        StrikeRatioByVolume = _swig_property(_PyCTP.CThostFtdcMMOptionInstrCommRateField_StrikeRatioByVolume_get, _PyCTP.CThostFtdcMMOptionInstrCommRateField_StrikeRatioByVolume_set)
+
+    def __init__(self):
+        this = _PyCTP.new_CThostFtdcMMOptionInstrCommRateField()
+        try:
+            self.this.append(this)
+        except __builtin__.Exception:
+            self.this = this
+    __swig_destroy__ = _PyCTP.delete_CThostFtdcMMOptionInstrCommRateField
+    __del__ = lambda self: None
+CThostFtdcMMOptionInstrCommRateField_swigregister = _PyCTP.CThostFtdcMMOptionInstrCommRateField_swigregister
+CThostFtdcMMOptionInstrCommRateField_swigregister(CThostFtdcMMOptionInstrCommRateField)
+
+class CThostFtdcQryMMOptionInstrCommRateField(_object):
+    __swig_setmethods__ = {}
+    __setattr__ = lambda self, name, value: _swig_setattr(self, CThostFtdcQryMMOptionInstrCommRateField, name, value)
+    __swig_getmethods__ = {}
+    __getattr__ = lambda self, name: _swig_getattr(self, CThostFtdcQryMMOptionInstrCommRateField, name)
+    __repr__ = _swig_repr
+    __swig_setmethods__["BrokerID"] = _PyCTP.CThostFtdcQryMMOptionInstrCommRateField_BrokerID_set
+    __swig_getmethods__["BrokerID"] = _PyCTP.CThostFtdcQryMMOptionInstrCommRateField_BrokerID_get
+    if _newclass:
+        BrokerID = _swig_property(_PyCTP.CThostFtdcQryMMOptionInstrCommRateField_BrokerID_get, _PyCTP.CThostFtdcQryMMOptionInstrCommRateField_BrokerID_set)
+    __swig_setmethods__["InvestorID"] = _PyCTP.CThostFtdcQryMMOptionInstrCommRateField_InvestorID_set
+    __swig_getmethods__["InvestorID"] = _PyCTP.CThostFtdcQryMMOptionInstrCommRateField_InvestorID_get
+    if _newclass:
+        InvestorID = _swig_property(_PyCTP.CThostFtdcQryMMOptionInstrCommRateField_InvestorID_get, _PyCTP.CThostFtdcQryMMOptionInstrCommRateField_InvestorID_set)
+    __swig_setmethods__["InstrumentID"] = _PyCTP.CThostFtdcQryMMOptionInstrCommRateField_InstrumentID_set
+    __swig_getmethods__["InstrumentID"] = _PyCTP.CThostFtdcQryMMOptionInstrCommRateField_InstrumentID_get
+    if _newclass:
+        InstrumentID = _swig_property(_PyCTP.CThostFtdcQryMMOptionInstrCommRateField_InstrumentID_get, _PyCTP.CThostFtdcQryMMOptionInstrCommRateField_InstrumentID_set)
+
+    def __init__(self):
+        this = _PyCTP.new_CThostFtdcQryMMOptionInstrCommRateField()
+        try:
+            self.this.append(this)
+        except __builtin__.Exception:
+            self.this = this
+    __swig_destroy__ = _PyCTP.delete_CThostFtdcQryMMOptionInstrCommRateField
+    __del__ = lambda self: None
+CThostFtdcQryMMOptionInstrCommRateField_swigregister = _PyCTP.CThostFtdcQryMMOptionInstrCommRateField_swigregister
+CThostFtdcQryMMOptionInstrCommRateField_swigregister(CThostFtdcQryMMOptionInstrCommRateField)
+
+class CThostFtdcMMInstrumentCommissionRateField(_object):
+    __swig_setmethods__ = {}
+    __setattr__ = lambda self, name, value: _swig_setattr(self, CThostFtdcMMInstrumentCommissionRateField, name, value)
+    __swig_getmethods__ = {}
+    __getattr__ = lambda self, name: _swig_getattr(self, CThostFtdcMMInstrumentCommissionRateField, name)
+    __repr__ = _swig_repr
+    __swig_setmethods__["InstrumentID"] = _PyCTP.CThostFtdcMMInstrumentCommissionRateField_InstrumentID_set
+    __swig_getmethods__["InstrumentID"] = _PyCTP.CThostFtdcMMInstrumentCommissionRateField_InstrumentID_get
+    if _newclass:
+        InstrumentID = _swig_property(_PyCTP.CThostFtdcMMInstrumentCommissionRateField_InstrumentID_get, _PyCTP.CThostFtdcMMInstrumentCommissionRateField_InstrumentID_set)
+    __swig_setmethods__["InvestorRange"] = _PyCTP.CThostFtdcMMInstrumentCommissionRateField_InvestorRange_set
+    __swig_getmethods__["InvestorRange"] = _PyCTP.CThostFtdcMMInstrumentCommissionRateField_InvestorRange_get
+    if _newclass:
+        InvestorRange = _swig_property(_PyCTP.CThostFtdcMMInstrumentCommissionRateField_InvestorRange_get, _PyCTP.CThostFtdcMMInstrumentCommissionRateField_InvestorRange_set)
+    __swig_setmethods__["BrokerID"] = _PyCTP.CThostFtdcMMInstrumentCommissionRateField_BrokerID_set
+    __swig_getmethods__["BrokerID"] = _PyCTP.CThostFtdcMMInstrumentCommissionRateField_BrokerID_get
+    if _newclass:
+        BrokerID = _swig_property(_PyCTP.CThostFtdcMMInstrumentCommissionRateField_BrokerID_get, _PyCTP.CThostFtdcMMInstrumentCommissionRateField_BrokerID_set)
+    __swig_setmethods__["InvestorID"] = _PyCTP.CThostFtdcMMInstrumentCommissionRateField_InvestorID_set
+    __swig_getmethods__["InvestorID"] = _PyCTP.CThostFtdcMMInstrumentCommissionRateField_InvestorID_get
+    if _newclass:
+        InvestorID = _swig_property(_PyCTP.CThostFtdcMMInstrumentCommissionRateField_InvestorID_get, _PyCTP.CThostFtdcMMInstrumentCommissionRateField_InvestorID_set)
+    __swig_setmethods__["OpenRatioByMoney"] = _PyCTP.CThostFtdcMMInstrumentCommissionRateField_OpenRatioByMoney_set
+    __swig_getmethods__["OpenRatioByMoney"] = _PyCTP.CThostFtdcMMInstrumentCommissionRateField_OpenRatioByMoney_get
+    if _newclass:
+        OpenRatioByMoney = _swig_property(_PyCTP.CThostFtdcMMInstrumentCommissionRateField_OpenRatioByMoney_get, _PyCTP.CThostFtdcMMInstrumentCommissionRateField_OpenRatioByMoney_set)
+    __swig_setmethods__["OpenRatioByVolume"] = _PyCTP.CThostFtdcMMInstrumentCommissionRateField_OpenRatioByVolume_set
+    __swig_getmethods__["OpenRatioByVolume"] = _PyCTP.CThostFtdcMMInstrumentCommissionRateField_OpenRatioByVolume_get
+    if _newclass:
+        OpenRatioByVolume = _swig_property(_PyCTP.CThostFtdcMMInstrumentCommissionRateField_OpenRatioByVolume_get, _PyCTP.CThostFtdcMMInstrumentCommissionRateField_OpenRatioByVolume_set)
+    __swig_setmethods__["CloseRatioByMoney"] = _PyCTP.CThostFtdcMMInstrumentCommissionRateField_CloseRatioByMoney_set
+    __swig_getmethods__["CloseRatioByMoney"] = _PyCTP.CThostFtdcMMInstrumentCommissionRateField_CloseRatioByMoney_get
+    if _newclass:
+        CloseRatioByMoney = _swig_property(_PyCTP.CThostFtdcMMInstrumentCommissionRateField_CloseRatioByMoney_get, _PyCTP.CThostFtdcMMInstrumentCommissionRateField_CloseRatioByMoney_set)
+    __swig_setmethods__["CloseRatioByVolume"] = _PyCTP.CThostFtdcMMInstrumentCommissionRateField_CloseRatioByVolume_set
+    __swig_getmethods__["CloseRatioByVolume"] = _PyCTP.CThostFtdcMMInstrumentCommissionRateField_CloseRatioByVolume_get
+    if _newclass:
+        CloseRatioByVolume = _swig_property(_PyCTP.CThostFtdcMMInstrumentCommissionRateField_CloseRatioByVolume_get, _PyCTP.CThostFtdcMMInstrumentCommissionRateField_CloseRatioByVolume_set)
+    __swig_setmethods__["CloseTodayRatioByMoney"] = _PyCTP.CThostFtdcMMInstrumentCommissionRateField_CloseTodayRatioByMoney_set
+    __swig_getmethods__["CloseTodayRatioByMoney"] = _PyCTP.CThostFtdcMMInstrumentCommissionRateField_CloseTodayRatioByMoney_get
+    if _newclass:
+        CloseTodayRatioByMoney = _swig_property(_PyCTP.CThostFtdcMMInstrumentCommissionRateField_CloseTodayRatioByMoney_get, _PyCTP.CThostFtdcMMInstrumentCommissionRateField_CloseTodayRatioByMoney_set)
+    __swig_setmethods__["CloseTodayRatioByVolume"] = _PyCTP.CThostFtdcMMInstrumentCommissionRateField_CloseTodayRatioByVolume_set
+    __swig_getmethods__["CloseTodayRatioByVolume"] = _PyCTP.CThostFtdcMMInstrumentCommissionRateField_CloseTodayRatioByVolume_get
+    if _newclass:
+        CloseTodayRatioByVolume = _swig_property(_PyCTP.CThostFtdcMMInstrumentCommissionRateField_CloseTodayRatioByVolume_get, _PyCTP.CThostFtdcMMInstrumentCommissionRateField_CloseTodayRatioByVolume_set)
+
+    def __init__(self):
+        this = _PyCTP.new_CThostFtdcMMInstrumentCommissionRateField()
+        try:
+            self.this.append(this)
+        except __builtin__.Exception:
+            self.this = this
+    __swig_destroy__ = _PyCTP.delete_CThostFtdcMMInstrumentCommissionRateField
+    __del__ = lambda self: None
+CThostFtdcMMInstrumentCommissionRateField_swigregister = _PyCTP.CThostFtdcMMInstrumentCommissionRateField_swigregister
+CThostFtdcMMInstrumentCommissionRateField_swigregister(CThostFtdcMMInstrumentCommissionRateField)
+
+class CThostFtdcQryMMInstrumentCommissionRateField(_object):
+    __swig_setmethods__ = {}
+    __setattr__ = lambda self, name, value: _swig_setattr(self, CThostFtdcQryMMInstrumentCommissionRateField, name, value)
+    __swig_getmethods__ = {}
+    __getattr__ = lambda self, name: _swig_getattr(self, CThostFtdcQryMMInstrumentCommissionRateField, name)
+    __repr__ = _swig_repr
+    __swig_setmethods__["BrokerID"] = _PyCTP.CThostFtdcQryMMInstrumentCommissionRateField_BrokerID_set
+    __swig_getmethods__["BrokerID"] = _PyCTP.CThostFtdcQryMMInstrumentCommissionRateField_BrokerID_get
+    if _newclass:
+        BrokerID = _swig_property(_PyCTP.CThostFtdcQryMMInstrumentCommissionRateField_BrokerID_get, _PyCTP.CThostFtdcQryMMInstrumentCommissionRateField_BrokerID_set)
+    __swig_setmethods__["InvestorID"] = _PyCTP.CThostFtdcQryMMInstrumentCommissionRateField_InvestorID_set
+    __swig_getmethods__["InvestorID"] = _PyCTP.CThostFtdcQryMMInstrumentCommissionRateField_InvestorID_get
+    if _newclass:
+        InvestorID = _swig_property(_PyCTP.CThostFtdcQryMMInstrumentCommissionRateField_InvestorID_get, _PyCTP.CThostFtdcQryMMInstrumentCommissionRateField_InvestorID_set)
+    __swig_setmethods__["InstrumentID"] = _PyCTP.CThostFtdcQryMMInstrumentCommissionRateField_InstrumentID_set
+    __swig_getmethods__["InstrumentID"] = _PyCTP.CThostFtdcQryMMInstrumentCommissionRateField_InstrumentID_get
+    if _newclass:
+        InstrumentID = _swig_property(_PyCTP.CThostFtdcQryMMInstrumentCommissionRateField_InstrumentID_get, _PyCTP.CThostFtdcQryMMInstrumentCommissionRateField_InstrumentID_set)
+
+    def __init__(self):
+        this = _PyCTP.new_CThostFtdcQryMMInstrumentCommissionRateField()
+        try:
+            self.this.append(this)
+        except __builtin__.Exception:
+            self.this = this
+    __swig_destroy__ = _PyCTP.delete_CThostFtdcQryMMInstrumentCommissionRateField
+    __del__ = lambda self: None
+CThostFtdcQryMMInstrumentCommissionRateField_swigregister = _PyCTP.CThostFtdcQryMMInstrumentCommissionRateField_swigregister
+CThostFtdcQryMMInstrumentCommissionRateField_swigregister(CThostFtdcQryMMInstrumentCommissionRateField)
+
+class CThostFtdcInstrumentOrderCommRateField(_object):
+    __swig_setmethods__ = {}
+    __setattr__ = lambda self, name, value: _swig_setattr(self, CThostFtdcInstrumentOrderCommRateField, name, value)
+    __swig_getmethods__ = {}
+    __getattr__ = lambda self, name: _swig_getattr(self, CThostFtdcInstrumentOrderCommRateField, name)
+    __repr__ = _swig_repr
+    __swig_setmethods__["InstrumentID"] = _PyCTP.CThostFtdcInstrumentOrderCommRateField_InstrumentID_set
+    __swig_getmethods__["InstrumentID"] = _PyCTP.CThostFtdcInstrumentOrderCommRateField_InstrumentID_get
+    if _newclass:
+        InstrumentID = _swig_property(_PyCTP.CThostFtdcInstrumentOrderCommRateField_InstrumentID_get, _PyCTP.CThostFtdcInstrumentOrderCommRateField_InstrumentID_set)
+    __swig_setmethods__["InvestorRange"] = _PyCTP.CThostFtdcInstrumentOrderCommRateField_InvestorRange_set
+    __swig_getmethods__["InvestorRange"] = _PyCTP.CThostFtdcInstrumentOrderCommRateField_InvestorRange_get
+    if _newclass:
+        InvestorRange = _swig_property(_PyCTP.CThostFtdcInstrumentOrderCommRateField_InvestorRange_get, _PyCTP.CThostFtdcInstrumentOrderCommRateField_InvestorRange_set)
+    __swig_setmethods__["BrokerID"] = _PyCTP.CThostFtdcInstrumentOrderCommRateField_BrokerID_set
+    __swig_getmethods__["BrokerID"] = _PyCTP.CThostFtdcInstrumentOrderCommRateField_BrokerID_get
+    if _newclass:
+        BrokerID = _swig_property(_PyCTP.CThostFtdcInstrumentOrderCommRateField_BrokerID_get, _PyCTP.CThostFtdcInstrumentOrderCommRateField_BrokerID_set)
+    __swig_setmethods__["InvestorID"] = _PyCTP.CThostFtdcInstrumentOrderCommRateField_InvestorID_set
+    __swig_getmethods__["InvestorID"] = _PyCTP.CThostFtdcInstrumentOrderCommRateField_InvestorID_get
+    if _newclass:
+        InvestorID = _swig_property(_PyCTP.CThostFtdcInstrumentOrderCommRateField_InvestorID_get, _PyCTP.CThostFtdcInstrumentOrderCommRateField_InvestorID_set)
+    __swig_setmethods__["HedgeFlag"] = _PyCTP.CThostFtdcInstrumentOrderCommRateField_HedgeFlag_set
+    __swig_getmethods__["HedgeFlag"] = _PyCTP.CThostFtdcInstrumentOrderCommRateField_HedgeFlag_get
+    if _newclass:
+        HedgeFlag = _swig_property(_PyCTP.CThostFtdcInstrumentOrderCommRateField_HedgeFlag_get, _PyCTP.CThostFtdcInstrumentOrderCommRateField_HedgeFlag_set)
+    __swig_setmethods__["OrderCommByVolume"] = _PyCTP.CThostFtdcInstrumentOrderCommRateField_OrderCommByVolume_set
+    __swig_getmethods__["OrderCommByVolume"] = _PyCTP.CThostFtdcInstrumentOrderCommRateField_OrderCommByVolume_get
+    if _newclass:
+        OrderCommByVolume = _swig_property(_PyCTP.CThostFtdcInstrumentOrderCommRateField_OrderCommByVolume_get, _PyCTP.CThostFtdcInstrumentOrderCommRateField_OrderCommByVolume_set)
+    __swig_setmethods__["OrderActionCommByVolume"] = _PyCTP.CThostFtdcInstrumentOrderCommRateField_OrderActionCommByVolume_set
+    __swig_getmethods__["OrderActionCommByVolume"] = _PyCTP.CThostFtdcInstrumentOrderCommRateField_OrderActionCommByVolume_get
+    if _newclass:
+        OrderActionCommByVolume = _swig_property(_PyCTP.CThostFtdcInstrumentOrderCommRateField_OrderActionCommByVolume_get, _PyCTP.CThostFtdcInstrumentOrderCommRateField_OrderActionCommByVolume_set)
+    __swig_setmethods__["ExchangeID"] = _PyCTP.CThostFtdcInstrumentOrderCommRateField_ExchangeID_set
+    __swig_getmethods__["ExchangeID"] = _PyCTP.CThostFtdcInstrumentOrderCommRateField_ExchangeID_get
+    if _newclass:
+        ExchangeID = _swig_property(_PyCTP.CThostFtdcInstrumentOrderCommRateField_ExchangeID_get, _PyCTP.CThostFtdcInstrumentOrderCommRateField_ExchangeID_set)
+    __swig_setmethods__["InvestUnitID"] = _PyCTP.CThostFtdcInstrumentOrderCommRateField_InvestUnitID_set
+    __swig_getmethods__["InvestUnitID"] = _PyCTP.CThostFtdcInstrumentOrderCommRateField_InvestUnitID_get
+    if _newclass:
+        InvestUnitID = _swig_property(_PyCTP.CThostFtdcInstrumentOrderCommRateField_InvestUnitID_get, _PyCTP.CThostFtdcInstrumentOrderCommRateField_InvestUnitID_set)
+
+    def __init__(self):
+        this = _PyCTP.new_CThostFtdcInstrumentOrderCommRateField()
+        try:
+            self.this.append(this)
+        except __builtin__.Exception:
+            self.this = this
+    __swig_destroy__ = _PyCTP.delete_CThostFtdcInstrumentOrderCommRateField
+    __del__ = lambda self: None
+CThostFtdcInstrumentOrderCommRateField_swigregister = _PyCTP.CThostFtdcInstrumentOrderCommRateField_swigregister
+CThostFtdcInstrumentOrderCommRateField_swigregister(CThostFtdcInstrumentOrderCommRateField)
+
+class CThostFtdcQryInstrumentOrderCommRateField(_object):
+    __swig_setmethods__ = {}
+    __setattr__ = lambda self, name, value: _swig_setattr(self, CThostFtdcQryInstrumentOrderCommRateField, name, value)
+    __swig_getmethods__ = {}
+    __getattr__ = lambda self, name: _swig_getattr(self, CThostFtdcQryInstrumentOrderCommRateField, name)
+    __repr__ = _swig_repr
+    __swig_setmethods__["BrokerID"] = _PyCTP.CThostFtdcQryInstrumentOrderCommRateField_BrokerID_set
+    __swig_getmethods__["BrokerID"] = _PyCTP.CThostFtdcQryInstrumentOrderCommRateField_BrokerID_get
+    if _newclass:
+        BrokerID = _swig_property(_PyCTP.CThostFtdcQryInstrumentOrderCommRateField_BrokerID_get, _PyCTP.CThostFtdcQryInstrumentOrderCommRateField_BrokerID_set)
+    __swig_setmethods__["InvestorID"] = _PyCTP.CThostFtdcQryInstrumentOrderCommRateField_InvestorID_set
+    __swig_getmethods__["InvestorID"] = _PyCTP.CThostFtdcQryInstrumentOrderCommRateField_InvestorID_get
+    if _newclass:
+        InvestorID = _swig_property(_PyCTP.CThostFtdcQryInstrumentOrderCommRateField_InvestorID_get, _PyCTP.CThostFtdcQryInstrumentOrderCommRateField_InvestorID_set)
+    __swig_setmethods__["InstrumentID"] = _PyCTP.CThostFtdcQryInstrumentOrderCommRateField_InstrumentID_set
+    __swig_getmethods__["InstrumentID"] = _PyCTP.CThostFtdcQryInstrumentOrderCommRateField_InstrumentID_get
+    if _newclass:
+        InstrumentID = _swig_property(_PyCTP.CThostFtdcQryInstrumentOrderCommRateField_InstrumentID_get, _PyCTP.CThostFtdcQryInstrumentOrderCommRateField_InstrumentID_set)
+
+    def __init__(self):
+        this = _PyCTP.new_CThostFtdcQryInstrumentOrderCommRateField()
+        try:
+            self.this.append(this)
+        except __builtin__.Exception:
+            self.this = this
+    __swig_destroy__ = _PyCTP.delete_CThostFtdcQryInstrumentOrderCommRateField
+    __del__ = lambda self: None
+CThostFtdcQryInstrumentOrderCommRateField_swigregister = _PyCTP.CThostFtdcQryInstrumentOrderCommRateField_swigregister
+CThostFtdcQryInstrumentOrderCommRateField_swigregister(CThostFtdcQryInstrumentOrderCommRateField)
+
+class CThostFtdcTradeParamField(_object):
+    __swig_setmethods__ = {}
+    __setattr__ = lambda self, name, value: _swig_setattr(self, CThostFtdcTradeParamField, name, value)
+    __swig_getmethods__ = {}
+    __getattr__ = lambda self, name: _swig_getattr(self, CThostFtdcTradeParamField, name)
+    __repr__ = _swig_repr
+    __swig_setmethods__["BrokerID"] = _PyCTP.CThostFtdcTradeParamField_BrokerID_set
+    __swig_getmethods__["BrokerID"] = _PyCTP.CThostFtdcTradeParamField_BrokerID_get
+    if _newclass:
+        BrokerID = _swig_property(_PyCTP.CThostFtdcTradeParamField_BrokerID_get, _PyCTP.CThostFtdcTradeParamField_BrokerID_set)
+    __swig_setmethods__["TradeParamID"] = _PyCTP.CThostFtdcTradeParamField_TradeParamID_set
+    __swig_getmethods__["TradeParamID"] = _PyCTP.CThostFtdcTradeParamField_TradeParamID_get
+    if _newclass:
+        TradeParamID = _swig_property(_PyCTP.CThostFtdcTradeParamField_TradeParamID_get, _PyCTP.CThostFtdcTradeParamField_TradeParamID_set)
+    __swig_setmethods__["TradeParamValue"] = _PyCTP.CThostFtdcTradeParamField_TradeParamValue_set
+    __swig_getmethods__["TradeParamValue"] = _PyCTP.CThostFtdcTradeParamField_TradeParamValue_get
+    if _newclass:
+        TradeParamValue = _swig_property(_PyCTP.CThostFtdcTradeParamField_TradeParamValue_get, _PyCTP.CThostFtdcTradeParamField_TradeParamValue_set)
+    __swig_setmethods__["Memo"] = _PyCTP.CThostFtdcTradeParamField_Memo_set
+    __swig_getmethods__["Memo"] = _PyCTP.CThostFtdcTradeParamField_Memo_get
+    if _newclass:
+        Memo = _swig_property(_PyCTP.CThostFtdcTradeParamField_Memo_get, _PyCTP.CThostFtdcTradeParamField_Memo_set)
+
+    def __init__(self):
+        this = _PyCTP.new_CThostFtdcTradeParamField()
+        try:
+            self.this.append(this)
+        except __builtin__.Exception:
+            self.this = this
+    __swig_destroy__ = _PyCTP.delete_CThostFtdcTradeParamField
+    __del__ = lambda self: None
+CThostFtdcTradeParamField_swigregister = _PyCTP.CThostFtdcTradeParamField_swigregister
+CThostFtdcTradeParamField_swigregister(CThostFtdcTradeParamField)
+
+class CThostFtdcInstrumentMarginRateULField(_object):
+    __swig_setmethods__ = {}
+    __setattr__ = lambda self, name, value: _swig_setattr(self, CThostFtdcInstrumentMarginRateULField, name, value)
+    __swig_getmethods__ = {}
+    __getattr__ = lambda self, name: _swig_getattr(self, CThostFtdcInstrumentMarginRateULField, name)
+    __repr__ = _swig_repr
+    __swig_setmethods__["InstrumentID"] = _PyCTP.CThostFtdcInstrumentMarginRateULField_InstrumentID_set
+    __swig_getmethods__["InstrumentID"] = _PyCTP.CThostFtdcInstrumentMarginRateULField_InstrumentID_get
+    if _newclass:
+        InstrumentID = _swig_property(_PyCTP.CThostFtdcInstrumentMarginRateULField_InstrumentID_get, _PyCTP.CThostFtdcInstrumentMarginRateULField_InstrumentID_set)
+    __swig_setmethods__["InvestorRange"] = _PyCTP.CThostFtdcInstrumentMarginRateULField_InvestorRange_set
+    __swig_getmethods__["InvestorRange"] = _PyCTP.CThostFtdcInstrumentMarginRateULField_InvestorRange_get
+    if _newclass:
+        InvestorRange = _swig_property(_PyCTP.CThostFtdcInstrumentMarginRateULField_InvestorRange_get, _PyCTP.CThostFtdcInstrumentMarginRateULField_InvestorRange_set)
+    __swig_setmethods__["BrokerID"] = _PyCTP.CThostFtdcInstrumentMarginRateULField_BrokerID_set
+    __swig_getmethods__["BrokerID"] = _PyCTP.CThostFtdcInstrumentMarginRateULField_BrokerID_get
+    if _newclass:
+        BrokerID = _swig_property(_PyCTP.CThostFtdcInstrumentMarginRateULField_BrokerID_get, _PyCTP.CThostFtdcInstrumentMarginRateULField_BrokerID_set)
+    __swig_setmethods__["InvestorID"] = _PyCTP.CThostFtdcInstrumentMarginRateULField_InvestorID_set
+    __swig_getmethods__["InvestorID"] = _PyCTP.CThostFtdcInstrumentMarginRateULField_InvestorID_get
+    if _newclass:
+        InvestorID = _swig_property(_PyCTP.CThostFtdcInstrumentMarginRateULField_InvestorID_get, _PyCTP.CThostFtdcInstrumentMarginRateULField_InvestorID_set)
+    __swig_setmethods__["HedgeFlag"] = _PyCTP.CThostFtdcInstrumentMarginRateULField_HedgeFlag_set
+    __swig_getmethods__["HedgeFlag"] = _PyCTP.CThostFtdcInstrumentMarginRateULField_HedgeFlag_get
+    if _newclass:
+        HedgeFlag = _swig_property(_PyCTP.CThostFtdcInstrumentMarginRateULField_HedgeFlag_get, _PyCTP.CThostFtdcInstrumentMarginRateULField_HedgeFlag_set)
+    __swig_setmethods__["LongMarginRatioByMoney"] = _PyCTP.CThostFtdcInstrumentMarginRateULField_LongMarginRatioByMoney_set
+    __swig_getmethods__["LongMarginRatioByMoney"] = _PyCTP.CThostFtdcInstrumentMarginRateULField_LongMarginRatioByMoney_get
+    if _newclass:
+        LongMarginRatioByMoney = _swig_property(_PyCTP.CThostFtdcInstrumentMarginRateULField_LongMarginRatioByMoney_get, _PyCTP.CThostFtdcInstrumentMarginRateULField_LongMarginRatioByMoney_set)
+    __swig_setmethods__["LongMarginRatioByVolume"] = _PyCTP.CThostFtdcInstrumentMarginRateULField_LongMarginRatioByVolume_set
+    __swig_getmethods__["LongMarginRatioByVolume"] = _PyCTP.CThostFtdcInstrumentMarginRateULField_LongMarginRatioByVolume_get
+    if _newclass:
+        LongMarginRatioByVolume = _swig_property(_PyCTP.CThostFtdcInstrumentMarginRateULField_LongMarginRatioByVolume_get, _PyCTP.CThostFtdcInstrumentMarginRateULField_LongMarginRatioByVolume_set)
+    __swig_setmethods__["ShortMarginRatioByMoney"] = _PyCTP.CThostFtdcInstrumentMarginRateULField_ShortMarginRatioByMoney_set
+    __swig_getmethods__["ShortMarginRatioByMoney"] = _PyCTP.CThostFtdcInstrumentMarginRateULField_ShortMarginRatioByMoney_get
+    if _newclass:
+        ShortMarginRatioByMoney = _swig_property(_PyCTP.CThostFtdcInstrumentMarginRateULField_ShortMarginRatioByMoney_get, _PyCTP.CThostFtdcInstrumentMarginRateULField_ShortMarginRatioByMoney_set)
+    __swig_setmethods__["ShortMarginRatioByVolume"] = _PyCTP.CThostFtdcInstrumentMarginRateULField_ShortMarginRatioByVolume_set
+    __swig_getmethods__["ShortMarginRatioByVolume"] = _PyCTP.CThostFtdcInstrumentMarginRateULField_ShortMarginRatioByVolume_get
+    if _newclass:
+        ShortMarginRatioByVolume = _swig_property(_PyCTP.CThostFtdcInstrumentMarginRateULField_ShortMarginRatioByVolume_get, _PyCTP.CThostFtdcInstrumentMarginRateULField_ShortMarginRatioByVolume_set)
+
+    def __init__(self):
+        this = _PyCTP.new_CThostFtdcInstrumentMarginRateULField()
+        try:
+            self.this.append(this)
+        except __builtin__.Exception:
+            self.this = this
+    __swig_destroy__ = _PyCTP.delete_CThostFtdcInstrumentMarginRateULField
+    __del__ = lambda self: None
+CThostFtdcInstrumentMarginRateULField_swigregister = _PyCTP.CThostFtdcInstrumentMarginRateULField_swigregister
+CThostFtdcInstrumentMarginRateULField_swigregister(CThostFtdcInstrumentMarginRateULField)
+
+class CThostFtdcFutureLimitPosiParamField(_object):
+    __swig_setmethods__ = {}
+    __setattr__ = lambda self, name, value: _swig_setattr(self, CThostFtdcFutureLimitPosiParamField, name, value)
+    __swig_getmethods__ = {}
+    __getattr__ = lambda self, name: _swig_getattr(self, CThostFtdcFutureLimitPosiParamField, name)
+    __repr__ = _swig_repr
+    __swig_setmethods__["InvestorRange"] = _PyCTP.CThostFtdcFutureLimitPosiParamField_InvestorRange_set
+    __swig_getmethods__["InvestorRange"] = _PyCTP.CThostFtdcFutureLimitPosiParamField_InvestorRange_get
+    if _newclass:
+        InvestorRange = _swig_property(_PyCTP.CThostFtdcFutureLimitPosiParamField_InvestorRange_get, _PyCTP.CThostFtdcFutureLimitPosiParamField_InvestorRange_set)
+    __swig_setmethods__["BrokerID"] = _PyCTP.CThostFtdcFutureLimitPosiParamField_BrokerID_set
+    __swig_getmethods__["BrokerID"] = _PyCTP.CThostFtdcFutureLimitPosiParamField_BrokerID_get
+    if _newclass:
+        BrokerID = _swig_property(_PyCTP.CThostFtdcFutureLimitPosiParamField_BrokerID_get, _PyCTP.CThostFtdcFutureLimitPosiParamField_BrokerID_set)
+    __swig_setmethods__["InvestorID"] = _PyCTP.CThostFtdcFutureLimitPosiParamField_InvestorID_set
+    __swig_getmethods__["InvestorID"] = _PyCTP.CThostFtdcFutureLimitPosiParamField_InvestorID_get
+    if _newclass:
+        InvestorID = _swig_property(_PyCTP.CThostFtdcFutureLimitPosiParamField_InvestorID_get, _PyCTP.CThostFtdcFutureLimitPosiParamField_InvestorID_set)
+    __swig_setmethods__["ProductID"] = _PyCTP.CThostFtdcFutureLimitPosiParamField_ProductID_set
+    __swig_getmethods__["ProductID"] = _PyCTP.CThostFtdcFutureLimitPosiParamField_ProductID_get
+    if _newclass:
+        ProductID = _swig_property(_PyCTP.CThostFtdcFutureLimitPosiParamField_ProductID_get, _PyCTP.CThostFtdcFutureLimitPosiParamField_ProductID_set)
+    __swig_setmethods__["SpecOpenVolume"] = _PyCTP.CThostFtdcFutureLimitPosiParamField_SpecOpenVolume_set
+    __swig_getmethods__["SpecOpenVolume"] = _PyCTP.CThostFtdcFutureLimitPosiParamField_SpecOpenVolume_get
+    if _newclass:
+        SpecOpenVolume = _swig_property(_PyCTP.CThostFtdcFutureLimitPosiParamField_SpecOpenVolume_get, _PyCTP.CThostFtdcFutureLimitPosiParamField_SpecOpenVolume_set)
+    __swig_setmethods__["ArbiOpenVolume"] = _PyCTP.CThostFtdcFutureLimitPosiParamField_ArbiOpenVolume_set
+    __swig_getmethods__["ArbiOpenVolume"] = _PyCTP.CThostFtdcFutureLimitPosiParamField_ArbiOpenVolume_get
+    if _newclass:
+        ArbiOpenVolume = _swig_property(_PyCTP.CThostFtdcFutureLimitPosiParamField_ArbiOpenVolume_get, _PyCTP.CThostFtdcFutureLimitPosiParamField_ArbiOpenVolume_set)
+    __swig_setmethods__["OpenVolume"] = _PyCTP.CThostFtdcFutureLimitPosiParamField_OpenVolume_set
+    __swig_getmethods__["OpenVolume"] = _PyCTP.CThostFtdcFutureLimitPosiParamField_OpenVolume_get
+    if _newclass:
+        OpenVolume = _swig_property(_PyCTP.CThostFtdcFutureLimitPosiParamField_OpenVolume_get, _PyCTP.CThostFtdcFutureLimitPosiParamField_OpenVolume_set)
+
+    def __init__(self):
+        this = _PyCTP.new_CThostFtdcFutureLimitPosiParamField()
+        try:
+            self.this.append(this)
+        except __builtin__.Exception:
+            self.this = this
+    __swig_destroy__ = _PyCTP.delete_CThostFtdcFutureLimitPosiParamField
+    __del__ = lambda self: None
+CThostFtdcFutureLimitPosiParamField_swigregister = _PyCTP.CThostFtdcFutureLimitPosiParamField_swigregister
+CThostFtdcFutureLimitPosiParamField_swigregister(CThostFtdcFutureLimitPosiParamField)
+
+class CThostFtdcLoginForbiddenIPField(_object):
+    __swig_setmethods__ = {}
+    __setattr__ = lambda self, name, value: _swig_setattr(self, CThostFtdcLoginForbiddenIPField, name, value)
+    __swig_getmethods__ = {}
+    __getattr__ = lambda self, name: _swig_getattr(self, CThostFtdcLoginForbiddenIPField, name)
+    __repr__ = _swig_repr
+    __swig_setmethods__["IPAddress"] = _PyCTP.CThostFtdcLoginForbiddenIPField_IPAddress_set
+    __swig_getmethods__["IPAddress"] = _PyCTP.CThostFtdcLoginForbiddenIPField_IPAddress_get
+    if _newclass:
+        IPAddress = _swig_property(_PyCTP.CThostFtdcLoginForbiddenIPField_IPAddress_get, _PyCTP.CThostFtdcLoginForbiddenIPField_IPAddress_set)
+
+    def __init__(self):
+        this = _PyCTP.new_CThostFtdcLoginForbiddenIPField()
+        try:
+            self.this.append(this)
+        except __builtin__.Exception:
+            self.this = this
+    __swig_destroy__ = _PyCTP.delete_CThostFtdcLoginForbiddenIPField
+    __del__ = lambda self: None
+CThostFtdcLoginForbiddenIPField_swigregister = _PyCTP.CThostFtdcLoginForbiddenIPField_swigregister
+CThostFtdcLoginForbiddenIPField_swigregister(CThostFtdcLoginForbiddenIPField)
+
+class CThostFtdcIPListField(_object):
+    __swig_setmethods__ = {}
+    __setattr__ = lambda self, name, value: _swig_setattr(self, CThostFtdcIPListField, name, value)
+    __swig_getmethods__ = {}
+    __getattr__ = lambda self, name: _swig_getattr(self, CThostFtdcIPListField, name)
+    __repr__ = _swig_repr
+    __swig_setmethods__["IPAddress"] = _PyCTP.CThostFtdcIPListField_IPAddress_set
+    __swig_getmethods__["IPAddress"] = _PyCTP.CThostFtdcIPListField_IPAddress_get
+    if _newclass:
+        IPAddress = _swig_property(_PyCTP.CThostFtdcIPListField_IPAddress_get, _PyCTP.CThostFtdcIPListField_IPAddress_set)
+    __swig_setmethods__["IsWhite"] = _PyCTP.CThostFtdcIPListField_IsWhite_set
+    __swig_getmethods__["IsWhite"] = _PyCTP.CThostFtdcIPListField_IsWhite_get
+    if _newclass:
+        IsWhite = _swig_property(_PyCTP.CThostFtdcIPListField_IsWhite_get, _PyCTP.CThostFtdcIPListField_IsWhite_set)
+
+    def __init__(self):
+        this = _PyCTP.new_CThostFtdcIPListField()
+        try:
+            self.this.append(this)
+        except __builtin__.Exception:
+            self.this = this
+    __swig_destroy__ = _PyCTP.delete_CThostFtdcIPListField
+    __del__ = lambda self: None
+CThostFtdcIPListField_swigregister = _PyCTP.CThostFtdcIPListField_swigregister
+CThostFtdcIPListField_swigregister(CThostFtdcIPListField)
+
+class CThostFtdcInputOptionSelfCloseField(_object):
+    __swig_setmethods__ = {}
+    __setattr__ = lambda self, name, value: _swig_setattr(self, CThostFtdcInputOptionSelfCloseField, name, value)
+    __swig_getmethods__ = {}
+    __getattr__ = lambda self, name: _swig_getattr(self, CThostFtdcInputOptionSelfCloseField, name)
+    __repr__ = _swig_repr
+    __swig_setmethods__["BrokerID"] = _PyCTP.CThostFtdcInputOptionSelfCloseField_BrokerID_set
+    __swig_getmethods__["BrokerID"] = _PyCTP.CThostFtdcInputOptionSelfCloseField_BrokerID_get
+    if _newclass:
+        BrokerID = _swig_property(_PyCTP.CThostFtdcInputOptionSelfCloseField_BrokerID_get, _PyCTP.CThostFtdcInputOptionSelfCloseField_BrokerID_set)
+    __swig_setmethods__["InvestorID"] = _PyCTP.CThostFtdcInputOptionSelfCloseField_InvestorID_set
+    __swig_getmethods__["InvestorID"] = _PyCTP.CThostFtdcInputOptionSelfCloseField_InvestorID_get
+    if _newclass:
+        InvestorID = _swig_property(_PyCTP.CThostFtdcInputOptionSelfCloseField_InvestorID_get, _PyCTP.CThostFtdcInputOptionSelfCloseField_InvestorID_set)
+    __swig_setmethods__["InstrumentID"] = _PyCTP.CThostFtdcInputOptionSelfCloseField_InstrumentID_set
+    __swig_getmethods__["InstrumentID"] = _PyCTP.CThostFtdcInputOptionSelfCloseField_InstrumentID_get
+    if _newclass:
+        InstrumentID = _swig_property(_PyCTP.CThostFtdcInputOptionSelfCloseField_InstrumentID_get, _PyCTP.CThostFtdcInputOptionSelfCloseField_InstrumentID_set)
+    __swig_setmethods__["OptionSelfCloseRef"] = _PyCTP.CThostFtdcInputOptionSelfCloseField_OptionSelfCloseRef_set
+    __swig_getmethods__["OptionSelfCloseRef"] = _PyCTP.CThostFtdcInputOptionSelfCloseField_OptionSelfCloseRef_get
+    if _newclass:
+        OptionSelfCloseRef = _swig_property(_PyCTP.CThostFtdcInputOptionSelfCloseField_OptionSelfCloseRef_get, _PyCTP.CThostFtdcInputOptionSelfCloseField_OptionSelfCloseRef_set)
+    __swig_setmethods__["UserID"] = _PyCTP.CThostFtdcInputOptionSelfCloseField_UserID_set
+    __swig_getmethods__["UserID"] = _PyCTP.CThostFtdcInputOptionSelfCloseField_UserID_get
+    if _newclass:
+        UserID = _swig_property(_PyCTP.CThostFtdcInputOptionSelfCloseField_UserID_get, _PyCTP.CThostFtdcInputOptionSelfCloseField_UserID_set)
+    __swig_setmethods__["Volume"] = _PyCTP.CThostFtdcInputOptionSelfCloseField_Volume_set
+    __swig_getmethods__["Volume"] = _PyCTP.CThostFtdcInputOptionSelfCloseField_Volume_get
+    if _newclass:
+        Volume = _swig_property(_PyCTP.CThostFtdcInputOptionSelfCloseField_Volume_get, _PyCTP.CThostFtdcInputOptionSelfCloseField_Volume_set)
+    __swig_setmethods__["RequestID"] = _PyCTP.CThostFtdcInputOptionSelfCloseField_RequestID_set
+    __swig_getmethods__["RequestID"] = _PyCTP.CThostFtdcInputOptionSelfCloseField_RequestID_get
+    if _newclass:
+        RequestID = _swig_property(_PyCTP.CThostFtdcInputOptionSelfCloseField_RequestID_get, _PyCTP.CThostFtdcInputOptionSelfCloseField_RequestID_set)
+    __swig_setmethods__["BusinessUnit"] = _PyCTP.CThostFtdcInputOptionSelfCloseField_BusinessUnit_set
+    __swig_getmethods__["BusinessUnit"] = _PyCTP.CThostFtdcInputOptionSelfCloseField_BusinessUnit_get
+    if _newclass:
+        BusinessUnit = _swig_property(_PyCTP.CThostFtdcInputOptionSelfCloseField_BusinessUnit_get, _PyCTP.CThostFtdcInputOptionSelfCloseField_BusinessUnit_set)
+    __swig_setmethods__["HedgeFlag"] = _PyCTP.CThostFtdcInputOptionSelfCloseField_HedgeFlag_set
+    __swig_getmethods__["HedgeFlag"] = _PyCTP.CThostFtdcInputOptionSelfCloseField_HedgeFlag_get
+    if _newclass:
+        HedgeFlag = _swig_property(_PyCTP.CThostFtdcInputOptionSelfCloseField_HedgeFlag_get, _PyCTP.CThostFtdcInputOptionSelfCloseField_HedgeFlag_set)
+    __swig_setmethods__["OptSelfCloseFlag"] = _PyCTP.CThostFtdcInputOptionSelfCloseField_OptSelfCloseFlag_set
+    __swig_getmethods__["OptSelfCloseFlag"] = _PyCTP.CThostFtdcInputOptionSelfCloseField_OptSelfCloseFlag_get
+    if _newclass:
+        OptSelfCloseFlag = _swig_property(_PyCTP.CThostFtdcInputOptionSelfCloseField_OptSelfCloseFlag_get, _PyCTP.CThostFtdcInputOptionSelfCloseField_OptSelfCloseFlag_set)
+    __swig_setmethods__["ExchangeID"] = _PyCTP.CThostFtdcInputOptionSelfCloseField_ExchangeID_set
+    __swig_getmethods__["ExchangeID"] = _PyCTP.CThostFtdcInputOptionSelfCloseField_ExchangeID_get
+    if _newclass:
+        ExchangeID = _swig_property(_PyCTP.CThostFtdcInputOptionSelfCloseField_ExchangeID_get, _PyCTP.CThostFtdcInputOptionSelfCloseField_ExchangeID_set)
+    __swig_setmethods__["InvestUnitID"] = _PyCTP.CThostFtdcInputOptionSelfCloseField_InvestUnitID_set
+    __swig_getmethods__["InvestUnitID"] = _PyCTP.CThostFtdcInputOptionSelfCloseField_InvestUnitID_get
+    if _newclass:
+        InvestUnitID = _swig_property(_PyCTP.CThostFtdcInputOptionSelfCloseField_InvestUnitID_get, _PyCTP.CThostFtdcInputOptionSelfCloseField_InvestUnitID_set)
+    __swig_setmethods__["AccountID"] = _PyCTP.CThostFtdcInputOptionSelfCloseField_AccountID_set
+    __swig_getmethods__["AccountID"] = _PyCTP.CThostFtdcInputOptionSelfCloseField_AccountID_get
+    if _newclass:
+        AccountID = _swig_property(_PyCTP.CThostFtdcInputOptionSelfCloseField_AccountID_get, _PyCTP.CThostFtdcInputOptionSelfCloseField_AccountID_set)
+    __swig_setmethods__["CurrencyID"] = _PyCTP.CThostFtdcInputOptionSelfCloseField_CurrencyID_set
+    __swig_getmethods__["CurrencyID"] = _PyCTP.CThostFtdcInputOptionSelfCloseField_CurrencyID_get
+    if _newclass:
+        CurrencyID = _swig_property(_PyCTP.CThostFtdcInputOptionSelfCloseField_CurrencyID_get, _PyCTP.CThostFtdcInputOptionSelfCloseField_CurrencyID_set)
+    __swig_setmethods__["ClientID"] = _PyCTP.CThostFtdcInputOptionSelfCloseField_ClientID_set
+    __swig_getmethods__["ClientID"] = _PyCTP.CThostFtdcInputOptionSelfCloseField_ClientID_get
+    if _newclass:
+        ClientID = _swig_property(_PyCTP.CThostFtdcInputOptionSelfCloseField_ClientID_get, _PyCTP.CThostFtdcInputOptionSelfCloseField_ClientID_set)
+    __swig_setmethods__["IPAddress"] = _PyCTP.CThostFtdcInputOptionSelfCloseField_IPAddress_set
+    __swig_getmethods__["IPAddress"] = _PyCTP.CThostFtdcInputOptionSelfCloseField_IPAddress_get
+    if _newclass:
+        IPAddress = _swig_property(_PyCTP.CThostFtdcInputOptionSelfCloseField_IPAddress_get, _PyCTP.CThostFtdcInputOptionSelfCloseField_IPAddress_set)
+    __swig_setmethods__["MacAddress"] = _PyCTP.CThostFtdcInputOptionSelfCloseField_MacAddress_set
+    __swig_getmethods__["MacAddress"] = _PyCTP.CThostFtdcInputOptionSelfCloseField_MacAddress_get
+    if _newclass:
+        MacAddress = _swig_property(_PyCTP.CThostFtdcInputOptionSelfCloseField_MacAddress_get, _PyCTP.CThostFtdcInputOptionSelfCloseField_MacAddress_set)
+
+    def __init__(self):
+        this = _PyCTP.new_CThostFtdcInputOptionSelfCloseField()
+        try:
+            self.this.append(this)
+        except __builtin__.Exception:
+            self.this = this
+    __swig_destroy__ = _PyCTP.delete_CThostFtdcInputOptionSelfCloseField
+    __del__ = lambda self: None
+CThostFtdcInputOptionSelfCloseField_swigregister = _PyCTP.CThostFtdcInputOptionSelfCloseField_swigregister
+CThostFtdcInputOptionSelfCloseField_swigregister(CThostFtdcInputOptionSelfCloseField)
+
+class CThostFtdcInputOptionSelfCloseActionField(_object):
+    __swig_setmethods__ = {}
+    __setattr__ = lambda self, name, value: _swig_setattr(self, CThostFtdcInputOptionSelfCloseActionField, name, value)
+    __swig_getmethods__ = {}
+    __getattr__ = lambda self, name: _swig_getattr(self, CThostFtdcInputOptionSelfCloseActionField, name)
+    __repr__ = _swig_repr
+    __swig_setmethods__["BrokerID"] = _PyCTP.CThostFtdcInputOptionSelfCloseActionField_BrokerID_set
+    __swig_getmethods__["BrokerID"] = _PyCTP.CThostFtdcInputOptionSelfCloseActionField_BrokerID_get
+    if _newclass:
+        BrokerID = _swig_property(_PyCTP.CThostFtdcInputOptionSelfCloseActionField_BrokerID_get, _PyCTP.CThostFtdcInputOptionSelfCloseActionField_BrokerID_set)
+    __swig_setmethods__["InvestorID"] = _PyCTP.CThostFtdcInputOptionSelfCloseActionField_InvestorID_set
+    __swig_getmethods__["InvestorID"] = _PyCTP.CThostFtdcInputOptionSelfCloseActionField_InvestorID_get
+    if _newclass:
+        InvestorID = _swig_property(_PyCTP.CThostFtdcInputOptionSelfCloseActionField_InvestorID_get, _PyCTP.CThostFtdcInputOptionSelfCloseActionField_InvestorID_set)
+    __swig_setmethods__["OptionSelfCloseActionRef"] = _PyCTP.CThostFtdcInputOptionSelfCloseActionField_OptionSelfCloseActionRef_set
+    __swig_getmethods__["OptionSelfCloseActionRef"] = _PyCTP.CThostFtdcInputOptionSelfCloseActionField_OptionSelfCloseActionRef_get
+    if _newclass:
+        OptionSelfCloseActionRef = _swig_property(_PyCTP.CThostFtdcInputOptionSelfCloseActionField_OptionSelfCloseActionRef_get, _PyCTP.CThostFtdcInputOptionSelfCloseActionField_OptionSelfCloseActionRef_set)
+    __swig_setmethods__["OptionSelfCloseRef"] = _PyCTP.CThostFtdcInputOptionSelfCloseActionField_OptionSelfCloseRef_set
+    __swig_getmethods__["OptionSelfCloseRef"] = _PyCTP.CThostFtdcInputOptionSelfCloseActionField_OptionSelfCloseRef_get
+    if _newclass:
+        OptionSelfCloseRef = _swig_property(_PyCTP.CThostFtdcInputOptionSelfCloseActionField_OptionSelfCloseRef_get, _PyCTP.CThostFtdcInputOptionSelfCloseActionField_OptionSelfCloseRef_set)
+    __swig_setmethods__["RequestID"] = _PyCTP.CThostFtdcInputOptionSelfCloseActionField_RequestID_set
+    __swig_getmethods__["RequestID"] = _PyCTP.CThostFtdcInputOptionSelfCloseActionField_RequestID_get
+    if _newclass:
+        RequestID = _swig_property(_PyCTP.CThostFtdcInputOptionSelfCloseActionField_RequestID_get, _PyCTP.CThostFtdcInputOptionSelfCloseActionField_RequestID_set)
+    __swig_setmethods__["FrontID"] = _PyCTP.CThostFtdcInputOptionSelfCloseActionField_FrontID_set
+    __swig_getmethods__["FrontID"] = _PyCTP.CThostFtdcInputOptionSelfCloseActionField_FrontID_get
+    if _newclass:
+        FrontID = _swig_property(_PyCTP.CThostFtdcInputOptionSelfCloseActionField_FrontID_get, _PyCTP.CThostFtdcInputOptionSelfCloseActionField_FrontID_set)
+    __swig_setmethods__["SessionID"] = _PyCTP.CThostFtdcInputOptionSelfCloseActionField_SessionID_set
+    __swig_getmethods__["SessionID"] = _PyCTP.CThostFtdcInputOptionSelfCloseActionField_SessionID_get
+    if _newclass:
+        SessionID = _swig_property(_PyCTP.CThostFtdcInputOptionSelfCloseActionField_SessionID_get, _PyCTP.CThostFtdcInputOptionSelfCloseActionField_SessionID_set)
+    __swig_setmethods__["ExchangeID"] = _PyCTP.CThostFtdcInputOptionSelfCloseActionField_ExchangeID_set
+    __swig_getmethods__["ExchangeID"] = _PyCTP.CThostFtdcInputOptionSelfCloseActionField_ExchangeID_get
+    if _newclass:
+        ExchangeID = _swig_property(_PyCTP.CThostFtdcInputOptionSelfCloseActionField_ExchangeID_get, _PyCTP.CThostFtdcInputOptionSelfCloseActionField_ExchangeID_set)
+    __swig_setmethods__["OptionSelfCloseSysID"] = _PyCTP.CThostFtdcInputOptionSelfCloseActionField_OptionSelfCloseSysID_set
+    __swig_getmethods__["OptionSelfCloseSysID"] = _PyCTP.CThostFtdcInputOptionSelfCloseActionField_OptionSelfCloseSysID_get
+    if _newclass:
+        OptionSelfCloseSysID = _swig_property(_PyCTP.CThostFtdcInputOptionSelfCloseActionField_OptionSelfCloseSysID_get, _PyCTP.CThostFtdcInputOptionSelfCloseActionField_OptionSelfCloseSysID_set)
+    __swig_setmethods__["ActionFlag"] = _PyCTP.CThostFtdcInputOptionSelfCloseActionField_ActionFlag_set
+    __swig_getmethods__["ActionFlag"] = _PyCTP.CThostFtdcInputOptionSelfCloseActionField_ActionFlag_get
+    if _newclass:
+        ActionFlag = _swig_property(_PyCTP.CThostFtdcInputOptionSelfCloseActionField_ActionFlag_get, _PyCTP.CThostFtdcInputOptionSelfCloseActionField_ActionFlag_set)
+    __swig_setmethods__["UserID"] = _PyCTP.CThostFtdcInputOptionSelfCloseActionField_UserID_set
+    __swig_getmethods__["UserID"] = _PyCTP.CThostFtdcInputOptionSelfCloseActionField_UserID_get
+    if _newclass:
+        UserID = _swig_property(_PyCTP.CThostFtdcInputOptionSelfCloseActionField_UserID_get, _PyCTP.CThostFtdcInputOptionSelfCloseActionField_UserID_set)
+    __swig_setmethods__["InstrumentID"] = _PyCTP.CThostFtdcInputOptionSelfCloseActionField_InstrumentID_set
+    __swig_getmethods__["InstrumentID"] = _PyCTP.CThostFtdcInputOptionSelfCloseActionField_InstrumentID_get
+    if _newclass:
+        InstrumentID = _swig_property(_PyCTP.CThostFtdcInputOptionSelfCloseActionField_InstrumentID_get, _PyCTP.CThostFtdcInputOptionSelfCloseActionField_InstrumentID_set)
+    __swig_setmethods__["InvestUnitID"] = _PyCTP.CThostFtdcInputOptionSelfCloseActionField_InvestUnitID_set
+    __swig_getmethods__["InvestUnitID"] = _PyCTP.CThostFtdcInputOptionSelfCloseActionField_InvestUnitID_get
+    if _newclass:
+        InvestUnitID = _swig_property(_PyCTP.CThostFtdcInputOptionSelfCloseActionField_InvestUnitID_get, _PyCTP.CThostFtdcInputOptionSelfCloseActionField_InvestUnitID_set)
+    __swig_setmethods__["IPAddress"] = _PyCTP.CThostFtdcInputOptionSelfCloseActionField_IPAddress_set
+    __swig_getmethods__["IPAddress"] = _PyCTP.CThostFtdcInputOptionSelfCloseActionField_IPAddress_get
+    if _newclass:
+        IPAddress = _swig_property(_PyCTP.CThostFtdcInputOptionSelfCloseActionField_IPAddress_get, _PyCTP.CThostFtdcInputOptionSelfCloseActionField_IPAddress_set)
+    __swig_setmethods__["MacAddress"] = _PyCTP.CThostFtdcInputOptionSelfCloseActionField_MacAddress_set
+    __swig_getmethods__["MacAddress"] = _PyCTP.CThostFtdcInputOptionSelfCloseActionField_MacAddress_get
+    if _newclass:
+        MacAddress = _swig_property(_PyCTP.CThostFtdcInputOptionSelfCloseActionField_MacAddress_get, _PyCTP.CThostFtdcInputOptionSelfCloseActionField_MacAddress_set)
+
+    def __init__(self):
+        this = _PyCTP.new_CThostFtdcInputOptionSelfCloseActionField()
+        try:
+            self.this.append(this)
+        except __builtin__.Exception:
+            self.this = this
+    __swig_destroy__ = _PyCTP.delete_CThostFtdcInputOptionSelfCloseActionField
+    __del__ = lambda self: None
+CThostFtdcInputOptionSelfCloseActionField_swigregister = _PyCTP.CThostFtdcInputOptionSelfCloseActionField_swigregister
+CThostFtdcInputOptionSelfCloseActionField_swigregister(CThostFtdcInputOptionSelfCloseActionField)
+
+class CThostFtdcOptionSelfCloseField(_object):
+    __swig_setmethods__ = {}
+    __setattr__ = lambda self, name, value: _swig_setattr(self, CThostFtdcOptionSelfCloseField, name, value)
+    __swig_getmethods__ = {}
+    __getattr__ = lambda self, name: _swig_getattr(self, CThostFtdcOptionSelfCloseField, name)
+    __repr__ = _swig_repr
+    __swig_setmethods__["BrokerID"] = _PyCTP.CThostFtdcOptionSelfCloseField_BrokerID_set
+    __swig_getmethods__["BrokerID"] = _PyCTP.CThostFtdcOptionSelfCloseField_BrokerID_get
+    if _newclass:
+        BrokerID = _swig_property(_PyCTP.CThostFtdcOptionSelfCloseField_BrokerID_get, _PyCTP.CThostFtdcOptionSelfCloseField_BrokerID_set)
+    __swig_setmethods__["InvestorID"] = _PyCTP.CThostFtdcOptionSelfCloseField_InvestorID_set
+    __swig_getmethods__["InvestorID"] = _PyCTP.CThostFtdcOptionSelfCloseField_InvestorID_get
+    if _newclass:
+        InvestorID = _swig_property(_PyCTP.CThostFtdcOptionSelfCloseField_InvestorID_get, _PyCTP.CThostFtdcOptionSelfCloseField_InvestorID_set)
+    __swig_setmethods__["InstrumentID"] = _PyCTP.CThostFtdcOptionSelfCloseField_InstrumentID_set
+    __swig_getmethods__["InstrumentID"] = _PyCTP.CThostFtdcOptionSelfCloseField_InstrumentID_get
+    if _newclass:
+        InstrumentID = _swig_property(_PyCTP.CThostFtdcOptionSelfCloseField_InstrumentID_get, _PyCTP.CThostFtdcOptionSelfCloseField_InstrumentID_set)
+    __swig_setmethods__["OptionSelfCloseRef"] = _PyCTP.CThostFtdcOptionSelfCloseField_OptionSelfCloseRef_set
+    __swig_getmethods__["OptionSelfCloseRef"] = _PyCTP.CThostFtdcOptionSelfCloseField_OptionSelfCloseRef_get
+    if _newclass:
+        OptionSelfCloseRef = _swig_property(_PyCTP.CThostFtdcOptionSelfCloseField_OptionSelfCloseRef_get, _PyCTP.CThostFtdcOptionSelfCloseField_OptionSelfCloseRef_set)
+    __swig_setmethods__["UserID"] = _PyCTP.CThostFtdcOptionSelfCloseField_UserID_set
+    __swig_getmethods__["UserID"] = _PyCTP.CThostFtdcOptionSelfCloseField_UserID_get
+    if _newclass:
+        UserID = _swig_property(_PyCTP.CThostFtdcOptionSelfCloseField_UserID_get, _PyCTP.CThostFtdcOptionSelfCloseField_UserID_set)
+    __swig_setmethods__["Volume"] = _PyCTP.CThostFtdcOptionSelfCloseField_Volume_set
+    __swig_getmethods__["Volume"] = _PyCTP.CThostFtdcOptionSelfCloseField_Volume_get
+    if _newclass:
+        Volume = _swig_property(_PyCTP.CThostFtdcOptionSelfCloseField_Volume_get, _PyCTP.CThostFtdcOptionSelfCloseField_Volume_set)
+    __swig_setmethods__["RequestID"] = _PyCTP.CThostFtdcOptionSelfCloseField_RequestID_set
+    __swig_getmethods__["RequestID"] = _PyCTP.CThostFtdcOptionSelfCloseField_RequestID_get
+    if _newclass:
+        RequestID = _swig_property(_PyCTP.CThostFtdcOptionSelfCloseField_RequestID_get, _PyCTP.CThostFtdcOptionSelfCloseField_RequestID_set)
+    __swig_setmethods__["BusinessUnit"] = _PyCTP.CThostFtdcOptionSelfCloseField_BusinessUnit_set
+    __swig_getmethods__["BusinessUnit"] = _PyCTP.CThostFtdcOptionSelfCloseField_BusinessUnit_get
+    if _newclass:
+        BusinessUnit = _swig_property(_PyCTP.CThostFtdcOptionSelfCloseField_BusinessUnit_get, _PyCTP.CThostFtdcOptionSelfCloseField_BusinessUnit_set)
+    __swig_setmethods__["HedgeFlag"] = _PyCTP.CThostFtdcOptionSelfCloseField_HedgeFlag_set
+    __swig_getmethods__["HedgeFlag"] = _PyCTP.CThostFtdcOptionSelfCloseField_HedgeFlag_get
+    if _newclass:
+        HedgeFlag = _swig_property(_PyCTP.CThostFtdcOptionSelfCloseField_HedgeFlag_get, _PyCTP.CThostFtdcOptionSelfCloseField_HedgeFlag_set)
+    __swig_setmethods__["OptSelfCloseFlag"] = _PyCTP.CThostFtdcOptionSelfCloseField_OptSelfCloseFlag_set
+    __swig_getmethods__["OptSelfCloseFlag"] = _PyCTP.CThostFtdcOptionSelfCloseField_OptSelfCloseFlag_get
+    if _newclass:
+        OptSelfCloseFlag = _swig_property(_PyCTP.CThostFtdcOptionSelfCloseField_OptSelfCloseFlag_get, _PyCTP.CThostFtdcOptionSelfCloseField_OptSelfCloseFlag_set)
+    __swig_setmethods__["OptionSelfCloseLocalID"] = _PyCTP.CThostFtdcOptionSelfCloseField_OptionSelfCloseLocalID_set
+    __swig_getmethods__["OptionSelfCloseLocalID"] = _PyCTP.CThostFtdcOptionSelfCloseField_OptionSelfCloseLocalID_get
+    if _newclass:
+        OptionSelfCloseLocalID = _swig_property(_PyCTP.CThostFtdcOptionSelfCloseField_OptionSelfCloseLocalID_get, _PyCTP.CThostFtdcOptionSelfCloseField_OptionSelfCloseLocalID_set)
+    __swig_setmethods__["ExchangeID"] = _PyCTP.CThostFtdcOptionSelfCloseField_ExchangeID_set
+    __swig_getmethods__["ExchangeID"] = _PyCTP.CThostFtdcOptionSelfCloseField_ExchangeID_get
+    if _newclass:
+        ExchangeID = _swig_property(_PyCTP.CThostFtdcOptionSelfCloseField_ExchangeID_get, _PyCTP.CThostFtdcOptionSelfCloseField_ExchangeID_set)
+    __swig_setmethods__["ParticipantID"] = _PyCTP.CThostFtdcOptionSelfCloseField_ParticipantID_set
+    __swig_getmethods__["ParticipantID"] = _PyCTP.CThostFtdcOptionSelfCloseField_ParticipantID_get
+    if _newclass:
+        ParticipantID = _swig_property(_PyCTP.CThostFtdcOptionSelfCloseField_ParticipantID_get, _PyCTP.CThostFtdcOptionSelfCloseField_ParticipantID_set)
+    __swig_setmethods__["ClientID"] = _PyCTP.CThostFtdcOptionSelfCloseField_ClientID_set
+    __swig_getmethods__["ClientID"] = _PyCTP.CThostFtdcOptionSelfCloseField_ClientID_get
+    if _newclass:
+        ClientID = _swig_property(_PyCTP.CThostFtdcOptionSelfCloseField_ClientID_get, _PyCTP.CThostFtdcOptionSelfCloseField_ClientID_set)
+    __swig_setmethods__["ExchangeInstID"] = _PyCTP.CThostFtdcOptionSelfCloseField_ExchangeInstID_set
+    __swig_getmethods__["ExchangeInstID"] = _PyCTP.CThostFtdcOptionSelfCloseField_ExchangeInstID_get
+    if _newclass:
+        ExchangeInstID = _swig_property(_PyCTP.CThostFtdcOptionSelfCloseField_ExchangeInstID_get, _PyCTP.CThostFtdcOptionSelfCloseField_ExchangeInstID_set)
+    __swig_setmethods__["TraderID"] = _PyCTP.CThostFtdcOptionSelfCloseField_TraderID_set
+    __swig_getmethods__["TraderID"] = _PyCTP.CThostFtdcOptionSelfCloseField_TraderID_get
+    if _newclass:
+        TraderID = _swig_property(_PyCTP.CThostFtdcOptionSelfCloseField_TraderID_get, _PyCTP.CThostFtdcOptionSelfCloseField_TraderID_set)
+    __swig_setmethods__["InstallID"] = _PyCTP.CThostFtdcOptionSelfCloseField_InstallID_set
+    __swig_getmethods__["InstallID"] = _PyCTP.CThostFtdcOptionSelfCloseField_InstallID_get
+    if _newclass:
+        InstallID = _swig_property(_PyCTP.CThostFtdcOptionSelfCloseField_InstallID_get, _PyCTP.CThostFtdcOptionSelfCloseField_InstallID_set)
+    __swig_setmethods__["OrderSubmitStatus"] = _PyCTP.CThostFtdcOptionSelfCloseField_OrderSubmitStatus_set
+    __swig_getmethods__["OrderSubmitStatus"] = _PyCTP.CThostFtdcOptionSelfCloseField_OrderSubmitStatus_get
+    if _newclass:
+        OrderSubmitStatus = _swig_property(_PyCTP.CThostFtdcOptionSelfCloseField_OrderSubmitStatus_get, _PyCTP.CThostFtdcOptionSelfCloseField_OrderSubmitStatus_set)
+    __swig_setmethods__["NotifySequence"] = _PyCTP.CThostFtdcOptionSelfCloseField_NotifySequence_set
+    __swig_getmethods__["NotifySequence"] = _PyCTP.CThostFtdcOptionSelfCloseField_NotifySequence_get
+    if _newclass:
+        NotifySequence = _swig_property(_PyCTP.CThostFtdcOptionSelfCloseField_NotifySequence_get, _PyCTP.CThostFtdcOptionSelfCloseField_NotifySequence_set)
+    __swig_setmethods__["TradingDay"] = _PyCTP.CThostFtdcOptionSelfCloseField_TradingDay_set
+    __swig_getmethods__["TradingDay"] = _PyCTP.CThostFtdcOptionSelfCloseField_TradingDay_get
+    if _newclass:
+        TradingDay = _swig_property(_PyCTP.CThostFtdcOptionSelfCloseField_TradingDay_get, _PyCTP.CThostFtdcOptionSelfCloseField_TradingDay_set)
+    __swig_setmethods__["SettlementID"] = _PyCTP.CThostFtdcOptionSelfCloseField_SettlementID_set
+    __swig_getmethods__["SettlementID"] = _PyCTP.CThostFtdcOptionSelfCloseField_SettlementID_get
+    if _newclass:
+        SettlementID = _swig_property(_PyCTP.CThostFtdcOptionSelfCloseField_SettlementID_get, _PyCTP.CThostFtdcOptionSelfCloseField_SettlementID_set)
+    __swig_setmethods__["OptionSelfCloseSysID"] = _PyCTP.CThostFtdcOptionSelfCloseField_OptionSelfCloseSysID_set
+    __swig_getmethods__["OptionSelfCloseSysID"] = _PyCTP.CThostFtdcOptionSelfCloseField_OptionSelfCloseSysID_get
+    if _newclass:
+        OptionSelfCloseSysID = _swig_property(_PyCTP.CThostFtdcOptionSelfCloseField_OptionSelfCloseSysID_get, _PyCTP.CThostFtdcOptionSelfCloseField_OptionSelfCloseSysID_set)
+    __swig_setmethods__["InsertDate"] = _PyCTP.CThostFtdcOptionSelfCloseField_InsertDate_set
+    __swig_getmethods__["InsertDate"] = _PyCTP.CThostFtdcOptionSelfCloseField_InsertDate_get
+    if _newclass:
+        InsertDate = _swig_property(_PyCTP.CThostFtdcOptionSelfCloseField_InsertDate_get, _PyCTP.CThostFtdcOptionSelfCloseField_InsertDate_set)
+    __swig_setmethods__["InsertTime"] = _PyCTP.CThostFtdcOptionSelfCloseField_InsertTime_set
+    __swig_getmethods__["InsertTime"] = _PyCTP.CThostFtdcOptionSelfCloseField_InsertTime_get
+    if _newclass:
+        InsertTime = _swig_property(_PyCTP.CThostFtdcOptionSelfCloseField_InsertTime_get, _PyCTP.CThostFtdcOptionSelfCloseField_InsertTime_set)
+    __swig_setmethods__["CancelTime"] = _PyCTP.CThostFtdcOptionSelfCloseField_CancelTime_set
+    __swig_getmethods__["CancelTime"] = _PyCTP.CThostFtdcOptionSelfCloseField_CancelTime_get
+    if _newclass:
+        CancelTime = _swig_property(_PyCTP.CThostFtdcOptionSelfCloseField_CancelTime_get, _PyCTP.CThostFtdcOptionSelfCloseField_CancelTime_set)
+    __swig_setmethods__["ExecResult"] = _PyCTP.CThostFtdcOptionSelfCloseField_ExecResult_set
+    __swig_getmethods__["ExecResult"] = _PyCTP.CThostFtdcOptionSelfCloseField_ExecResult_get
+    if _newclass:
+        ExecResult = _swig_property(_PyCTP.CThostFtdcOptionSelfCloseField_ExecResult_get, _PyCTP.CThostFtdcOptionSelfCloseField_ExecResult_set)
+    __swig_setmethods__["ClearingPartID"] = _PyCTP.CThostFtdcOptionSelfCloseField_ClearingPartID_set
+    __swig_getmethods__["ClearingPartID"] = _PyCTP.CThostFtdcOptionSelfCloseField_ClearingPartID_get
+    if _newclass:
+        ClearingPartID = _swig_property(_PyCTP.CThostFtdcOptionSelfCloseField_ClearingPartID_get, _PyCTP.CThostFtdcOptionSelfCloseField_ClearingPartID_set)
+    __swig_setmethods__["SequenceNo"] = _PyCTP.CThostFtdcOptionSelfCloseField_SequenceNo_set
+    __swig_getmethods__["SequenceNo"] = _PyCTP.CThostFtdcOptionSelfCloseField_SequenceNo_get
+    if _newclass:
+        SequenceNo = _swig_property(_PyCTP.CThostFtdcOptionSelfCloseField_SequenceNo_get, _PyCTP.CThostFtdcOptionSelfCloseField_SequenceNo_set)
+    __swig_setmethods__["FrontID"] = _PyCTP.CThostFtdcOptionSelfCloseField_FrontID_set
+    __swig_getmethods__["FrontID"] = _PyCTP.CThostFtdcOptionSelfCloseField_FrontID_get
+    if _newclass:
+        FrontID = _swig_property(_PyCTP.CThostFtdcOptionSelfCloseField_FrontID_get, _PyCTP.CThostFtdcOptionSelfCloseField_FrontID_set)
+    __swig_setmethods__["SessionID"] = _PyCTP.CThostFtdcOptionSelfCloseField_SessionID_set
+    __swig_getmethods__["SessionID"] = _PyCTP.CThostFtdcOptionSelfCloseField_SessionID_get
+    if _newclass:
+        SessionID = _swig_property(_PyCTP.CThostFtdcOptionSelfCloseField_SessionID_get, _PyCTP.CThostFtdcOptionSelfCloseField_SessionID_set)
+    __swig_setmethods__["UserProductInfo"] = _PyCTP.CThostFtdcOptionSelfCloseField_UserProductInfo_set
+    __swig_getmethods__["UserProductInfo"] = _PyCTP.CThostFtdcOptionSelfCloseField_UserProductInfo_get
+    if _newclass:
+        UserProductInfo = _swig_property(_PyCTP.CThostFtdcOptionSelfCloseField_UserProductInfo_get, _PyCTP.CThostFtdcOptionSelfCloseField_UserProductInfo_set)
+    __swig_setmethods__["StatusMsg"] = _PyCTP.CThostFtdcOptionSelfCloseField_StatusMsg_set
+    __swig_getmethods__["StatusMsg"] = _PyCTP.CThostFtdcOptionSelfCloseField_StatusMsg_get
+    if _newclass:
+        StatusMsg = _swig_property(_PyCTP.CThostFtdcOptionSelfCloseField_StatusMsg_get, _PyCTP.CThostFtdcOptionSelfCloseField_StatusMsg_set)
+    __swig_setmethods__["ActiveUserID"] = _PyCTP.CThostFtdcOptionSelfCloseField_ActiveUserID_set
+    __swig_getmethods__["ActiveUserID"] = _PyCTP.CThostFtdcOptionSelfCloseField_ActiveUserID_get
+    if _newclass:
+        ActiveUserID = _swig_property(_PyCTP.CThostFtdcOptionSelfCloseField_ActiveUserID_get, _PyCTP.CThostFtdcOptionSelfCloseField_ActiveUserID_set)
+    __swig_setmethods__["BrokerOptionSelfCloseSeq"] = _PyCTP.CThostFtdcOptionSelfCloseField_BrokerOptionSelfCloseSeq_set
+    __swig_getmethods__["BrokerOptionSelfCloseSeq"] = _PyCTP.CThostFtdcOptionSelfCloseField_BrokerOptionSelfCloseSeq_get
+    if _newclass:
+        BrokerOptionSelfCloseSeq = _swig_property(_PyCTP.CThostFtdcOptionSelfCloseField_BrokerOptionSelfCloseSeq_get, _PyCTP.CThostFtdcOptionSelfCloseField_BrokerOptionSelfCloseSeq_set)
+    __swig_setmethods__["BranchID"] = _PyCTP.CThostFtdcOptionSelfCloseField_BranchID_set
+    __swig_getmethods__["BranchID"] = _PyCTP.CThostFtdcOptionSelfCloseField_BranchID_get
+    if _newclass:
+        BranchID = _swig_property(_PyCTP.CThostFtdcOptionSelfCloseField_BranchID_get, _PyCTP.CThostFtdcOptionSelfCloseField_BranchID_set)
+    __swig_setmethods__["InvestUnitID"] = _PyCTP.CThostFtdcOptionSelfCloseField_InvestUnitID_set
+    __swig_getmethods__["InvestUnitID"] = _PyCTP.CThostFtdcOptionSelfCloseField_InvestUnitID_get
+    if _newclass:
+        InvestUnitID = _swig_property(_PyCTP.CThostFtdcOptionSelfCloseField_InvestUnitID_get, _PyCTP.CThostFtdcOptionSelfCloseField_InvestUnitID_set)
+    __swig_setmethods__["AccountID"] = _PyCTP.CThostFtdcOptionSelfCloseField_AccountID_set
+    __swig_getmethods__["AccountID"] = _PyCTP.CThostFtdcOptionSelfCloseField_AccountID_get
+    if _newclass:
+        AccountID = _swig_property(_PyCTP.CThostFtdcOptionSelfCloseField_AccountID_get, _PyCTP.CThostFtdcOptionSelfCloseField_AccountID_set)
+    __swig_setmethods__["CurrencyID"] = _PyCTP.CThostFtdcOptionSelfCloseField_CurrencyID_set
+    __swig_getmethods__["CurrencyID"] = _PyCTP.CThostFtdcOptionSelfCloseField_CurrencyID_get
+    if _newclass:
+        CurrencyID = _swig_property(_PyCTP.CThostFtdcOptionSelfCloseField_CurrencyID_get, _PyCTP.CThostFtdcOptionSelfCloseField_CurrencyID_set)
+    __swig_setmethods__["IPAddress"] = _PyCTP.CThostFtdcOptionSelfCloseField_IPAddress_set
+    __swig_getmethods__["IPAddress"] = _PyCTP.CThostFtdcOptionSelfCloseField_IPAddress_get
+    if _newclass:
+        IPAddress = _swig_property(_PyCTP.CThostFtdcOptionSelfCloseField_IPAddress_get, _PyCTP.CThostFtdcOptionSelfCloseField_IPAddress_set)
+    __swig_setmethods__["MacAddress"] = _PyCTP.CThostFtdcOptionSelfCloseField_MacAddress_set
+    __swig_getmethods__["MacAddress"] = _PyCTP.CThostFtdcOptionSelfCloseField_MacAddress_get
+    if _newclass:
+        MacAddress = _swig_property(_PyCTP.CThostFtdcOptionSelfCloseField_MacAddress_get, _PyCTP.CThostFtdcOptionSelfCloseField_MacAddress_set)
+
+    def __init__(self):
+        this = _PyCTP.new_CThostFtdcOptionSelfCloseField()
+        try:
+            self.this.append(this)
+        except __builtin__.Exception:
+            self.this = this
+    __swig_destroy__ = _PyCTP.delete_CThostFtdcOptionSelfCloseField
+    __del__ = lambda self: None
+CThostFtdcOptionSelfCloseField_swigregister = _PyCTP.CThostFtdcOptionSelfCloseField_swigregister
+CThostFtdcOptionSelfCloseField_swigregister(CThostFtdcOptionSelfCloseField)
+
+class CThostFtdcOptionSelfCloseActionField(_object):
+    __swig_setmethods__ = {}
+    __setattr__ = lambda self, name, value: _swig_setattr(self, CThostFtdcOptionSelfCloseActionField, name, value)
+    __swig_getmethods__ = {}
+    __getattr__ = lambda self, name: _swig_getattr(self, CThostFtdcOptionSelfCloseActionField, name)
+    __repr__ = _swig_repr
+    __swig_setmethods__["BrokerID"] = _PyCTP.CThostFtdcOptionSelfCloseActionField_BrokerID_set
+    __swig_getmethods__["BrokerID"] = _PyCTP.CThostFtdcOptionSelfCloseActionField_BrokerID_get
+    if _newclass:
+        BrokerID = _swig_property(_PyCTP.CThostFtdcOptionSelfCloseActionField_BrokerID_get, _PyCTP.CThostFtdcOptionSelfCloseActionField_BrokerID_set)
+    __swig_setmethods__["InvestorID"] = _PyCTP.CThostFtdcOptionSelfCloseActionField_InvestorID_set
+    __swig_getmethods__["InvestorID"] = _PyCTP.CThostFtdcOptionSelfCloseActionField_InvestorID_get
+    if _newclass:
+        InvestorID = _swig_property(_PyCTP.CThostFtdcOptionSelfCloseActionField_InvestorID_get, _PyCTP.CThostFtdcOptionSelfCloseActionField_InvestorID_set)
+    __swig_setmethods__["OptionSelfCloseActionRef"] = _PyCTP.CThostFtdcOptionSelfCloseActionField_OptionSelfCloseActionRef_set
+    __swig_getmethods__["OptionSelfCloseActionRef"] = _PyCTP.CThostFtdcOptionSelfCloseActionField_OptionSelfCloseActionRef_get
+    if _newclass:
+        OptionSelfCloseActionRef = _swig_property(_PyCTP.CThostFtdcOptionSelfCloseActionField_OptionSelfCloseActionRef_get, _PyCTP.CThostFtdcOptionSelfCloseActionField_OptionSelfCloseActionRef_set)
+    __swig_setmethods__["OptionSelfCloseRef"] = _PyCTP.CThostFtdcOptionSelfCloseActionField_OptionSelfCloseRef_set
+    __swig_getmethods__["OptionSelfCloseRef"] = _PyCTP.CThostFtdcOptionSelfCloseActionField_OptionSelfCloseRef_get
+    if _newclass:
+        OptionSelfCloseRef = _swig_property(_PyCTP.CThostFtdcOptionSelfCloseActionField_OptionSelfCloseRef_get, _PyCTP.CThostFtdcOptionSelfCloseActionField_OptionSelfCloseRef_set)
+    __swig_setmethods__["RequestID"] = _PyCTP.CThostFtdcOptionSelfCloseActionField_RequestID_set
+    __swig_getmethods__["RequestID"] = _PyCTP.CThostFtdcOptionSelfCloseActionField_RequestID_get
+    if _newclass:
+        RequestID = _swig_property(_PyCTP.CThostFtdcOptionSelfCloseActionField_RequestID_get, _PyCTP.CThostFtdcOptionSelfCloseActionField_RequestID_set)
+    __swig_setmethods__["FrontID"] = _PyCTP.CThostFtdcOptionSelfCloseActionField_FrontID_set
+    __swig_getmethods__["FrontID"] = _PyCTP.CThostFtdcOptionSelfCloseActionField_FrontID_get
+    if _newclass:
+        FrontID = _swig_property(_PyCTP.CThostFtdcOptionSelfCloseActionField_FrontID_get, _PyCTP.CThostFtdcOptionSelfCloseActionField_FrontID_set)
+    __swig_setmethods__["SessionID"] = _PyCTP.CThostFtdcOptionSelfCloseActionField_SessionID_set
+    __swig_getmethods__["SessionID"] = _PyCTP.CThostFtdcOptionSelfCloseActionField_SessionID_get
+    if _newclass:
+        SessionID = _swig_property(_PyCTP.CThostFtdcOptionSelfCloseActionField_SessionID_get, _PyCTP.CThostFtdcOptionSelfCloseActionField_SessionID_set)
+    __swig_setmethods__["ExchangeID"] = _PyCTP.CThostFtdcOptionSelfCloseActionField_ExchangeID_set
+    __swig_getmethods__["ExchangeID"] = _PyCTP.CThostFtdcOptionSelfCloseActionField_ExchangeID_get
+    if _newclass:
+        ExchangeID = _swig_property(_PyCTP.CThostFtdcOptionSelfCloseActionField_ExchangeID_get, _PyCTP.CThostFtdcOptionSelfCloseActionField_ExchangeID_set)
+    __swig_setmethods__["OptionSelfCloseSysID"] = _PyCTP.CThostFtdcOptionSelfCloseActionField_OptionSelfCloseSysID_set
+    __swig_getmethods__["OptionSelfCloseSysID"] = _PyCTP.CThostFtdcOptionSelfCloseActionField_OptionSelfCloseSysID_get
+    if _newclass:
+        OptionSelfCloseSysID = _swig_property(_PyCTP.CThostFtdcOptionSelfCloseActionField_OptionSelfCloseSysID_get, _PyCTP.CThostFtdcOptionSelfCloseActionField_OptionSelfCloseSysID_set)
+    __swig_setmethods__["ActionFlag"] = _PyCTP.CThostFtdcOptionSelfCloseActionField_ActionFlag_set
+    __swig_getmethods__["ActionFlag"] = _PyCTP.CThostFtdcOptionSelfCloseActionField_ActionFlag_get
+    if _newclass:
+        ActionFlag = _swig_property(_PyCTP.CThostFtdcOptionSelfCloseActionField_ActionFlag_get, _PyCTP.CThostFtdcOptionSelfCloseActionField_ActionFlag_set)
+    __swig_setmethods__["ActionDate"] = _PyCTP.CThostFtdcOptionSelfCloseActionField_ActionDate_set
+    __swig_getmethods__["ActionDate"] = _PyCTP.CThostFtdcOptionSelfCloseActionField_ActionDate_get
+    if _newclass:
+        ActionDate = _swig_property(_PyCTP.CThostFtdcOptionSelfCloseActionField_ActionDate_get, _PyCTP.CThostFtdcOptionSelfCloseActionField_ActionDate_set)
+    __swig_setmethods__["ActionTime"] = _PyCTP.CThostFtdcOptionSelfCloseActionField_ActionTime_set
+    __swig_getmethods__["ActionTime"] = _PyCTP.CThostFtdcOptionSelfCloseActionField_ActionTime_get
+    if _newclass:
+        ActionTime = _swig_property(_PyCTP.CThostFtdcOptionSelfCloseActionField_ActionTime_get, _PyCTP.CThostFtdcOptionSelfCloseActionField_ActionTime_set)
+    __swig_setmethods__["TraderID"] = _PyCTP.CThostFtdcOptionSelfCloseActionField_TraderID_set
+    __swig_getmethods__["TraderID"] = _PyCTP.CThostFtdcOptionSelfCloseActionField_TraderID_get
+    if _newclass:
+        TraderID = _swig_property(_PyCTP.CThostFtdcOptionSelfCloseActionField_TraderID_get, _PyCTP.CThostFtdcOptionSelfCloseActionField_TraderID_set)
+    __swig_setmethods__["InstallID"] = _PyCTP.CThostFtdcOptionSelfCloseActionField_InstallID_set
+    __swig_getmethods__["InstallID"] = _PyCTP.CThostFtdcOptionSelfCloseActionField_InstallID_get
+    if _newclass:
+        InstallID = _swig_property(_PyCTP.CThostFtdcOptionSelfCloseActionField_InstallID_get, _PyCTP.CThostFtdcOptionSelfCloseActionField_InstallID_set)
+    __swig_setmethods__["OptionSelfCloseLocalID"] = _PyCTP.CThostFtdcOptionSelfCloseActionField_OptionSelfCloseLocalID_set
+    __swig_getmethods__["OptionSelfCloseLocalID"] = _PyCTP.CThostFtdcOptionSelfCloseActionField_OptionSelfCloseLocalID_get
+    if _newclass:
+        OptionSelfCloseLocalID = _swig_property(_PyCTP.CThostFtdcOptionSelfCloseActionField_OptionSelfCloseLocalID_get, _PyCTP.CThostFtdcOptionSelfCloseActionField_OptionSelfCloseLocalID_set)
+    __swig_setmethods__["ActionLocalID"] = _PyCTP.CThostFtdcOptionSelfCloseActionField_ActionLocalID_set
+    __swig_getmethods__["ActionLocalID"] = _PyCTP.CThostFtdcOptionSelfCloseActionField_ActionLocalID_get
+    if _newclass:
+        ActionLocalID = _swig_property(_PyCTP.CThostFtdcOptionSelfCloseActionField_ActionLocalID_get, _PyCTP.CThostFtdcOptionSelfCloseActionField_ActionLocalID_set)
+    __swig_setmethods__["ParticipantID"] = _PyCTP.CThostFtdcOptionSelfCloseActionField_ParticipantID_set
+    __swig_getmethods__["ParticipantID"] = _PyCTP.CThostFtdcOptionSelfCloseActionField_ParticipantID_get
+    if _newclass:
+        ParticipantID = _swig_property(_PyCTP.CThostFtdcOptionSelfCloseActionField_ParticipantID_get, _PyCTP.CThostFtdcOptionSelfCloseActionField_ParticipantID_set)
+    __swig_setmethods__["ClientID"] = _PyCTP.CThostFtdcOptionSelfCloseActionField_ClientID_set
+    __swig_getmethods__["ClientID"] = _PyCTP.CThostFtdcOptionSelfCloseActionField_ClientID_get
+    if _newclass:
+        ClientID = _swig_property(_PyCTP.CThostFtdcOptionSelfCloseActionField_ClientID_get, _PyCTP.CThostFtdcOptionSelfCloseActionField_ClientID_set)
+    __swig_setmethods__["BusinessUnit"] = _PyCTP.CThostFtdcOptionSelfCloseActionField_BusinessUnit_set
+    __swig_getmethods__["BusinessUnit"] = _PyCTP.CThostFtdcOptionSelfCloseActionField_BusinessUnit_get
+    if _newclass:
+        BusinessUnit = _swig_property(_PyCTP.CThostFtdcOptionSelfCloseActionField_BusinessUnit_get, _PyCTP.CThostFtdcOptionSelfCloseActionField_BusinessUnit_set)
+    __swig_setmethods__["OrderActionStatus"] = _PyCTP.CThostFtdcOptionSelfCloseActionField_OrderActionStatus_set
+    __swig_getmethods__["OrderActionStatus"] = _PyCTP.CThostFtdcOptionSelfCloseActionField_OrderActionStatus_get
+    if _newclass:
+        OrderActionStatus = _swig_property(_PyCTP.CThostFtdcOptionSelfCloseActionField_OrderActionStatus_get, _PyCTP.CThostFtdcOptionSelfCloseActionField_OrderActionStatus_set)
+    __swig_setmethods__["UserID"] = _PyCTP.CThostFtdcOptionSelfCloseActionField_UserID_set
+    __swig_getmethods__["UserID"] = _PyCTP.CThostFtdcOptionSelfCloseActionField_UserID_get
+    if _newclass:
+        UserID = _swig_property(_PyCTP.CThostFtdcOptionSelfCloseActionField_UserID_get, _PyCTP.CThostFtdcOptionSelfCloseActionField_UserID_set)
+    __swig_setmethods__["StatusMsg"] = _PyCTP.CThostFtdcOptionSelfCloseActionField_StatusMsg_set
+    __swig_getmethods__["StatusMsg"] = _PyCTP.CThostFtdcOptionSelfCloseActionField_StatusMsg_get
+    if _newclass:
+        StatusMsg = _swig_property(_PyCTP.CThostFtdcOptionSelfCloseActionField_StatusMsg_get, _PyCTP.CThostFtdcOptionSelfCloseActionField_StatusMsg_set)
+    __swig_setmethods__["InstrumentID"] = _PyCTP.CThostFtdcOptionSelfCloseActionField_InstrumentID_set
+    __swig_getmethods__["InstrumentID"] = _PyCTP.CThostFtdcOptionSelfCloseActionField_InstrumentID_get
+    if _newclass:
+        InstrumentID = _swig_property(_PyCTP.CThostFtdcOptionSelfCloseActionField_InstrumentID_get, _PyCTP.CThostFtdcOptionSelfCloseActionField_InstrumentID_set)
+    __swig_setmethods__["BranchID"] = _PyCTP.CThostFtdcOptionSelfCloseActionField_BranchID_set
+    __swig_getmethods__["BranchID"] = _PyCTP.CThostFtdcOptionSelfCloseActionField_BranchID_get
+    if _newclass:
+        BranchID = _swig_property(_PyCTP.CThostFtdcOptionSelfCloseActionField_BranchID_get, _PyCTP.CThostFtdcOptionSelfCloseActionField_BranchID_set)
+    __swig_setmethods__["InvestUnitID"] = _PyCTP.CThostFtdcOptionSelfCloseActionField_InvestUnitID_set
+    __swig_getmethods__["InvestUnitID"] = _PyCTP.CThostFtdcOptionSelfCloseActionField_InvestUnitID_get
+    if _newclass:
+        InvestUnitID = _swig_property(_PyCTP.CThostFtdcOptionSelfCloseActionField_InvestUnitID_get, _PyCTP.CThostFtdcOptionSelfCloseActionField_InvestUnitID_set)
+    __swig_setmethods__["IPAddress"] = _PyCTP.CThostFtdcOptionSelfCloseActionField_IPAddress_set
+    __swig_getmethods__["IPAddress"] = _PyCTP.CThostFtdcOptionSelfCloseActionField_IPAddress_get
+    if _newclass:
+        IPAddress = _swig_property(_PyCTP.CThostFtdcOptionSelfCloseActionField_IPAddress_get, _PyCTP.CThostFtdcOptionSelfCloseActionField_IPAddress_set)
+    __swig_setmethods__["MacAddress"] = _PyCTP.CThostFtdcOptionSelfCloseActionField_MacAddress_set
+    __swig_getmethods__["MacAddress"] = _PyCTP.CThostFtdcOptionSelfCloseActionField_MacAddress_get
+    if _newclass:
+        MacAddress = _swig_property(_PyCTP.CThostFtdcOptionSelfCloseActionField_MacAddress_get, _PyCTP.CThostFtdcOptionSelfCloseActionField_MacAddress_set)
+
+    def __init__(self):
+        this = _PyCTP.new_CThostFtdcOptionSelfCloseActionField()
+        try:
+            self.this.append(this)
+        except __builtin__.Exception:
+            self.this = this
+    __swig_destroy__ = _PyCTP.delete_CThostFtdcOptionSelfCloseActionField
+    __del__ = lambda self: None
+CThostFtdcOptionSelfCloseActionField_swigregister = _PyCTP.CThostFtdcOptionSelfCloseActionField_swigregister
+CThostFtdcOptionSelfCloseActionField_swigregister(CThostFtdcOptionSelfCloseActionField)
+
+class CThostFtdcQryOptionSelfCloseField(_object):
+    __swig_setmethods__ = {}
+    __setattr__ = lambda self, name, value: _swig_setattr(self, CThostFtdcQryOptionSelfCloseField, name, value)
+    __swig_getmethods__ = {}
+    __getattr__ = lambda self, name: _swig_getattr(self, CThostFtdcQryOptionSelfCloseField, name)
+    __repr__ = _swig_repr
+    __swig_setmethods__["BrokerID"] = _PyCTP.CThostFtdcQryOptionSelfCloseField_BrokerID_set
+    __swig_getmethods__["BrokerID"] = _PyCTP.CThostFtdcQryOptionSelfCloseField_BrokerID_get
+    if _newclass:
+        BrokerID = _swig_property(_PyCTP.CThostFtdcQryOptionSelfCloseField_BrokerID_get, _PyCTP.CThostFtdcQryOptionSelfCloseField_BrokerID_set)
+    __swig_setmethods__["InvestorID"] = _PyCTP.CThostFtdcQryOptionSelfCloseField_InvestorID_set
+    __swig_getmethods__["InvestorID"] = _PyCTP.CThostFtdcQryOptionSelfCloseField_InvestorID_get
+    if _newclass:
+        InvestorID = _swig_property(_PyCTP.CThostFtdcQryOptionSelfCloseField_InvestorID_get, _PyCTP.CThostFtdcQryOptionSelfCloseField_InvestorID_set)
+    __swig_setmethods__["InstrumentID"] = _PyCTP.CThostFtdcQryOptionSelfCloseField_InstrumentID_set
+    __swig_getmethods__["InstrumentID"] = _PyCTP.CThostFtdcQryOptionSelfCloseField_InstrumentID_get
+    if _newclass:
+        InstrumentID = _swig_property(_PyCTP.CThostFtdcQryOptionSelfCloseField_InstrumentID_get, _PyCTP.CThostFtdcQryOptionSelfCloseField_InstrumentID_set)
+    __swig_setmethods__["ExchangeID"] = _PyCTP.CThostFtdcQryOptionSelfCloseField_ExchangeID_set
+    __swig_getmethods__["ExchangeID"] = _PyCTP.CThostFtdcQryOptionSelfCloseField_ExchangeID_get
+    if _newclass:
+        ExchangeID = _swig_property(_PyCTP.CThostFtdcQryOptionSelfCloseField_ExchangeID_get, _PyCTP.CThostFtdcQryOptionSelfCloseField_ExchangeID_set)
+    __swig_setmethods__["OptionSelfCloseSysID"] = _PyCTP.CThostFtdcQryOptionSelfCloseField_OptionSelfCloseSysID_set
+    __swig_getmethods__["OptionSelfCloseSysID"] = _PyCTP.CThostFtdcQryOptionSelfCloseField_OptionSelfCloseSysID_get
+    if _newclass:
+        OptionSelfCloseSysID = _swig_property(_PyCTP.CThostFtdcQryOptionSelfCloseField_OptionSelfCloseSysID_get, _PyCTP.CThostFtdcQryOptionSelfCloseField_OptionSelfCloseSysID_set)
+    __swig_setmethods__["InsertTimeStart"] = _PyCTP.CThostFtdcQryOptionSelfCloseField_InsertTimeStart_set
+    __swig_getmethods__["InsertTimeStart"] = _PyCTP.CThostFtdcQryOptionSelfCloseField_InsertTimeStart_get
+    if _newclass:
+        InsertTimeStart = _swig_property(_PyCTP.CThostFtdcQryOptionSelfCloseField_InsertTimeStart_get, _PyCTP.CThostFtdcQryOptionSelfCloseField_InsertTimeStart_set)
+    __swig_setmethods__["InsertTimeEnd"] = _PyCTP.CThostFtdcQryOptionSelfCloseField_InsertTimeEnd_set
+    __swig_getmethods__["InsertTimeEnd"] = _PyCTP.CThostFtdcQryOptionSelfCloseField_InsertTimeEnd_get
+    if _newclass:
+        InsertTimeEnd = _swig_property(_PyCTP.CThostFtdcQryOptionSelfCloseField_InsertTimeEnd_get, _PyCTP.CThostFtdcQryOptionSelfCloseField_InsertTimeEnd_set)
+
+    def __init__(self):
+        this = _PyCTP.new_CThostFtdcQryOptionSelfCloseField()
+        try:
+            self.this.append(this)
+        except __builtin__.Exception:
+            self.this = this
+    __swig_destroy__ = _PyCTP.delete_CThostFtdcQryOptionSelfCloseField
+    __del__ = lambda self: None
+CThostFtdcQryOptionSelfCloseField_swigregister = _PyCTP.CThostFtdcQryOptionSelfCloseField_swigregister
+CThostFtdcQryOptionSelfCloseField_swigregister(CThostFtdcQryOptionSelfCloseField)
+
+class CThostFtdcExchangeOptionSelfCloseField(_object):
+    __swig_setmethods__ = {}
+    __setattr__ = lambda self, name, value: _swig_setattr(self, CThostFtdcExchangeOptionSelfCloseField, name, value)
+    __swig_getmethods__ = {}
+    __getattr__ = lambda self, name: _swig_getattr(self, CThostFtdcExchangeOptionSelfCloseField, name)
+    __repr__ = _swig_repr
+    __swig_setmethods__["Volume"] = _PyCTP.CThostFtdcExchangeOptionSelfCloseField_Volume_set
+    __swig_getmethods__["Volume"] = _PyCTP.CThostFtdcExchangeOptionSelfCloseField_Volume_get
+    if _newclass:
+        Volume = _swig_property(_PyCTP.CThostFtdcExchangeOptionSelfCloseField_Volume_get, _PyCTP.CThostFtdcExchangeOptionSelfCloseField_Volume_set)
+    __swig_setmethods__["RequestID"] = _PyCTP.CThostFtdcExchangeOptionSelfCloseField_RequestID_set
+    __swig_getmethods__["RequestID"] = _PyCTP.CThostFtdcExchangeOptionSelfCloseField_RequestID_get
+    if _newclass:
+        RequestID = _swig_property(_PyCTP.CThostFtdcExchangeOptionSelfCloseField_RequestID_get, _PyCTP.CThostFtdcExchangeOptionSelfCloseField_RequestID_set)
+    __swig_setmethods__["BusinessUnit"] = _PyCTP.CThostFtdcExchangeOptionSelfCloseField_BusinessUnit_set
+    __swig_getmethods__["BusinessUnit"] = _PyCTP.CThostFtdcExchangeOptionSelfCloseField_BusinessUnit_get
+    if _newclass:
+        BusinessUnit = _swig_property(_PyCTP.CThostFtdcExchangeOptionSelfCloseField_BusinessUnit_get, _PyCTP.CThostFtdcExchangeOptionSelfCloseField_BusinessUnit_set)
+    __swig_setmethods__["HedgeFlag"] = _PyCTP.CThostFtdcExchangeOptionSelfCloseField_HedgeFlag_set
+    __swig_getmethods__["HedgeFlag"] = _PyCTP.CThostFtdcExchangeOptionSelfCloseField_HedgeFlag_get
+    if _newclass:
+        HedgeFlag = _swig_property(_PyCTP.CThostFtdcExchangeOptionSelfCloseField_HedgeFlag_get, _PyCTP.CThostFtdcExchangeOptionSelfCloseField_HedgeFlag_set)
+    __swig_setmethods__["OptSelfCloseFlag"] = _PyCTP.CThostFtdcExchangeOptionSelfCloseField_OptSelfCloseFlag_set
+    __swig_getmethods__["OptSelfCloseFlag"] = _PyCTP.CThostFtdcExchangeOptionSelfCloseField_OptSelfCloseFlag_get
+    if _newclass:
+        OptSelfCloseFlag = _swig_property(_PyCTP.CThostFtdcExchangeOptionSelfCloseField_OptSelfCloseFlag_get, _PyCTP.CThostFtdcExchangeOptionSelfCloseField_OptSelfCloseFlag_set)
+    __swig_setmethods__["OptionSelfCloseLocalID"] = _PyCTP.CThostFtdcExchangeOptionSelfCloseField_OptionSelfCloseLocalID_set
+    __swig_getmethods__["OptionSelfCloseLocalID"] = _PyCTP.CThostFtdcExchangeOptionSelfCloseField_OptionSelfCloseLocalID_get
+    if _newclass:
+        OptionSelfCloseLocalID = _swig_property(_PyCTP.CThostFtdcExchangeOptionSelfCloseField_OptionSelfCloseLocalID_get, _PyCTP.CThostFtdcExchangeOptionSelfCloseField_OptionSelfCloseLocalID_set)
+    __swig_setmethods__["ExchangeID"] = _PyCTP.CThostFtdcExchangeOptionSelfCloseField_ExchangeID_set
+    __swig_getmethods__["ExchangeID"] = _PyCTP.CThostFtdcExchangeOptionSelfCloseField_ExchangeID_get
+    if _newclass:
+        ExchangeID = _swig_property(_PyCTP.CThostFtdcExchangeOptionSelfCloseField_ExchangeID_get, _PyCTP.CThostFtdcExchangeOptionSelfCloseField_ExchangeID_set)
+    __swig_setmethods__["ParticipantID"] = _PyCTP.CThostFtdcExchangeOptionSelfCloseField_ParticipantID_set
+    __swig_getmethods__["ParticipantID"] = _PyCTP.CThostFtdcExchangeOptionSelfCloseField_ParticipantID_get
+    if _newclass:
+        ParticipantID = _swig_property(_PyCTP.CThostFtdcExchangeOptionSelfCloseField_ParticipantID_get, _PyCTP.CThostFtdcExchangeOptionSelfCloseField_ParticipantID_set)
+    __swig_setmethods__["ClientID"] = _PyCTP.CThostFtdcExchangeOptionSelfCloseField_ClientID_set
+    __swig_getmethods__["ClientID"] = _PyCTP.CThostFtdcExchangeOptionSelfCloseField_ClientID_get
+    if _newclass:
+        ClientID = _swig_property(_PyCTP.CThostFtdcExchangeOptionSelfCloseField_ClientID_get, _PyCTP.CThostFtdcExchangeOptionSelfCloseField_ClientID_set)
+    __swig_setmethods__["ExchangeInstID"] = _PyCTP.CThostFtdcExchangeOptionSelfCloseField_ExchangeInstID_set
+    __swig_getmethods__["ExchangeInstID"] = _PyCTP.CThostFtdcExchangeOptionSelfCloseField_ExchangeInstID_get
+    if _newclass:
+        ExchangeInstID = _swig_property(_PyCTP.CThostFtdcExchangeOptionSelfCloseField_ExchangeInstID_get, _PyCTP.CThostFtdcExchangeOptionSelfCloseField_ExchangeInstID_set)
+    __swig_setmethods__["TraderID"] = _PyCTP.CThostFtdcExchangeOptionSelfCloseField_TraderID_set
+    __swig_getmethods__["TraderID"] = _PyCTP.CThostFtdcExchangeOptionSelfCloseField_TraderID_get
+    if _newclass:
+        TraderID = _swig_property(_PyCTP.CThostFtdcExchangeOptionSelfCloseField_TraderID_get, _PyCTP.CThostFtdcExchangeOptionSelfCloseField_TraderID_set)
+    __swig_setmethods__["InstallID"] = _PyCTP.CThostFtdcExchangeOptionSelfCloseField_InstallID_set
+    __swig_getmethods__["InstallID"] = _PyCTP.CThostFtdcExchangeOptionSelfCloseField_InstallID_get
+    if _newclass:
+        InstallID = _swig_property(_PyCTP.CThostFtdcExchangeOptionSelfCloseField_InstallID_get, _PyCTP.CThostFtdcExchangeOptionSelfCloseField_InstallID_set)
+    __swig_setmethods__["OrderSubmitStatus"] = _PyCTP.CThostFtdcExchangeOptionSelfCloseField_OrderSubmitStatus_set
+    __swig_getmethods__["OrderSubmitStatus"] = _PyCTP.CThostFtdcExchangeOptionSelfCloseField_OrderSubmitStatus_get
+    if _newclass:
+        OrderSubmitStatus = _swig_property(_PyCTP.CThostFtdcExchangeOptionSelfCloseField_OrderSubmitStatus_get, _PyCTP.CThostFtdcExchangeOptionSelfCloseField_OrderSubmitStatus_set)
+    __swig_setmethods__["NotifySequence"] = _PyCTP.CThostFtdcExchangeOptionSelfCloseField_NotifySequence_set
+    __swig_getmethods__["NotifySequence"] = _PyCTP.CThostFtdcExchangeOptionSelfCloseField_NotifySequence_get
+    if _newclass:
+        NotifySequence = _swig_property(_PyCTP.CThostFtdcExchangeOptionSelfCloseField_NotifySequence_get, _PyCTP.CThostFtdcExchangeOptionSelfCloseField_NotifySequence_set)
+    __swig_setmethods__["TradingDay"] = _PyCTP.CThostFtdcExchangeOptionSelfCloseField_TradingDay_set
+    __swig_getmethods__["TradingDay"] = _PyCTP.CThostFtdcExchangeOptionSelfCloseField_TradingDay_get
+    if _newclass:
+        TradingDay = _swig_property(_PyCTP.CThostFtdcExchangeOptionSelfCloseField_TradingDay_get, _PyCTP.CThostFtdcExchangeOptionSelfCloseField_TradingDay_set)
+    __swig_setmethods__["SettlementID"] = _PyCTP.CThostFtdcExchangeOptionSelfCloseField_SettlementID_set
+    __swig_getmethods__["SettlementID"] = _PyCTP.CThostFtdcExchangeOptionSelfCloseField_SettlementID_get
+    if _newclass:
+        SettlementID = _swig_property(_PyCTP.CThostFtdcExchangeOptionSelfCloseField_SettlementID_get, _PyCTP.CThostFtdcExchangeOptionSelfCloseField_SettlementID_set)
+    __swig_setmethods__["OptionSelfCloseSysID"] = _PyCTP.CThostFtdcExchangeOptionSelfCloseField_OptionSelfCloseSysID_set
+    __swig_getmethods__["OptionSelfCloseSysID"] = _PyCTP.CThostFtdcExchangeOptionSelfCloseField_OptionSelfCloseSysID_get
+    if _newclass:
+        OptionSelfCloseSysID = _swig_property(_PyCTP.CThostFtdcExchangeOptionSelfCloseField_OptionSelfCloseSysID_get, _PyCTP.CThostFtdcExchangeOptionSelfCloseField_OptionSelfCloseSysID_set)
+    __swig_setmethods__["InsertDate"] = _PyCTP.CThostFtdcExchangeOptionSelfCloseField_InsertDate_set
+    __swig_getmethods__["InsertDate"] = _PyCTP.CThostFtdcExchangeOptionSelfCloseField_InsertDate_get
+    if _newclass:
+        InsertDate = _swig_property(_PyCTP.CThostFtdcExchangeOptionSelfCloseField_InsertDate_get, _PyCTP.CThostFtdcExchangeOptionSelfCloseField_InsertDate_set)
+    __swig_setmethods__["InsertTime"] = _PyCTP.CThostFtdcExchangeOptionSelfCloseField_InsertTime_set
+    __swig_getmethods__["InsertTime"] = _PyCTP.CThostFtdcExchangeOptionSelfCloseField_InsertTime_get
+    if _newclass:
+        InsertTime = _swig_property(_PyCTP.CThostFtdcExchangeOptionSelfCloseField_InsertTime_get, _PyCTP.CThostFtdcExchangeOptionSelfCloseField_InsertTime_set)
+    __swig_setmethods__["CancelTime"] = _PyCTP.CThostFtdcExchangeOptionSelfCloseField_CancelTime_set
+    __swig_getmethods__["CancelTime"] = _PyCTP.CThostFtdcExchangeOptionSelfCloseField_CancelTime_get
+    if _newclass:
+        CancelTime = _swig_property(_PyCTP.CThostFtdcExchangeOptionSelfCloseField_CancelTime_get, _PyCTP.CThostFtdcExchangeOptionSelfCloseField_CancelTime_set)
+    __swig_setmethods__["ExecResult"] = _PyCTP.CThostFtdcExchangeOptionSelfCloseField_ExecResult_set
+    __swig_getmethods__["ExecResult"] = _PyCTP.CThostFtdcExchangeOptionSelfCloseField_ExecResult_get
+    if _newclass:
+        ExecResult = _swig_property(_PyCTP.CThostFtdcExchangeOptionSelfCloseField_ExecResult_get, _PyCTP.CThostFtdcExchangeOptionSelfCloseField_ExecResult_set)
+    __swig_setmethods__["ClearingPartID"] = _PyCTP.CThostFtdcExchangeOptionSelfCloseField_ClearingPartID_set
+    __swig_getmethods__["ClearingPartID"] = _PyCTP.CThostFtdcExchangeOptionSelfCloseField_ClearingPartID_get
+    if _newclass:
+        ClearingPartID = _swig_property(_PyCTP.CThostFtdcExchangeOptionSelfCloseField_ClearingPartID_get, _PyCTP.CThostFtdcExchangeOptionSelfCloseField_ClearingPartID_set)
+    __swig_setmethods__["SequenceNo"] = _PyCTP.CThostFtdcExchangeOptionSelfCloseField_SequenceNo_set
+    __swig_getmethods__["SequenceNo"] = _PyCTP.CThostFtdcExchangeOptionSelfCloseField_SequenceNo_get
+    if _newclass:
+        SequenceNo = _swig_property(_PyCTP.CThostFtdcExchangeOptionSelfCloseField_SequenceNo_get, _PyCTP.CThostFtdcExchangeOptionSelfCloseField_SequenceNo_set)
+    __swig_setmethods__["BranchID"] = _PyCTP.CThostFtdcExchangeOptionSelfCloseField_BranchID_set
+    __swig_getmethods__["BranchID"] = _PyCTP.CThostFtdcExchangeOptionSelfCloseField_BranchID_get
+    if _newclass:
+        BranchID = _swig_property(_PyCTP.CThostFtdcExchangeOptionSelfCloseField_BranchID_get, _PyCTP.CThostFtdcExchangeOptionSelfCloseField_BranchID_set)
+    __swig_setmethods__["IPAddress"] = _PyCTP.CThostFtdcExchangeOptionSelfCloseField_IPAddress_set
+    __swig_getmethods__["IPAddress"] = _PyCTP.CThostFtdcExchangeOptionSelfCloseField_IPAddress_get
+    if _newclass:
+        IPAddress = _swig_property(_PyCTP.CThostFtdcExchangeOptionSelfCloseField_IPAddress_get, _PyCTP.CThostFtdcExchangeOptionSelfCloseField_IPAddress_set)
+    __swig_setmethods__["MacAddress"] = _PyCTP.CThostFtdcExchangeOptionSelfCloseField_MacAddress_set
+    __swig_getmethods__["MacAddress"] = _PyCTP.CThostFtdcExchangeOptionSelfCloseField_MacAddress_get
+    if _newclass:
+        MacAddress = _swig_property(_PyCTP.CThostFtdcExchangeOptionSelfCloseField_MacAddress_get, _PyCTP.CThostFtdcExchangeOptionSelfCloseField_MacAddress_set)
+
+    def __init__(self):
+        this = _PyCTP.new_CThostFtdcExchangeOptionSelfCloseField()
+        try:
+            self.this.append(this)
+        except __builtin__.Exception:
+            self.this = this
+    __swig_destroy__ = _PyCTP.delete_CThostFtdcExchangeOptionSelfCloseField
+    __del__ = lambda self: None
+CThostFtdcExchangeOptionSelfCloseField_swigregister = _PyCTP.CThostFtdcExchangeOptionSelfCloseField_swigregister
+CThostFtdcExchangeOptionSelfCloseField_swigregister(CThostFtdcExchangeOptionSelfCloseField)
+
+class CThostFtdcQryOptionSelfCloseActionField(_object):
+    __swig_setmethods__ = {}
+    __setattr__ = lambda self, name, value: _swig_setattr(self, CThostFtdcQryOptionSelfCloseActionField, name, value)
+    __swig_getmethods__ = {}
+    __getattr__ = lambda self, name: _swig_getattr(self, CThostFtdcQryOptionSelfCloseActionField, name)
+    __repr__ = _swig_repr
+    __swig_setmethods__["BrokerID"] = _PyCTP.CThostFtdcQryOptionSelfCloseActionField_BrokerID_set
+    __swig_getmethods__["BrokerID"] = _PyCTP.CThostFtdcQryOptionSelfCloseActionField_BrokerID_get
+    if _newclass:
+        BrokerID = _swig_property(_PyCTP.CThostFtdcQryOptionSelfCloseActionField_BrokerID_get, _PyCTP.CThostFtdcQryOptionSelfCloseActionField_BrokerID_set)
+    __swig_setmethods__["InvestorID"] = _PyCTP.CThostFtdcQryOptionSelfCloseActionField_InvestorID_set
+    __swig_getmethods__["InvestorID"] = _PyCTP.CThostFtdcQryOptionSelfCloseActionField_InvestorID_get
+    if _newclass:
+        InvestorID = _swig_property(_PyCTP.CThostFtdcQryOptionSelfCloseActionField_InvestorID_get, _PyCTP.CThostFtdcQryOptionSelfCloseActionField_InvestorID_set)
+    __swig_setmethods__["ExchangeID"] = _PyCTP.CThostFtdcQryOptionSelfCloseActionField_ExchangeID_set
+    __swig_getmethods__["ExchangeID"] = _PyCTP.CThostFtdcQryOptionSelfCloseActionField_ExchangeID_get
+    if _newclass:
+        ExchangeID = _swig_property(_PyCTP.CThostFtdcQryOptionSelfCloseActionField_ExchangeID_get, _PyCTP.CThostFtdcQryOptionSelfCloseActionField_ExchangeID_set)
+
+    def __init__(self):
+        this = _PyCTP.new_CThostFtdcQryOptionSelfCloseActionField()
+        try:
+            self.this.append(this)
+        except __builtin__.Exception:
+            self.this = this
+    __swig_destroy__ = _PyCTP.delete_CThostFtdcQryOptionSelfCloseActionField
+    __del__ = lambda self: None
+CThostFtdcQryOptionSelfCloseActionField_swigregister = _PyCTP.CThostFtdcQryOptionSelfCloseActionField_swigregister
+CThostFtdcQryOptionSelfCloseActionField_swigregister(CThostFtdcQryOptionSelfCloseActionField)
+
+class CThostFtdcExchangeOptionSelfCloseActionField(_object):
+    __swig_setmethods__ = {}
+    __setattr__ = lambda self, name, value: _swig_setattr(self, CThostFtdcExchangeOptionSelfCloseActionField, name, value)
+    __swig_getmethods__ = {}
+    __getattr__ = lambda self, name: _swig_getattr(self, CThostFtdcExchangeOptionSelfCloseActionField, name)
+    __repr__ = _swig_repr
+    __swig_setmethods__["ExchangeID"] = _PyCTP.CThostFtdcExchangeOptionSelfCloseActionField_ExchangeID_set
+    __swig_getmethods__["ExchangeID"] = _PyCTP.CThostFtdcExchangeOptionSelfCloseActionField_ExchangeID_get
+    if _newclass:
+        ExchangeID = _swig_property(_PyCTP.CThostFtdcExchangeOptionSelfCloseActionField_ExchangeID_get, _PyCTP.CThostFtdcExchangeOptionSelfCloseActionField_ExchangeID_set)
+    __swig_setmethods__["OptionSelfCloseSysID"] = _PyCTP.CThostFtdcExchangeOptionSelfCloseActionField_OptionSelfCloseSysID_set
+    __swig_getmethods__["OptionSelfCloseSysID"] = _PyCTP.CThostFtdcExchangeOptionSelfCloseActionField_OptionSelfCloseSysID_get
+    if _newclass:
+        OptionSelfCloseSysID = _swig_property(_PyCTP.CThostFtdcExchangeOptionSelfCloseActionField_OptionSelfCloseSysID_get, _PyCTP.CThostFtdcExchangeOptionSelfCloseActionField_OptionSelfCloseSysID_set)
+    __swig_setmethods__["ActionFlag"] = _PyCTP.CThostFtdcExchangeOptionSelfCloseActionField_ActionFlag_set
+    __swig_getmethods__["ActionFlag"] = _PyCTP.CThostFtdcExchangeOptionSelfCloseActionField_ActionFlag_get
+    if _newclass:
+        ActionFlag = _swig_property(_PyCTP.CThostFtdcExchangeOptionSelfCloseActionField_ActionFlag_get, _PyCTP.CThostFtdcExchangeOptionSelfCloseActionField_ActionFlag_set)
+    __swig_setmethods__["ActionDate"] = _PyCTP.CThostFtdcExchangeOptionSelfCloseActionField_ActionDate_set
+    __swig_getmethods__["ActionDate"] = _PyCTP.CThostFtdcExchangeOptionSelfCloseActionField_ActionDate_get
+    if _newclass:
+        ActionDate = _swig_property(_PyCTP.CThostFtdcExchangeOptionSelfCloseActionField_ActionDate_get, _PyCTP.CThostFtdcExchangeOptionSelfCloseActionField_ActionDate_set)
+    __swig_setmethods__["ActionTime"] = _PyCTP.CThostFtdcExchangeOptionSelfCloseActionField_ActionTime_set
+    __swig_getmethods__["ActionTime"] = _PyCTP.CThostFtdcExchangeOptionSelfCloseActionField_ActionTime_get
+    if _newclass:
+        ActionTime = _swig_property(_PyCTP.CThostFtdcExchangeOptionSelfCloseActionField_ActionTime_get, _PyCTP.CThostFtdcExchangeOptionSelfCloseActionField_ActionTime_set)
+    __swig_setmethods__["TraderID"] = _PyCTP.CThostFtdcExchangeOptionSelfCloseActionField_TraderID_set
+    __swig_getmethods__["TraderID"] = _PyCTP.CThostFtdcExchangeOptionSelfCloseActionField_TraderID_get
+    if _newclass:
+        TraderID = _swig_property(_PyCTP.CThostFtdcExchangeOptionSelfCloseActionField_TraderID_get, _PyCTP.CThostFtdcExchangeOptionSelfCloseActionField_TraderID_set)
+    __swig_setmethods__["InstallID"] = _PyCTP.CThostFtdcExchangeOptionSelfCloseActionField_InstallID_set
+    __swig_getmethods__["InstallID"] = _PyCTP.CThostFtdcExchangeOptionSelfCloseActionField_InstallID_get
+    if _newclass:
+        InstallID = _swig_property(_PyCTP.CThostFtdcExchangeOptionSelfCloseActionField_InstallID_get, _PyCTP.CThostFtdcExchangeOptionSelfCloseActionField_InstallID_set)
+    __swig_setmethods__["OptionSelfCloseLocalID"] = _PyCTP.CThostFtdcExchangeOptionSelfCloseActionField_OptionSelfCloseLocalID_set
+    __swig_getmethods__["OptionSelfCloseLocalID"] = _PyCTP.CThostFtdcExchangeOptionSelfCloseActionField_OptionSelfCloseLocalID_get
+    if _newclass:
+        OptionSelfCloseLocalID = _swig_property(_PyCTP.CThostFtdcExchangeOptionSelfCloseActionField_OptionSelfCloseLocalID_get, _PyCTP.CThostFtdcExchangeOptionSelfCloseActionField_OptionSelfCloseLocalID_set)
+    __swig_setmethods__["ActionLocalID"] = _PyCTP.CThostFtdcExchangeOptionSelfCloseActionField_ActionLocalID_set
+    __swig_getmethods__["ActionLocalID"] = _PyCTP.CThostFtdcExchangeOptionSelfCloseActionField_ActionLocalID_get
+    if _newclass:
+        ActionLocalID = _swig_property(_PyCTP.CThostFtdcExchangeOptionSelfCloseActionField_ActionLocalID_get, _PyCTP.CThostFtdcExchangeOptionSelfCloseActionField_ActionLocalID_set)
+    __swig_setmethods__["ParticipantID"] = _PyCTP.CThostFtdcExchangeOptionSelfCloseActionField_ParticipantID_set
+    __swig_getmethods__["ParticipantID"] = _PyCTP.CThostFtdcExchangeOptionSelfCloseActionField_ParticipantID_get
+    if _newclass:
+        ParticipantID = _swig_property(_PyCTP.CThostFtdcExchangeOptionSelfCloseActionField_ParticipantID_get, _PyCTP.CThostFtdcExchangeOptionSelfCloseActionField_ParticipantID_set)
+    __swig_setmethods__["ClientID"] = _PyCTP.CThostFtdcExchangeOptionSelfCloseActionField_ClientID_set
+    __swig_getmethods__["ClientID"] = _PyCTP.CThostFtdcExchangeOptionSelfCloseActionField_ClientID_get
+    if _newclass:
+        ClientID = _swig_property(_PyCTP.CThostFtdcExchangeOptionSelfCloseActionField_ClientID_get, _PyCTP.CThostFtdcExchangeOptionSelfCloseActionField_ClientID_set)
+    __swig_setmethods__["BusinessUnit"] = _PyCTP.CThostFtdcExchangeOptionSelfCloseActionField_BusinessUnit_set
+    __swig_getmethods__["BusinessUnit"] = _PyCTP.CThostFtdcExchangeOptionSelfCloseActionField_BusinessUnit_get
+    if _newclass:
+        BusinessUnit = _swig_property(_PyCTP.CThostFtdcExchangeOptionSelfCloseActionField_BusinessUnit_get, _PyCTP.CThostFtdcExchangeOptionSelfCloseActionField_BusinessUnit_set)
+    __swig_setmethods__["OrderActionStatus"] = _PyCTP.CThostFtdcExchangeOptionSelfCloseActionField_OrderActionStatus_set
+    __swig_getmethods__["OrderActionStatus"] = _PyCTP.CThostFtdcExchangeOptionSelfCloseActionField_OrderActionStatus_get
+    if _newclass:
+        OrderActionStatus = _swig_property(_PyCTP.CThostFtdcExchangeOptionSelfCloseActionField_OrderActionStatus_get, _PyCTP.CThostFtdcExchangeOptionSelfCloseActionField_OrderActionStatus_set)
+    __swig_setmethods__["UserID"] = _PyCTP.CThostFtdcExchangeOptionSelfCloseActionField_UserID_set
+    __swig_getmethods__["UserID"] = _PyCTP.CThostFtdcExchangeOptionSelfCloseActionField_UserID_get
+    if _newclass:
+        UserID = _swig_property(_PyCTP.CThostFtdcExchangeOptionSelfCloseActionField_UserID_get, _PyCTP.CThostFtdcExchangeOptionSelfCloseActionField_UserID_set)
+    __swig_setmethods__["BranchID"] = _PyCTP.CThostFtdcExchangeOptionSelfCloseActionField_BranchID_set
+    __swig_getmethods__["BranchID"] = _PyCTP.CThostFtdcExchangeOptionSelfCloseActionField_BranchID_get
+    if _newclass:
+        BranchID = _swig_property(_PyCTP.CThostFtdcExchangeOptionSelfCloseActionField_BranchID_get, _PyCTP.CThostFtdcExchangeOptionSelfCloseActionField_BranchID_set)
+    __swig_setmethods__["IPAddress"] = _PyCTP.CThostFtdcExchangeOptionSelfCloseActionField_IPAddress_set
+    __swig_getmethods__["IPAddress"] = _PyCTP.CThostFtdcExchangeOptionSelfCloseActionField_IPAddress_get
+    if _newclass:
+        IPAddress = _swig_property(_PyCTP.CThostFtdcExchangeOptionSelfCloseActionField_IPAddress_get, _PyCTP.CThostFtdcExchangeOptionSelfCloseActionField_IPAddress_set)
+    __swig_setmethods__["MacAddress"] = _PyCTP.CThostFtdcExchangeOptionSelfCloseActionField_MacAddress_set
+    __swig_getmethods__["MacAddress"] = _PyCTP.CThostFtdcExchangeOptionSelfCloseActionField_MacAddress_get
+    if _newclass:
+        MacAddress = _swig_property(_PyCTP.CThostFtdcExchangeOptionSelfCloseActionField_MacAddress_get, _PyCTP.CThostFtdcExchangeOptionSelfCloseActionField_MacAddress_set)
+    __swig_setmethods__["ExchangeInstID"] = _PyCTP.CThostFtdcExchangeOptionSelfCloseActionField_ExchangeInstID_set
+    __swig_getmethods__["ExchangeInstID"] = _PyCTP.CThostFtdcExchangeOptionSelfCloseActionField_ExchangeInstID_get
+    if _newclass:
+        ExchangeInstID = _swig_property(_PyCTP.CThostFtdcExchangeOptionSelfCloseActionField_ExchangeInstID_get, _PyCTP.CThostFtdcExchangeOptionSelfCloseActionField_ExchangeInstID_set)
+    __swig_setmethods__["OptSelfCloseFlag"] = _PyCTP.CThostFtdcExchangeOptionSelfCloseActionField_OptSelfCloseFlag_set
+    __swig_getmethods__["OptSelfCloseFlag"] = _PyCTP.CThostFtdcExchangeOptionSelfCloseActionField_OptSelfCloseFlag_get
+    if _newclass:
+        OptSelfCloseFlag = _swig_property(_PyCTP.CThostFtdcExchangeOptionSelfCloseActionField_OptSelfCloseFlag_get, _PyCTP.CThostFtdcExchangeOptionSelfCloseActionField_OptSelfCloseFlag_set)
+
+    def __init__(self):
+        this = _PyCTP.new_CThostFtdcExchangeOptionSelfCloseActionField()
+        try:
+            self.this.append(this)
+        except __builtin__.Exception:
+            self.this = this
+    __swig_destroy__ = _PyCTP.delete_CThostFtdcExchangeOptionSelfCloseActionField
+    __del__ = lambda self: None
+CThostFtdcExchangeOptionSelfCloseActionField_swigregister = _PyCTP.CThostFtdcExchangeOptionSelfCloseActionField_swigregister
+CThostFtdcExchangeOptionSelfCloseActionField_swigregister(CThostFtdcExchangeOptionSelfCloseActionField)
+
+class CThostFtdcSyncDelaySwapField(_object):
+    __swig_setmethods__ = {}
+    __setattr__ = lambda self, name, value: _swig_setattr(self, CThostFtdcSyncDelaySwapField, name, value)
+    __swig_getmethods__ = {}
+    __getattr__ = lambda self, name: _swig_getattr(self, CThostFtdcSyncDelaySwapField, name)
+    __repr__ = _swig_repr
+    __swig_setmethods__["DelaySwapSeqNo"] = _PyCTP.CThostFtdcSyncDelaySwapField_DelaySwapSeqNo_set
+    __swig_getmethods__["DelaySwapSeqNo"] = _PyCTP.CThostFtdcSyncDelaySwapField_DelaySwapSeqNo_get
+    if _newclass:
+        DelaySwapSeqNo = _swig_property(_PyCTP.CThostFtdcSyncDelaySwapField_DelaySwapSeqNo_get, _PyCTP.CThostFtdcSyncDelaySwapField_DelaySwapSeqNo_set)
+    __swig_setmethods__["BrokerID"] = _PyCTP.CThostFtdcSyncDelaySwapField_BrokerID_set
+    __swig_getmethods__["BrokerID"] = _PyCTP.CThostFtdcSyncDelaySwapField_BrokerID_get
+    if _newclass:
+        BrokerID = _swig_property(_PyCTP.CThostFtdcSyncDelaySwapField_BrokerID_get, _PyCTP.CThostFtdcSyncDelaySwapField_BrokerID_set)
+    __swig_setmethods__["InvestorID"] = _PyCTP.CThostFtdcSyncDelaySwapField_InvestorID_set
+    __swig_getmethods__["InvestorID"] = _PyCTP.CThostFtdcSyncDelaySwapField_InvestorID_get
+    if _newclass:
+        InvestorID = _swig_property(_PyCTP.CThostFtdcSyncDelaySwapField_InvestorID_get, _PyCTP.CThostFtdcSyncDelaySwapField_InvestorID_set)
+    __swig_setmethods__["FromCurrencyID"] = _PyCTP.CThostFtdcSyncDelaySwapField_FromCurrencyID_set
+    __swig_getmethods__["FromCurrencyID"] = _PyCTP.CThostFtdcSyncDelaySwapField_FromCurrencyID_get
+    if _newclass:
+        FromCurrencyID = _swig_property(_PyCTP.CThostFtdcSyncDelaySwapField_FromCurrencyID_get, _PyCTP.CThostFtdcSyncDelaySwapField_FromCurrencyID_set)
+    __swig_setmethods__["FromAmount"] = _PyCTP.CThostFtdcSyncDelaySwapField_FromAmount_set
+    __swig_getmethods__["FromAmount"] = _PyCTP.CThostFtdcSyncDelaySwapField_FromAmount_get
+    if _newclass:
+        FromAmount = _swig_property(_PyCTP.CThostFtdcSyncDelaySwapField_FromAmount_get, _PyCTP.CThostFtdcSyncDelaySwapField_FromAmount_set)
+    __swig_setmethods__["FromFrozenSwap"] = _PyCTP.CThostFtdcSyncDelaySwapField_FromFrozenSwap_set
+    __swig_getmethods__["FromFrozenSwap"] = _PyCTP.CThostFtdcSyncDelaySwapField_FromFrozenSwap_get
+    if _newclass:
+        FromFrozenSwap = _swig_property(_PyCTP.CThostFtdcSyncDelaySwapField_FromFrozenSwap_get, _PyCTP.CThostFtdcSyncDelaySwapField_FromFrozenSwap_set)
+    __swig_setmethods__["FromRemainSwap"] = _PyCTP.CThostFtdcSyncDelaySwapField_FromRemainSwap_set
+    __swig_getmethods__["FromRemainSwap"] = _PyCTP.CThostFtdcSyncDelaySwapField_FromRemainSwap_get
+    if _newclass:
+        FromRemainSwap = _swig_property(_PyCTP.CThostFtdcSyncDelaySwapField_FromRemainSwap_get, _PyCTP.CThostFtdcSyncDelaySwapField_FromRemainSwap_set)
+    __swig_setmethods__["ToCurrencyID"] = _PyCTP.CThostFtdcSyncDelaySwapField_ToCurrencyID_set
+    __swig_getmethods__["ToCurrencyID"] = _PyCTP.CThostFtdcSyncDelaySwapField_ToCurrencyID_get
+    if _newclass:
+        ToCurrencyID = _swig_property(_PyCTP.CThostFtdcSyncDelaySwapField_ToCurrencyID_get, _PyCTP.CThostFtdcSyncDelaySwapField_ToCurrencyID_set)
+    __swig_setmethods__["ToAmount"] = _PyCTP.CThostFtdcSyncDelaySwapField_ToAmount_set
+    __swig_getmethods__["ToAmount"] = _PyCTP.CThostFtdcSyncDelaySwapField_ToAmount_get
+    if _newclass:
+        ToAmount = _swig_property(_PyCTP.CThostFtdcSyncDelaySwapField_ToAmount_get, _PyCTP.CThostFtdcSyncDelaySwapField_ToAmount_set)
+
+    def __init__(self):
+        this = _PyCTP.new_CThostFtdcSyncDelaySwapField()
+        try:
+            self.this.append(this)
+        except __builtin__.Exception:
+            self.this = this
+    __swig_destroy__ = _PyCTP.delete_CThostFtdcSyncDelaySwapField
+    __del__ = lambda self: None
+CThostFtdcSyncDelaySwapField_swigregister = _PyCTP.CThostFtdcSyncDelaySwapField_swigregister
+CThostFtdcSyncDelaySwapField_swigregister(CThostFtdcSyncDelaySwapField)
+
+class CThostFtdcQrySyncDelaySwapField(_object):
+    __swig_setmethods__ = {}
+    __setattr__ = lambda self, name, value: _swig_setattr(self, CThostFtdcQrySyncDelaySwapField, name, value)
+    __swig_getmethods__ = {}
+    __getattr__ = lambda self, name: _swig_getattr(self, CThostFtdcQrySyncDelaySwapField, name)
+    __repr__ = _swig_repr
+    __swig_setmethods__["BrokerID"] = _PyCTP.CThostFtdcQrySyncDelaySwapField_BrokerID_set
+    __swig_getmethods__["BrokerID"] = _PyCTP.CThostFtdcQrySyncDelaySwapField_BrokerID_get
+    if _newclass:
+        BrokerID = _swig_property(_PyCTP.CThostFtdcQrySyncDelaySwapField_BrokerID_get, _PyCTP.CThostFtdcQrySyncDelaySwapField_BrokerID_set)
+    __swig_setmethods__["DelaySwapSeqNo"] = _PyCTP.CThostFtdcQrySyncDelaySwapField_DelaySwapSeqNo_set
+    __swig_getmethods__["DelaySwapSeqNo"] = _PyCTP.CThostFtdcQrySyncDelaySwapField_DelaySwapSeqNo_get
+    if _newclass:
+        DelaySwapSeqNo = _swig_property(_PyCTP.CThostFtdcQrySyncDelaySwapField_DelaySwapSeqNo_get, _PyCTP.CThostFtdcQrySyncDelaySwapField_DelaySwapSeqNo_set)
+
+    def __init__(self):
+        this = _PyCTP.new_CThostFtdcQrySyncDelaySwapField()
+        try:
+            self.this.append(this)
+        except __builtin__.Exception:
+            self.this = this
+    __swig_destroy__ = _PyCTP.delete_CThostFtdcQrySyncDelaySwapField
+    __del__ = lambda self: None
+CThostFtdcQrySyncDelaySwapField_swigregister = _PyCTP.CThostFtdcQrySyncDelaySwapField_swigregister
+CThostFtdcQrySyncDelaySwapField_swigregister(CThostFtdcQrySyncDelaySwapField)
+
+class CThostFtdcInvestUnitField(_object):
+    __swig_setmethods__ = {}
+    __setattr__ = lambda self, name, value: _swig_setattr(self, CThostFtdcInvestUnitField, name, value)
+    __swig_getmethods__ = {}
+    __getattr__ = lambda self, name: _swig_getattr(self, CThostFtdcInvestUnitField, name)
+    __repr__ = _swig_repr
+    __swig_setmethods__["BrokerID"] = _PyCTP.CThostFtdcInvestUnitField_BrokerID_set
+    __swig_getmethods__["BrokerID"] = _PyCTP.CThostFtdcInvestUnitField_BrokerID_get
+    if _newclass:
+        BrokerID = _swig_property(_PyCTP.CThostFtdcInvestUnitField_BrokerID_get, _PyCTP.CThostFtdcInvestUnitField_BrokerID_set)
+    __swig_setmethods__["InvestorID"] = _PyCTP.CThostFtdcInvestUnitField_InvestorID_set
+    __swig_getmethods__["InvestorID"] = _PyCTP.CThostFtdcInvestUnitField_InvestorID_get
+    if _newclass:
+        InvestorID = _swig_property(_PyCTP.CThostFtdcInvestUnitField_InvestorID_get, _PyCTP.CThostFtdcInvestUnitField_InvestorID_set)
+    __swig_setmethods__["InvestUnitID"] = _PyCTP.CThostFtdcInvestUnitField_InvestUnitID_set
+    __swig_getmethods__["InvestUnitID"] = _PyCTP.CThostFtdcInvestUnitField_InvestUnitID_get
+    if _newclass:
+        InvestUnitID = _swig_property(_PyCTP.CThostFtdcInvestUnitField_InvestUnitID_get, _PyCTP.CThostFtdcInvestUnitField_InvestUnitID_set)
+    __swig_setmethods__["InvestorUnitName"] = _PyCTP.CThostFtdcInvestUnitField_InvestorUnitName_set
+    __swig_getmethods__["InvestorUnitName"] = _PyCTP.CThostFtdcInvestUnitField_InvestorUnitName_get
+    if _newclass:
+        InvestorUnitName = _swig_property(_PyCTP.CThostFtdcInvestUnitField_InvestorUnitName_get, _PyCTP.CThostFtdcInvestUnitField_InvestorUnitName_set)
+    __swig_setmethods__["InvestorGroupID"] = _PyCTP.CThostFtdcInvestUnitField_InvestorGroupID_set
+    __swig_getmethods__["InvestorGroupID"] = _PyCTP.CThostFtdcInvestUnitField_InvestorGroupID_get
+    if _newclass:
+        InvestorGroupID = _swig_property(_PyCTP.CThostFtdcInvestUnitField_InvestorGroupID_get, _PyCTP.CThostFtdcInvestUnitField_InvestorGroupID_set)
+    __swig_setmethods__["CommModelID"] = _PyCTP.CThostFtdcInvestUnitField_CommModelID_set
+    __swig_getmethods__["CommModelID"] = _PyCTP.CThostFtdcInvestUnitField_CommModelID_get
+    if _newclass:
+        CommModelID = _swig_property(_PyCTP.CThostFtdcInvestUnitField_CommModelID_get, _PyCTP.CThostFtdcInvestUnitField_CommModelID_set)
+    __swig_setmethods__["MarginModelID"] = _PyCTP.CThostFtdcInvestUnitField_MarginModelID_set
+    __swig_getmethods__["MarginModelID"] = _PyCTP.CThostFtdcInvestUnitField_MarginModelID_get
+    if _newclass:
+        MarginModelID = _swig_property(_PyCTP.CThostFtdcInvestUnitField_MarginModelID_get, _PyCTP.CThostFtdcInvestUnitField_MarginModelID_set)
+    __swig_setmethods__["AccountID"] = _PyCTP.CThostFtdcInvestUnitField_AccountID_set
+    __swig_getmethods__["AccountID"] = _PyCTP.CThostFtdcInvestUnitField_AccountID_get
+    if _newclass:
+        AccountID = _swig_property(_PyCTP.CThostFtdcInvestUnitField_AccountID_get, _PyCTP.CThostFtdcInvestUnitField_AccountID_set)
+    __swig_setmethods__["CurrencyID"] = _PyCTP.CThostFtdcInvestUnitField_CurrencyID_set
+    __swig_getmethods__["CurrencyID"] = _PyCTP.CThostFtdcInvestUnitField_CurrencyID_get
+    if _newclass:
+        CurrencyID = _swig_property(_PyCTP.CThostFtdcInvestUnitField_CurrencyID_get, _PyCTP.CThostFtdcInvestUnitField_CurrencyID_set)
+
+    def __init__(self):
+        this = _PyCTP.new_CThostFtdcInvestUnitField()
+        try:
+            self.this.append(this)
+        except __builtin__.Exception:
+            self.this = this
+    __swig_destroy__ = _PyCTP.delete_CThostFtdcInvestUnitField
+    __del__ = lambda self: None
+CThostFtdcInvestUnitField_swigregister = _PyCTP.CThostFtdcInvestUnitField_swigregister
+CThostFtdcInvestUnitField_swigregister(CThostFtdcInvestUnitField)
+
+class CThostFtdcQryInvestUnitField(_object):
+    __swig_setmethods__ = {}
+    __setattr__ = lambda self, name, value: _swig_setattr(self, CThostFtdcQryInvestUnitField, name, value)
+    __swig_getmethods__ = {}
+    __getattr__ = lambda self, name: _swig_getattr(self, CThostFtdcQryInvestUnitField, name)
+    __repr__ = _swig_repr
+    __swig_setmethods__["BrokerID"] = _PyCTP.CThostFtdcQryInvestUnitField_BrokerID_set
+    __swig_getmethods__["BrokerID"] = _PyCTP.CThostFtdcQryInvestUnitField_BrokerID_get
+    if _newclass:
+        BrokerID = _swig_property(_PyCTP.CThostFtdcQryInvestUnitField_BrokerID_get, _PyCTP.CThostFtdcQryInvestUnitField_BrokerID_set)
+    __swig_setmethods__["InvestorID"] = _PyCTP.CThostFtdcQryInvestUnitField_InvestorID_set
+    __swig_getmethods__["InvestorID"] = _PyCTP.CThostFtdcQryInvestUnitField_InvestorID_get
+    if _newclass:
+        InvestorID = _swig_property(_PyCTP.CThostFtdcQryInvestUnitField_InvestorID_get, _PyCTP.CThostFtdcQryInvestUnitField_InvestorID_set)
+    __swig_setmethods__["InvestUnitID"] = _PyCTP.CThostFtdcQryInvestUnitField_InvestUnitID_set
+    __swig_getmethods__["InvestUnitID"] = _PyCTP.CThostFtdcQryInvestUnitField_InvestUnitID_get
+    if _newclass:
+        InvestUnitID = _swig_property(_PyCTP.CThostFtdcQryInvestUnitField_InvestUnitID_get, _PyCTP.CThostFtdcQryInvestUnitField_InvestUnitID_set)
+
+    def __init__(self):
+        this = _PyCTP.new_CThostFtdcQryInvestUnitField()
+        try:
+            self.this.append(this)
+        except __builtin__.Exception:
+            self.this = this
+    __swig_destroy__ = _PyCTP.delete_CThostFtdcQryInvestUnitField
+    __del__ = lambda self: None
+CThostFtdcQryInvestUnitField_swigregister = _PyCTP.CThostFtdcQryInvestUnitField_swigregister
+CThostFtdcQryInvestUnitField_swigregister(CThostFtdcQryInvestUnitField)
+
+class CThostFtdcSecAgentCheckModeField(_object):
+    __swig_setmethods__ = {}
+    __setattr__ = lambda self, name, value: _swig_setattr(self, CThostFtdcSecAgentCheckModeField, name, value)
+    __swig_getmethods__ = {}
+    __getattr__ = lambda self, name: _swig_getattr(self, CThostFtdcSecAgentCheckModeField, name)
+    __repr__ = _swig_repr
+    __swig_setmethods__["InvestorID"] = _PyCTP.CThostFtdcSecAgentCheckModeField_InvestorID_set
+    __swig_getmethods__["InvestorID"] = _PyCTP.CThostFtdcSecAgentCheckModeField_InvestorID_get
+    if _newclass:
+        InvestorID = _swig_property(_PyCTP.CThostFtdcSecAgentCheckModeField_InvestorID_get, _PyCTP.CThostFtdcSecAgentCheckModeField_InvestorID_set)
+    __swig_setmethods__["BrokerID"] = _PyCTP.CThostFtdcSecAgentCheckModeField_BrokerID_set
+    __swig_getmethods__["BrokerID"] = _PyCTP.CThostFtdcSecAgentCheckModeField_BrokerID_get
+    if _newclass:
+        BrokerID = _swig_property(_PyCTP.CThostFtdcSecAgentCheckModeField_BrokerID_get, _PyCTP.CThostFtdcSecAgentCheckModeField_BrokerID_set)
+    __swig_setmethods__["CurrencyID"] = _PyCTP.CThostFtdcSecAgentCheckModeField_CurrencyID_set
+    __swig_getmethods__["CurrencyID"] = _PyCTP.CThostFtdcSecAgentCheckModeField_CurrencyID_get
+    if _newclass:
+        CurrencyID = _swig_property(_PyCTP.CThostFtdcSecAgentCheckModeField_CurrencyID_get, _PyCTP.CThostFtdcSecAgentCheckModeField_CurrencyID_set)
+    __swig_setmethods__["BrokerSecAgentID"] = _PyCTP.CThostFtdcSecAgentCheckModeField_BrokerSecAgentID_set
+    __swig_getmethods__["BrokerSecAgentID"] = _PyCTP.CThostFtdcSecAgentCheckModeField_BrokerSecAgentID_get
+    if _newclass:
+        BrokerSecAgentID = _swig_property(_PyCTP.CThostFtdcSecAgentCheckModeField_BrokerSecAgentID_get, _PyCTP.CThostFtdcSecAgentCheckModeField_BrokerSecAgentID_set)
+    __swig_setmethods__["CheckSelfAccount"] = _PyCTP.CThostFtdcSecAgentCheckModeField_CheckSelfAccount_set
+    __swig_getmethods__["CheckSelfAccount"] = _PyCTP.CThostFtdcSecAgentCheckModeField_CheckSelfAccount_get
+    if _newclass:
+        CheckSelfAccount = _swig_property(_PyCTP.CThostFtdcSecAgentCheckModeField_CheckSelfAccount_get, _PyCTP.CThostFtdcSecAgentCheckModeField_CheckSelfAccount_set)
+
+    def __init__(self):
+        this = _PyCTP.new_CThostFtdcSecAgentCheckModeField()
+        try:
+            self.this.append(this)
+        except __builtin__.Exception:
+            self.this = this
+    __swig_destroy__ = _PyCTP.delete_CThostFtdcSecAgentCheckModeField
+    __del__ = lambda self: None
+CThostFtdcSecAgentCheckModeField_swigregister = _PyCTP.CThostFtdcSecAgentCheckModeField_swigregister
+CThostFtdcSecAgentCheckModeField_swigregister(CThostFtdcSecAgentCheckModeField)
+
+class CThostFtdcSecAgentTradeInfoField(_object):
+    __swig_setmethods__ = {}
+    __setattr__ = lambda self, name, value: _swig_setattr(self, CThostFtdcSecAgentTradeInfoField, name, value)
+    __swig_getmethods__ = {}
+    __getattr__ = lambda self, name: _swig_getattr(self, CThostFtdcSecAgentTradeInfoField, name)
+    __repr__ = _swig_repr
+    __swig_setmethods__["BrokerID"] = _PyCTP.CThostFtdcSecAgentTradeInfoField_BrokerID_set
+    __swig_getmethods__["BrokerID"] = _PyCTP.CThostFtdcSecAgentTradeInfoField_BrokerID_get
+    if _newclass:
+        BrokerID = _swig_property(_PyCTP.CThostFtdcSecAgentTradeInfoField_BrokerID_get, _PyCTP.CThostFtdcSecAgentTradeInfoField_BrokerID_set)
+    __swig_setmethods__["BrokerSecAgentID"] = _PyCTP.CThostFtdcSecAgentTradeInfoField_BrokerSecAgentID_set
+    __swig_getmethods__["BrokerSecAgentID"] = _PyCTP.CThostFtdcSecAgentTradeInfoField_BrokerSecAgentID_get
+    if _newclass:
+        BrokerSecAgentID = _swig_property(_PyCTP.CThostFtdcSecAgentTradeInfoField_BrokerSecAgentID_get, _PyCTP.CThostFtdcSecAgentTradeInfoField_BrokerSecAgentID_set)
+    __swig_setmethods__["InvestorID"] = _PyCTP.CThostFtdcSecAgentTradeInfoField_InvestorID_set
+    __swig_getmethods__["InvestorID"] = _PyCTP.CThostFtdcSecAgentTradeInfoField_InvestorID_get
+    if _newclass:
+        InvestorID = _swig_property(_PyCTP.CThostFtdcSecAgentTradeInfoField_InvestorID_get, _PyCTP.CThostFtdcSecAgentTradeInfoField_InvestorID_set)
+    __swig_setmethods__["LongCustomerName"] = _PyCTP.CThostFtdcSecAgentTradeInfoField_LongCustomerName_set
+    __swig_getmethods__["LongCustomerName"] = _PyCTP.CThostFtdcSecAgentTradeInfoField_LongCustomerName_get
+    if _newclass:
+        LongCustomerName = _swig_property(_PyCTP.CThostFtdcSecAgentTradeInfoField_LongCustomerName_get, _PyCTP.CThostFtdcSecAgentTradeInfoField_LongCustomerName_set)
+
+    def __init__(self):
+        this = _PyCTP.new_CThostFtdcSecAgentTradeInfoField()
+        try:
+            self.this.append(this)
+        except __builtin__.Exception:
+            self.this = this
+    __swig_destroy__ = _PyCTP.delete_CThostFtdcSecAgentTradeInfoField
+    __del__ = lambda self: None
+CThostFtdcSecAgentTradeInfoField_swigregister = _PyCTP.CThostFtdcSecAgentTradeInfoField_swigregister
+CThostFtdcSecAgentTradeInfoField_swigregister(CThostFtdcSecAgentTradeInfoField)
 
 class CThostFtdcMarketDataField(_object):
     __swig_setmethods__ = {}
@@ -11287,6 +13672,14 @@ class CThostFtdcQryInvestorPositionDetailField(_object):
     __swig_getmethods__["InstrumentID"] = _PyCTP.CThostFtdcQryInvestorPositionDetailField_InstrumentID_get
     if _newclass:
         InstrumentID = _swig_property(_PyCTP.CThostFtdcQryInvestorPositionDetailField_InstrumentID_get, _PyCTP.CThostFtdcQryInvestorPositionDetailField_InstrumentID_set)
+    __swig_setmethods__["ExchangeID"] = _PyCTP.CThostFtdcQryInvestorPositionDetailField_ExchangeID_set
+    __swig_getmethods__["ExchangeID"] = _PyCTP.CThostFtdcQryInvestorPositionDetailField_ExchangeID_get
+    if _newclass:
+        ExchangeID = _swig_property(_PyCTP.CThostFtdcQryInvestorPositionDetailField_ExchangeID_get, _PyCTP.CThostFtdcQryInvestorPositionDetailField_ExchangeID_set)
+    __swig_setmethods__["InvestUnitID"] = _PyCTP.CThostFtdcQryInvestorPositionDetailField_InvestUnitID_set
+    __swig_getmethods__["InvestUnitID"] = _PyCTP.CThostFtdcQryInvestorPositionDetailField_InvestUnitID_get
+    if _newclass:
+        InvestUnitID = _swig_property(_PyCTP.CThostFtdcQryInvestorPositionDetailField_InvestUnitID_get, _PyCTP.CThostFtdcQryInvestorPositionDetailField_InvestUnitID_set)
 
     def __init__(self):
         this = _PyCTP.new_CThostFtdcQryInvestorPositionDetailField()
@@ -11409,6 +13802,14 @@ class CThostFtdcInvestorPositionDetailField(_object):
     __swig_getmethods__["CloseAmount"] = _PyCTP.CThostFtdcInvestorPositionDetailField_CloseAmount_get
     if _newclass:
         CloseAmount = _swig_property(_PyCTP.CThostFtdcInvestorPositionDetailField_CloseAmount_get, _PyCTP.CThostFtdcInvestorPositionDetailField_CloseAmount_set)
+    __swig_setmethods__["TimeFirstVolume"] = _PyCTP.CThostFtdcInvestorPositionDetailField_TimeFirstVolume_set
+    __swig_getmethods__["TimeFirstVolume"] = _PyCTP.CThostFtdcInvestorPositionDetailField_TimeFirstVolume_get
+    if _newclass:
+        TimeFirstVolume = _swig_property(_PyCTP.CThostFtdcInvestorPositionDetailField_TimeFirstVolume_get, _PyCTP.CThostFtdcInvestorPositionDetailField_TimeFirstVolume_set)
+    __swig_setmethods__["InvestUnitID"] = _PyCTP.CThostFtdcInvestorPositionDetailField_InvestUnitID_set
+    __swig_getmethods__["InvestUnitID"] = _PyCTP.CThostFtdcInvestorPositionDetailField_InvestUnitID_get
+    if _newclass:
+        InvestUnitID = _swig_property(_PyCTP.CThostFtdcInvestorPositionDetailField_InvestUnitID_get, _PyCTP.CThostFtdcInvestorPositionDetailField_InvestUnitID_set)
 
     def __init__(self):
         this = _PyCTP.new_CThostFtdcInvestorPositionDetailField()
@@ -11679,6 +14080,14 @@ class CThostFtdcQrySettlementInfoConfirmField(_object):
     __swig_getmethods__["InvestorID"] = _PyCTP.CThostFtdcQrySettlementInfoConfirmField_InvestorID_get
     if _newclass:
         InvestorID = _swig_property(_PyCTP.CThostFtdcQrySettlementInfoConfirmField_InvestorID_get, _PyCTP.CThostFtdcQrySettlementInfoConfirmField_InvestorID_set)
+    __swig_setmethods__["AccountID"] = _PyCTP.CThostFtdcQrySettlementInfoConfirmField_AccountID_set
+    __swig_getmethods__["AccountID"] = _PyCTP.CThostFtdcQrySettlementInfoConfirmField_AccountID_get
+    if _newclass:
+        AccountID = _swig_property(_PyCTP.CThostFtdcQrySettlementInfoConfirmField_AccountID_get, _PyCTP.CThostFtdcQrySettlementInfoConfirmField_AccountID_set)
+    __swig_setmethods__["CurrencyID"] = _PyCTP.CThostFtdcQrySettlementInfoConfirmField_CurrencyID_set
+    __swig_getmethods__["CurrencyID"] = _PyCTP.CThostFtdcQrySettlementInfoConfirmField_CurrencyID_get
+    if _newclass:
+        CurrencyID = _swig_property(_PyCTP.CThostFtdcQrySettlementInfoConfirmField_CurrencyID_get, _PyCTP.CThostFtdcQrySettlementInfoConfirmField_CurrencyID_set)
 
     def __init__(self):
         this = _PyCTP.new_CThostFtdcQrySettlementInfoConfirmField()
@@ -12289,6 +14698,10 @@ class CThostFtdcInvestorPositionCombineDetailField(_object):
     __swig_getmethods__["TradeGroupID"] = _PyCTP.CThostFtdcInvestorPositionCombineDetailField_TradeGroupID_get
     if _newclass:
         TradeGroupID = _swig_property(_PyCTP.CThostFtdcInvestorPositionCombineDetailField_TradeGroupID_get, _PyCTP.CThostFtdcInvestorPositionCombineDetailField_TradeGroupID_set)
+    __swig_setmethods__["InvestUnitID"] = _PyCTP.CThostFtdcInvestorPositionCombineDetailField_InvestUnitID_set
+    __swig_getmethods__["InvestUnitID"] = _PyCTP.CThostFtdcInvestorPositionCombineDetailField_InvestUnitID_get
+    if _newclass:
+        InvestUnitID = _swig_property(_PyCTP.CThostFtdcInvestorPositionCombineDetailField_InvestUnitID_get, _PyCTP.CThostFtdcInvestorPositionCombineDetailField_InvestUnitID_set)
 
     def __init__(self):
         this = _PyCTP.new_CThostFtdcInvestorPositionCombineDetailField()
@@ -12423,6 +14836,30 @@ class CThostFtdcParkedOrderField(_object):
     __swig_getmethods__["IsSwapOrder"] = _PyCTP.CThostFtdcParkedOrderField_IsSwapOrder_get
     if _newclass:
         IsSwapOrder = _swig_property(_PyCTP.CThostFtdcParkedOrderField_IsSwapOrder_get, _PyCTP.CThostFtdcParkedOrderField_IsSwapOrder_set)
+    __swig_setmethods__["AccountID"] = _PyCTP.CThostFtdcParkedOrderField_AccountID_set
+    __swig_getmethods__["AccountID"] = _PyCTP.CThostFtdcParkedOrderField_AccountID_get
+    if _newclass:
+        AccountID = _swig_property(_PyCTP.CThostFtdcParkedOrderField_AccountID_get, _PyCTP.CThostFtdcParkedOrderField_AccountID_set)
+    __swig_setmethods__["CurrencyID"] = _PyCTP.CThostFtdcParkedOrderField_CurrencyID_set
+    __swig_getmethods__["CurrencyID"] = _PyCTP.CThostFtdcParkedOrderField_CurrencyID_get
+    if _newclass:
+        CurrencyID = _swig_property(_PyCTP.CThostFtdcParkedOrderField_CurrencyID_get, _PyCTP.CThostFtdcParkedOrderField_CurrencyID_set)
+    __swig_setmethods__["ClientID"] = _PyCTP.CThostFtdcParkedOrderField_ClientID_set
+    __swig_getmethods__["ClientID"] = _PyCTP.CThostFtdcParkedOrderField_ClientID_get
+    if _newclass:
+        ClientID = _swig_property(_PyCTP.CThostFtdcParkedOrderField_ClientID_get, _PyCTP.CThostFtdcParkedOrderField_ClientID_set)
+    __swig_setmethods__["InvestUnitID"] = _PyCTP.CThostFtdcParkedOrderField_InvestUnitID_set
+    __swig_getmethods__["InvestUnitID"] = _PyCTP.CThostFtdcParkedOrderField_InvestUnitID_get
+    if _newclass:
+        InvestUnitID = _swig_property(_PyCTP.CThostFtdcParkedOrderField_InvestUnitID_get, _PyCTP.CThostFtdcParkedOrderField_InvestUnitID_set)
+    __swig_setmethods__["IPAddress"] = _PyCTP.CThostFtdcParkedOrderField_IPAddress_set
+    __swig_getmethods__["IPAddress"] = _PyCTP.CThostFtdcParkedOrderField_IPAddress_get
+    if _newclass:
+        IPAddress = _swig_property(_PyCTP.CThostFtdcParkedOrderField_IPAddress_get, _PyCTP.CThostFtdcParkedOrderField_IPAddress_set)
+    __swig_setmethods__["MacAddress"] = _PyCTP.CThostFtdcParkedOrderField_MacAddress_set
+    __swig_getmethods__["MacAddress"] = _PyCTP.CThostFtdcParkedOrderField_MacAddress_get
+    if _newclass:
+        MacAddress = _swig_property(_PyCTP.CThostFtdcParkedOrderField_MacAddress_get, _PyCTP.CThostFtdcParkedOrderField_MacAddress_set)
 
     def __init__(self):
         this = _PyCTP.new_CThostFtdcParkedOrderField()
@@ -12517,6 +14954,18 @@ class CThostFtdcParkedOrderActionField(_object):
     __swig_getmethods__["ErrorMsg"] = _PyCTP.CThostFtdcParkedOrderActionField_ErrorMsg_get
     if _newclass:
         ErrorMsg = _swig_property(_PyCTP.CThostFtdcParkedOrderActionField_ErrorMsg_get, _PyCTP.CThostFtdcParkedOrderActionField_ErrorMsg_set)
+    __swig_setmethods__["InvestUnitID"] = _PyCTP.CThostFtdcParkedOrderActionField_InvestUnitID_set
+    __swig_getmethods__["InvestUnitID"] = _PyCTP.CThostFtdcParkedOrderActionField_InvestUnitID_get
+    if _newclass:
+        InvestUnitID = _swig_property(_PyCTP.CThostFtdcParkedOrderActionField_InvestUnitID_get, _PyCTP.CThostFtdcParkedOrderActionField_InvestUnitID_set)
+    __swig_setmethods__["IPAddress"] = _PyCTP.CThostFtdcParkedOrderActionField_IPAddress_set
+    __swig_getmethods__["IPAddress"] = _PyCTP.CThostFtdcParkedOrderActionField_IPAddress_get
+    if _newclass:
+        IPAddress = _swig_property(_PyCTP.CThostFtdcParkedOrderActionField_IPAddress_get, _PyCTP.CThostFtdcParkedOrderActionField_IPAddress_set)
+    __swig_setmethods__["MacAddress"] = _PyCTP.CThostFtdcParkedOrderActionField_MacAddress_set
+    __swig_getmethods__["MacAddress"] = _PyCTP.CThostFtdcParkedOrderActionField_MacAddress_get
+    if _newclass:
+        MacAddress = _swig_property(_PyCTP.CThostFtdcParkedOrderActionField_MacAddress_get, _PyCTP.CThostFtdcParkedOrderActionField_MacAddress_set)
 
     def __init__(self):
         this = _PyCTP.new_CThostFtdcParkedOrderActionField()
@@ -12551,6 +15000,10 @@ class CThostFtdcQryParkedOrderField(_object):
     __swig_getmethods__["ExchangeID"] = _PyCTP.CThostFtdcQryParkedOrderField_ExchangeID_get
     if _newclass:
         ExchangeID = _swig_property(_PyCTP.CThostFtdcQryParkedOrderField_ExchangeID_get, _PyCTP.CThostFtdcQryParkedOrderField_ExchangeID_set)
+    __swig_setmethods__["InvestUnitID"] = _PyCTP.CThostFtdcQryParkedOrderField_InvestUnitID_set
+    __swig_getmethods__["InvestUnitID"] = _PyCTP.CThostFtdcQryParkedOrderField_InvestUnitID_get
+    if _newclass:
+        InvestUnitID = _swig_property(_PyCTP.CThostFtdcQryParkedOrderField_InvestUnitID_get, _PyCTP.CThostFtdcQryParkedOrderField_InvestUnitID_set)
 
     def __init__(self):
         this = _PyCTP.new_CThostFtdcQryParkedOrderField()
@@ -12585,6 +15038,10 @@ class CThostFtdcQryParkedOrderActionField(_object):
     __swig_getmethods__["ExchangeID"] = _PyCTP.CThostFtdcQryParkedOrderActionField_ExchangeID_get
     if _newclass:
         ExchangeID = _swig_property(_PyCTP.CThostFtdcQryParkedOrderActionField_ExchangeID_get, _PyCTP.CThostFtdcQryParkedOrderActionField_ExchangeID_set)
+    __swig_setmethods__["InvestUnitID"] = _PyCTP.CThostFtdcQryParkedOrderActionField_InvestUnitID_set
+    __swig_getmethods__["InvestUnitID"] = _PyCTP.CThostFtdcQryParkedOrderActionField_InvestUnitID_get
+    if _newclass:
+        InvestUnitID = _swig_property(_PyCTP.CThostFtdcQryParkedOrderActionField_InvestUnitID_get, _PyCTP.CThostFtdcQryParkedOrderActionField_InvestUnitID_set)
 
     def __init__(self):
         this = _PyCTP.new_CThostFtdcQryParkedOrderActionField()
@@ -12615,6 +15072,10 @@ class CThostFtdcRemoveParkedOrderField(_object):
     __swig_getmethods__["ParkedOrderID"] = _PyCTP.CThostFtdcRemoveParkedOrderField_ParkedOrderID_get
     if _newclass:
         ParkedOrderID = _swig_property(_PyCTP.CThostFtdcRemoveParkedOrderField_ParkedOrderID_get, _PyCTP.CThostFtdcRemoveParkedOrderField_ParkedOrderID_set)
+    __swig_setmethods__["InvestUnitID"] = _PyCTP.CThostFtdcRemoveParkedOrderField_InvestUnitID_set
+    __swig_getmethods__["InvestUnitID"] = _PyCTP.CThostFtdcRemoveParkedOrderField_InvestUnitID_get
+    if _newclass:
+        InvestUnitID = _swig_property(_PyCTP.CThostFtdcRemoveParkedOrderField_InvestUnitID_get, _PyCTP.CThostFtdcRemoveParkedOrderField_InvestUnitID_set)
 
     def __init__(self):
         this = _PyCTP.new_CThostFtdcRemoveParkedOrderField()
@@ -12645,6 +15106,10 @@ class CThostFtdcRemoveParkedOrderActionField(_object):
     __swig_getmethods__["ParkedOrderActionID"] = _PyCTP.CThostFtdcRemoveParkedOrderActionField_ParkedOrderActionID_get
     if _newclass:
         ParkedOrderActionID = _swig_property(_PyCTP.CThostFtdcRemoveParkedOrderActionField_ParkedOrderActionID_get, _PyCTP.CThostFtdcRemoveParkedOrderActionField_ParkedOrderActionID_set)
+    __swig_setmethods__["InvestUnitID"] = _PyCTP.CThostFtdcRemoveParkedOrderActionField_InvestUnitID_set
+    __swig_getmethods__["InvestUnitID"] = _PyCTP.CThostFtdcRemoveParkedOrderActionField_InvestUnitID_get
+    if _newclass:
+        InvestUnitID = _swig_property(_PyCTP.CThostFtdcRemoveParkedOrderActionField_InvestUnitID_get, _PyCTP.CThostFtdcRemoveParkedOrderActionField_InvestUnitID_set)
 
     def __init__(self):
         this = _PyCTP.new_CThostFtdcRemoveParkedOrderActionField()
@@ -12717,6 +15182,14 @@ class CThostFtdcQryInvestorPositionCombineDetailField(_object):
     __swig_getmethods__["CombInstrumentID"] = _PyCTP.CThostFtdcQryInvestorPositionCombineDetailField_CombInstrumentID_get
     if _newclass:
         CombInstrumentID = _swig_property(_PyCTP.CThostFtdcQryInvestorPositionCombineDetailField_CombInstrumentID_get, _PyCTP.CThostFtdcQryInvestorPositionCombineDetailField_CombInstrumentID_set)
+    __swig_setmethods__["ExchangeID"] = _PyCTP.CThostFtdcQryInvestorPositionCombineDetailField_ExchangeID_set
+    __swig_getmethods__["ExchangeID"] = _PyCTP.CThostFtdcQryInvestorPositionCombineDetailField_ExchangeID_get
+    if _newclass:
+        ExchangeID = _swig_property(_PyCTP.CThostFtdcQryInvestorPositionCombineDetailField_ExchangeID_get, _PyCTP.CThostFtdcQryInvestorPositionCombineDetailField_ExchangeID_set)
+    __swig_setmethods__["InvestUnitID"] = _PyCTP.CThostFtdcQryInvestorPositionCombineDetailField_InvestUnitID_set
+    __swig_getmethods__["InvestUnitID"] = _PyCTP.CThostFtdcQryInvestorPositionCombineDetailField_InvestUnitID_get
+    if _newclass:
+        InvestUnitID = _swig_property(_PyCTP.CThostFtdcQryInvestorPositionCombineDetailField_InvestUnitID_get, _PyCTP.CThostFtdcQryInvestorPositionCombineDetailField_InvestUnitID_set)
 
     def __init__(self):
         this = _PyCTP.new_CThostFtdcQryInvestorPositionCombineDetailField()
@@ -12849,6 +15322,10 @@ class CThostFtdcTradingNoticeInfoField(_object):
     __swig_getmethods__["SequenceNo"] = _PyCTP.CThostFtdcTradingNoticeInfoField_SequenceNo_get
     if _newclass:
         SequenceNo = _swig_property(_PyCTP.CThostFtdcTradingNoticeInfoField_SequenceNo_get, _PyCTP.CThostFtdcTradingNoticeInfoField_SequenceNo_set)
+    __swig_setmethods__["InvestUnitID"] = _PyCTP.CThostFtdcTradingNoticeInfoField_InvestUnitID_set
+    __swig_getmethods__["InvestUnitID"] = _PyCTP.CThostFtdcTradingNoticeInfoField_InvestUnitID_get
+    if _newclass:
+        InvestUnitID = _swig_property(_PyCTP.CThostFtdcTradingNoticeInfoField_InvestUnitID_get, _PyCTP.CThostFtdcTradingNoticeInfoField_InvestUnitID_set)
 
     def __init__(self):
         this = _PyCTP.new_CThostFtdcTradingNoticeInfoField()
@@ -12899,6 +15376,10 @@ class CThostFtdcTradingNoticeField(_object):
     __swig_getmethods__["FieldContent"] = _PyCTP.CThostFtdcTradingNoticeField_FieldContent_get
     if _newclass:
         FieldContent = _swig_property(_PyCTP.CThostFtdcTradingNoticeField_FieldContent_get, _PyCTP.CThostFtdcTradingNoticeField_FieldContent_set)
+    __swig_setmethods__["InvestUnitID"] = _PyCTP.CThostFtdcTradingNoticeField_InvestUnitID_set
+    __swig_getmethods__["InvestUnitID"] = _PyCTP.CThostFtdcTradingNoticeField_InvestUnitID_get
+    if _newclass:
+        InvestUnitID = _swig_property(_PyCTP.CThostFtdcTradingNoticeField_InvestUnitID_get, _PyCTP.CThostFtdcTradingNoticeField_InvestUnitID_set)
 
     def __init__(self):
         this = _PyCTP.new_CThostFtdcTradingNoticeField()
@@ -12925,6 +15406,10 @@ class CThostFtdcQryTradingNoticeField(_object):
     __swig_getmethods__["InvestorID"] = _PyCTP.CThostFtdcQryTradingNoticeField_InvestorID_get
     if _newclass:
         InvestorID = _swig_property(_PyCTP.CThostFtdcQryTradingNoticeField_InvestorID_get, _PyCTP.CThostFtdcQryTradingNoticeField_InvestorID_set)
+    __swig_setmethods__["InvestUnitID"] = _PyCTP.CThostFtdcQryTradingNoticeField_InvestUnitID_set
+    __swig_getmethods__["InvestUnitID"] = _PyCTP.CThostFtdcQryTradingNoticeField_InvestUnitID_get
+    if _newclass:
+        InvestUnitID = _swig_property(_PyCTP.CThostFtdcQryTradingNoticeField_InvestUnitID_get, _PyCTP.CThostFtdcQryTradingNoticeField_InvestUnitID_set)
 
     def __init__(self):
         this = _PyCTP.new_CThostFtdcQryTradingNoticeField()
@@ -13069,6 +15554,34 @@ class CThostFtdcErrOrderField(_object):
     __swig_getmethods__["IsSwapOrder"] = _PyCTP.CThostFtdcErrOrderField_IsSwapOrder_get
     if _newclass:
         IsSwapOrder = _swig_property(_PyCTP.CThostFtdcErrOrderField_IsSwapOrder_get, _PyCTP.CThostFtdcErrOrderField_IsSwapOrder_set)
+    __swig_setmethods__["ExchangeID"] = _PyCTP.CThostFtdcErrOrderField_ExchangeID_set
+    __swig_getmethods__["ExchangeID"] = _PyCTP.CThostFtdcErrOrderField_ExchangeID_get
+    if _newclass:
+        ExchangeID = _swig_property(_PyCTP.CThostFtdcErrOrderField_ExchangeID_get, _PyCTP.CThostFtdcErrOrderField_ExchangeID_set)
+    __swig_setmethods__["InvestUnitID"] = _PyCTP.CThostFtdcErrOrderField_InvestUnitID_set
+    __swig_getmethods__["InvestUnitID"] = _PyCTP.CThostFtdcErrOrderField_InvestUnitID_get
+    if _newclass:
+        InvestUnitID = _swig_property(_PyCTP.CThostFtdcErrOrderField_InvestUnitID_get, _PyCTP.CThostFtdcErrOrderField_InvestUnitID_set)
+    __swig_setmethods__["AccountID"] = _PyCTP.CThostFtdcErrOrderField_AccountID_set
+    __swig_getmethods__["AccountID"] = _PyCTP.CThostFtdcErrOrderField_AccountID_get
+    if _newclass:
+        AccountID = _swig_property(_PyCTP.CThostFtdcErrOrderField_AccountID_get, _PyCTP.CThostFtdcErrOrderField_AccountID_set)
+    __swig_setmethods__["CurrencyID"] = _PyCTP.CThostFtdcErrOrderField_CurrencyID_set
+    __swig_getmethods__["CurrencyID"] = _PyCTP.CThostFtdcErrOrderField_CurrencyID_get
+    if _newclass:
+        CurrencyID = _swig_property(_PyCTP.CThostFtdcErrOrderField_CurrencyID_get, _PyCTP.CThostFtdcErrOrderField_CurrencyID_set)
+    __swig_setmethods__["ClientID"] = _PyCTP.CThostFtdcErrOrderField_ClientID_set
+    __swig_getmethods__["ClientID"] = _PyCTP.CThostFtdcErrOrderField_ClientID_get
+    if _newclass:
+        ClientID = _swig_property(_PyCTP.CThostFtdcErrOrderField_ClientID_get, _PyCTP.CThostFtdcErrOrderField_ClientID_set)
+    __swig_setmethods__["IPAddress"] = _PyCTP.CThostFtdcErrOrderField_IPAddress_set
+    __swig_getmethods__["IPAddress"] = _PyCTP.CThostFtdcErrOrderField_IPAddress_get
+    if _newclass:
+        IPAddress = _swig_property(_PyCTP.CThostFtdcErrOrderField_IPAddress_get, _PyCTP.CThostFtdcErrOrderField_IPAddress_set)
+    __swig_setmethods__["MacAddress"] = _PyCTP.CThostFtdcErrOrderField_MacAddress_set
+    __swig_getmethods__["MacAddress"] = _PyCTP.CThostFtdcErrOrderField_MacAddress_get
+    if _newclass:
+        MacAddress = _swig_property(_PyCTP.CThostFtdcErrOrderField_MacAddress_get, _PyCTP.CThostFtdcErrOrderField_MacAddress_set)
 
     def __init__(self):
         this = _PyCTP.new_CThostFtdcErrOrderField()
@@ -13323,6 +15836,30 @@ class CThostFtdcErrorConditionalOrderField(_object):
     __swig_getmethods__["IsSwapOrder"] = _PyCTP.CThostFtdcErrorConditionalOrderField_IsSwapOrder_get
     if _newclass:
         IsSwapOrder = _swig_property(_PyCTP.CThostFtdcErrorConditionalOrderField_IsSwapOrder_get, _PyCTP.CThostFtdcErrorConditionalOrderField_IsSwapOrder_set)
+    __swig_setmethods__["BranchID"] = _PyCTP.CThostFtdcErrorConditionalOrderField_BranchID_set
+    __swig_getmethods__["BranchID"] = _PyCTP.CThostFtdcErrorConditionalOrderField_BranchID_get
+    if _newclass:
+        BranchID = _swig_property(_PyCTP.CThostFtdcErrorConditionalOrderField_BranchID_get, _PyCTP.CThostFtdcErrorConditionalOrderField_BranchID_set)
+    __swig_setmethods__["InvestUnitID"] = _PyCTP.CThostFtdcErrorConditionalOrderField_InvestUnitID_set
+    __swig_getmethods__["InvestUnitID"] = _PyCTP.CThostFtdcErrorConditionalOrderField_InvestUnitID_get
+    if _newclass:
+        InvestUnitID = _swig_property(_PyCTP.CThostFtdcErrorConditionalOrderField_InvestUnitID_get, _PyCTP.CThostFtdcErrorConditionalOrderField_InvestUnitID_set)
+    __swig_setmethods__["AccountID"] = _PyCTP.CThostFtdcErrorConditionalOrderField_AccountID_set
+    __swig_getmethods__["AccountID"] = _PyCTP.CThostFtdcErrorConditionalOrderField_AccountID_get
+    if _newclass:
+        AccountID = _swig_property(_PyCTP.CThostFtdcErrorConditionalOrderField_AccountID_get, _PyCTP.CThostFtdcErrorConditionalOrderField_AccountID_set)
+    __swig_setmethods__["CurrencyID"] = _PyCTP.CThostFtdcErrorConditionalOrderField_CurrencyID_set
+    __swig_getmethods__["CurrencyID"] = _PyCTP.CThostFtdcErrorConditionalOrderField_CurrencyID_get
+    if _newclass:
+        CurrencyID = _swig_property(_PyCTP.CThostFtdcErrorConditionalOrderField_CurrencyID_get, _PyCTP.CThostFtdcErrorConditionalOrderField_CurrencyID_set)
+    __swig_setmethods__["IPAddress"] = _PyCTP.CThostFtdcErrorConditionalOrderField_IPAddress_set
+    __swig_getmethods__["IPAddress"] = _PyCTP.CThostFtdcErrorConditionalOrderField_IPAddress_get
+    if _newclass:
+        IPAddress = _swig_property(_PyCTP.CThostFtdcErrorConditionalOrderField_IPAddress_get, _PyCTP.CThostFtdcErrorConditionalOrderField_IPAddress_set)
+    __swig_setmethods__["MacAddress"] = _PyCTP.CThostFtdcErrorConditionalOrderField_MacAddress_set
+    __swig_getmethods__["MacAddress"] = _PyCTP.CThostFtdcErrorConditionalOrderField_MacAddress_get
+    if _newclass:
+        MacAddress = _swig_property(_PyCTP.CThostFtdcErrorConditionalOrderField_MacAddress_get, _PyCTP.CThostFtdcErrorConditionalOrderField_MacAddress_set)
 
     def __init__(self):
         this = _PyCTP.new_CThostFtdcErrorConditionalOrderField()
@@ -13467,6 +16004,22 @@ class CThostFtdcErrOrderActionField(_object):
     __swig_getmethods__["InstrumentID"] = _PyCTP.CThostFtdcErrOrderActionField_InstrumentID_get
     if _newclass:
         InstrumentID = _swig_property(_PyCTP.CThostFtdcErrOrderActionField_InstrumentID_get, _PyCTP.CThostFtdcErrOrderActionField_InstrumentID_set)
+    __swig_setmethods__["BranchID"] = _PyCTP.CThostFtdcErrOrderActionField_BranchID_set
+    __swig_getmethods__["BranchID"] = _PyCTP.CThostFtdcErrOrderActionField_BranchID_get
+    if _newclass:
+        BranchID = _swig_property(_PyCTP.CThostFtdcErrOrderActionField_BranchID_get, _PyCTP.CThostFtdcErrOrderActionField_BranchID_set)
+    __swig_setmethods__["InvestUnitID"] = _PyCTP.CThostFtdcErrOrderActionField_InvestUnitID_set
+    __swig_getmethods__["InvestUnitID"] = _PyCTP.CThostFtdcErrOrderActionField_InvestUnitID_get
+    if _newclass:
+        InvestUnitID = _swig_property(_PyCTP.CThostFtdcErrOrderActionField_InvestUnitID_get, _PyCTP.CThostFtdcErrOrderActionField_InvestUnitID_set)
+    __swig_setmethods__["IPAddress"] = _PyCTP.CThostFtdcErrOrderActionField_IPAddress_set
+    __swig_getmethods__["IPAddress"] = _PyCTP.CThostFtdcErrOrderActionField_IPAddress_get
+    if _newclass:
+        IPAddress = _swig_property(_PyCTP.CThostFtdcErrOrderActionField_IPAddress_get, _PyCTP.CThostFtdcErrOrderActionField_IPAddress_set)
+    __swig_setmethods__["MacAddress"] = _PyCTP.CThostFtdcErrOrderActionField_MacAddress_set
+    __swig_getmethods__["MacAddress"] = _PyCTP.CThostFtdcErrOrderActionField_MacAddress_get
+    if _newclass:
+        MacAddress = _swig_property(_PyCTP.CThostFtdcErrOrderActionField_MacAddress_get, _PyCTP.CThostFtdcErrOrderActionField_MacAddress_set)
     __swig_setmethods__["ErrorID"] = _PyCTP.CThostFtdcErrOrderActionField_ErrorID_set
     __swig_getmethods__["ErrorID"] = _PyCTP.CThostFtdcErrOrderActionField_ErrorID_get
     if _newclass:
@@ -13577,6 +16130,14 @@ class CThostFtdcQueryMaxOrderVolumeWithPriceField(_object):
     __swig_getmethods__["Price"] = _PyCTP.CThostFtdcQueryMaxOrderVolumeWithPriceField_Price_get
     if _newclass:
         Price = _swig_property(_PyCTP.CThostFtdcQueryMaxOrderVolumeWithPriceField_Price_get, _PyCTP.CThostFtdcQueryMaxOrderVolumeWithPriceField_Price_set)
+    __swig_setmethods__["ExchangeID"] = _PyCTP.CThostFtdcQueryMaxOrderVolumeWithPriceField_ExchangeID_set
+    __swig_getmethods__["ExchangeID"] = _PyCTP.CThostFtdcQueryMaxOrderVolumeWithPriceField_ExchangeID_get
+    if _newclass:
+        ExchangeID = _swig_property(_PyCTP.CThostFtdcQueryMaxOrderVolumeWithPriceField_ExchangeID_get, _PyCTP.CThostFtdcQueryMaxOrderVolumeWithPriceField_ExchangeID_set)
+    __swig_setmethods__["InvestUnitID"] = _PyCTP.CThostFtdcQueryMaxOrderVolumeWithPriceField_InvestUnitID_set
+    __swig_getmethods__["InvestUnitID"] = _PyCTP.CThostFtdcQueryMaxOrderVolumeWithPriceField_InvestUnitID_get
+    if _newclass:
+        InvestUnitID = _swig_property(_PyCTP.CThostFtdcQueryMaxOrderVolumeWithPriceField_InvestUnitID_get, _PyCTP.CThostFtdcQueryMaxOrderVolumeWithPriceField_InvestUnitID_set)
 
     def __init__(self):
         this = _PyCTP.new_CThostFtdcQueryMaxOrderVolumeWithPriceField()
@@ -13607,6 +16168,10 @@ class CThostFtdcQryBrokerTradingParamsField(_object):
     __swig_getmethods__["CurrencyID"] = _PyCTP.CThostFtdcQryBrokerTradingParamsField_CurrencyID_get
     if _newclass:
         CurrencyID = _swig_property(_PyCTP.CThostFtdcQryBrokerTradingParamsField_CurrencyID_get, _PyCTP.CThostFtdcQryBrokerTradingParamsField_CurrencyID_set)
+    __swig_setmethods__["AccountID"] = _PyCTP.CThostFtdcQryBrokerTradingParamsField_AccountID_set
+    __swig_getmethods__["AccountID"] = _PyCTP.CThostFtdcQryBrokerTradingParamsField_AccountID_get
+    if _newclass:
+        AccountID = _swig_property(_PyCTP.CThostFtdcQryBrokerTradingParamsField_AccountID_get, _PyCTP.CThostFtdcQryBrokerTradingParamsField_AccountID_set)
 
     def __init__(self):
         this = _PyCTP.new_CThostFtdcQryBrokerTradingParamsField()
@@ -13653,6 +16218,10 @@ class CThostFtdcBrokerTradingParamsField(_object):
     __swig_getmethods__["OptionRoyaltyPriceType"] = _PyCTP.CThostFtdcBrokerTradingParamsField_OptionRoyaltyPriceType_get
     if _newclass:
         OptionRoyaltyPriceType = _swig_property(_PyCTP.CThostFtdcBrokerTradingParamsField_OptionRoyaltyPriceType_get, _PyCTP.CThostFtdcBrokerTradingParamsField_OptionRoyaltyPriceType_set)
+    __swig_setmethods__["AccountID"] = _PyCTP.CThostFtdcBrokerTradingParamsField_AccountID_set
+    __swig_getmethods__["AccountID"] = _PyCTP.CThostFtdcBrokerTradingParamsField_AccountID_get
+    if _newclass:
+        AccountID = _swig_property(_PyCTP.CThostFtdcBrokerTradingParamsField_AccountID_get, _PyCTP.CThostFtdcBrokerTradingParamsField_AccountID_set)
 
     def __init__(self):
         this = _PyCTP.new_CThostFtdcBrokerTradingParamsField()
@@ -14203,6 +16772,10 @@ class CThostFtdcEWarrantOffsetField(_object):
     __swig_getmethods__["Volume"] = _PyCTP.CThostFtdcEWarrantOffsetField_Volume_get
     if _newclass:
         Volume = _swig_property(_PyCTP.CThostFtdcEWarrantOffsetField_Volume_get, _PyCTP.CThostFtdcEWarrantOffsetField_Volume_set)
+    __swig_setmethods__["InvestUnitID"] = _PyCTP.CThostFtdcEWarrantOffsetField_InvestUnitID_set
+    __swig_getmethods__["InvestUnitID"] = _PyCTP.CThostFtdcEWarrantOffsetField_InvestUnitID_get
+    if _newclass:
+        InvestUnitID = _swig_property(_PyCTP.CThostFtdcEWarrantOffsetField_InvestUnitID_get, _PyCTP.CThostFtdcEWarrantOffsetField_InvestUnitID_set)
 
     def __init__(self):
         this = _PyCTP.new_CThostFtdcEWarrantOffsetField()
@@ -14237,6 +16810,10 @@ class CThostFtdcQryEWarrantOffsetField(_object):
     __swig_getmethods__["InstrumentID"] = _PyCTP.CThostFtdcQryEWarrantOffsetField_InstrumentID_get
     if _newclass:
         InstrumentID = _swig_property(_PyCTP.CThostFtdcQryEWarrantOffsetField_InstrumentID_get, _PyCTP.CThostFtdcQryEWarrantOffsetField_InstrumentID_set)
+    __swig_setmethods__["InvestUnitID"] = _PyCTP.CThostFtdcQryEWarrantOffsetField_InvestUnitID_set
+    __swig_getmethods__["InvestUnitID"] = _PyCTP.CThostFtdcQryEWarrantOffsetField_InvestUnitID_get
+    if _newclass:
+        InvestUnitID = _swig_property(_PyCTP.CThostFtdcQryEWarrantOffsetField_InvestUnitID_get, _PyCTP.CThostFtdcQryEWarrantOffsetField_InvestUnitID_set)
 
     def __init__(self):
         this = _PyCTP.new_CThostFtdcQryEWarrantOffsetField()
@@ -14271,6 +16848,14 @@ class CThostFtdcQryInvestorProductGroupMarginField(_object):
     __swig_getmethods__["HedgeFlag"] = _PyCTP.CThostFtdcQryInvestorProductGroupMarginField_HedgeFlag_get
     if _newclass:
         HedgeFlag = _swig_property(_PyCTP.CThostFtdcQryInvestorProductGroupMarginField_HedgeFlag_get, _PyCTP.CThostFtdcQryInvestorProductGroupMarginField_HedgeFlag_set)
+    __swig_setmethods__["ExchangeID"] = _PyCTP.CThostFtdcQryInvestorProductGroupMarginField_ExchangeID_set
+    __swig_getmethods__["ExchangeID"] = _PyCTP.CThostFtdcQryInvestorProductGroupMarginField_ExchangeID_get
+    if _newclass:
+        ExchangeID = _swig_property(_PyCTP.CThostFtdcQryInvestorProductGroupMarginField_ExchangeID_get, _PyCTP.CThostFtdcQryInvestorProductGroupMarginField_ExchangeID_set)
+    __swig_setmethods__["InvestUnitID"] = _PyCTP.CThostFtdcQryInvestorProductGroupMarginField_InvestUnitID_set
+    __swig_getmethods__["InvestUnitID"] = _PyCTP.CThostFtdcQryInvestorProductGroupMarginField_InvestUnitID_get
+    if _newclass:
+        InvestUnitID = _swig_property(_PyCTP.CThostFtdcQryInvestorProductGroupMarginField_InvestUnitID_get, _PyCTP.CThostFtdcQryInvestorProductGroupMarginField_InvestUnitID_set)
 
     def __init__(self):
         this = _PyCTP.new_CThostFtdcQryInvestorProductGroupMarginField()
@@ -14397,6 +16982,14 @@ class CThostFtdcInvestorProductGroupMarginField(_object):
     __swig_getmethods__["HedgeFlag"] = _PyCTP.CThostFtdcInvestorProductGroupMarginField_HedgeFlag_get
     if _newclass:
         HedgeFlag = _swig_property(_PyCTP.CThostFtdcInvestorProductGroupMarginField_HedgeFlag_get, _PyCTP.CThostFtdcInvestorProductGroupMarginField_HedgeFlag_set)
+    __swig_setmethods__["ExchangeID"] = _PyCTP.CThostFtdcInvestorProductGroupMarginField_ExchangeID_set
+    __swig_getmethods__["ExchangeID"] = _PyCTP.CThostFtdcInvestorProductGroupMarginField_ExchangeID_get
+    if _newclass:
+        ExchangeID = _swig_property(_PyCTP.CThostFtdcInvestorProductGroupMarginField_ExchangeID_get, _PyCTP.CThostFtdcInvestorProductGroupMarginField_ExchangeID_set)
+    __swig_setmethods__["InvestUnitID"] = _PyCTP.CThostFtdcInvestorProductGroupMarginField_InvestUnitID_set
+    __swig_getmethods__["InvestUnitID"] = _PyCTP.CThostFtdcInvestorProductGroupMarginField_InvestUnitID_get
+    if _newclass:
+        InvestUnitID = _swig_property(_PyCTP.CThostFtdcInvestorProductGroupMarginField_InvestUnitID_get, _PyCTP.CThostFtdcInvestorProductGroupMarginField_InvestUnitID_set)
 
     def __init__(self):
         this = _PyCTP.new_CThostFtdcInvestorProductGroupMarginField()
@@ -14423,6 +17016,10 @@ class CThostFtdcQueryCFMMCTradingAccountTokenField(_object):
     __swig_getmethods__["InvestorID"] = _PyCTP.CThostFtdcQueryCFMMCTradingAccountTokenField_InvestorID_get
     if _newclass:
         InvestorID = _swig_property(_PyCTP.CThostFtdcQueryCFMMCTradingAccountTokenField_InvestorID_get, _PyCTP.CThostFtdcQueryCFMMCTradingAccountTokenField_InvestorID_set)
+    __swig_setmethods__["InvestUnitID"] = _PyCTP.CThostFtdcQueryCFMMCTradingAccountTokenField_InvestUnitID_set
+    __swig_getmethods__["InvestUnitID"] = _PyCTP.CThostFtdcQueryCFMMCTradingAccountTokenField_InvestUnitID_get
+    if _newclass:
+        InvestUnitID = _swig_property(_PyCTP.CThostFtdcQueryCFMMCTradingAccountTokenField_InvestUnitID_get, _PyCTP.CThostFtdcQueryCFMMCTradingAccountTokenField_InvestUnitID_set)
 
     def __init__(self):
         this = _PyCTP.new_CThostFtdcQueryCFMMCTradingAccountTokenField()
@@ -14528,6 +17125,110 @@ class CThostFtdcProductGroupField(_object):
     __del__ = lambda self: None
 CThostFtdcProductGroupField_swigregister = _PyCTP.CThostFtdcProductGroupField_swigregister
 CThostFtdcProductGroupField_swigregister(CThostFtdcProductGroupField)
+
+class CThostFtdcBulletinField(_object):
+    __swig_setmethods__ = {}
+    __setattr__ = lambda self, name, value: _swig_setattr(self, CThostFtdcBulletinField, name, value)
+    __swig_getmethods__ = {}
+    __getattr__ = lambda self, name: _swig_getattr(self, CThostFtdcBulletinField, name)
+    __repr__ = _swig_repr
+    __swig_setmethods__["ExchangeID"] = _PyCTP.CThostFtdcBulletinField_ExchangeID_set
+    __swig_getmethods__["ExchangeID"] = _PyCTP.CThostFtdcBulletinField_ExchangeID_get
+    if _newclass:
+        ExchangeID = _swig_property(_PyCTP.CThostFtdcBulletinField_ExchangeID_get, _PyCTP.CThostFtdcBulletinField_ExchangeID_set)
+    __swig_setmethods__["TradingDay"] = _PyCTP.CThostFtdcBulletinField_TradingDay_set
+    __swig_getmethods__["TradingDay"] = _PyCTP.CThostFtdcBulletinField_TradingDay_get
+    if _newclass:
+        TradingDay = _swig_property(_PyCTP.CThostFtdcBulletinField_TradingDay_get, _PyCTP.CThostFtdcBulletinField_TradingDay_set)
+    __swig_setmethods__["BulletinID"] = _PyCTP.CThostFtdcBulletinField_BulletinID_set
+    __swig_getmethods__["BulletinID"] = _PyCTP.CThostFtdcBulletinField_BulletinID_get
+    if _newclass:
+        BulletinID = _swig_property(_PyCTP.CThostFtdcBulletinField_BulletinID_get, _PyCTP.CThostFtdcBulletinField_BulletinID_set)
+    __swig_setmethods__["SequenceNo"] = _PyCTP.CThostFtdcBulletinField_SequenceNo_set
+    __swig_getmethods__["SequenceNo"] = _PyCTP.CThostFtdcBulletinField_SequenceNo_get
+    if _newclass:
+        SequenceNo = _swig_property(_PyCTP.CThostFtdcBulletinField_SequenceNo_get, _PyCTP.CThostFtdcBulletinField_SequenceNo_set)
+    __swig_setmethods__["NewsType"] = _PyCTP.CThostFtdcBulletinField_NewsType_set
+    __swig_getmethods__["NewsType"] = _PyCTP.CThostFtdcBulletinField_NewsType_get
+    if _newclass:
+        NewsType = _swig_property(_PyCTP.CThostFtdcBulletinField_NewsType_get, _PyCTP.CThostFtdcBulletinField_NewsType_set)
+    __swig_setmethods__["NewsUrgency"] = _PyCTP.CThostFtdcBulletinField_NewsUrgency_set
+    __swig_getmethods__["NewsUrgency"] = _PyCTP.CThostFtdcBulletinField_NewsUrgency_get
+    if _newclass:
+        NewsUrgency = _swig_property(_PyCTP.CThostFtdcBulletinField_NewsUrgency_get, _PyCTP.CThostFtdcBulletinField_NewsUrgency_set)
+    __swig_setmethods__["SendTime"] = _PyCTP.CThostFtdcBulletinField_SendTime_set
+    __swig_getmethods__["SendTime"] = _PyCTP.CThostFtdcBulletinField_SendTime_get
+    if _newclass:
+        SendTime = _swig_property(_PyCTP.CThostFtdcBulletinField_SendTime_get, _PyCTP.CThostFtdcBulletinField_SendTime_set)
+    __swig_setmethods__["Abstract"] = _PyCTP.CThostFtdcBulletinField_Abstract_set
+    __swig_getmethods__["Abstract"] = _PyCTP.CThostFtdcBulletinField_Abstract_get
+    if _newclass:
+        Abstract = _swig_property(_PyCTP.CThostFtdcBulletinField_Abstract_get, _PyCTP.CThostFtdcBulletinField_Abstract_set)
+    __swig_setmethods__["ComeFrom"] = _PyCTP.CThostFtdcBulletinField_ComeFrom_set
+    __swig_getmethods__["ComeFrom"] = _PyCTP.CThostFtdcBulletinField_ComeFrom_get
+    if _newclass:
+        ComeFrom = _swig_property(_PyCTP.CThostFtdcBulletinField_ComeFrom_get, _PyCTP.CThostFtdcBulletinField_ComeFrom_set)
+    __swig_setmethods__["Content"] = _PyCTP.CThostFtdcBulletinField_Content_set
+    __swig_getmethods__["Content"] = _PyCTP.CThostFtdcBulletinField_Content_get
+    if _newclass:
+        Content = _swig_property(_PyCTP.CThostFtdcBulletinField_Content_get, _PyCTP.CThostFtdcBulletinField_Content_set)
+    __swig_setmethods__["URLLink"] = _PyCTP.CThostFtdcBulletinField_URLLink_set
+    __swig_getmethods__["URLLink"] = _PyCTP.CThostFtdcBulletinField_URLLink_get
+    if _newclass:
+        URLLink = _swig_property(_PyCTP.CThostFtdcBulletinField_URLLink_get, _PyCTP.CThostFtdcBulletinField_URLLink_set)
+    __swig_setmethods__["MarketID"] = _PyCTP.CThostFtdcBulletinField_MarketID_set
+    __swig_getmethods__["MarketID"] = _PyCTP.CThostFtdcBulletinField_MarketID_get
+    if _newclass:
+        MarketID = _swig_property(_PyCTP.CThostFtdcBulletinField_MarketID_get, _PyCTP.CThostFtdcBulletinField_MarketID_set)
+
+    def __init__(self):
+        this = _PyCTP.new_CThostFtdcBulletinField()
+        try:
+            self.this.append(this)
+        except __builtin__.Exception:
+            self.this = this
+    __swig_destroy__ = _PyCTP.delete_CThostFtdcBulletinField
+    __del__ = lambda self: None
+CThostFtdcBulletinField_swigregister = _PyCTP.CThostFtdcBulletinField_swigregister
+CThostFtdcBulletinField_swigregister(CThostFtdcBulletinField)
+
+class CThostFtdcQryBulletinField(_object):
+    __swig_setmethods__ = {}
+    __setattr__ = lambda self, name, value: _swig_setattr(self, CThostFtdcQryBulletinField, name, value)
+    __swig_getmethods__ = {}
+    __getattr__ = lambda self, name: _swig_getattr(self, CThostFtdcQryBulletinField, name)
+    __repr__ = _swig_repr
+    __swig_setmethods__["ExchangeID"] = _PyCTP.CThostFtdcQryBulletinField_ExchangeID_set
+    __swig_getmethods__["ExchangeID"] = _PyCTP.CThostFtdcQryBulletinField_ExchangeID_get
+    if _newclass:
+        ExchangeID = _swig_property(_PyCTP.CThostFtdcQryBulletinField_ExchangeID_get, _PyCTP.CThostFtdcQryBulletinField_ExchangeID_set)
+    __swig_setmethods__["BulletinID"] = _PyCTP.CThostFtdcQryBulletinField_BulletinID_set
+    __swig_getmethods__["BulletinID"] = _PyCTP.CThostFtdcQryBulletinField_BulletinID_get
+    if _newclass:
+        BulletinID = _swig_property(_PyCTP.CThostFtdcQryBulletinField_BulletinID_get, _PyCTP.CThostFtdcQryBulletinField_BulletinID_set)
+    __swig_setmethods__["SequenceNo"] = _PyCTP.CThostFtdcQryBulletinField_SequenceNo_set
+    __swig_getmethods__["SequenceNo"] = _PyCTP.CThostFtdcQryBulletinField_SequenceNo_get
+    if _newclass:
+        SequenceNo = _swig_property(_PyCTP.CThostFtdcQryBulletinField_SequenceNo_get, _PyCTP.CThostFtdcQryBulletinField_SequenceNo_set)
+    __swig_setmethods__["NewsType"] = _PyCTP.CThostFtdcQryBulletinField_NewsType_set
+    __swig_getmethods__["NewsType"] = _PyCTP.CThostFtdcQryBulletinField_NewsType_get
+    if _newclass:
+        NewsType = _swig_property(_PyCTP.CThostFtdcQryBulletinField_NewsType_get, _PyCTP.CThostFtdcQryBulletinField_NewsType_set)
+    __swig_setmethods__["NewsUrgency"] = _PyCTP.CThostFtdcQryBulletinField_NewsUrgency_set
+    __swig_getmethods__["NewsUrgency"] = _PyCTP.CThostFtdcQryBulletinField_NewsUrgency_get
+    if _newclass:
+        NewsUrgency = _swig_property(_PyCTP.CThostFtdcQryBulletinField_NewsUrgency_get, _PyCTP.CThostFtdcQryBulletinField_NewsUrgency_set)
+
+    def __init__(self):
+        this = _PyCTP.new_CThostFtdcQryBulletinField()
+        try:
+            self.this.append(this)
+        except __builtin__.Exception:
+            self.this = this
+    __swig_destroy__ = _PyCTP.delete_CThostFtdcQryBulletinField
+    __del__ = lambda self: None
+CThostFtdcQryBulletinField_swigregister = _PyCTP.CThostFtdcQryBulletinField_swigregister
+CThostFtdcQryBulletinField_swigregister(CThostFtdcQryBulletinField)
 
 class CThostFtdcReqOpenAccountField(_object):
     __swig_setmethods__ = {}
@@ -14711,6 +17412,10 @@ class CThostFtdcReqOpenAccountField(_object):
     __swig_getmethods__["UserID"] = _PyCTP.CThostFtdcReqOpenAccountField_UserID_get
     if _newclass:
         UserID = _swig_property(_PyCTP.CThostFtdcReqOpenAccountField_UserID_get, _PyCTP.CThostFtdcReqOpenAccountField_UserID_set)
+    __swig_setmethods__["LongCustomerName"] = _PyCTP.CThostFtdcReqOpenAccountField_LongCustomerName_set
+    __swig_getmethods__["LongCustomerName"] = _PyCTP.CThostFtdcReqOpenAccountField_LongCustomerName_get
+    if _newclass:
+        LongCustomerName = _swig_property(_PyCTP.CThostFtdcReqOpenAccountField_LongCustomerName_get, _PyCTP.CThostFtdcReqOpenAccountField_LongCustomerName_set)
 
     def __init__(self):
         this = _PyCTP.new_CThostFtdcReqOpenAccountField()
@@ -14905,6 +17610,10 @@ class CThostFtdcReqCancelAccountField(_object):
     __swig_getmethods__["UserID"] = _PyCTP.CThostFtdcReqCancelAccountField_UserID_get
     if _newclass:
         UserID = _swig_property(_PyCTP.CThostFtdcReqCancelAccountField_UserID_get, _PyCTP.CThostFtdcReqCancelAccountField_UserID_set)
+    __swig_setmethods__["LongCustomerName"] = _PyCTP.CThostFtdcReqCancelAccountField_LongCustomerName_set
+    __swig_getmethods__["LongCustomerName"] = _PyCTP.CThostFtdcReqCancelAccountField_LongCustomerName_get
+    if _newclass:
+        LongCustomerName = _swig_property(_PyCTP.CThostFtdcReqCancelAccountField_LongCustomerName_get, _PyCTP.CThostFtdcReqCancelAccountField_LongCustomerName_set)
 
     def __init__(self):
         this = _PyCTP.new_CThostFtdcReqCancelAccountField()
@@ -15083,6 +17792,10 @@ class CThostFtdcReqChangeAccountField(_object):
     __swig_getmethods__["Digest"] = _PyCTP.CThostFtdcReqChangeAccountField_Digest_get
     if _newclass:
         Digest = _swig_property(_PyCTP.CThostFtdcReqChangeAccountField_Digest_get, _PyCTP.CThostFtdcReqChangeAccountField_Digest_set)
+    __swig_setmethods__["LongCustomerName"] = _PyCTP.CThostFtdcReqChangeAccountField_LongCustomerName_set
+    __swig_getmethods__["LongCustomerName"] = _PyCTP.CThostFtdcReqChangeAccountField_LongCustomerName_get
+    if _newclass:
+        LongCustomerName = _swig_property(_PyCTP.CThostFtdcReqChangeAccountField_LongCustomerName_get, _PyCTP.CThostFtdcReqChangeAccountField_LongCustomerName_set)
 
     def __init__(self):
         this = _PyCTP.new_CThostFtdcReqChangeAccountField()
@@ -15273,6 +17986,10 @@ class CThostFtdcReqTransferField(_object):
     __swig_getmethods__["TransferStatus"] = _PyCTP.CThostFtdcReqTransferField_TransferStatus_get
     if _newclass:
         TransferStatus = _swig_property(_PyCTP.CThostFtdcReqTransferField_TransferStatus_get, _PyCTP.CThostFtdcReqTransferField_TransferStatus_set)
+    __swig_setmethods__["LongCustomerName"] = _PyCTP.CThostFtdcReqTransferField_LongCustomerName_set
+    __swig_getmethods__["LongCustomerName"] = _PyCTP.CThostFtdcReqTransferField_LongCustomerName_get
+    if _newclass:
+        LongCustomerName = _swig_property(_PyCTP.CThostFtdcReqTransferField_LongCustomerName_get, _PyCTP.CThostFtdcReqTransferField_LongCustomerName_set)
 
     def __init__(self):
         this = _PyCTP.new_CThostFtdcReqTransferField()
@@ -15471,6 +18188,10 @@ class CThostFtdcRspTransferField(_object):
     __swig_getmethods__["ErrorMsg"] = _PyCTP.CThostFtdcRspTransferField_ErrorMsg_get
     if _newclass:
         ErrorMsg = _swig_property(_PyCTP.CThostFtdcRspTransferField_ErrorMsg_get, _PyCTP.CThostFtdcRspTransferField_ErrorMsg_set)
+    __swig_setmethods__["LongCustomerName"] = _PyCTP.CThostFtdcRspTransferField_LongCustomerName_set
+    __swig_getmethods__["LongCustomerName"] = _PyCTP.CThostFtdcRspTransferField_LongCustomerName_get
+    if _newclass:
+        LongCustomerName = _swig_property(_PyCTP.CThostFtdcRspTransferField_LongCustomerName_get, _PyCTP.CThostFtdcRspTransferField_LongCustomerName_set)
 
     def __init__(self):
         this = _PyCTP.new_CThostFtdcRspTransferField()
@@ -15689,6 +18410,10 @@ class CThostFtdcReqRepealField(_object):
     __swig_getmethods__["TransferStatus"] = _PyCTP.CThostFtdcReqRepealField_TransferStatus_get
     if _newclass:
         TransferStatus = _swig_property(_PyCTP.CThostFtdcReqRepealField_TransferStatus_get, _PyCTP.CThostFtdcReqRepealField_TransferStatus_set)
+    __swig_setmethods__["LongCustomerName"] = _PyCTP.CThostFtdcReqRepealField_LongCustomerName_set
+    __swig_getmethods__["LongCustomerName"] = _PyCTP.CThostFtdcReqRepealField_LongCustomerName_get
+    if _newclass:
+        LongCustomerName = _swig_property(_PyCTP.CThostFtdcReqRepealField_LongCustomerName_get, _PyCTP.CThostFtdcReqRepealField_LongCustomerName_set)
 
     def __init__(self):
         this = _PyCTP.new_CThostFtdcReqRepealField()
@@ -15915,6 +18640,10 @@ class CThostFtdcRspRepealField(_object):
     __swig_getmethods__["ErrorMsg"] = _PyCTP.CThostFtdcRspRepealField_ErrorMsg_get
     if _newclass:
         ErrorMsg = _swig_property(_PyCTP.CThostFtdcRspRepealField_ErrorMsg_get, _PyCTP.CThostFtdcRspRepealField_ErrorMsg_set)
+    __swig_setmethods__["LongCustomerName"] = _PyCTP.CThostFtdcRspRepealField_LongCustomerName_set
+    __swig_getmethods__["LongCustomerName"] = _PyCTP.CThostFtdcRspRepealField_LongCustomerName_get
+    if _newclass:
+        LongCustomerName = _swig_property(_PyCTP.CThostFtdcRspRepealField_LongCustomerName_get, _PyCTP.CThostFtdcRspRepealField_LongCustomerName_set)
 
     def __init__(self):
         this = _PyCTP.new_CThostFtdcRspRepealField()
@@ -16077,6 +18806,10 @@ class CThostFtdcReqQueryAccountField(_object):
     __swig_getmethods__["TID"] = _PyCTP.CThostFtdcReqQueryAccountField_TID_get
     if _newclass:
         TID = _swig_property(_PyCTP.CThostFtdcReqQueryAccountField_TID_get, _PyCTP.CThostFtdcReqQueryAccountField_TID_set)
+    __swig_setmethods__["LongCustomerName"] = _PyCTP.CThostFtdcReqQueryAccountField_LongCustomerName_set
+    __swig_getmethods__["LongCustomerName"] = _PyCTP.CThostFtdcReqQueryAccountField_LongCustomerName_get
+    if _newclass:
+        LongCustomerName = _swig_property(_PyCTP.CThostFtdcReqQueryAccountField_LongCustomerName_get, _PyCTP.CThostFtdcReqQueryAccountField_LongCustomerName_set)
 
     def __init__(self):
         this = _PyCTP.new_CThostFtdcReqQueryAccountField()
@@ -16247,6 +18980,10 @@ class CThostFtdcRspQueryAccountField(_object):
     __swig_getmethods__["BankFetchAmount"] = _PyCTP.CThostFtdcRspQueryAccountField_BankFetchAmount_get
     if _newclass:
         BankFetchAmount = _swig_property(_PyCTP.CThostFtdcRspQueryAccountField_BankFetchAmount_get, _PyCTP.CThostFtdcRspQueryAccountField_BankFetchAmount_set)
+    __swig_setmethods__["LongCustomerName"] = _PyCTP.CThostFtdcRspQueryAccountField_LongCustomerName_set
+    __swig_getmethods__["LongCustomerName"] = _PyCTP.CThostFtdcRspQueryAccountField_LongCustomerName_get
+    if _newclass:
+        LongCustomerName = _swig_property(_PyCTP.CThostFtdcRspQueryAccountField_LongCustomerName_get, _PyCTP.CThostFtdcRspQueryAccountField_LongCustomerName_set)
 
     def __init__(self):
         this = _PyCTP.new_CThostFtdcRspQueryAccountField()
@@ -16801,6 +19538,10 @@ class CThostFtdcReqQueryTradeResultBySerialField(_object):
     __swig_getmethods__["Digest"] = _PyCTP.CThostFtdcReqQueryTradeResultBySerialField_Digest_get
     if _newclass:
         Digest = _swig_property(_PyCTP.CThostFtdcReqQueryTradeResultBySerialField_Digest_get, _PyCTP.CThostFtdcReqQueryTradeResultBySerialField_Digest_set)
+    __swig_setmethods__["LongCustomerName"] = _PyCTP.CThostFtdcReqQueryTradeResultBySerialField_LongCustomerName_set
+    __swig_getmethods__["LongCustomerName"] = _PyCTP.CThostFtdcReqQueryTradeResultBySerialField_LongCustomerName_get
+    if _newclass:
+        LongCustomerName = _swig_property(_PyCTP.CThostFtdcReqQueryTradeResultBySerialField_LongCustomerName_get, _PyCTP.CThostFtdcReqQueryTradeResultBySerialField_LongCustomerName_set)
 
     def __init__(self):
         this = _PyCTP.new_CThostFtdcReqQueryTradeResultBySerialField()
@@ -17151,6 +19892,10 @@ class CThostFtdcVerifyCustInfoField(_object):
     __swig_getmethods__["CustType"] = _PyCTP.CThostFtdcVerifyCustInfoField_CustType_get
     if _newclass:
         CustType = _swig_property(_PyCTP.CThostFtdcVerifyCustInfoField_CustType_get, _PyCTP.CThostFtdcVerifyCustInfoField_CustType_set)
+    __swig_setmethods__["LongCustomerName"] = _PyCTP.CThostFtdcVerifyCustInfoField_LongCustomerName_set
+    __swig_getmethods__["LongCustomerName"] = _PyCTP.CThostFtdcVerifyCustInfoField_LongCustomerName_get
+    if _newclass:
+        LongCustomerName = _swig_property(_PyCTP.CThostFtdcVerifyCustInfoField_LongCustomerName_get, _PyCTP.CThostFtdcVerifyCustInfoField_LongCustomerName_set)
 
     def __init__(self):
         this = _PyCTP.new_CThostFtdcVerifyCustInfoField()
@@ -17197,6 +19942,10 @@ class CThostFtdcVerifyFuturePasswordAndCustInfoField(_object):
     __swig_getmethods__["CurrencyID"] = _PyCTP.CThostFtdcVerifyFuturePasswordAndCustInfoField_CurrencyID_get
     if _newclass:
         CurrencyID = _swig_property(_PyCTP.CThostFtdcVerifyFuturePasswordAndCustInfoField_CurrencyID_get, _PyCTP.CThostFtdcVerifyFuturePasswordAndCustInfoField_CurrencyID_set)
+    __swig_setmethods__["LongCustomerName"] = _PyCTP.CThostFtdcVerifyFuturePasswordAndCustInfoField_LongCustomerName_set
+    __swig_getmethods__["LongCustomerName"] = _PyCTP.CThostFtdcVerifyFuturePasswordAndCustInfoField_LongCustomerName_get
+    if _newclass:
+        LongCustomerName = _swig_property(_PyCTP.CThostFtdcVerifyFuturePasswordAndCustInfoField_LongCustomerName_get, _PyCTP.CThostFtdcVerifyFuturePasswordAndCustInfoField_LongCustomerName_set)
 
     def __init__(self):
         this = _PyCTP.new_CThostFtdcVerifyFuturePasswordAndCustInfoField()
@@ -17625,6 +20374,10 @@ class CThostFtdcNotifyQueryAccountField(_object):
     __swig_getmethods__["ErrorMsg"] = _PyCTP.CThostFtdcNotifyQueryAccountField_ErrorMsg_get
     if _newclass:
         ErrorMsg = _swig_property(_PyCTP.CThostFtdcNotifyQueryAccountField_ErrorMsg_get, _PyCTP.CThostFtdcNotifyQueryAccountField_ErrorMsg_set)
+    __swig_setmethods__["LongCustomerName"] = _PyCTP.CThostFtdcNotifyQueryAccountField_LongCustomerName_set
+    __swig_getmethods__["LongCustomerName"] = _PyCTP.CThostFtdcNotifyQueryAccountField_LongCustomerName_get
+    if _newclass:
+        LongCustomerName = _swig_property(_PyCTP.CThostFtdcNotifyQueryAccountField_LongCustomerName_get, _PyCTP.CThostFtdcNotifyQueryAccountField_LongCustomerName_set)
 
     def __init__(self):
         this = _PyCTP.new_CThostFtdcNotifyQueryAccountField()
@@ -18247,6 +21000,10 @@ class CThostFtdcAccountregisterField(_object):
     __swig_getmethods__["BankAccType"] = _PyCTP.CThostFtdcAccountregisterField_BankAccType_get
     if _newclass:
         BankAccType = _swig_property(_PyCTP.CThostFtdcAccountregisterField_BankAccType_get, _PyCTP.CThostFtdcAccountregisterField_BankAccType_set)
+    __swig_setmethods__["LongCustomerName"] = _PyCTP.CThostFtdcAccountregisterField_LongCustomerName_set
+    __swig_getmethods__["LongCustomerName"] = _PyCTP.CThostFtdcAccountregisterField_LongCustomerName_get
+    if _newclass:
+        LongCustomerName = _swig_property(_PyCTP.CThostFtdcAccountregisterField_LongCustomerName_get, _PyCTP.CThostFtdcAccountregisterField_LongCustomerName_set)
 
     def __init__(self):
         this = _PyCTP.new_CThostFtdcAccountregisterField()
@@ -18449,6 +21206,10 @@ class CThostFtdcOpenAccountField(_object):
     __swig_getmethods__["ErrorMsg"] = _PyCTP.CThostFtdcOpenAccountField_ErrorMsg_get
     if _newclass:
         ErrorMsg = _swig_property(_PyCTP.CThostFtdcOpenAccountField_ErrorMsg_get, _PyCTP.CThostFtdcOpenAccountField_ErrorMsg_set)
+    __swig_setmethods__["LongCustomerName"] = _PyCTP.CThostFtdcOpenAccountField_LongCustomerName_set
+    __swig_getmethods__["LongCustomerName"] = _PyCTP.CThostFtdcOpenAccountField_LongCustomerName_get
+    if _newclass:
+        LongCustomerName = _swig_property(_PyCTP.CThostFtdcOpenAccountField_LongCustomerName_get, _PyCTP.CThostFtdcOpenAccountField_LongCustomerName_set)
 
     def __init__(self):
         this = _PyCTP.new_CThostFtdcOpenAccountField()
@@ -18651,6 +21412,10 @@ class CThostFtdcCancelAccountField(_object):
     __swig_getmethods__["ErrorMsg"] = _PyCTP.CThostFtdcCancelAccountField_ErrorMsg_get
     if _newclass:
         ErrorMsg = _swig_property(_PyCTP.CThostFtdcCancelAccountField_ErrorMsg_get, _PyCTP.CThostFtdcCancelAccountField_ErrorMsg_set)
+    __swig_setmethods__["LongCustomerName"] = _PyCTP.CThostFtdcCancelAccountField_LongCustomerName_set
+    __swig_getmethods__["LongCustomerName"] = _PyCTP.CThostFtdcCancelAccountField_LongCustomerName_get
+    if _newclass:
+        LongCustomerName = _swig_property(_PyCTP.CThostFtdcCancelAccountField_LongCustomerName_get, _PyCTP.CThostFtdcCancelAccountField_LongCustomerName_set)
 
     def __init__(self):
         this = _PyCTP.new_CThostFtdcCancelAccountField()
@@ -18837,6 +21602,10 @@ class CThostFtdcChangeAccountField(_object):
     __swig_getmethods__["ErrorMsg"] = _PyCTP.CThostFtdcChangeAccountField_ErrorMsg_get
     if _newclass:
         ErrorMsg = _swig_property(_PyCTP.CThostFtdcChangeAccountField_ErrorMsg_get, _PyCTP.CThostFtdcChangeAccountField_ErrorMsg_set)
+    __swig_setmethods__["LongCustomerName"] = _PyCTP.CThostFtdcChangeAccountField_LongCustomerName_set
+    __swig_getmethods__["LongCustomerName"] = _PyCTP.CThostFtdcChangeAccountField_LongCustomerName_get
+    if _newclass:
+        LongCustomerName = _swig_property(_PyCTP.CThostFtdcChangeAccountField_LongCustomerName_get, _PyCTP.CThostFtdcChangeAccountField_LongCustomerName_set)
 
     def __init__(self):
         this = _PyCTP.new_CThostFtdcChangeAccountField()
@@ -19187,6 +21956,1144 @@ class CThostFtdcTradingAccountReserveField(_object):
 CThostFtdcTradingAccountReserveField_swigregister = _PyCTP.CThostFtdcTradingAccountReserveField_swigregister
 CThostFtdcTradingAccountReserveField_swigregister(CThostFtdcTradingAccountReserveField)
 
+class CThostFtdcQryLoginForbiddenIPField(_object):
+    __swig_setmethods__ = {}
+    __setattr__ = lambda self, name, value: _swig_setattr(self, CThostFtdcQryLoginForbiddenIPField, name, value)
+    __swig_getmethods__ = {}
+    __getattr__ = lambda self, name: _swig_getattr(self, CThostFtdcQryLoginForbiddenIPField, name)
+    __repr__ = _swig_repr
+    __swig_setmethods__["IPAddress"] = _PyCTP.CThostFtdcQryLoginForbiddenIPField_IPAddress_set
+    __swig_getmethods__["IPAddress"] = _PyCTP.CThostFtdcQryLoginForbiddenIPField_IPAddress_get
+    if _newclass:
+        IPAddress = _swig_property(_PyCTP.CThostFtdcQryLoginForbiddenIPField_IPAddress_get, _PyCTP.CThostFtdcQryLoginForbiddenIPField_IPAddress_set)
+
+    def __init__(self):
+        this = _PyCTP.new_CThostFtdcQryLoginForbiddenIPField()
+        try:
+            self.this.append(this)
+        except __builtin__.Exception:
+            self.this = this
+    __swig_destroy__ = _PyCTP.delete_CThostFtdcQryLoginForbiddenIPField
+    __del__ = lambda self: None
+CThostFtdcQryLoginForbiddenIPField_swigregister = _PyCTP.CThostFtdcQryLoginForbiddenIPField_swigregister
+CThostFtdcQryLoginForbiddenIPField_swigregister(CThostFtdcQryLoginForbiddenIPField)
+
+class CThostFtdcQryIPListField(_object):
+    __swig_setmethods__ = {}
+    __setattr__ = lambda self, name, value: _swig_setattr(self, CThostFtdcQryIPListField, name, value)
+    __swig_getmethods__ = {}
+    __getattr__ = lambda self, name: _swig_getattr(self, CThostFtdcQryIPListField, name)
+    __repr__ = _swig_repr
+    __swig_setmethods__["IPAddress"] = _PyCTP.CThostFtdcQryIPListField_IPAddress_set
+    __swig_getmethods__["IPAddress"] = _PyCTP.CThostFtdcQryIPListField_IPAddress_get
+    if _newclass:
+        IPAddress = _swig_property(_PyCTP.CThostFtdcQryIPListField_IPAddress_get, _PyCTP.CThostFtdcQryIPListField_IPAddress_set)
+
+    def __init__(self):
+        this = _PyCTP.new_CThostFtdcQryIPListField()
+        try:
+            self.this.append(this)
+        except __builtin__.Exception:
+            self.this = this
+    __swig_destroy__ = _PyCTP.delete_CThostFtdcQryIPListField
+    __del__ = lambda self: None
+CThostFtdcQryIPListField_swigregister = _PyCTP.CThostFtdcQryIPListField_swigregister
+CThostFtdcQryIPListField_swigregister(CThostFtdcQryIPListField)
+
+class CThostFtdcQryUserRightsAssignField(_object):
+    __swig_setmethods__ = {}
+    __setattr__ = lambda self, name, value: _swig_setattr(self, CThostFtdcQryUserRightsAssignField, name, value)
+    __swig_getmethods__ = {}
+    __getattr__ = lambda self, name: _swig_getattr(self, CThostFtdcQryUserRightsAssignField, name)
+    __repr__ = _swig_repr
+    __swig_setmethods__["BrokerID"] = _PyCTP.CThostFtdcQryUserRightsAssignField_BrokerID_set
+    __swig_getmethods__["BrokerID"] = _PyCTP.CThostFtdcQryUserRightsAssignField_BrokerID_get
+    if _newclass:
+        BrokerID = _swig_property(_PyCTP.CThostFtdcQryUserRightsAssignField_BrokerID_get, _PyCTP.CThostFtdcQryUserRightsAssignField_BrokerID_set)
+    __swig_setmethods__["UserID"] = _PyCTP.CThostFtdcQryUserRightsAssignField_UserID_set
+    __swig_getmethods__["UserID"] = _PyCTP.CThostFtdcQryUserRightsAssignField_UserID_get
+    if _newclass:
+        UserID = _swig_property(_PyCTP.CThostFtdcQryUserRightsAssignField_UserID_get, _PyCTP.CThostFtdcQryUserRightsAssignField_UserID_set)
+
+    def __init__(self):
+        this = _PyCTP.new_CThostFtdcQryUserRightsAssignField()
+        try:
+            self.this.append(this)
+        except __builtin__.Exception:
+            self.this = this
+    __swig_destroy__ = _PyCTP.delete_CThostFtdcQryUserRightsAssignField
+    __del__ = lambda self: None
+CThostFtdcQryUserRightsAssignField_swigregister = _PyCTP.CThostFtdcQryUserRightsAssignField_swigregister
+CThostFtdcQryUserRightsAssignField_swigregister(CThostFtdcQryUserRightsAssignField)
+
+class CThostFtdcReserveOpenAccountConfirmField(_object):
+    __swig_setmethods__ = {}
+    __setattr__ = lambda self, name, value: _swig_setattr(self, CThostFtdcReserveOpenAccountConfirmField, name, value)
+    __swig_getmethods__ = {}
+    __getattr__ = lambda self, name: _swig_getattr(self, CThostFtdcReserveOpenAccountConfirmField, name)
+    __repr__ = _swig_repr
+    __swig_setmethods__["TradeCode"] = _PyCTP.CThostFtdcReserveOpenAccountConfirmField_TradeCode_set
+    __swig_getmethods__["TradeCode"] = _PyCTP.CThostFtdcReserveOpenAccountConfirmField_TradeCode_get
+    if _newclass:
+        TradeCode = _swig_property(_PyCTP.CThostFtdcReserveOpenAccountConfirmField_TradeCode_get, _PyCTP.CThostFtdcReserveOpenAccountConfirmField_TradeCode_set)
+    __swig_setmethods__["BankID"] = _PyCTP.CThostFtdcReserveOpenAccountConfirmField_BankID_set
+    __swig_getmethods__["BankID"] = _PyCTP.CThostFtdcReserveOpenAccountConfirmField_BankID_get
+    if _newclass:
+        BankID = _swig_property(_PyCTP.CThostFtdcReserveOpenAccountConfirmField_BankID_get, _PyCTP.CThostFtdcReserveOpenAccountConfirmField_BankID_set)
+    __swig_setmethods__["BankBranchID"] = _PyCTP.CThostFtdcReserveOpenAccountConfirmField_BankBranchID_set
+    __swig_getmethods__["BankBranchID"] = _PyCTP.CThostFtdcReserveOpenAccountConfirmField_BankBranchID_get
+    if _newclass:
+        BankBranchID = _swig_property(_PyCTP.CThostFtdcReserveOpenAccountConfirmField_BankBranchID_get, _PyCTP.CThostFtdcReserveOpenAccountConfirmField_BankBranchID_set)
+    __swig_setmethods__["BrokerID"] = _PyCTP.CThostFtdcReserveOpenAccountConfirmField_BrokerID_set
+    __swig_getmethods__["BrokerID"] = _PyCTP.CThostFtdcReserveOpenAccountConfirmField_BrokerID_get
+    if _newclass:
+        BrokerID = _swig_property(_PyCTP.CThostFtdcReserveOpenAccountConfirmField_BrokerID_get, _PyCTP.CThostFtdcReserveOpenAccountConfirmField_BrokerID_set)
+    __swig_setmethods__["BrokerBranchID"] = _PyCTP.CThostFtdcReserveOpenAccountConfirmField_BrokerBranchID_set
+    __swig_getmethods__["BrokerBranchID"] = _PyCTP.CThostFtdcReserveOpenAccountConfirmField_BrokerBranchID_get
+    if _newclass:
+        BrokerBranchID = _swig_property(_PyCTP.CThostFtdcReserveOpenAccountConfirmField_BrokerBranchID_get, _PyCTP.CThostFtdcReserveOpenAccountConfirmField_BrokerBranchID_set)
+    __swig_setmethods__["TradeDate"] = _PyCTP.CThostFtdcReserveOpenAccountConfirmField_TradeDate_set
+    __swig_getmethods__["TradeDate"] = _PyCTP.CThostFtdcReserveOpenAccountConfirmField_TradeDate_get
+    if _newclass:
+        TradeDate = _swig_property(_PyCTP.CThostFtdcReserveOpenAccountConfirmField_TradeDate_get, _PyCTP.CThostFtdcReserveOpenAccountConfirmField_TradeDate_set)
+    __swig_setmethods__["TradeTime"] = _PyCTP.CThostFtdcReserveOpenAccountConfirmField_TradeTime_set
+    __swig_getmethods__["TradeTime"] = _PyCTP.CThostFtdcReserveOpenAccountConfirmField_TradeTime_get
+    if _newclass:
+        TradeTime = _swig_property(_PyCTP.CThostFtdcReserveOpenAccountConfirmField_TradeTime_get, _PyCTP.CThostFtdcReserveOpenAccountConfirmField_TradeTime_set)
+    __swig_setmethods__["BankSerial"] = _PyCTP.CThostFtdcReserveOpenAccountConfirmField_BankSerial_set
+    __swig_getmethods__["BankSerial"] = _PyCTP.CThostFtdcReserveOpenAccountConfirmField_BankSerial_get
+    if _newclass:
+        BankSerial = _swig_property(_PyCTP.CThostFtdcReserveOpenAccountConfirmField_BankSerial_get, _PyCTP.CThostFtdcReserveOpenAccountConfirmField_BankSerial_set)
+    __swig_setmethods__["TradingDay"] = _PyCTP.CThostFtdcReserveOpenAccountConfirmField_TradingDay_set
+    __swig_getmethods__["TradingDay"] = _PyCTP.CThostFtdcReserveOpenAccountConfirmField_TradingDay_get
+    if _newclass:
+        TradingDay = _swig_property(_PyCTP.CThostFtdcReserveOpenAccountConfirmField_TradingDay_get, _PyCTP.CThostFtdcReserveOpenAccountConfirmField_TradingDay_set)
+    __swig_setmethods__["PlateSerial"] = _PyCTP.CThostFtdcReserveOpenAccountConfirmField_PlateSerial_set
+    __swig_getmethods__["PlateSerial"] = _PyCTP.CThostFtdcReserveOpenAccountConfirmField_PlateSerial_get
+    if _newclass:
+        PlateSerial = _swig_property(_PyCTP.CThostFtdcReserveOpenAccountConfirmField_PlateSerial_get, _PyCTP.CThostFtdcReserveOpenAccountConfirmField_PlateSerial_set)
+    __swig_setmethods__["LastFragment"] = _PyCTP.CThostFtdcReserveOpenAccountConfirmField_LastFragment_set
+    __swig_getmethods__["LastFragment"] = _PyCTP.CThostFtdcReserveOpenAccountConfirmField_LastFragment_get
+    if _newclass:
+        LastFragment = _swig_property(_PyCTP.CThostFtdcReserveOpenAccountConfirmField_LastFragment_get, _PyCTP.CThostFtdcReserveOpenAccountConfirmField_LastFragment_set)
+    __swig_setmethods__["SessionID"] = _PyCTP.CThostFtdcReserveOpenAccountConfirmField_SessionID_set
+    __swig_getmethods__["SessionID"] = _PyCTP.CThostFtdcReserveOpenAccountConfirmField_SessionID_get
+    if _newclass:
+        SessionID = _swig_property(_PyCTP.CThostFtdcReserveOpenAccountConfirmField_SessionID_get, _PyCTP.CThostFtdcReserveOpenAccountConfirmField_SessionID_set)
+    __swig_setmethods__["CustomerName"] = _PyCTP.CThostFtdcReserveOpenAccountConfirmField_CustomerName_set
+    __swig_getmethods__["CustomerName"] = _PyCTP.CThostFtdcReserveOpenAccountConfirmField_CustomerName_get
+    if _newclass:
+        CustomerName = _swig_property(_PyCTP.CThostFtdcReserveOpenAccountConfirmField_CustomerName_get, _PyCTP.CThostFtdcReserveOpenAccountConfirmField_CustomerName_set)
+    __swig_setmethods__["IdCardType"] = _PyCTP.CThostFtdcReserveOpenAccountConfirmField_IdCardType_set
+    __swig_getmethods__["IdCardType"] = _PyCTP.CThostFtdcReserveOpenAccountConfirmField_IdCardType_get
+    if _newclass:
+        IdCardType = _swig_property(_PyCTP.CThostFtdcReserveOpenAccountConfirmField_IdCardType_get, _PyCTP.CThostFtdcReserveOpenAccountConfirmField_IdCardType_set)
+    __swig_setmethods__["IdentifiedCardNo"] = _PyCTP.CThostFtdcReserveOpenAccountConfirmField_IdentifiedCardNo_set
+    __swig_getmethods__["IdentifiedCardNo"] = _PyCTP.CThostFtdcReserveOpenAccountConfirmField_IdentifiedCardNo_get
+    if _newclass:
+        IdentifiedCardNo = _swig_property(_PyCTP.CThostFtdcReserveOpenAccountConfirmField_IdentifiedCardNo_get, _PyCTP.CThostFtdcReserveOpenAccountConfirmField_IdentifiedCardNo_set)
+    __swig_setmethods__["Gender"] = _PyCTP.CThostFtdcReserveOpenAccountConfirmField_Gender_set
+    __swig_getmethods__["Gender"] = _PyCTP.CThostFtdcReserveOpenAccountConfirmField_Gender_get
+    if _newclass:
+        Gender = _swig_property(_PyCTP.CThostFtdcReserveOpenAccountConfirmField_Gender_get, _PyCTP.CThostFtdcReserveOpenAccountConfirmField_Gender_set)
+    __swig_setmethods__["CountryCode"] = _PyCTP.CThostFtdcReserveOpenAccountConfirmField_CountryCode_set
+    __swig_getmethods__["CountryCode"] = _PyCTP.CThostFtdcReserveOpenAccountConfirmField_CountryCode_get
+    if _newclass:
+        CountryCode = _swig_property(_PyCTP.CThostFtdcReserveOpenAccountConfirmField_CountryCode_get, _PyCTP.CThostFtdcReserveOpenAccountConfirmField_CountryCode_set)
+    __swig_setmethods__["CustType"] = _PyCTP.CThostFtdcReserveOpenAccountConfirmField_CustType_set
+    __swig_getmethods__["CustType"] = _PyCTP.CThostFtdcReserveOpenAccountConfirmField_CustType_get
+    if _newclass:
+        CustType = _swig_property(_PyCTP.CThostFtdcReserveOpenAccountConfirmField_CustType_get, _PyCTP.CThostFtdcReserveOpenAccountConfirmField_CustType_set)
+    __swig_setmethods__["Address"] = _PyCTP.CThostFtdcReserveOpenAccountConfirmField_Address_set
+    __swig_getmethods__["Address"] = _PyCTP.CThostFtdcReserveOpenAccountConfirmField_Address_get
+    if _newclass:
+        Address = _swig_property(_PyCTP.CThostFtdcReserveOpenAccountConfirmField_Address_get, _PyCTP.CThostFtdcReserveOpenAccountConfirmField_Address_set)
+    __swig_setmethods__["ZipCode"] = _PyCTP.CThostFtdcReserveOpenAccountConfirmField_ZipCode_set
+    __swig_getmethods__["ZipCode"] = _PyCTP.CThostFtdcReserveOpenAccountConfirmField_ZipCode_get
+    if _newclass:
+        ZipCode = _swig_property(_PyCTP.CThostFtdcReserveOpenAccountConfirmField_ZipCode_get, _PyCTP.CThostFtdcReserveOpenAccountConfirmField_ZipCode_set)
+    __swig_setmethods__["Telephone"] = _PyCTP.CThostFtdcReserveOpenAccountConfirmField_Telephone_set
+    __swig_getmethods__["Telephone"] = _PyCTP.CThostFtdcReserveOpenAccountConfirmField_Telephone_get
+    if _newclass:
+        Telephone = _swig_property(_PyCTP.CThostFtdcReserveOpenAccountConfirmField_Telephone_get, _PyCTP.CThostFtdcReserveOpenAccountConfirmField_Telephone_set)
+    __swig_setmethods__["MobilePhone"] = _PyCTP.CThostFtdcReserveOpenAccountConfirmField_MobilePhone_set
+    __swig_getmethods__["MobilePhone"] = _PyCTP.CThostFtdcReserveOpenAccountConfirmField_MobilePhone_get
+    if _newclass:
+        MobilePhone = _swig_property(_PyCTP.CThostFtdcReserveOpenAccountConfirmField_MobilePhone_get, _PyCTP.CThostFtdcReserveOpenAccountConfirmField_MobilePhone_set)
+    __swig_setmethods__["Fax"] = _PyCTP.CThostFtdcReserveOpenAccountConfirmField_Fax_set
+    __swig_getmethods__["Fax"] = _PyCTP.CThostFtdcReserveOpenAccountConfirmField_Fax_get
+    if _newclass:
+        Fax = _swig_property(_PyCTP.CThostFtdcReserveOpenAccountConfirmField_Fax_get, _PyCTP.CThostFtdcReserveOpenAccountConfirmField_Fax_set)
+    __swig_setmethods__["EMail"] = _PyCTP.CThostFtdcReserveOpenAccountConfirmField_EMail_set
+    __swig_getmethods__["EMail"] = _PyCTP.CThostFtdcReserveOpenAccountConfirmField_EMail_get
+    if _newclass:
+        EMail = _swig_property(_PyCTP.CThostFtdcReserveOpenAccountConfirmField_EMail_get, _PyCTP.CThostFtdcReserveOpenAccountConfirmField_EMail_set)
+    __swig_setmethods__["MoneyAccountStatus"] = _PyCTP.CThostFtdcReserveOpenAccountConfirmField_MoneyAccountStatus_set
+    __swig_getmethods__["MoneyAccountStatus"] = _PyCTP.CThostFtdcReserveOpenAccountConfirmField_MoneyAccountStatus_get
+    if _newclass:
+        MoneyAccountStatus = _swig_property(_PyCTP.CThostFtdcReserveOpenAccountConfirmField_MoneyAccountStatus_get, _PyCTP.CThostFtdcReserveOpenAccountConfirmField_MoneyAccountStatus_set)
+    __swig_setmethods__["BankAccount"] = _PyCTP.CThostFtdcReserveOpenAccountConfirmField_BankAccount_set
+    __swig_getmethods__["BankAccount"] = _PyCTP.CThostFtdcReserveOpenAccountConfirmField_BankAccount_get
+    if _newclass:
+        BankAccount = _swig_property(_PyCTP.CThostFtdcReserveOpenAccountConfirmField_BankAccount_get, _PyCTP.CThostFtdcReserveOpenAccountConfirmField_BankAccount_set)
+    __swig_setmethods__["BankPassWord"] = _PyCTP.CThostFtdcReserveOpenAccountConfirmField_BankPassWord_set
+    __swig_getmethods__["BankPassWord"] = _PyCTP.CThostFtdcReserveOpenAccountConfirmField_BankPassWord_get
+    if _newclass:
+        BankPassWord = _swig_property(_PyCTP.CThostFtdcReserveOpenAccountConfirmField_BankPassWord_get, _PyCTP.CThostFtdcReserveOpenAccountConfirmField_BankPassWord_set)
+    __swig_setmethods__["InstallID"] = _PyCTP.CThostFtdcReserveOpenAccountConfirmField_InstallID_set
+    __swig_getmethods__["InstallID"] = _PyCTP.CThostFtdcReserveOpenAccountConfirmField_InstallID_get
+    if _newclass:
+        InstallID = _swig_property(_PyCTP.CThostFtdcReserveOpenAccountConfirmField_InstallID_get, _PyCTP.CThostFtdcReserveOpenAccountConfirmField_InstallID_set)
+    __swig_setmethods__["VerifyCertNoFlag"] = _PyCTP.CThostFtdcReserveOpenAccountConfirmField_VerifyCertNoFlag_set
+    __swig_getmethods__["VerifyCertNoFlag"] = _PyCTP.CThostFtdcReserveOpenAccountConfirmField_VerifyCertNoFlag_get
+    if _newclass:
+        VerifyCertNoFlag = _swig_property(_PyCTP.CThostFtdcReserveOpenAccountConfirmField_VerifyCertNoFlag_get, _PyCTP.CThostFtdcReserveOpenAccountConfirmField_VerifyCertNoFlag_set)
+    __swig_setmethods__["CurrencyID"] = _PyCTP.CThostFtdcReserveOpenAccountConfirmField_CurrencyID_set
+    __swig_getmethods__["CurrencyID"] = _PyCTP.CThostFtdcReserveOpenAccountConfirmField_CurrencyID_get
+    if _newclass:
+        CurrencyID = _swig_property(_PyCTP.CThostFtdcReserveOpenAccountConfirmField_CurrencyID_get, _PyCTP.CThostFtdcReserveOpenAccountConfirmField_CurrencyID_set)
+    __swig_setmethods__["Digest"] = _PyCTP.CThostFtdcReserveOpenAccountConfirmField_Digest_set
+    __swig_getmethods__["Digest"] = _PyCTP.CThostFtdcReserveOpenAccountConfirmField_Digest_get
+    if _newclass:
+        Digest = _swig_property(_PyCTP.CThostFtdcReserveOpenAccountConfirmField_Digest_get, _PyCTP.CThostFtdcReserveOpenAccountConfirmField_Digest_set)
+    __swig_setmethods__["BankAccType"] = _PyCTP.CThostFtdcReserveOpenAccountConfirmField_BankAccType_set
+    __swig_getmethods__["BankAccType"] = _PyCTP.CThostFtdcReserveOpenAccountConfirmField_BankAccType_get
+    if _newclass:
+        BankAccType = _swig_property(_PyCTP.CThostFtdcReserveOpenAccountConfirmField_BankAccType_get, _PyCTP.CThostFtdcReserveOpenAccountConfirmField_BankAccType_set)
+    __swig_setmethods__["BrokerIDByBank"] = _PyCTP.CThostFtdcReserveOpenAccountConfirmField_BrokerIDByBank_set
+    __swig_getmethods__["BrokerIDByBank"] = _PyCTP.CThostFtdcReserveOpenAccountConfirmField_BrokerIDByBank_get
+    if _newclass:
+        BrokerIDByBank = _swig_property(_PyCTP.CThostFtdcReserveOpenAccountConfirmField_BrokerIDByBank_get, _PyCTP.CThostFtdcReserveOpenAccountConfirmField_BrokerIDByBank_set)
+    __swig_setmethods__["TID"] = _PyCTP.CThostFtdcReserveOpenAccountConfirmField_TID_set
+    __swig_getmethods__["TID"] = _PyCTP.CThostFtdcReserveOpenAccountConfirmField_TID_get
+    if _newclass:
+        TID = _swig_property(_PyCTP.CThostFtdcReserveOpenAccountConfirmField_TID_get, _PyCTP.CThostFtdcReserveOpenAccountConfirmField_TID_set)
+    __swig_setmethods__["AccountID"] = _PyCTP.CThostFtdcReserveOpenAccountConfirmField_AccountID_set
+    __swig_getmethods__["AccountID"] = _PyCTP.CThostFtdcReserveOpenAccountConfirmField_AccountID_get
+    if _newclass:
+        AccountID = _swig_property(_PyCTP.CThostFtdcReserveOpenAccountConfirmField_AccountID_get, _PyCTP.CThostFtdcReserveOpenAccountConfirmField_AccountID_set)
+    __swig_setmethods__["Password"] = _PyCTP.CThostFtdcReserveOpenAccountConfirmField_Password_set
+    __swig_getmethods__["Password"] = _PyCTP.CThostFtdcReserveOpenAccountConfirmField_Password_get
+    if _newclass:
+        Password = _swig_property(_PyCTP.CThostFtdcReserveOpenAccountConfirmField_Password_get, _PyCTP.CThostFtdcReserveOpenAccountConfirmField_Password_set)
+    __swig_setmethods__["BankReserveOpenSeq"] = _PyCTP.CThostFtdcReserveOpenAccountConfirmField_BankReserveOpenSeq_set
+    __swig_getmethods__["BankReserveOpenSeq"] = _PyCTP.CThostFtdcReserveOpenAccountConfirmField_BankReserveOpenSeq_get
+    if _newclass:
+        BankReserveOpenSeq = _swig_property(_PyCTP.CThostFtdcReserveOpenAccountConfirmField_BankReserveOpenSeq_get, _PyCTP.CThostFtdcReserveOpenAccountConfirmField_BankReserveOpenSeq_set)
+    __swig_setmethods__["BookDate"] = _PyCTP.CThostFtdcReserveOpenAccountConfirmField_BookDate_set
+    __swig_getmethods__["BookDate"] = _PyCTP.CThostFtdcReserveOpenAccountConfirmField_BookDate_get
+    if _newclass:
+        BookDate = _swig_property(_PyCTP.CThostFtdcReserveOpenAccountConfirmField_BookDate_get, _PyCTP.CThostFtdcReserveOpenAccountConfirmField_BookDate_set)
+    __swig_setmethods__["BookPsw"] = _PyCTP.CThostFtdcReserveOpenAccountConfirmField_BookPsw_set
+    __swig_getmethods__["BookPsw"] = _PyCTP.CThostFtdcReserveOpenAccountConfirmField_BookPsw_get
+    if _newclass:
+        BookPsw = _swig_property(_PyCTP.CThostFtdcReserveOpenAccountConfirmField_BookPsw_get, _PyCTP.CThostFtdcReserveOpenAccountConfirmField_BookPsw_set)
+    __swig_setmethods__["ErrorID"] = _PyCTP.CThostFtdcReserveOpenAccountConfirmField_ErrorID_set
+    __swig_getmethods__["ErrorID"] = _PyCTP.CThostFtdcReserveOpenAccountConfirmField_ErrorID_get
+    if _newclass:
+        ErrorID = _swig_property(_PyCTP.CThostFtdcReserveOpenAccountConfirmField_ErrorID_get, _PyCTP.CThostFtdcReserveOpenAccountConfirmField_ErrorID_set)
+    __swig_setmethods__["ErrorMsg"] = _PyCTP.CThostFtdcReserveOpenAccountConfirmField_ErrorMsg_set
+    __swig_getmethods__["ErrorMsg"] = _PyCTP.CThostFtdcReserveOpenAccountConfirmField_ErrorMsg_get
+    if _newclass:
+        ErrorMsg = _swig_property(_PyCTP.CThostFtdcReserveOpenAccountConfirmField_ErrorMsg_get, _PyCTP.CThostFtdcReserveOpenAccountConfirmField_ErrorMsg_set)
+
+    def __init__(self):
+        this = _PyCTP.new_CThostFtdcReserveOpenAccountConfirmField()
+        try:
+            self.this.append(this)
+        except __builtin__.Exception:
+            self.this = this
+    __swig_destroy__ = _PyCTP.delete_CThostFtdcReserveOpenAccountConfirmField
+    __del__ = lambda self: None
+CThostFtdcReserveOpenAccountConfirmField_swigregister = _PyCTP.CThostFtdcReserveOpenAccountConfirmField_swigregister
+CThostFtdcReserveOpenAccountConfirmField_swigregister(CThostFtdcReserveOpenAccountConfirmField)
+
+class CThostFtdcReserveOpenAccountField(_object):
+    __swig_setmethods__ = {}
+    __setattr__ = lambda self, name, value: _swig_setattr(self, CThostFtdcReserveOpenAccountField, name, value)
+    __swig_getmethods__ = {}
+    __getattr__ = lambda self, name: _swig_getattr(self, CThostFtdcReserveOpenAccountField, name)
+    __repr__ = _swig_repr
+    __swig_setmethods__["TradeCode"] = _PyCTP.CThostFtdcReserveOpenAccountField_TradeCode_set
+    __swig_getmethods__["TradeCode"] = _PyCTP.CThostFtdcReserveOpenAccountField_TradeCode_get
+    if _newclass:
+        TradeCode = _swig_property(_PyCTP.CThostFtdcReserveOpenAccountField_TradeCode_get, _PyCTP.CThostFtdcReserveOpenAccountField_TradeCode_set)
+    __swig_setmethods__["BankID"] = _PyCTP.CThostFtdcReserveOpenAccountField_BankID_set
+    __swig_getmethods__["BankID"] = _PyCTP.CThostFtdcReserveOpenAccountField_BankID_get
+    if _newclass:
+        BankID = _swig_property(_PyCTP.CThostFtdcReserveOpenAccountField_BankID_get, _PyCTP.CThostFtdcReserveOpenAccountField_BankID_set)
+    __swig_setmethods__["BankBranchID"] = _PyCTP.CThostFtdcReserveOpenAccountField_BankBranchID_set
+    __swig_getmethods__["BankBranchID"] = _PyCTP.CThostFtdcReserveOpenAccountField_BankBranchID_get
+    if _newclass:
+        BankBranchID = _swig_property(_PyCTP.CThostFtdcReserveOpenAccountField_BankBranchID_get, _PyCTP.CThostFtdcReserveOpenAccountField_BankBranchID_set)
+    __swig_setmethods__["BrokerID"] = _PyCTP.CThostFtdcReserveOpenAccountField_BrokerID_set
+    __swig_getmethods__["BrokerID"] = _PyCTP.CThostFtdcReserveOpenAccountField_BrokerID_get
+    if _newclass:
+        BrokerID = _swig_property(_PyCTP.CThostFtdcReserveOpenAccountField_BrokerID_get, _PyCTP.CThostFtdcReserveOpenAccountField_BrokerID_set)
+    __swig_setmethods__["BrokerBranchID"] = _PyCTP.CThostFtdcReserveOpenAccountField_BrokerBranchID_set
+    __swig_getmethods__["BrokerBranchID"] = _PyCTP.CThostFtdcReserveOpenAccountField_BrokerBranchID_get
+    if _newclass:
+        BrokerBranchID = _swig_property(_PyCTP.CThostFtdcReserveOpenAccountField_BrokerBranchID_get, _PyCTP.CThostFtdcReserveOpenAccountField_BrokerBranchID_set)
+    __swig_setmethods__["TradeDate"] = _PyCTP.CThostFtdcReserveOpenAccountField_TradeDate_set
+    __swig_getmethods__["TradeDate"] = _PyCTP.CThostFtdcReserveOpenAccountField_TradeDate_get
+    if _newclass:
+        TradeDate = _swig_property(_PyCTP.CThostFtdcReserveOpenAccountField_TradeDate_get, _PyCTP.CThostFtdcReserveOpenAccountField_TradeDate_set)
+    __swig_setmethods__["TradeTime"] = _PyCTP.CThostFtdcReserveOpenAccountField_TradeTime_set
+    __swig_getmethods__["TradeTime"] = _PyCTP.CThostFtdcReserveOpenAccountField_TradeTime_get
+    if _newclass:
+        TradeTime = _swig_property(_PyCTP.CThostFtdcReserveOpenAccountField_TradeTime_get, _PyCTP.CThostFtdcReserveOpenAccountField_TradeTime_set)
+    __swig_setmethods__["BankSerial"] = _PyCTP.CThostFtdcReserveOpenAccountField_BankSerial_set
+    __swig_getmethods__["BankSerial"] = _PyCTP.CThostFtdcReserveOpenAccountField_BankSerial_get
+    if _newclass:
+        BankSerial = _swig_property(_PyCTP.CThostFtdcReserveOpenAccountField_BankSerial_get, _PyCTP.CThostFtdcReserveOpenAccountField_BankSerial_set)
+    __swig_setmethods__["TradingDay"] = _PyCTP.CThostFtdcReserveOpenAccountField_TradingDay_set
+    __swig_getmethods__["TradingDay"] = _PyCTP.CThostFtdcReserveOpenAccountField_TradingDay_get
+    if _newclass:
+        TradingDay = _swig_property(_PyCTP.CThostFtdcReserveOpenAccountField_TradingDay_get, _PyCTP.CThostFtdcReserveOpenAccountField_TradingDay_set)
+    __swig_setmethods__["PlateSerial"] = _PyCTP.CThostFtdcReserveOpenAccountField_PlateSerial_set
+    __swig_getmethods__["PlateSerial"] = _PyCTP.CThostFtdcReserveOpenAccountField_PlateSerial_get
+    if _newclass:
+        PlateSerial = _swig_property(_PyCTP.CThostFtdcReserveOpenAccountField_PlateSerial_get, _PyCTP.CThostFtdcReserveOpenAccountField_PlateSerial_set)
+    __swig_setmethods__["LastFragment"] = _PyCTP.CThostFtdcReserveOpenAccountField_LastFragment_set
+    __swig_getmethods__["LastFragment"] = _PyCTP.CThostFtdcReserveOpenAccountField_LastFragment_get
+    if _newclass:
+        LastFragment = _swig_property(_PyCTP.CThostFtdcReserveOpenAccountField_LastFragment_get, _PyCTP.CThostFtdcReserveOpenAccountField_LastFragment_set)
+    __swig_setmethods__["SessionID"] = _PyCTP.CThostFtdcReserveOpenAccountField_SessionID_set
+    __swig_getmethods__["SessionID"] = _PyCTP.CThostFtdcReserveOpenAccountField_SessionID_get
+    if _newclass:
+        SessionID = _swig_property(_PyCTP.CThostFtdcReserveOpenAccountField_SessionID_get, _PyCTP.CThostFtdcReserveOpenAccountField_SessionID_set)
+    __swig_setmethods__["CustomerName"] = _PyCTP.CThostFtdcReserveOpenAccountField_CustomerName_set
+    __swig_getmethods__["CustomerName"] = _PyCTP.CThostFtdcReserveOpenAccountField_CustomerName_get
+    if _newclass:
+        CustomerName = _swig_property(_PyCTP.CThostFtdcReserveOpenAccountField_CustomerName_get, _PyCTP.CThostFtdcReserveOpenAccountField_CustomerName_set)
+    __swig_setmethods__["IdCardType"] = _PyCTP.CThostFtdcReserveOpenAccountField_IdCardType_set
+    __swig_getmethods__["IdCardType"] = _PyCTP.CThostFtdcReserveOpenAccountField_IdCardType_get
+    if _newclass:
+        IdCardType = _swig_property(_PyCTP.CThostFtdcReserveOpenAccountField_IdCardType_get, _PyCTP.CThostFtdcReserveOpenAccountField_IdCardType_set)
+    __swig_setmethods__["IdentifiedCardNo"] = _PyCTP.CThostFtdcReserveOpenAccountField_IdentifiedCardNo_set
+    __swig_getmethods__["IdentifiedCardNo"] = _PyCTP.CThostFtdcReserveOpenAccountField_IdentifiedCardNo_get
+    if _newclass:
+        IdentifiedCardNo = _swig_property(_PyCTP.CThostFtdcReserveOpenAccountField_IdentifiedCardNo_get, _PyCTP.CThostFtdcReserveOpenAccountField_IdentifiedCardNo_set)
+    __swig_setmethods__["Gender"] = _PyCTP.CThostFtdcReserveOpenAccountField_Gender_set
+    __swig_getmethods__["Gender"] = _PyCTP.CThostFtdcReserveOpenAccountField_Gender_get
+    if _newclass:
+        Gender = _swig_property(_PyCTP.CThostFtdcReserveOpenAccountField_Gender_get, _PyCTP.CThostFtdcReserveOpenAccountField_Gender_set)
+    __swig_setmethods__["CountryCode"] = _PyCTP.CThostFtdcReserveOpenAccountField_CountryCode_set
+    __swig_getmethods__["CountryCode"] = _PyCTP.CThostFtdcReserveOpenAccountField_CountryCode_get
+    if _newclass:
+        CountryCode = _swig_property(_PyCTP.CThostFtdcReserveOpenAccountField_CountryCode_get, _PyCTP.CThostFtdcReserveOpenAccountField_CountryCode_set)
+    __swig_setmethods__["CustType"] = _PyCTP.CThostFtdcReserveOpenAccountField_CustType_set
+    __swig_getmethods__["CustType"] = _PyCTP.CThostFtdcReserveOpenAccountField_CustType_get
+    if _newclass:
+        CustType = _swig_property(_PyCTP.CThostFtdcReserveOpenAccountField_CustType_get, _PyCTP.CThostFtdcReserveOpenAccountField_CustType_set)
+    __swig_setmethods__["Address"] = _PyCTP.CThostFtdcReserveOpenAccountField_Address_set
+    __swig_getmethods__["Address"] = _PyCTP.CThostFtdcReserveOpenAccountField_Address_get
+    if _newclass:
+        Address = _swig_property(_PyCTP.CThostFtdcReserveOpenAccountField_Address_get, _PyCTP.CThostFtdcReserveOpenAccountField_Address_set)
+    __swig_setmethods__["ZipCode"] = _PyCTP.CThostFtdcReserveOpenAccountField_ZipCode_set
+    __swig_getmethods__["ZipCode"] = _PyCTP.CThostFtdcReserveOpenAccountField_ZipCode_get
+    if _newclass:
+        ZipCode = _swig_property(_PyCTP.CThostFtdcReserveOpenAccountField_ZipCode_get, _PyCTP.CThostFtdcReserveOpenAccountField_ZipCode_set)
+    __swig_setmethods__["Telephone"] = _PyCTP.CThostFtdcReserveOpenAccountField_Telephone_set
+    __swig_getmethods__["Telephone"] = _PyCTP.CThostFtdcReserveOpenAccountField_Telephone_get
+    if _newclass:
+        Telephone = _swig_property(_PyCTP.CThostFtdcReserveOpenAccountField_Telephone_get, _PyCTP.CThostFtdcReserveOpenAccountField_Telephone_set)
+    __swig_setmethods__["MobilePhone"] = _PyCTP.CThostFtdcReserveOpenAccountField_MobilePhone_set
+    __swig_getmethods__["MobilePhone"] = _PyCTP.CThostFtdcReserveOpenAccountField_MobilePhone_get
+    if _newclass:
+        MobilePhone = _swig_property(_PyCTP.CThostFtdcReserveOpenAccountField_MobilePhone_get, _PyCTP.CThostFtdcReserveOpenAccountField_MobilePhone_set)
+    __swig_setmethods__["Fax"] = _PyCTP.CThostFtdcReserveOpenAccountField_Fax_set
+    __swig_getmethods__["Fax"] = _PyCTP.CThostFtdcReserveOpenAccountField_Fax_get
+    if _newclass:
+        Fax = _swig_property(_PyCTP.CThostFtdcReserveOpenAccountField_Fax_get, _PyCTP.CThostFtdcReserveOpenAccountField_Fax_set)
+    __swig_setmethods__["EMail"] = _PyCTP.CThostFtdcReserveOpenAccountField_EMail_set
+    __swig_getmethods__["EMail"] = _PyCTP.CThostFtdcReserveOpenAccountField_EMail_get
+    if _newclass:
+        EMail = _swig_property(_PyCTP.CThostFtdcReserveOpenAccountField_EMail_get, _PyCTP.CThostFtdcReserveOpenAccountField_EMail_set)
+    __swig_setmethods__["MoneyAccountStatus"] = _PyCTP.CThostFtdcReserveOpenAccountField_MoneyAccountStatus_set
+    __swig_getmethods__["MoneyAccountStatus"] = _PyCTP.CThostFtdcReserveOpenAccountField_MoneyAccountStatus_get
+    if _newclass:
+        MoneyAccountStatus = _swig_property(_PyCTP.CThostFtdcReserveOpenAccountField_MoneyAccountStatus_get, _PyCTP.CThostFtdcReserveOpenAccountField_MoneyAccountStatus_set)
+    __swig_setmethods__["BankAccount"] = _PyCTP.CThostFtdcReserveOpenAccountField_BankAccount_set
+    __swig_getmethods__["BankAccount"] = _PyCTP.CThostFtdcReserveOpenAccountField_BankAccount_get
+    if _newclass:
+        BankAccount = _swig_property(_PyCTP.CThostFtdcReserveOpenAccountField_BankAccount_get, _PyCTP.CThostFtdcReserveOpenAccountField_BankAccount_set)
+    __swig_setmethods__["BankPassWord"] = _PyCTP.CThostFtdcReserveOpenAccountField_BankPassWord_set
+    __swig_getmethods__["BankPassWord"] = _PyCTP.CThostFtdcReserveOpenAccountField_BankPassWord_get
+    if _newclass:
+        BankPassWord = _swig_property(_PyCTP.CThostFtdcReserveOpenAccountField_BankPassWord_get, _PyCTP.CThostFtdcReserveOpenAccountField_BankPassWord_set)
+    __swig_setmethods__["InstallID"] = _PyCTP.CThostFtdcReserveOpenAccountField_InstallID_set
+    __swig_getmethods__["InstallID"] = _PyCTP.CThostFtdcReserveOpenAccountField_InstallID_get
+    if _newclass:
+        InstallID = _swig_property(_PyCTP.CThostFtdcReserveOpenAccountField_InstallID_get, _PyCTP.CThostFtdcReserveOpenAccountField_InstallID_set)
+    __swig_setmethods__["VerifyCertNoFlag"] = _PyCTP.CThostFtdcReserveOpenAccountField_VerifyCertNoFlag_set
+    __swig_getmethods__["VerifyCertNoFlag"] = _PyCTP.CThostFtdcReserveOpenAccountField_VerifyCertNoFlag_get
+    if _newclass:
+        VerifyCertNoFlag = _swig_property(_PyCTP.CThostFtdcReserveOpenAccountField_VerifyCertNoFlag_get, _PyCTP.CThostFtdcReserveOpenAccountField_VerifyCertNoFlag_set)
+    __swig_setmethods__["CurrencyID"] = _PyCTP.CThostFtdcReserveOpenAccountField_CurrencyID_set
+    __swig_getmethods__["CurrencyID"] = _PyCTP.CThostFtdcReserveOpenAccountField_CurrencyID_get
+    if _newclass:
+        CurrencyID = _swig_property(_PyCTP.CThostFtdcReserveOpenAccountField_CurrencyID_get, _PyCTP.CThostFtdcReserveOpenAccountField_CurrencyID_set)
+    __swig_setmethods__["Digest"] = _PyCTP.CThostFtdcReserveOpenAccountField_Digest_set
+    __swig_getmethods__["Digest"] = _PyCTP.CThostFtdcReserveOpenAccountField_Digest_get
+    if _newclass:
+        Digest = _swig_property(_PyCTP.CThostFtdcReserveOpenAccountField_Digest_get, _PyCTP.CThostFtdcReserveOpenAccountField_Digest_set)
+    __swig_setmethods__["BankAccType"] = _PyCTP.CThostFtdcReserveOpenAccountField_BankAccType_set
+    __swig_getmethods__["BankAccType"] = _PyCTP.CThostFtdcReserveOpenAccountField_BankAccType_get
+    if _newclass:
+        BankAccType = _swig_property(_PyCTP.CThostFtdcReserveOpenAccountField_BankAccType_get, _PyCTP.CThostFtdcReserveOpenAccountField_BankAccType_set)
+    __swig_setmethods__["BrokerIDByBank"] = _PyCTP.CThostFtdcReserveOpenAccountField_BrokerIDByBank_set
+    __swig_getmethods__["BrokerIDByBank"] = _PyCTP.CThostFtdcReserveOpenAccountField_BrokerIDByBank_get
+    if _newclass:
+        BrokerIDByBank = _swig_property(_PyCTP.CThostFtdcReserveOpenAccountField_BrokerIDByBank_get, _PyCTP.CThostFtdcReserveOpenAccountField_BrokerIDByBank_set)
+    __swig_setmethods__["TID"] = _PyCTP.CThostFtdcReserveOpenAccountField_TID_set
+    __swig_getmethods__["TID"] = _PyCTP.CThostFtdcReserveOpenAccountField_TID_get
+    if _newclass:
+        TID = _swig_property(_PyCTP.CThostFtdcReserveOpenAccountField_TID_get, _PyCTP.CThostFtdcReserveOpenAccountField_TID_set)
+    __swig_setmethods__["ReserveOpenAccStas"] = _PyCTP.CThostFtdcReserveOpenAccountField_ReserveOpenAccStas_set
+    __swig_getmethods__["ReserveOpenAccStas"] = _PyCTP.CThostFtdcReserveOpenAccountField_ReserveOpenAccStas_get
+    if _newclass:
+        ReserveOpenAccStas = _swig_property(_PyCTP.CThostFtdcReserveOpenAccountField_ReserveOpenAccStas_get, _PyCTP.CThostFtdcReserveOpenAccountField_ReserveOpenAccStas_set)
+    __swig_setmethods__["ErrorID"] = _PyCTP.CThostFtdcReserveOpenAccountField_ErrorID_set
+    __swig_getmethods__["ErrorID"] = _PyCTP.CThostFtdcReserveOpenAccountField_ErrorID_get
+    if _newclass:
+        ErrorID = _swig_property(_PyCTP.CThostFtdcReserveOpenAccountField_ErrorID_get, _PyCTP.CThostFtdcReserveOpenAccountField_ErrorID_set)
+    __swig_setmethods__["ErrorMsg"] = _PyCTP.CThostFtdcReserveOpenAccountField_ErrorMsg_set
+    __swig_getmethods__["ErrorMsg"] = _PyCTP.CThostFtdcReserveOpenAccountField_ErrorMsg_get
+    if _newclass:
+        ErrorMsg = _swig_property(_PyCTP.CThostFtdcReserveOpenAccountField_ErrorMsg_get, _PyCTP.CThostFtdcReserveOpenAccountField_ErrorMsg_set)
+
+    def __init__(self):
+        this = _PyCTP.new_CThostFtdcReserveOpenAccountField()
+        try:
+            self.this.append(this)
+        except __builtin__.Exception:
+            self.this = this
+    __swig_destroy__ = _PyCTP.delete_CThostFtdcReserveOpenAccountField
+    __del__ = lambda self: None
+CThostFtdcReserveOpenAccountField_swigregister = _PyCTP.CThostFtdcReserveOpenAccountField_swigregister
+CThostFtdcReserveOpenAccountField_swigregister(CThostFtdcReserveOpenAccountField)
+
+class CThostFtdcAccountPropertyField(_object):
+    __swig_setmethods__ = {}
+    __setattr__ = lambda self, name, value: _swig_setattr(self, CThostFtdcAccountPropertyField, name, value)
+    __swig_getmethods__ = {}
+    __getattr__ = lambda self, name: _swig_getattr(self, CThostFtdcAccountPropertyField, name)
+    __repr__ = _swig_repr
+    __swig_setmethods__["BrokerID"] = _PyCTP.CThostFtdcAccountPropertyField_BrokerID_set
+    __swig_getmethods__["BrokerID"] = _PyCTP.CThostFtdcAccountPropertyField_BrokerID_get
+    if _newclass:
+        BrokerID = _swig_property(_PyCTP.CThostFtdcAccountPropertyField_BrokerID_get, _PyCTP.CThostFtdcAccountPropertyField_BrokerID_set)
+    __swig_setmethods__["AccountID"] = _PyCTP.CThostFtdcAccountPropertyField_AccountID_set
+    __swig_getmethods__["AccountID"] = _PyCTP.CThostFtdcAccountPropertyField_AccountID_get
+    if _newclass:
+        AccountID = _swig_property(_PyCTP.CThostFtdcAccountPropertyField_AccountID_get, _PyCTP.CThostFtdcAccountPropertyField_AccountID_set)
+    __swig_setmethods__["BankID"] = _PyCTP.CThostFtdcAccountPropertyField_BankID_set
+    __swig_getmethods__["BankID"] = _PyCTP.CThostFtdcAccountPropertyField_BankID_get
+    if _newclass:
+        BankID = _swig_property(_PyCTP.CThostFtdcAccountPropertyField_BankID_get, _PyCTP.CThostFtdcAccountPropertyField_BankID_set)
+    __swig_setmethods__["BankAccount"] = _PyCTP.CThostFtdcAccountPropertyField_BankAccount_set
+    __swig_getmethods__["BankAccount"] = _PyCTP.CThostFtdcAccountPropertyField_BankAccount_get
+    if _newclass:
+        BankAccount = _swig_property(_PyCTP.CThostFtdcAccountPropertyField_BankAccount_get, _PyCTP.CThostFtdcAccountPropertyField_BankAccount_set)
+    __swig_setmethods__["OpenName"] = _PyCTP.CThostFtdcAccountPropertyField_OpenName_set
+    __swig_getmethods__["OpenName"] = _PyCTP.CThostFtdcAccountPropertyField_OpenName_get
+    if _newclass:
+        OpenName = _swig_property(_PyCTP.CThostFtdcAccountPropertyField_OpenName_get, _PyCTP.CThostFtdcAccountPropertyField_OpenName_set)
+    __swig_setmethods__["OpenBank"] = _PyCTP.CThostFtdcAccountPropertyField_OpenBank_set
+    __swig_getmethods__["OpenBank"] = _PyCTP.CThostFtdcAccountPropertyField_OpenBank_get
+    if _newclass:
+        OpenBank = _swig_property(_PyCTP.CThostFtdcAccountPropertyField_OpenBank_get, _PyCTP.CThostFtdcAccountPropertyField_OpenBank_set)
+    __swig_setmethods__["IsActive"] = _PyCTP.CThostFtdcAccountPropertyField_IsActive_set
+    __swig_getmethods__["IsActive"] = _PyCTP.CThostFtdcAccountPropertyField_IsActive_get
+    if _newclass:
+        IsActive = _swig_property(_PyCTP.CThostFtdcAccountPropertyField_IsActive_get, _PyCTP.CThostFtdcAccountPropertyField_IsActive_set)
+    __swig_setmethods__["AccountSourceType"] = _PyCTP.CThostFtdcAccountPropertyField_AccountSourceType_set
+    __swig_getmethods__["AccountSourceType"] = _PyCTP.CThostFtdcAccountPropertyField_AccountSourceType_get
+    if _newclass:
+        AccountSourceType = _swig_property(_PyCTP.CThostFtdcAccountPropertyField_AccountSourceType_get, _PyCTP.CThostFtdcAccountPropertyField_AccountSourceType_set)
+    __swig_setmethods__["OpenDate"] = _PyCTP.CThostFtdcAccountPropertyField_OpenDate_set
+    __swig_getmethods__["OpenDate"] = _PyCTP.CThostFtdcAccountPropertyField_OpenDate_get
+    if _newclass:
+        OpenDate = _swig_property(_PyCTP.CThostFtdcAccountPropertyField_OpenDate_get, _PyCTP.CThostFtdcAccountPropertyField_OpenDate_set)
+    __swig_setmethods__["CancelDate"] = _PyCTP.CThostFtdcAccountPropertyField_CancelDate_set
+    __swig_getmethods__["CancelDate"] = _PyCTP.CThostFtdcAccountPropertyField_CancelDate_get
+    if _newclass:
+        CancelDate = _swig_property(_PyCTP.CThostFtdcAccountPropertyField_CancelDate_get, _PyCTP.CThostFtdcAccountPropertyField_CancelDate_set)
+    __swig_setmethods__["OperatorID"] = _PyCTP.CThostFtdcAccountPropertyField_OperatorID_set
+    __swig_getmethods__["OperatorID"] = _PyCTP.CThostFtdcAccountPropertyField_OperatorID_get
+    if _newclass:
+        OperatorID = _swig_property(_PyCTP.CThostFtdcAccountPropertyField_OperatorID_get, _PyCTP.CThostFtdcAccountPropertyField_OperatorID_set)
+    __swig_setmethods__["OperateDate"] = _PyCTP.CThostFtdcAccountPropertyField_OperateDate_set
+    __swig_getmethods__["OperateDate"] = _PyCTP.CThostFtdcAccountPropertyField_OperateDate_get
+    if _newclass:
+        OperateDate = _swig_property(_PyCTP.CThostFtdcAccountPropertyField_OperateDate_get, _PyCTP.CThostFtdcAccountPropertyField_OperateDate_set)
+    __swig_setmethods__["OperateTime"] = _PyCTP.CThostFtdcAccountPropertyField_OperateTime_set
+    __swig_getmethods__["OperateTime"] = _PyCTP.CThostFtdcAccountPropertyField_OperateTime_get
+    if _newclass:
+        OperateTime = _swig_property(_PyCTP.CThostFtdcAccountPropertyField_OperateTime_get, _PyCTP.CThostFtdcAccountPropertyField_OperateTime_set)
+    __swig_setmethods__["CurrencyID"] = _PyCTP.CThostFtdcAccountPropertyField_CurrencyID_set
+    __swig_getmethods__["CurrencyID"] = _PyCTP.CThostFtdcAccountPropertyField_CurrencyID_get
+    if _newclass:
+        CurrencyID = _swig_property(_PyCTP.CThostFtdcAccountPropertyField_CurrencyID_get, _PyCTP.CThostFtdcAccountPropertyField_CurrencyID_set)
+
+    def __init__(self):
+        this = _PyCTP.new_CThostFtdcAccountPropertyField()
+        try:
+            self.this.append(this)
+        except __builtin__.Exception:
+            self.this = this
+    __swig_destroy__ = _PyCTP.delete_CThostFtdcAccountPropertyField
+    __del__ = lambda self: None
+CThostFtdcAccountPropertyField_swigregister = _PyCTP.CThostFtdcAccountPropertyField_swigregister
+CThostFtdcAccountPropertyField_swigregister(CThostFtdcAccountPropertyField)
+
+class CThostFtdcQryCurrDRIdentityField(_object):
+    __swig_setmethods__ = {}
+    __setattr__ = lambda self, name, value: _swig_setattr(self, CThostFtdcQryCurrDRIdentityField, name, value)
+    __swig_getmethods__ = {}
+    __getattr__ = lambda self, name: _swig_getattr(self, CThostFtdcQryCurrDRIdentityField, name)
+    __repr__ = _swig_repr
+    __swig_setmethods__["DRIdentityID"] = _PyCTP.CThostFtdcQryCurrDRIdentityField_DRIdentityID_set
+    __swig_getmethods__["DRIdentityID"] = _PyCTP.CThostFtdcQryCurrDRIdentityField_DRIdentityID_get
+    if _newclass:
+        DRIdentityID = _swig_property(_PyCTP.CThostFtdcQryCurrDRIdentityField_DRIdentityID_get, _PyCTP.CThostFtdcQryCurrDRIdentityField_DRIdentityID_set)
+
+    def __init__(self):
+        this = _PyCTP.new_CThostFtdcQryCurrDRIdentityField()
+        try:
+            self.this.append(this)
+        except __builtin__.Exception:
+            self.this = this
+    __swig_destroy__ = _PyCTP.delete_CThostFtdcQryCurrDRIdentityField
+    __del__ = lambda self: None
+CThostFtdcQryCurrDRIdentityField_swigregister = _PyCTP.CThostFtdcQryCurrDRIdentityField_swigregister
+CThostFtdcQryCurrDRIdentityField_swigregister(CThostFtdcQryCurrDRIdentityField)
+
+class CThostFtdcCurrDRIdentityField(_object):
+    __swig_setmethods__ = {}
+    __setattr__ = lambda self, name, value: _swig_setattr(self, CThostFtdcCurrDRIdentityField, name, value)
+    __swig_getmethods__ = {}
+    __getattr__ = lambda self, name: _swig_getattr(self, CThostFtdcCurrDRIdentityField, name)
+    __repr__ = _swig_repr
+    __swig_setmethods__["DRIdentityID"] = _PyCTP.CThostFtdcCurrDRIdentityField_DRIdentityID_set
+    __swig_getmethods__["DRIdentityID"] = _PyCTP.CThostFtdcCurrDRIdentityField_DRIdentityID_get
+    if _newclass:
+        DRIdentityID = _swig_property(_PyCTP.CThostFtdcCurrDRIdentityField_DRIdentityID_get, _PyCTP.CThostFtdcCurrDRIdentityField_DRIdentityID_set)
+
+    def __init__(self):
+        this = _PyCTP.new_CThostFtdcCurrDRIdentityField()
+        try:
+            self.this.append(this)
+        except __builtin__.Exception:
+            self.this = this
+    __swig_destroy__ = _PyCTP.delete_CThostFtdcCurrDRIdentityField
+    __del__ = lambda self: None
+CThostFtdcCurrDRIdentityField_swigregister = _PyCTP.CThostFtdcCurrDRIdentityField_swigregister
+CThostFtdcCurrDRIdentityField_swigregister(CThostFtdcCurrDRIdentityField)
+
+class CThostFtdcQrySecAgentCheckModeField(_object):
+    __swig_setmethods__ = {}
+    __setattr__ = lambda self, name, value: _swig_setattr(self, CThostFtdcQrySecAgentCheckModeField, name, value)
+    __swig_getmethods__ = {}
+    __getattr__ = lambda self, name: _swig_getattr(self, CThostFtdcQrySecAgentCheckModeField, name)
+    __repr__ = _swig_repr
+    __swig_setmethods__["BrokerID"] = _PyCTP.CThostFtdcQrySecAgentCheckModeField_BrokerID_set
+    __swig_getmethods__["BrokerID"] = _PyCTP.CThostFtdcQrySecAgentCheckModeField_BrokerID_get
+    if _newclass:
+        BrokerID = _swig_property(_PyCTP.CThostFtdcQrySecAgentCheckModeField_BrokerID_get, _PyCTP.CThostFtdcQrySecAgentCheckModeField_BrokerID_set)
+    __swig_setmethods__["InvestorID"] = _PyCTP.CThostFtdcQrySecAgentCheckModeField_InvestorID_set
+    __swig_getmethods__["InvestorID"] = _PyCTP.CThostFtdcQrySecAgentCheckModeField_InvestorID_get
+    if _newclass:
+        InvestorID = _swig_property(_PyCTP.CThostFtdcQrySecAgentCheckModeField_InvestorID_get, _PyCTP.CThostFtdcQrySecAgentCheckModeField_InvestorID_set)
+
+    def __init__(self):
+        this = _PyCTP.new_CThostFtdcQrySecAgentCheckModeField()
+        try:
+            self.this.append(this)
+        except __builtin__.Exception:
+            self.this = this
+    __swig_destroy__ = _PyCTP.delete_CThostFtdcQrySecAgentCheckModeField
+    __del__ = lambda self: None
+CThostFtdcQrySecAgentCheckModeField_swigregister = _PyCTP.CThostFtdcQrySecAgentCheckModeField_swigregister
+CThostFtdcQrySecAgentCheckModeField_swigregister(CThostFtdcQrySecAgentCheckModeField)
+
+class CThostFtdcQrySecAgentTradeInfoField(_object):
+    __swig_setmethods__ = {}
+    __setattr__ = lambda self, name, value: _swig_setattr(self, CThostFtdcQrySecAgentTradeInfoField, name, value)
+    __swig_getmethods__ = {}
+    __getattr__ = lambda self, name: _swig_getattr(self, CThostFtdcQrySecAgentTradeInfoField, name)
+    __repr__ = _swig_repr
+    __swig_setmethods__["BrokerID"] = _PyCTP.CThostFtdcQrySecAgentTradeInfoField_BrokerID_set
+    __swig_getmethods__["BrokerID"] = _PyCTP.CThostFtdcQrySecAgentTradeInfoField_BrokerID_get
+    if _newclass:
+        BrokerID = _swig_property(_PyCTP.CThostFtdcQrySecAgentTradeInfoField_BrokerID_get, _PyCTP.CThostFtdcQrySecAgentTradeInfoField_BrokerID_set)
+    __swig_setmethods__["BrokerSecAgentID"] = _PyCTP.CThostFtdcQrySecAgentTradeInfoField_BrokerSecAgentID_set
+    __swig_getmethods__["BrokerSecAgentID"] = _PyCTP.CThostFtdcQrySecAgentTradeInfoField_BrokerSecAgentID_get
+    if _newclass:
+        BrokerSecAgentID = _swig_property(_PyCTP.CThostFtdcQrySecAgentTradeInfoField_BrokerSecAgentID_get, _PyCTP.CThostFtdcQrySecAgentTradeInfoField_BrokerSecAgentID_set)
+
+    def __init__(self):
+        this = _PyCTP.new_CThostFtdcQrySecAgentTradeInfoField()
+        try:
+            self.this.append(this)
+        except __builtin__.Exception:
+            self.this = this
+    __swig_destroy__ = _PyCTP.delete_CThostFtdcQrySecAgentTradeInfoField
+    __del__ = lambda self: None
+CThostFtdcQrySecAgentTradeInfoField_swigregister = _PyCTP.CThostFtdcQrySecAgentTradeInfoField_swigregister
+CThostFtdcQrySecAgentTradeInfoField_swigregister(CThostFtdcQrySecAgentTradeInfoField)
+
+class CThostFtdcUserSystemInfoField(_object):
+    __swig_setmethods__ = {}
+    __setattr__ = lambda self, name, value: _swig_setattr(self, CThostFtdcUserSystemInfoField, name, value)
+    __swig_getmethods__ = {}
+    __getattr__ = lambda self, name: _swig_getattr(self, CThostFtdcUserSystemInfoField, name)
+    __repr__ = _swig_repr
+    __swig_setmethods__["BrokerID"] = _PyCTP.CThostFtdcUserSystemInfoField_BrokerID_set
+    __swig_getmethods__["BrokerID"] = _PyCTP.CThostFtdcUserSystemInfoField_BrokerID_get
+    if _newclass:
+        BrokerID = _swig_property(_PyCTP.CThostFtdcUserSystemInfoField_BrokerID_get, _PyCTP.CThostFtdcUserSystemInfoField_BrokerID_set)
+    __swig_setmethods__["UserID"] = _PyCTP.CThostFtdcUserSystemInfoField_UserID_set
+    __swig_getmethods__["UserID"] = _PyCTP.CThostFtdcUserSystemInfoField_UserID_get
+    if _newclass:
+        UserID = _swig_property(_PyCTP.CThostFtdcUserSystemInfoField_UserID_get, _PyCTP.CThostFtdcUserSystemInfoField_UserID_set)
+    __swig_setmethods__["ClientSystemInfoLen"] = _PyCTP.CThostFtdcUserSystemInfoField_ClientSystemInfoLen_set
+    __swig_getmethods__["ClientSystemInfoLen"] = _PyCTP.CThostFtdcUserSystemInfoField_ClientSystemInfoLen_get
+    if _newclass:
+        ClientSystemInfoLen = _swig_property(_PyCTP.CThostFtdcUserSystemInfoField_ClientSystemInfoLen_get, _PyCTP.CThostFtdcUserSystemInfoField_ClientSystemInfoLen_set)
+    __swig_setmethods__["ClientSystemInfo"] = _PyCTP.CThostFtdcUserSystemInfoField_ClientSystemInfo_set
+    __swig_getmethods__["ClientSystemInfo"] = _PyCTP.CThostFtdcUserSystemInfoField_ClientSystemInfo_get
+    if _newclass:
+        ClientSystemInfo = _swig_property(_PyCTP.CThostFtdcUserSystemInfoField_ClientSystemInfo_get, _PyCTP.CThostFtdcUserSystemInfoField_ClientSystemInfo_set)
+    __swig_setmethods__["ClientPublicIP"] = _PyCTP.CThostFtdcUserSystemInfoField_ClientPublicIP_set
+    __swig_getmethods__["ClientPublicIP"] = _PyCTP.CThostFtdcUserSystemInfoField_ClientPublicIP_get
+    if _newclass:
+        ClientPublicIP = _swig_property(_PyCTP.CThostFtdcUserSystemInfoField_ClientPublicIP_get, _PyCTP.CThostFtdcUserSystemInfoField_ClientPublicIP_set)
+    __swig_setmethods__["ClientIPPort"] = _PyCTP.CThostFtdcUserSystemInfoField_ClientIPPort_set
+    __swig_getmethods__["ClientIPPort"] = _PyCTP.CThostFtdcUserSystemInfoField_ClientIPPort_get
+    if _newclass:
+        ClientIPPort = _swig_property(_PyCTP.CThostFtdcUserSystemInfoField_ClientIPPort_get, _PyCTP.CThostFtdcUserSystemInfoField_ClientIPPort_set)
+    __swig_setmethods__["ClientLoginTime"] = _PyCTP.CThostFtdcUserSystemInfoField_ClientLoginTime_set
+    __swig_getmethods__["ClientLoginTime"] = _PyCTP.CThostFtdcUserSystemInfoField_ClientLoginTime_get
+    if _newclass:
+        ClientLoginTime = _swig_property(_PyCTP.CThostFtdcUserSystemInfoField_ClientLoginTime_get, _PyCTP.CThostFtdcUserSystemInfoField_ClientLoginTime_set)
+    __swig_setmethods__["ClientAppID"] = _PyCTP.CThostFtdcUserSystemInfoField_ClientAppID_set
+    __swig_getmethods__["ClientAppID"] = _PyCTP.CThostFtdcUserSystemInfoField_ClientAppID_get
+    if _newclass:
+        ClientAppID = _swig_property(_PyCTP.CThostFtdcUserSystemInfoField_ClientAppID_get, _PyCTP.CThostFtdcUserSystemInfoField_ClientAppID_set)
+
+    def __init__(self):
+        this = _PyCTP.new_CThostFtdcUserSystemInfoField()
+        try:
+            self.this.append(this)
+        except __builtin__.Exception:
+            self.this = this
+    __swig_destroy__ = _PyCTP.delete_CThostFtdcUserSystemInfoField
+    __del__ = lambda self: None
+CThostFtdcUserSystemInfoField_swigregister = _PyCTP.CThostFtdcUserSystemInfoField_swigregister
+CThostFtdcUserSystemInfoField_swigregister(CThostFtdcUserSystemInfoField)
+
+class CThostFtdcReqUserAuthMethodField(_object):
+    __swig_setmethods__ = {}
+    __setattr__ = lambda self, name, value: _swig_setattr(self, CThostFtdcReqUserAuthMethodField, name, value)
+    __swig_getmethods__ = {}
+    __getattr__ = lambda self, name: _swig_getattr(self, CThostFtdcReqUserAuthMethodField, name)
+    __repr__ = _swig_repr
+    __swig_setmethods__["TradingDay"] = _PyCTP.CThostFtdcReqUserAuthMethodField_TradingDay_set
+    __swig_getmethods__["TradingDay"] = _PyCTP.CThostFtdcReqUserAuthMethodField_TradingDay_get
+    if _newclass:
+        TradingDay = _swig_property(_PyCTP.CThostFtdcReqUserAuthMethodField_TradingDay_get, _PyCTP.CThostFtdcReqUserAuthMethodField_TradingDay_set)
+    __swig_setmethods__["BrokerID"] = _PyCTP.CThostFtdcReqUserAuthMethodField_BrokerID_set
+    __swig_getmethods__["BrokerID"] = _PyCTP.CThostFtdcReqUserAuthMethodField_BrokerID_get
+    if _newclass:
+        BrokerID = _swig_property(_PyCTP.CThostFtdcReqUserAuthMethodField_BrokerID_get, _PyCTP.CThostFtdcReqUserAuthMethodField_BrokerID_set)
+    __swig_setmethods__["UserID"] = _PyCTP.CThostFtdcReqUserAuthMethodField_UserID_set
+    __swig_getmethods__["UserID"] = _PyCTP.CThostFtdcReqUserAuthMethodField_UserID_get
+    if _newclass:
+        UserID = _swig_property(_PyCTP.CThostFtdcReqUserAuthMethodField_UserID_get, _PyCTP.CThostFtdcReqUserAuthMethodField_UserID_set)
+
+    def __init__(self):
+        this = _PyCTP.new_CThostFtdcReqUserAuthMethodField()
+        try:
+            self.this.append(this)
+        except __builtin__.Exception:
+            self.this = this
+    __swig_destroy__ = _PyCTP.delete_CThostFtdcReqUserAuthMethodField
+    __del__ = lambda self: None
+CThostFtdcReqUserAuthMethodField_swigregister = _PyCTP.CThostFtdcReqUserAuthMethodField_swigregister
+CThostFtdcReqUserAuthMethodField_swigregister(CThostFtdcReqUserAuthMethodField)
+
+class CThostFtdcRspUserAuthMethodField(_object):
+    __swig_setmethods__ = {}
+    __setattr__ = lambda self, name, value: _swig_setattr(self, CThostFtdcRspUserAuthMethodField, name, value)
+    __swig_getmethods__ = {}
+    __getattr__ = lambda self, name: _swig_getattr(self, CThostFtdcRspUserAuthMethodField, name)
+    __repr__ = _swig_repr
+    __swig_setmethods__["UsableAuthMethod"] = _PyCTP.CThostFtdcRspUserAuthMethodField_UsableAuthMethod_set
+    __swig_getmethods__["UsableAuthMethod"] = _PyCTP.CThostFtdcRspUserAuthMethodField_UsableAuthMethod_get
+    if _newclass:
+        UsableAuthMethod = _swig_property(_PyCTP.CThostFtdcRspUserAuthMethodField_UsableAuthMethod_get, _PyCTP.CThostFtdcRspUserAuthMethodField_UsableAuthMethod_set)
+
+    def __init__(self):
+        this = _PyCTP.new_CThostFtdcRspUserAuthMethodField()
+        try:
+            self.this.append(this)
+        except __builtin__.Exception:
+            self.this = this
+    __swig_destroy__ = _PyCTP.delete_CThostFtdcRspUserAuthMethodField
+    __del__ = lambda self: None
+CThostFtdcRspUserAuthMethodField_swigregister = _PyCTP.CThostFtdcRspUserAuthMethodField_swigregister
+CThostFtdcRspUserAuthMethodField_swigregister(CThostFtdcRspUserAuthMethodField)
+
+class CThostFtdcReqGenUserCaptchaField(_object):
+    __swig_setmethods__ = {}
+    __setattr__ = lambda self, name, value: _swig_setattr(self, CThostFtdcReqGenUserCaptchaField, name, value)
+    __swig_getmethods__ = {}
+    __getattr__ = lambda self, name: _swig_getattr(self, CThostFtdcReqGenUserCaptchaField, name)
+    __repr__ = _swig_repr
+    __swig_setmethods__["TradingDay"] = _PyCTP.CThostFtdcReqGenUserCaptchaField_TradingDay_set
+    __swig_getmethods__["TradingDay"] = _PyCTP.CThostFtdcReqGenUserCaptchaField_TradingDay_get
+    if _newclass:
+        TradingDay = _swig_property(_PyCTP.CThostFtdcReqGenUserCaptchaField_TradingDay_get, _PyCTP.CThostFtdcReqGenUserCaptchaField_TradingDay_set)
+    __swig_setmethods__["BrokerID"] = _PyCTP.CThostFtdcReqGenUserCaptchaField_BrokerID_set
+    __swig_getmethods__["BrokerID"] = _PyCTP.CThostFtdcReqGenUserCaptchaField_BrokerID_get
+    if _newclass:
+        BrokerID = _swig_property(_PyCTP.CThostFtdcReqGenUserCaptchaField_BrokerID_get, _PyCTP.CThostFtdcReqGenUserCaptchaField_BrokerID_set)
+    __swig_setmethods__["UserID"] = _PyCTP.CThostFtdcReqGenUserCaptchaField_UserID_set
+    __swig_getmethods__["UserID"] = _PyCTP.CThostFtdcReqGenUserCaptchaField_UserID_get
+    if _newclass:
+        UserID = _swig_property(_PyCTP.CThostFtdcReqGenUserCaptchaField_UserID_get, _PyCTP.CThostFtdcReqGenUserCaptchaField_UserID_set)
+
+    def __init__(self):
+        this = _PyCTP.new_CThostFtdcReqGenUserCaptchaField()
+        try:
+            self.this.append(this)
+        except __builtin__.Exception:
+            self.this = this
+    __swig_destroy__ = _PyCTP.delete_CThostFtdcReqGenUserCaptchaField
+    __del__ = lambda self: None
+CThostFtdcReqGenUserCaptchaField_swigregister = _PyCTP.CThostFtdcReqGenUserCaptchaField_swigregister
+CThostFtdcReqGenUserCaptchaField_swigregister(CThostFtdcReqGenUserCaptchaField)
+
+class CThostFtdcRspGenUserCaptchaField(_object):
+    __swig_setmethods__ = {}
+    __setattr__ = lambda self, name, value: _swig_setattr(self, CThostFtdcRspGenUserCaptchaField, name, value)
+    __swig_getmethods__ = {}
+    __getattr__ = lambda self, name: _swig_getattr(self, CThostFtdcRspGenUserCaptchaField, name)
+    __repr__ = _swig_repr
+    __swig_setmethods__["BrokerID"] = _PyCTP.CThostFtdcRspGenUserCaptchaField_BrokerID_set
+    __swig_getmethods__["BrokerID"] = _PyCTP.CThostFtdcRspGenUserCaptchaField_BrokerID_get
+    if _newclass:
+        BrokerID = _swig_property(_PyCTP.CThostFtdcRspGenUserCaptchaField_BrokerID_get, _PyCTP.CThostFtdcRspGenUserCaptchaField_BrokerID_set)
+    __swig_setmethods__["UserID"] = _PyCTP.CThostFtdcRspGenUserCaptchaField_UserID_set
+    __swig_getmethods__["UserID"] = _PyCTP.CThostFtdcRspGenUserCaptchaField_UserID_get
+    if _newclass:
+        UserID = _swig_property(_PyCTP.CThostFtdcRspGenUserCaptchaField_UserID_get, _PyCTP.CThostFtdcRspGenUserCaptchaField_UserID_set)
+    __swig_setmethods__["CaptchaInfoLen"] = _PyCTP.CThostFtdcRspGenUserCaptchaField_CaptchaInfoLen_set
+    __swig_getmethods__["CaptchaInfoLen"] = _PyCTP.CThostFtdcRspGenUserCaptchaField_CaptchaInfoLen_get
+    if _newclass:
+        CaptchaInfoLen = _swig_property(_PyCTP.CThostFtdcRspGenUserCaptchaField_CaptchaInfoLen_get, _PyCTP.CThostFtdcRspGenUserCaptchaField_CaptchaInfoLen_set)
+    __swig_setmethods__["CaptchaInfo"] = _PyCTP.CThostFtdcRspGenUserCaptchaField_CaptchaInfo_set
+    __swig_getmethods__["CaptchaInfo"] = _PyCTP.CThostFtdcRspGenUserCaptchaField_CaptchaInfo_get
+    if _newclass:
+        CaptchaInfo = _swig_property(_PyCTP.CThostFtdcRspGenUserCaptchaField_CaptchaInfo_get, _PyCTP.CThostFtdcRspGenUserCaptchaField_CaptchaInfo_set)
+
+    def __init__(self):
+        this = _PyCTP.new_CThostFtdcRspGenUserCaptchaField()
+        try:
+            self.this.append(this)
+        except __builtin__.Exception:
+            self.this = this
+    __swig_destroy__ = _PyCTP.delete_CThostFtdcRspGenUserCaptchaField
+    __del__ = lambda self: None
+CThostFtdcRspGenUserCaptchaField_swigregister = _PyCTP.CThostFtdcRspGenUserCaptchaField_swigregister
+CThostFtdcRspGenUserCaptchaField_swigregister(CThostFtdcRspGenUserCaptchaField)
+
+class CThostFtdcReqGenUserTextField(_object):
+    __swig_setmethods__ = {}
+    __setattr__ = lambda self, name, value: _swig_setattr(self, CThostFtdcReqGenUserTextField, name, value)
+    __swig_getmethods__ = {}
+    __getattr__ = lambda self, name: _swig_getattr(self, CThostFtdcReqGenUserTextField, name)
+    __repr__ = _swig_repr
+    __swig_setmethods__["TradingDay"] = _PyCTP.CThostFtdcReqGenUserTextField_TradingDay_set
+    __swig_getmethods__["TradingDay"] = _PyCTP.CThostFtdcReqGenUserTextField_TradingDay_get
+    if _newclass:
+        TradingDay = _swig_property(_PyCTP.CThostFtdcReqGenUserTextField_TradingDay_get, _PyCTP.CThostFtdcReqGenUserTextField_TradingDay_set)
+    __swig_setmethods__["BrokerID"] = _PyCTP.CThostFtdcReqGenUserTextField_BrokerID_set
+    __swig_getmethods__["BrokerID"] = _PyCTP.CThostFtdcReqGenUserTextField_BrokerID_get
+    if _newclass:
+        BrokerID = _swig_property(_PyCTP.CThostFtdcReqGenUserTextField_BrokerID_get, _PyCTP.CThostFtdcReqGenUserTextField_BrokerID_set)
+    __swig_setmethods__["UserID"] = _PyCTP.CThostFtdcReqGenUserTextField_UserID_set
+    __swig_getmethods__["UserID"] = _PyCTP.CThostFtdcReqGenUserTextField_UserID_get
+    if _newclass:
+        UserID = _swig_property(_PyCTP.CThostFtdcReqGenUserTextField_UserID_get, _PyCTP.CThostFtdcReqGenUserTextField_UserID_set)
+
+    def __init__(self):
+        this = _PyCTP.new_CThostFtdcReqGenUserTextField()
+        try:
+            self.this.append(this)
+        except __builtin__.Exception:
+            self.this = this
+    __swig_destroy__ = _PyCTP.delete_CThostFtdcReqGenUserTextField
+    __del__ = lambda self: None
+CThostFtdcReqGenUserTextField_swigregister = _PyCTP.CThostFtdcReqGenUserTextField_swigregister
+CThostFtdcReqGenUserTextField_swigregister(CThostFtdcReqGenUserTextField)
+
+class CThostFtdcRspGenUserTextField(_object):
+    __swig_setmethods__ = {}
+    __setattr__ = lambda self, name, value: _swig_setattr(self, CThostFtdcRspGenUserTextField, name, value)
+    __swig_getmethods__ = {}
+    __getattr__ = lambda self, name: _swig_getattr(self, CThostFtdcRspGenUserTextField, name)
+    __repr__ = _swig_repr
+    __swig_setmethods__["UserTextSeq"] = _PyCTP.CThostFtdcRspGenUserTextField_UserTextSeq_set
+    __swig_getmethods__["UserTextSeq"] = _PyCTP.CThostFtdcRspGenUserTextField_UserTextSeq_get
+    if _newclass:
+        UserTextSeq = _swig_property(_PyCTP.CThostFtdcRspGenUserTextField_UserTextSeq_get, _PyCTP.CThostFtdcRspGenUserTextField_UserTextSeq_set)
+
+    def __init__(self):
+        this = _PyCTP.new_CThostFtdcRspGenUserTextField()
+        try:
+            self.this.append(this)
+        except __builtin__.Exception:
+            self.this = this
+    __swig_destroy__ = _PyCTP.delete_CThostFtdcRspGenUserTextField
+    __del__ = lambda self: None
+CThostFtdcRspGenUserTextField_swigregister = _PyCTP.CThostFtdcRspGenUserTextField_swigregister
+CThostFtdcRspGenUserTextField_swigregister(CThostFtdcRspGenUserTextField)
+
+class CThostFtdcReqUserLoginWithCaptchaField(_object):
+    __swig_setmethods__ = {}
+    __setattr__ = lambda self, name, value: _swig_setattr(self, CThostFtdcReqUserLoginWithCaptchaField, name, value)
+    __swig_getmethods__ = {}
+    __getattr__ = lambda self, name: _swig_getattr(self, CThostFtdcReqUserLoginWithCaptchaField, name)
+    __repr__ = _swig_repr
+    __swig_setmethods__["TradingDay"] = _PyCTP.CThostFtdcReqUserLoginWithCaptchaField_TradingDay_set
+    __swig_getmethods__["TradingDay"] = _PyCTP.CThostFtdcReqUserLoginWithCaptchaField_TradingDay_get
+    if _newclass:
+        TradingDay = _swig_property(_PyCTP.CThostFtdcReqUserLoginWithCaptchaField_TradingDay_get, _PyCTP.CThostFtdcReqUserLoginWithCaptchaField_TradingDay_set)
+    __swig_setmethods__["BrokerID"] = _PyCTP.CThostFtdcReqUserLoginWithCaptchaField_BrokerID_set
+    __swig_getmethods__["BrokerID"] = _PyCTP.CThostFtdcReqUserLoginWithCaptchaField_BrokerID_get
+    if _newclass:
+        BrokerID = _swig_property(_PyCTP.CThostFtdcReqUserLoginWithCaptchaField_BrokerID_get, _PyCTP.CThostFtdcReqUserLoginWithCaptchaField_BrokerID_set)
+    __swig_setmethods__["UserID"] = _PyCTP.CThostFtdcReqUserLoginWithCaptchaField_UserID_set
+    __swig_getmethods__["UserID"] = _PyCTP.CThostFtdcReqUserLoginWithCaptchaField_UserID_get
+    if _newclass:
+        UserID = _swig_property(_PyCTP.CThostFtdcReqUserLoginWithCaptchaField_UserID_get, _PyCTP.CThostFtdcReqUserLoginWithCaptchaField_UserID_set)
+    __swig_setmethods__["Password"] = _PyCTP.CThostFtdcReqUserLoginWithCaptchaField_Password_set
+    __swig_getmethods__["Password"] = _PyCTP.CThostFtdcReqUserLoginWithCaptchaField_Password_get
+    if _newclass:
+        Password = _swig_property(_PyCTP.CThostFtdcReqUserLoginWithCaptchaField_Password_get, _PyCTP.CThostFtdcReqUserLoginWithCaptchaField_Password_set)
+    __swig_setmethods__["UserProductInfo"] = _PyCTP.CThostFtdcReqUserLoginWithCaptchaField_UserProductInfo_set
+    __swig_getmethods__["UserProductInfo"] = _PyCTP.CThostFtdcReqUserLoginWithCaptchaField_UserProductInfo_get
+    if _newclass:
+        UserProductInfo = _swig_property(_PyCTP.CThostFtdcReqUserLoginWithCaptchaField_UserProductInfo_get, _PyCTP.CThostFtdcReqUserLoginWithCaptchaField_UserProductInfo_set)
+    __swig_setmethods__["InterfaceProductInfo"] = _PyCTP.CThostFtdcReqUserLoginWithCaptchaField_InterfaceProductInfo_set
+    __swig_getmethods__["InterfaceProductInfo"] = _PyCTP.CThostFtdcReqUserLoginWithCaptchaField_InterfaceProductInfo_get
+    if _newclass:
+        InterfaceProductInfo = _swig_property(_PyCTP.CThostFtdcReqUserLoginWithCaptchaField_InterfaceProductInfo_get, _PyCTP.CThostFtdcReqUserLoginWithCaptchaField_InterfaceProductInfo_set)
+    __swig_setmethods__["ProtocolInfo"] = _PyCTP.CThostFtdcReqUserLoginWithCaptchaField_ProtocolInfo_set
+    __swig_getmethods__["ProtocolInfo"] = _PyCTP.CThostFtdcReqUserLoginWithCaptchaField_ProtocolInfo_get
+    if _newclass:
+        ProtocolInfo = _swig_property(_PyCTP.CThostFtdcReqUserLoginWithCaptchaField_ProtocolInfo_get, _PyCTP.CThostFtdcReqUserLoginWithCaptchaField_ProtocolInfo_set)
+    __swig_setmethods__["MacAddress"] = _PyCTP.CThostFtdcReqUserLoginWithCaptchaField_MacAddress_set
+    __swig_getmethods__["MacAddress"] = _PyCTP.CThostFtdcReqUserLoginWithCaptchaField_MacAddress_get
+    if _newclass:
+        MacAddress = _swig_property(_PyCTP.CThostFtdcReqUserLoginWithCaptchaField_MacAddress_get, _PyCTP.CThostFtdcReqUserLoginWithCaptchaField_MacAddress_set)
+    __swig_setmethods__["ClientIPAddress"] = _PyCTP.CThostFtdcReqUserLoginWithCaptchaField_ClientIPAddress_set
+    __swig_getmethods__["ClientIPAddress"] = _PyCTP.CThostFtdcReqUserLoginWithCaptchaField_ClientIPAddress_get
+    if _newclass:
+        ClientIPAddress = _swig_property(_PyCTP.CThostFtdcReqUserLoginWithCaptchaField_ClientIPAddress_get, _PyCTP.CThostFtdcReqUserLoginWithCaptchaField_ClientIPAddress_set)
+    __swig_setmethods__["LoginRemark"] = _PyCTP.CThostFtdcReqUserLoginWithCaptchaField_LoginRemark_set
+    __swig_getmethods__["LoginRemark"] = _PyCTP.CThostFtdcReqUserLoginWithCaptchaField_LoginRemark_get
+    if _newclass:
+        LoginRemark = _swig_property(_PyCTP.CThostFtdcReqUserLoginWithCaptchaField_LoginRemark_get, _PyCTP.CThostFtdcReqUserLoginWithCaptchaField_LoginRemark_set)
+    __swig_setmethods__["Captcha"] = _PyCTP.CThostFtdcReqUserLoginWithCaptchaField_Captcha_set
+    __swig_getmethods__["Captcha"] = _PyCTP.CThostFtdcReqUserLoginWithCaptchaField_Captcha_get
+    if _newclass:
+        Captcha = _swig_property(_PyCTP.CThostFtdcReqUserLoginWithCaptchaField_Captcha_get, _PyCTP.CThostFtdcReqUserLoginWithCaptchaField_Captcha_set)
+    __swig_setmethods__["ClientIPPort"] = _PyCTP.CThostFtdcReqUserLoginWithCaptchaField_ClientIPPort_set
+    __swig_getmethods__["ClientIPPort"] = _PyCTP.CThostFtdcReqUserLoginWithCaptchaField_ClientIPPort_get
+    if _newclass:
+        ClientIPPort = _swig_property(_PyCTP.CThostFtdcReqUserLoginWithCaptchaField_ClientIPPort_get, _PyCTP.CThostFtdcReqUserLoginWithCaptchaField_ClientIPPort_set)
+
+    def __init__(self):
+        this = _PyCTP.new_CThostFtdcReqUserLoginWithCaptchaField()
+        try:
+            self.this.append(this)
+        except __builtin__.Exception:
+            self.this = this
+    __swig_destroy__ = _PyCTP.delete_CThostFtdcReqUserLoginWithCaptchaField
+    __del__ = lambda self: None
+CThostFtdcReqUserLoginWithCaptchaField_swigregister = _PyCTP.CThostFtdcReqUserLoginWithCaptchaField_swigregister
+CThostFtdcReqUserLoginWithCaptchaField_swigregister(CThostFtdcReqUserLoginWithCaptchaField)
+
+class CThostFtdcReqUserLoginWithTextField(_object):
+    __swig_setmethods__ = {}
+    __setattr__ = lambda self, name, value: _swig_setattr(self, CThostFtdcReqUserLoginWithTextField, name, value)
+    __swig_getmethods__ = {}
+    __getattr__ = lambda self, name: _swig_getattr(self, CThostFtdcReqUserLoginWithTextField, name)
+    __repr__ = _swig_repr
+    __swig_setmethods__["TradingDay"] = _PyCTP.CThostFtdcReqUserLoginWithTextField_TradingDay_set
+    __swig_getmethods__["TradingDay"] = _PyCTP.CThostFtdcReqUserLoginWithTextField_TradingDay_get
+    if _newclass:
+        TradingDay = _swig_property(_PyCTP.CThostFtdcReqUserLoginWithTextField_TradingDay_get, _PyCTP.CThostFtdcReqUserLoginWithTextField_TradingDay_set)
+    __swig_setmethods__["BrokerID"] = _PyCTP.CThostFtdcReqUserLoginWithTextField_BrokerID_set
+    __swig_getmethods__["BrokerID"] = _PyCTP.CThostFtdcReqUserLoginWithTextField_BrokerID_get
+    if _newclass:
+        BrokerID = _swig_property(_PyCTP.CThostFtdcReqUserLoginWithTextField_BrokerID_get, _PyCTP.CThostFtdcReqUserLoginWithTextField_BrokerID_set)
+    __swig_setmethods__["UserID"] = _PyCTP.CThostFtdcReqUserLoginWithTextField_UserID_set
+    __swig_getmethods__["UserID"] = _PyCTP.CThostFtdcReqUserLoginWithTextField_UserID_get
+    if _newclass:
+        UserID = _swig_property(_PyCTP.CThostFtdcReqUserLoginWithTextField_UserID_get, _PyCTP.CThostFtdcReqUserLoginWithTextField_UserID_set)
+    __swig_setmethods__["Password"] = _PyCTP.CThostFtdcReqUserLoginWithTextField_Password_set
+    __swig_getmethods__["Password"] = _PyCTP.CThostFtdcReqUserLoginWithTextField_Password_get
+    if _newclass:
+        Password = _swig_property(_PyCTP.CThostFtdcReqUserLoginWithTextField_Password_get, _PyCTP.CThostFtdcReqUserLoginWithTextField_Password_set)
+    __swig_setmethods__["UserProductInfo"] = _PyCTP.CThostFtdcReqUserLoginWithTextField_UserProductInfo_set
+    __swig_getmethods__["UserProductInfo"] = _PyCTP.CThostFtdcReqUserLoginWithTextField_UserProductInfo_get
+    if _newclass:
+        UserProductInfo = _swig_property(_PyCTP.CThostFtdcReqUserLoginWithTextField_UserProductInfo_get, _PyCTP.CThostFtdcReqUserLoginWithTextField_UserProductInfo_set)
+    __swig_setmethods__["InterfaceProductInfo"] = _PyCTP.CThostFtdcReqUserLoginWithTextField_InterfaceProductInfo_set
+    __swig_getmethods__["InterfaceProductInfo"] = _PyCTP.CThostFtdcReqUserLoginWithTextField_InterfaceProductInfo_get
+    if _newclass:
+        InterfaceProductInfo = _swig_property(_PyCTP.CThostFtdcReqUserLoginWithTextField_InterfaceProductInfo_get, _PyCTP.CThostFtdcReqUserLoginWithTextField_InterfaceProductInfo_set)
+    __swig_setmethods__["ProtocolInfo"] = _PyCTP.CThostFtdcReqUserLoginWithTextField_ProtocolInfo_set
+    __swig_getmethods__["ProtocolInfo"] = _PyCTP.CThostFtdcReqUserLoginWithTextField_ProtocolInfo_get
+    if _newclass:
+        ProtocolInfo = _swig_property(_PyCTP.CThostFtdcReqUserLoginWithTextField_ProtocolInfo_get, _PyCTP.CThostFtdcReqUserLoginWithTextField_ProtocolInfo_set)
+    __swig_setmethods__["MacAddress"] = _PyCTP.CThostFtdcReqUserLoginWithTextField_MacAddress_set
+    __swig_getmethods__["MacAddress"] = _PyCTP.CThostFtdcReqUserLoginWithTextField_MacAddress_get
+    if _newclass:
+        MacAddress = _swig_property(_PyCTP.CThostFtdcReqUserLoginWithTextField_MacAddress_get, _PyCTP.CThostFtdcReqUserLoginWithTextField_MacAddress_set)
+    __swig_setmethods__["ClientIPAddress"] = _PyCTP.CThostFtdcReqUserLoginWithTextField_ClientIPAddress_set
+    __swig_getmethods__["ClientIPAddress"] = _PyCTP.CThostFtdcReqUserLoginWithTextField_ClientIPAddress_get
+    if _newclass:
+        ClientIPAddress = _swig_property(_PyCTP.CThostFtdcReqUserLoginWithTextField_ClientIPAddress_get, _PyCTP.CThostFtdcReqUserLoginWithTextField_ClientIPAddress_set)
+    __swig_setmethods__["LoginRemark"] = _PyCTP.CThostFtdcReqUserLoginWithTextField_LoginRemark_set
+    __swig_getmethods__["LoginRemark"] = _PyCTP.CThostFtdcReqUserLoginWithTextField_LoginRemark_get
+    if _newclass:
+        LoginRemark = _swig_property(_PyCTP.CThostFtdcReqUserLoginWithTextField_LoginRemark_get, _PyCTP.CThostFtdcReqUserLoginWithTextField_LoginRemark_set)
+    __swig_setmethods__["Text"] = _PyCTP.CThostFtdcReqUserLoginWithTextField_Text_set
+    __swig_getmethods__["Text"] = _PyCTP.CThostFtdcReqUserLoginWithTextField_Text_get
+    if _newclass:
+        Text = _swig_property(_PyCTP.CThostFtdcReqUserLoginWithTextField_Text_get, _PyCTP.CThostFtdcReqUserLoginWithTextField_Text_set)
+    __swig_setmethods__["ClientIPPort"] = _PyCTP.CThostFtdcReqUserLoginWithTextField_ClientIPPort_set
+    __swig_getmethods__["ClientIPPort"] = _PyCTP.CThostFtdcReqUserLoginWithTextField_ClientIPPort_get
+    if _newclass:
+        ClientIPPort = _swig_property(_PyCTP.CThostFtdcReqUserLoginWithTextField_ClientIPPort_get, _PyCTP.CThostFtdcReqUserLoginWithTextField_ClientIPPort_set)
+
+    def __init__(self):
+        this = _PyCTP.new_CThostFtdcReqUserLoginWithTextField()
+        try:
+            self.this.append(this)
+        except __builtin__.Exception:
+            self.this = this
+    __swig_destroy__ = _PyCTP.delete_CThostFtdcReqUserLoginWithTextField
+    __del__ = lambda self: None
+CThostFtdcReqUserLoginWithTextField_swigregister = _PyCTP.CThostFtdcReqUserLoginWithTextField_swigregister
+CThostFtdcReqUserLoginWithTextField_swigregister(CThostFtdcReqUserLoginWithTextField)
+
+class CThostFtdcReqUserLoginWithOTPField(_object):
+    __swig_setmethods__ = {}
+    __setattr__ = lambda self, name, value: _swig_setattr(self, CThostFtdcReqUserLoginWithOTPField, name, value)
+    __swig_getmethods__ = {}
+    __getattr__ = lambda self, name: _swig_getattr(self, CThostFtdcReqUserLoginWithOTPField, name)
+    __repr__ = _swig_repr
+    __swig_setmethods__["TradingDay"] = _PyCTP.CThostFtdcReqUserLoginWithOTPField_TradingDay_set
+    __swig_getmethods__["TradingDay"] = _PyCTP.CThostFtdcReqUserLoginWithOTPField_TradingDay_get
+    if _newclass:
+        TradingDay = _swig_property(_PyCTP.CThostFtdcReqUserLoginWithOTPField_TradingDay_get, _PyCTP.CThostFtdcReqUserLoginWithOTPField_TradingDay_set)
+    __swig_setmethods__["BrokerID"] = _PyCTP.CThostFtdcReqUserLoginWithOTPField_BrokerID_set
+    __swig_getmethods__["BrokerID"] = _PyCTP.CThostFtdcReqUserLoginWithOTPField_BrokerID_get
+    if _newclass:
+        BrokerID = _swig_property(_PyCTP.CThostFtdcReqUserLoginWithOTPField_BrokerID_get, _PyCTP.CThostFtdcReqUserLoginWithOTPField_BrokerID_set)
+    __swig_setmethods__["UserID"] = _PyCTP.CThostFtdcReqUserLoginWithOTPField_UserID_set
+    __swig_getmethods__["UserID"] = _PyCTP.CThostFtdcReqUserLoginWithOTPField_UserID_get
+    if _newclass:
+        UserID = _swig_property(_PyCTP.CThostFtdcReqUserLoginWithOTPField_UserID_get, _PyCTP.CThostFtdcReqUserLoginWithOTPField_UserID_set)
+    __swig_setmethods__["Password"] = _PyCTP.CThostFtdcReqUserLoginWithOTPField_Password_set
+    __swig_getmethods__["Password"] = _PyCTP.CThostFtdcReqUserLoginWithOTPField_Password_get
+    if _newclass:
+        Password = _swig_property(_PyCTP.CThostFtdcReqUserLoginWithOTPField_Password_get, _PyCTP.CThostFtdcReqUserLoginWithOTPField_Password_set)
+    __swig_setmethods__["UserProductInfo"] = _PyCTP.CThostFtdcReqUserLoginWithOTPField_UserProductInfo_set
+    __swig_getmethods__["UserProductInfo"] = _PyCTP.CThostFtdcReqUserLoginWithOTPField_UserProductInfo_get
+    if _newclass:
+        UserProductInfo = _swig_property(_PyCTP.CThostFtdcReqUserLoginWithOTPField_UserProductInfo_get, _PyCTP.CThostFtdcReqUserLoginWithOTPField_UserProductInfo_set)
+    __swig_setmethods__["InterfaceProductInfo"] = _PyCTP.CThostFtdcReqUserLoginWithOTPField_InterfaceProductInfo_set
+    __swig_getmethods__["InterfaceProductInfo"] = _PyCTP.CThostFtdcReqUserLoginWithOTPField_InterfaceProductInfo_get
+    if _newclass:
+        InterfaceProductInfo = _swig_property(_PyCTP.CThostFtdcReqUserLoginWithOTPField_InterfaceProductInfo_get, _PyCTP.CThostFtdcReqUserLoginWithOTPField_InterfaceProductInfo_set)
+    __swig_setmethods__["ProtocolInfo"] = _PyCTP.CThostFtdcReqUserLoginWithOTPField_ProtocolInfo_set
+    __swig_getmethods__["ProtocolInfo"] = _PyCTP.CThostFtdcReqUserLoginWithOTPField_ProtocolInfo_get
+    if _newclass:
+        ProtocolInfo = _swig_property(_PyCTP.CThostFtdcReqUserLoginWithOTPField_ProtocolInfo_get, _PyCTP.CThostFtdcReqUserLoginWithOTPField_ProtocolInfo_set)
+    __swig_setmethods__["MacAddress"] = _PyCTP.CThostFtdcReqUserLoginWithOTPField_MacAddress_set
+    __swig_getmethods__["MacAddress"] = _PyCTP.CThostFtdcReqUserLoginWithOTPField_MacAddress_get
+    if _newclass:
+        MacAddress = _swig_property(_PyCTP.CThostFtdcReqUserLoginWithOTPField_MacAddress_get, _PyCTP.CThostFtdcReqUserLoginWithOTPField_MacAddress_set)
+    __swig_setmethods__["ClientIPAddress"] = _PyCTP.CThostFtdcReqUserLoginWithOTPField_ClientIPAddress_set
+    __swig_getmethods__["ClientIPAddress"] = _PyCTP.CThostFtdcReqUserLoginWithOTPField_ClientIPAddress_get
+    if _newclass:
+        ClientIPAddress = _swig_property(_PyCTP.CThostFtdcReqUserLoginWithOTPField_ClientIPAddress_get, _PyCTP.CThostFtdcReqUserLoginWithOTPField_ClientIPAddress_set)
+    __swig_setmethods__["LoginRemark"] = _PyCTP.CThostFtdcReqUserLoginWithOTPField_LoginRemark_set
+    __swig_getmethods__["LoginRemark"] = _PyCTP.CThostFtdcReqUserLoginWithOTPField_LoginRemark_get
+    if _newclass:
+        LoginRemark = _swig_property(_PyCTP.CThostFtdcReqUserLoginWithOTPField_LoginRemark_get, _PyCTP.CThostFtdcReqUserLoginWithOTPField_LoginRemark_set)
+    __swig_setmethods__["OTPPassword"] = _PyCTP.CThostFtdcReqUserLoginWithOTPField_OTPPassword_set
+    __swig_getmethods__["OTPPassword"] = _PyCTP.CThostFtdcReqUserLoginWithOTPField_OTPPassword_get
+    if _newclass:
+        OTPPassword = _swig_property(_PyCTP.CThostFtdcReqUserLoginWithOTPField_OTPPassword_get, _PyCTP.CThostFtdcReqUserLoginWithOTPField_OTPPassword_set)
+    __swig_setmethods__["ClientIPPort"] = _PyCTP.CThostFtdcReqUserLoginWithOTPField_ClientIPPort_set
+    __swig_getmethods__["ClientIPPort"] = _PyCTP.CThostFtdcReqUserLoginWithOTPField_ClientIPPort_get
+    if _newclass:
+        ClientIPPort = _swig_property(_PyCTP.CThostFtdcReqUserLoginWithOTPField_ClientIPPort_get, _PyCTP.CThostFtdcReqUserLoginWithOTPField_ClientIPPort_set)
+
+    def __init__(self):
+        this = _PyCTP.new_CThostFtdcReqUserLoginWithOTPField()
+        try:
+            self.this.append(this)
+        except __builtin__.Exception:
+            self.this = this
+    __swig_destroy__ = _PyCTP.delete_CThostFtdcReqUserLoginWithOTPField
+    __del__ = lambda self: None
+CThostFtdcReqUserLoginWithOTPField_swigregister = _PyCTP.CThostFtdcReqUserLoginWithOTPField_swigregister
+CThostFtdcReqUserLoginWithOTPField_swigregister(CThostFtdcReqUserLoginWithOTPField)
+
+class CThostFtdcReqApiHandshakeField(_object):
+    __swig_setmethods__ = {}
+    __setattr__ = lambda self, name, value: _swig_setattr(self, CThostFtdcReqApiHandshakeField, name, value)
+    __swig_getmethods__ = {}
+    __getattr__ = lambda self, name: _swig_getattr(self, CThostFtdcReqApiHandshakeField, name)
+    __repr__ = _swig_repr
+    __swig_setmethods__["CryptoKeyVersion"] = _PyCTP.CThostFtdcReqApiHandshakeField_CryptoKeyVersion_set
+    __swig_getmethods__["CryptoKeyVersion"] = _PyCTP.CThostFtdcReqApiHandshakeField_CryptoKeyVersion_get
+    if _newclass:
+        CryptoKeyVersion = _swig_property(_PyCTP.CThostFtdcReqApiHandshakeField_CryptoKeyVersion_get, _PyCTP.CThostFtdcReqApiHandshakeField_CryptoKeyVersion_set)
+
+    def __init__(self):
+        this = _PyCTP.new_CThostFtdcReqApiHandshakeField()
+        try:
+            self.this.append(this)
+        except __builtin__.Exception:
+            self.this = this
+    __swig_destroy__ = _PyCTP.delete_CThostFtdcReqApiHandshakeField
+    __del__ = lambda self: None
+CThostFtdcReqApiHandshakeField_swigregister = _PyCTP.CThostFtdcReqApiHandshakeField_swigregister
+CThostFtdcReqApiHandshakeField_swigregister(CThostFtdcReqApiHandshakeField)
+
+class CThostFtdcRspApiHandshakeField(_object):
+    __swig_setmethods__ = {}
+    __setattr__ = lambda self, name, value: _swig_setattr(self, CThostFtdcRspApiHandshakeField, name, value)
+    __swig_getmethods__ = {}
+    __getattr__ = lambda self, name: _swig_getattr(self, CThostFtdcRspApiHandshakeField, name)
+    __repr__ = _swig_repr
+    __swig_setmethods__["FrontHandshakeDataLen"] = _PyCTP.CThostFtdcRspApiHandshakeField_FrontHandshakeDataLen_set
+    __swig_getmethods__["FrontHandshakeDataLen"] = _PyCTP.CThostFtdcRspApiHandshakeField_FrontHandshakeDataLen_get
+    if _newclass:
+        FrontHandshakeDataLen = _swig_property(_PyCTP.CThostFtdcRspApiHandshakeField_FrontHandshakeDataLen_get, _PyCTP.CThostFtdcRspApiHandshakeField_FrontHandshakeDataLen_set)
+    __swig_setmethods__["FrontHandshakeData"] = _PyCTP.CThostFtdcRspApiHandshakeField_FrontHandshakeData_set
+    __swig_getmethods__["FrontHandshakeData"] = _PyCTP.CThostFtdcRspApiHandshakeField_FrontHandshakeData_get
+    if _newclass:
+        FrontHandshakeData = _swig_property(_PyCTP.CThostFtdcRspApiHandshakeField_FrontHandshakeData_get, _PyCTP.CThostFtdcRspApiHandshakeField_FrontHandshakeData_set)
+    __swig_setmethods__["IsApiAuthEnabled"] = _PyCTP.CThostFtdcRspApiHandshakeField_IsApiAuthEnabled_set
+    __swig_getmethods__["IsApiAuthEnabled"] = _PyCTP.CThostFtdcRspApiHandshakeField_IsApiAuthEnabled_get
+    if _newclass:
+        IsApiAuthEnabled = _swig_property(_PyCTP.CThostFtdcRspApiHandshakeField_IsApiAuthEnabled_get, _PyCTP.CThostFtdcRspApiHandshakeField_IsApiAuthEnabled_set)
+
+    def __init__(self):
+        this = _PyCTP.new_CThostFtdcRspApiHandshakeField()
+        try:
+            self.this.append(this)
+        except __builtin__.Exception:
+            self.this = this
+    __swig_destroy__ = _PyCTP.delete_CThostFtdcRspApiHandshakeField
+    __del__ = lambda self: None
+CThostFtdcRspApiHandshakeField_swigregister = _PyCTP.CThostFtdcRspApiHandshakeField_swigregister
+CThostFtdcRspApiHandshakeField_swigregister(CThostFtdcRspApiHandshakeField)
+
+class CThostFtdcReqVerifyApiKeyField(_object):
+    __swig_setmethods__ = {}
+    __setattr__ = lambda self, name, value: _swig_setattr(self, CThostFtdcReqVerifyApiKeyField, name, value)
+    __swig_getmethods__ = {}
+    __getattr__ = lambda self, name: _swig_getattr(self, CThostFtdcReqVerifyApiKeyField, name)
+    __repr__ = _swig_repr
+    __swig_setmethods__["ApiHandshakeDataLen"] = _PyCTP.CThostFtdcReqVerifyApiKeyField_ApiHandshakeDataLen_set
+    __swig_getmethods__["ApiHandshakeDataLen"] = _PyCTP.CThostFtdcReqVerifyApiKeyField_ApiHandshakeDataLen_get
+    if _newclass:
+        ApiHandshakeDataLen = _swig_property(_PyCTP.CThostFtdcReqVerifyApiKeyField_ApiHandshakeDataLen_get, _PyCTP.CThostFtdcReqVerifyApiKeyField_ApiHandshakeDataLen_set)
+    __swig_setmethods__["ApiHandshakeData"] = _PyCTP.CThostFtdcReqVerifyApiKeyField_ApiHandshakeData_set
+    __swig_getmethods__["ApiHandshakeData"] = _PyCTP.CThostFtdcReqVerifyApiKeyField_ApiHandshakeData_get
+    if _newclass:
+        ApiHandshakeData = _swig_property(_PyCTP.CThostFtdcReqVerifyApiKeyField_ApiHandshakeData_get, _PyCTP.CThostFtdcReqVerifyApiKeyField_ApiHandshakeData_set)
+
+    def __init__(self):
+        this = _PyCTP.new_CThostFtdcReqVerifyApiKeyField()
+        try:
+            self.this.append(this)
+        except __builtin__.Exception:
+            self.this = this
+    __swig_destroy__ = _PyCTP.delete_CThostFtdcReqVerifyApiKeyField
+    __del__ = lambda self: None
+CThostFtdcReqVerifyApiKeyField_swigregister = _PyCTP.CThostFtdcReqVerifyApiKeyField_swigregister
+CThostFtdcReqVerifyApiKeyField_swigregister(CThostFtdcReqVerifyApiKeyField)
+
+class CThostFtdcDepartmentUserField(_object):
+    __swig_setmethods__ = {}
+    __setattr__ = lambda self, name, value: _swig_setattr(self, CThostFtdcDepartmentUserField, name, value)
+    __swig_getmethods__ = {}
+    __getattr__ = lambda self, name: _swig_getattr(self, CThostFtdcDepartmentUserField, name)
+    __repr__ = _swig_repr
+    __swig_setmethods__["BrokerID"] = _PyCTP.CThostFtdcDepartmentUserField_BrokerID_set
+    __swig_getmethods__["BrokerID"] = _PyCTP.CThostFtdcDepartmentUserField_BrokerID_get
+    if _newclass:
+        BrokerID = _swig_property(_PyCTP.CThostFtdcDepartmentUserField_BrokerID_get, _PyCTP.CThostFtdcDepartmentUserField_BrokerID_set)
+    __swig_setmethods__["UserID"] = _PyCTP.CThostFtdcDepartmentUserField_UserID_set
+    __swig_getmethods__["UserID"] = _PyCTP.CThostFtdcDepartmentUserField_UserID_get
+    if _newclass:
+        UserID = _swig_property(_PyCTP.CThostFtdcDepartmentUserField_UserID_get, _PyCTP.CThostFtdcDepartmentUserField_UserID_set)
+    __swig_setmethods__["InvestorRange"] = _PyCTP.CThostFtdcDepartmentUserField_InvestorRange_set
+    __swig_getmethods__["InvestorRange"] = _PyCTP.CThostFtdcDepartmentUserField_InvestorRange_get
+    if _newclass:
+        InvestorRange = _swig_property(_PyCTP.CThostFtdcDepartmentUserField_InvestorRange_get, _PyCTP.CThostFtdcDepartmentUserField_InvestorRange_set)
+    __swig_setmethods__["InvestorID"] = _PyCTP.CThostFtdcDepartmentUserField_InvestorID_set
+    __swig_getmethods__["InvestorID"] = _PyCTP.CThostFtdcDepartmentUserField_InvestorID_get
+    if _newclass:
+        InvestorID = _swig_property(_PyCTP.CThostFtdcDepartmentUserField_InvestorID_get, _PyCTP.CThostFtdcDepartmentUserField_InvestorID_set)
+
+    def __init__(self):
+        this = _PyCTP.new_CThostFtdcDepartmentUserField()
+        try:
+            self.this.append(this)
+        except __builtin__.Exception:
+            self.this = this
+    __swig_destroy__ = _PyCTP.delete_CThostFtdcDepartmentUserField
+    __del__ = lambda self: None
+CThostFtdcDepartmentUserField_swigregister = _PyCTP.CThostFtdcDepartmentUserField_swigregister
+CThostFtdcDepartmentUserField_swigregister(CThostFtdcDepartmentUserField)
+
+class CThostFtdcQueryFreqField(_object):
+    __swig_setmethods__ = {}
+    __setattr__ = lambda self, name, value: _swig_setattr(self, CThostFtdcQueryFreqField, name, value)
+    __swig_getmethods__ = {}
+    __getattr__ = lambda self, name: _swig_getattr(self, CThostFtdcQueryFreqField, name)
+    __repr__ = _swig_repr
+    __swig_setmethods__["QueryFreq"] = _PyCTP.CThostFtdcQueryFreqField_QueryFreq_set
+    __swig_getmethods__["QueryFreq"] = _PyCTP.CThostFtdcQueryFreqField_QueryFreq_get
+    if _newclass:
+        QueryFreq = _swig_property(_PyCTP.CThostFtdcQueryFreqField_QueryFreq_get, _PyCTP.CThostFtdcQueryFreqField_QueryFreq_set)
+
+    def __init__(self):
+        this = _PyCTP.new_CThostFtdcQueryFreqField()
+        try:
+            self.this.append(this)
+        except __builtin__.Exception:
+            self.this = this
+    __swig_destroy__ = _PyCTP.delete_CThostFtdcQueryFreqField
+    __del__ = lambda self: None
+CThostFtdcQueryFreqField_swigregister = _PyCTP.CThostFtdcQueryFreqField_swigregister
+CThostFtdcQueryFreqField_swigregister(CThostFtdcQueryFreqField)
+
 class CThostFtdcTraderSpi(_object):
     __swig_setmethods__ = {}
     __setattr__ = lambda self, name, value: _swig_setattr(self, CThostFtdcTraderSpi, name, value)
@@ -19217,6 +23124,15 @@ class CThostFtdcTraderSpi(_object):
 
     def OnRspTradingAccountPasswordUpdate(self, pTradingAccountPasswordUpdate, pRspInfo, nRequestID, bIsLast):
         return _PyCTP.CThostFtdcTraderSpi_OnRspTradingAccountPasswordUpdate(self, pTradingAccountPasswordUpdate, pRspInfo, nRequestID, bIsLast)
+
+    def OnRspUserAuthMethod(self, pRspUserAuthMethod, pRspInfo, nRequestID, bIsLast):
+        return _PyCTP.CThostFtdcTraderSpi_OnRspUserAuthMethod(self, pRspUserAuthMethod, pRspInfo, nRequestID, bIsLast)
+
+    def OnRspGenUserCaptcha(self, pRspGenUserCaptcha, pRspInfo, nRequestID, bIsLast):
+        return _PyCTP.CThostFtdcTraderSpi_OnRspGenUserCaptcha(self, pRspGenUserCaptcha, pRspInfo, nRequestID, bIsLast)
+
+    def OnRspGenUserText(self, pRspGenUserText, pRspInfo, nRequestID, bIsLast):
+        return _PyCTP.CThostFtdcTraderSpi_OnRspGenUserText(self, pRspGenUserText, pRspInfo, nRequestID, bIsLast)
 
     def OnRspOrderInsert(self, pInputOrder, pRspInfo, nRequestID, bIsLast):
         return _PyCTP.CThostFtdcTraderSpi_OnRspOrderInsert(self, pInputOrder, pRspInfo, nRequestID, bIsLast)
@@ -19259,6 +23175,12 @@ class CThostFtdcTraderSpi(_object):
 
     def OnRspBatchOrderAction(self, pInputBatchOrderAction, pRspInfo, nRequestID, bIsLast):
         return _PyCTP.CThostFtdcTraderSpi_OnRspBatchOrderAction(self, pInputBatchOrderAction, pRspInfo, nRequestID, bIsLast)
+
+    def OnRspOptionSelfCloseInsert(self, pInputOptionSelfClose, pRspInfo, nRequestID, bIsLast):
+        return _PyCTP.CThostFtdcTraderSpi_OnRspOptionSelfCloseInsert(self, pInputOptionSelfClose, pRspInfo, nRequestID, bIsLast)
+
+    def OnRspOptionSelfCloseAction(self, pInputOptionSelfCloseAction, pRspInfo, nRequestID, bIsLast):
+        return _PyCTP.CThostFtdcTraderSpi_OnRspOptionSelfCloseAction(self, pInputOptionSelfCloseAction, pRspInfo, nRequestID, bIsLast)
 
     def OnRspCombActionInsert(self, pInputCombAction, pRspInfo, nRequestID, bIsLast):
         return _PyCTP.CThostFtdcTraderSpi_OnRspCombActionInsert(self, pInputCombAction, pRspInfo, nRequestID, bIsLast)
@@ -19344,6 +23266,24 @@ class CThostFtdcTraderSpi(_object):
     def OnRspQryProductGroup(self, pProductGroup, pRspInfo, nRequestID, bIsLast):
         return _PyCTP.CThostFtdcTraderSpi_OnRspQryProductGroup(self, pProductGroup, pRspInfo, nRequestID, bIsLast)
 
+    def OnRspQryMMInstrumentCommissionRate(self, pMMInstrumentCommissionRate, pRspInfo, nRequestID, bIsLast):
+        return _PyCTP.CThostFtdcTraderSpi_OnRspQryMMInstrumentCommissionRate(self, pMMInstrumentCommissionRate, pRspInfo, nRequestID, bIsLast)
+
+    def OnRspQryMMOptionInstrCommRate(self, pMMOptionInstrCommRate, pRspInfo, nRequestID, bIsLast):
+        return _PyCTP.CThostFtdcTraderSpi_OnRspQryMMOptionInstrCommRate(self, pMMOptionInstrCommRate, pRspInfo, nRequestID, bIsLast)
+
+    def OnRspQryInstrumentOrderCommRate(self, pInstrumentOrderCommRate, pRspInfo, nRequestID, bIsLast):
+        return _PyCTP.CThostFtdcTraderSpi_OnRspQryInstrumentOrderCommRate(self, pInstrumentOrderCommRate, pRspInfo, nRequestID, bIsLast)
+
+    def OnRspQrySecAgentTradingAccount(self, pTradingAccount, pRspInfo, nRequestID, bIsLast):
+        return _PyCTP.CThostFtdcTraderSpi_OnRspQrySecAgentTradingAccount(self, pTradingAccount, pRspInfo, nRequestID, bIsLast)
+
+    def OnRspQrySecAgentCheckMode(self, pSecAgentCheckMode, pRspInfo, nRequestID, bIsLast):
+        return _PyCTP.CThostFtdcTraderSpi_OnRspQrySecAgentCheckMode(self, pSecAgentCheckMode, pRspInfo, nRequestID, bIsLast)
+
+    def OnRspQrySecAgentTradeInfo(self, pSecAgentTradeInfo, pRspInfo, nRequestID, bIsLast):
+        return _PyCTP.CThostFtdcTraderSpi_OnRspQrySecAgentTradeInfo(self, pSecAgentTradeInfo, pRspInfo, nRequestID, bIsLast)
+
     def OnRspQryOptionInstrTradeCost(self, pOptionInstrTradeCost, pRspInfo, nRequestID, bIsLast):
         return _PyCTP.CThostFtdcTraderSpi_OnRspQryOptionInstrTradeCost(self, pOptionInstrTradeCost, pRspInfo, nRequestID, bIsLast)
 
@@ -19358,6 +23298,12 @@ class CThostFtdcTraderSpi(_object):
 
     def OnRspQryQuote(self, pQuote, pRspInfo, nRequestID, bIsLast):
         return _PyCTP.CThostFtdcTraderSpi_OnRspQryQuote(self, pQuote, pRspInfo, nRequestID, bIsLast)
+
+    def OnRspQryOptionSelfClose(self, pOptionSelfClose, pRspInfo, nRequestID, bIsLast):
+        return _PyCTP.CThostFtdcTraderSpi_OnRspQryOptionSelfClose(self, pOptionSelfClose, pRspInfo, nRequestID, bIsLast)
+
+    def OnRspQryInvestUnit(self, pInvestUnit, pRspInfo, nRequestID, bIsLast):
+        return _PyCTP.CThostFtdcTraderSpi_OnRspQryInvestUnit(self, pInvestUnit, pRspInfo, nRequestID, bIsLast)
 
     def OnRspQryCombInstrumentGuard(self, pCombInstrumentGuard, pRspInfo, nRequestID, bIsLast):
         return _PyCTP.CThostFtdcTraderSpi_OnRspQryCombInstrumentGuard(self, pCombInstrumentGuard, pRspInfo, nRequestID, bIsLast)
@@ -19388,6 +23334,9 @@ class CThostFtdcTraderSpi(_object):
 
     def OnRtnInstrumentStatus(self, pInstrumentStatus):
         return _PyCTP.CThostFtdcTraderSpi_OnRtnInstrumentStatus(self, pInstrumentStatus)
+
+    def OnRtnBulletin(self, pBulletin):
+        return _PyCTP.CThostFtdcTraderSpi_OnRtnBulletin(self, pBulletin)
 
     def OnRtnTradingNotice(self, pTradingNoticeInfo):
         return _PyCTP.CThostFtdcTraderSpi_OnRtnTradingNotice(self, pTradingNoticeInfo)
@@ -19424,6 +23373,15 @@ class CThostFtdcTraderSpi(_object):
 
     def OnErrRtnBatchOrderAction(self, pBatchOrderAction, pRspInfo):
         return _PyCTP.CThostFtdcTraderSpi_OnErrRtnBatchOrderAction(self, pBatchOrderAction, pRspInfo)
+
+    def OnRtnOptionSelfClose(self, pOptionSelfClose):
+        return _PyCTP.CThostFtdcTraderSpi_OnRtnOptionSelfClose(self, pOptionSelfClose)
+
+    def OnErrRtnOptionSelfCloseInsert(self, pInputOptionSelfClose, pRspInfo):
+        return _PyCTP.CThostFtdcTraderSpi_OnErrRtnOptionSelfCloseInsert(self, pInputOptionSelfClose, pRspInfo)
+
+    def OnErrRtnOptionSelfCloseAction(self, pOptionSelfCloseAction, pRspInfo):
+        return _PyCTP.CThostFtdcTraderSpi_OnErrRtnOptionSelfCloseAction(self, pOptionSelfCloseAction, pRspInfo)
 
     def OnRtnCombAction(self, pCombAction):
         return _PyCTP.CThostFtdcTraderSpi_OnRtnCombAction(self, pCombAction)
@@ -19588,6 +23546,12 @@ class CThostFtdcTraderApi(_object):
     def ReqAuthenticate(self, pReqAuthenticateField, nRequestID):
         return _PyCTP.CThostFtdcTraderApi_ReqAuthenticate(self, pReqAuthenticateField, nRequestID)
 
+    def RegisterUserSystemInfo(self, pUserSystemInfo):
+        return _PyCTP.CThostFtdcTraderApi_RegisterUserSystemInfo(self, pUserSystemInfo)
+
+    def SubmitUserSystemInfo(self, pUserSystemInfo):
+        return _PyCTP.CThostFtdcTraderApi_SubmitUserSystemInfo(self, pUserSystemInfo)
+
     def ReqUserLogin(self, pReqUserLoginField, nRequestID):
         return _PyCTP.CThostFtdcTraderApi_ReqUserLogin(self, pReqUserLoginField, nRequestID)
 
@@ -19599,6 +23563,24 @@ class CThostFtdcTraderApi(_object):
 
     def ReqTradingAccountPasswordUpdate(self, pTradingAccountPasswordUpdate, nRequestID):
         return _PyCTP.CThostFtdcTraderApi_ReqTradingAccountPasswordUpdate(self, pTradingAccountPasswordUpdate, nRequestID)
+
+    def ReqUserAuthMethod(self, pReqUserAuthMethod, nRequestID):
+        return _PyCTP.CThostFtdcTraderApi_ReqUserAuthMethod(self, pReqUserAuthMethod, nRequestID)
+
+    def ReqGenUserCaptcha(self, pReqGenUserCaptcha, nRequestID):
+        return _PyCTP.CThostFtdcTraderApi_ReqGenUserCaptcha(self, pReqGenUserCaptcha, nRequestID)
+
+    def ReqGenUserText(self, pReqGenUserText, nRequestID):
+        return _PyCTP.CThostFtdcTraderApi_ReqGenUserText(self, pReqGenUserText, nRequestID)
+
+    def ReqUserLoginWithCaptcha(self, pReqUserLoginWithCaptcha, nRequestID):
+        return _PyCTP.CThostFtdcTraderApi_ReqUserLoginWithCaptcha(self, pReqUserLoginWithCaptcha, nRequestID)
+
+    def ReqUserLoginWithText(self, pReqUserLoginWithText, nRequestID):
+        return _PyCTP.CThostFtdcTraderApi_ReqUserLoginWithText(self, pReqUserLoginWithText, nRequestID)
+
+    def ReqUserLoginWithOTP(self, pReqUserLoginWithOTP, nRequestID):
+        return _PyCTP.CThostFtdcTraderApi_ReqUserLoginWithOTP(self, pReqUserLoginWithOTP, nRequestID)
 
     def ReqOrderInsert(self, pInputOrder, nRequestID):
         return _PyCTP.CThostFtdcTraderApi_ReqOrderInsert(self, pInputOrder, nRequestID)
@@ -19641,6 +23623,12 @@ class CThostFtdcTraderApi(_object):
 
     def ReqBatchOrderAction(self, pInputBatchOrderAction, nRequestID):
         return _PyCTP.CThostFtdcTraderApi_ReqBatchOrderAction(self, pInputBatchOrderAction, nRequestID)
+
+    def ReqOptionSelfCloseInsert(self, pInputOptionSelfClose, nRequestID):
+        return _PyCTP.CThostFtdcTraderApi_ReqOptionSelfCloseInsert(self, pInputOptionSelfClose, nRequestID)
+
+    def ReqOptionSelfCloseAction(self, pInputOptionSelfCloseAction, nRequestID):
+        return _PyCTP.CThostFtdcTraderApi_ReqOptionSelfCloseAction(self, pInputOptionSelfCloseAction, nRequestID)
 
     def ReqCombActionInsert(self, pInputCombAction, nRequestID):
         return _PyCTP.CThostFtdcTraderApi_ReqCombActionInsert(self, pInputCombAction, nRequestID)
@@ -19726,6 +23714,24 @@ class CThostFtdcTraderApi(_object):
     def ReqQryProductGroup(self, pQryProductGroup, nRequestID):
         return _PyCTP.CThostFtdcTraderApi_ReqQryProductGroup(self, pQryProductGroup, nRequestID)
 
+    def ReqQryMMInstrumentCommissionRate(self, pQryMMInstrumentCommissionRate, nRequestID):
+        return _PyCTP.CThostFtdcTraderApi_ReqQryMMInstrumentCommissionRate(self, pQryMMInstrumentCommissionRate, nRequestID)
+
+    def ReqQryMMOptionInstrCommRate(self, pQryMMOptionInstrCommRate, nRequestID):
+        return _PyCTP.CThostFtdcTraderApi_ReqQryMMOptionInstrCommRate(self, pQryMMOptionInstrCommRate, nRequestID)
+
+    def ReqQryInstrumentOrderCommRate(self, pQryInstrumentOrderCommRate, nRequestID):
+        return _PyCTP.CThostFtdcTraderApi_ReqQryInstrumentOrderCommRate(self, pQryInstrumentOrderCommRate, nRequestID)
+
+    def ReqQrySecAgentTradingAccount(self, pQryTradingAccount, nRequestID):
+        return _PyCTP.CThostFtdcTraderApi_ReqQrySecAgentTradingAccount(self, pQryTradingAccount, nRequestID)
+
+    def ReqQrySecAgentCheckMode(self, pQrySecAgentCheckMode, nRequestID):
+        return _PyCTP.CThostFtdcTraderApi_ReqQrySecAgentCheckMode(self, pQrySecAgentCheckMode, nRequestID)
+
+    def ReqQrySecAgentTradeInfo(self, pQrySecAgentTradeInfo, nRequestID):
+        return _PyCTP.CThostFtdcTraderApi_ReqQrySecAgentTradeInfo(self, pQrySecAgentTradeInfo, nRequestID)
+
     def ReqQryOptionInstrTradeCost(self, pQryOptionInstrTradeCost, nRequestID):
         return _PyCTP.CThostFtdcTraderApi_ReqQryOptionInstrTradeCost(self, pQryOptionInstrTradeCost, nRequestID)
 
@@ -19740,6 +23746,12 @@ class CThostFtdcTraderApi(_object):
 
     def ReqQryQuote(self, pQryQuote, nRequestID):
         return _PyCTP.CThostFtdcTraderApi_ReqQryQuote(self, pQryQuote, nRequestID)
+
+    def ReqQryOptionSelfClose(self, pQryOptionSelfClose, nRequestID):
+        return _PyCTP.CThostFtdcTraderApi_ReqQryOptionSelfClose(self, pQryOptionSelfClose, nRequestID)
+
+    def ReqQryInvestUnit(self, pQryInvestUnit, nRequestID):
+        return _PyCTP.CThostFtdcTraderApi_ReqQryInvestUnit(self, pQryInvestUnit, nRequestID)
 
     def ReqQryCombInstrumentGuard(self, pQryCombInstrumentGuard, nRequestID):
         return _PyCTP.CThostFtdcTraderApi_ReqQryCombInstrumentGuard(self, pQryCombInstrumentGuard, nRequestID)
