@@ -93,5 +93,7 @@ ENV/
 # PyCharm
 .idea/
 
+.vscode/
+
 *_wrap.cpp
 *_wrap.h
